@@ -1,0 +1,11 @@
+federations:
+  - path: federation/culturel
+    title: pôle culturel
+  - path: federation/gala
+    title: pôle gala
+  - path: federation/solidarites
+    title: pôle solidarités
+  - path: federation/techniques
+    title: pôle techniques
+  - path: federation/sport
+    title: pôle sport

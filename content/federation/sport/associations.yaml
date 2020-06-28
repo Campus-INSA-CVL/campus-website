@@ -1,0 +1,5 @@
+associations:
+  - title: football
+    path: /federation/sport/associations/football
+  - title: rugby
+    path: /federation/sport/associations/rugby

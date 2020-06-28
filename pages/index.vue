@@ -14,7 +14,8 @@ import fetchContent from '@/mixins/fetch-content'
 export default {
   mixins: [
     fetchContent({
-      folderName: 'index/index',
+      folderName: 'index',
+      fileName: 'index',
     }),
   ],
 }

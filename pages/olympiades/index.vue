@@ -12,7 +12,8 @@ export default {
   },
   mixins: [
     fetchContent({
-      folderName: 'olympiades/index',
+      folderName: 'olympiades',
+      fileName: 'index',
     }),
   ],
 }

@@ -8,8 +8,9 @@ import fetchContent from '@/mixins/fetch-content'
 export default {
   mixins: [
     fetchContent({
-      folderName: 'student-life',
-      fileName: 'bourges',
+      folderName: 'federation',
+      paramsNames: ['federation'],
+      fileName: 'equipe',
     }),
   ],
 }
