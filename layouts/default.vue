@@ -5,5 +5,5 @@
     v-main
       v-container(fluid)
         nuxt
-    shell-footer
+    shell-footer(social-networks)
 </template>

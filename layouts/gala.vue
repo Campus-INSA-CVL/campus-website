@@ -13,11 +13,11 @@ export default {
   data() {
     return {
       type: 'association',
-      title: 'pôle culturel',
-      color: 'cultural',
+      title: 'gala',
+      color: 'prom',
       path: {
         main: 'federation',
-        secondary: 'culturel',
+        secondary: 'gala',
       },
     }
   },
