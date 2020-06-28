@@ -13,5 +13,8 @@ export default {
       fileName: 'index',
     }),
   ],
+  layout({ params }) {
+    return params.federation ?? 'default'
+  },
 }
 </script>

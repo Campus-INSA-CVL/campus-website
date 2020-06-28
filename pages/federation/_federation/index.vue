@@ -4,15 +4,15 @@
 
 <script>
 export default {
-  layout({ params }) {
-    return params.federation ?? 'default'
-  },
   async asyncData({ $content, params }) {
     const { federation } = params
     const page = await $content(`federation/${federation}/index`).fetch()
     return {
       page,
     }
+  },
+  layout({ params }) {
+    return params.federation ?? 'default'
   },
 }
 </script>

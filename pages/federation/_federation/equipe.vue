@@ -13,5 +13,8 @@ export default {
       fileName: 'equipe',
     }),
   ],
+  layout({ params }) {
+    return params.federation ?? 'default'
+  },
 }
 </script>

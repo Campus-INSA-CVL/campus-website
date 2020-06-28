@@ -17,6 +17,9 @@ export default {
       fileName: 'associations',
     }),
   ],
+  layout({ params }) {
+    return params.federation ?? 'default'
+  },
 }
 </script>
 
