@@ -1,0 +1,19 @@
+<template lang="pug">
+  v-footer(:app="$vuetify.breakpoint.lgAndUp")
+    v-row(align="center", no-gutters)
+      v-col(cols="12", sm="6", :order="$vuetify.breakpoint.smAndDown ? '1' : '0'")
+        div.text-center.font-weight-light.text-secondary.mx-2 {{ new Date().getFullYear() }} - Campus INSA CVL
+      v-col(cols="12", sm="6", align="center")
+        v-btn(v-for="icon in icons", :key="icon", icon).text--secondary.mx-2
+          v-icon {{ icon }}
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      icons: ['mdi-facebook', 'mdi-twitter', 'mdi-linkedin', 'mdi-instagram'],
+    }
+  },
+}
+</script>

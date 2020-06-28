@@ -42,7 +42,10 @@ export default {
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
    */
-  components: true,
+  components: [
+    '~/components',
+    { path: '~/components/shell/', prefix: 'shell' },
+  ],
   /*
    ** Nuxt.js dev-modules
    */
@@ -71,8 +74,11 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {
-      dark: true,
+      dark: false,
       themes: {
+        light: {
+          primary: '#EF1D13',
+        },
         dark: {
           primary: colors.blue.darken2,
           accent: colors.grey.darken3,
