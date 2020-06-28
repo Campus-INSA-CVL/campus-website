@@ -1,20 +1,19 @@
 <template lang="pug">
-  nuxt-content(:document="page")
+  nuxt-content(:document="content")
 </template>
 
 <script>
+import fetchContent from '@/mixins/fetch-content'
 import Carousel from '@/components/Carousel'
 
 export default {
   components: {
     Carousel,
   },
-  async asyncData({ $content }) {
-    const page = await $content('olympiades/index').fetch()
-
-    return {
-      page,
-    }
-  },
+  mixins: [
+    fetchContent({
+      folderName: 'olympiades/index',
+    }),
+  ],
 }
 </script>

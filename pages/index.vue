@@ -3,19 +3,19 @@
     v-parallax(:src="require('@/assets/index/banner.jpg')")
       v-row(align="center", justify="center")
         v-col(cols="12").text-center
-          h1 {{ page.title }}
-          p  {{ page.description}}
+          h1 {{ content.title }}
+          p  {{ content.description}}
 
 </template>
 
 <script>
-export default {
-  async asyncData({ $content }) {
-    const page = await $content('index/index').fetch()
+import fetchContent from '@/mixins/fetch-content'
 
-    return {
-      page,
-    }
-  },
+export default {
+  mixins: [
+    fetchContent({
+      folderName: 'index/index',
+    }),
+  ],
 }
 </script>

@@ -3,13 +3,13 @@
 </template>
 
 <script>
-export default {
-  async asyncData({ $content }) {
-    const page = await $content('student-life/bi-campus').fetch()
+import fetchContent from '@/mixins/fetch-content'
 
-    return {
-      page,
-    }
-  },
+export default {
+  mixins: [
+    fetchContent({
+      folderName: 'student-life/bi-campus',
+    }),
+  ],
 }
 </script>

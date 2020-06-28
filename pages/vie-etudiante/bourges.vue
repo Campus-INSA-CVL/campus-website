@@ -1,15 +1,15 @@
 <template lang="pug">
-  nuxt-content(:document="page")
+  nuxt-content(:document="content")
 </template>
 
 <script>
-export default {
-  async asyncData({ $content }) {
-    const page = await $content('student-life/bourges').fetch()
+import fetchContent from '@/mixins/fetch-content'
 
-    return {
-      page,
-    }
-  },
+export default {
+  mixins: [
+    fetchContent({
+      folderName: 'student-life/bourges',
+    }),
+  ],
 }
 </script>
