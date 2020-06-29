@@ -1,7 +1,7 @@
 <template lang="pug">
   v-row(no-gutters)
     v-col(cols="12")
-      v-tabs(centered)
+      v-tabs(centered, show-arrows)
         v-tabs-slider(color="primary")
         v-tab(v-for="tab in tabs", :key="tab.name", :to="tab.path", nuxt, exact) {{ tab.name }}
     v-container
