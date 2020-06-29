@@ -1,10 +1,12 @@
 <template lang="pug">
   v-app-bar(app, elevate-on-scroll)
     v-app-bar-nav-icon(@click.stop="toggleDrawer()")
+    v-btn(to="/", nuxt, exact, depressed).header-btn
+      v-toolbar-title.primary--text #&nbsp;#[span.font-weight-black.text-lowercase campus]&nbsp;#[span.text-uppercase.font-weight-black insa]&nbsp;#[span.text-capitalize centre]-#[span.text-capitalize val]&nbsp;#[span.text-lowercase de]&nbsp;#[span.text-capitalize loire]
     template(v-slot:extension, v-if="type === 'association'")
       v-btn(icon, nuxt, to='/federation', exact).text--secondary
         v-icon mdi-web
-      v-btn(:to="fullPath", depressed, nuxt, :color="`${color}--text`").pole-btn
+      v-btn(:to="fullPath", depressed, nuxt, :color="`${color}--text`").header-btn
         v-toolbar-title.font-weight-bold.text-capitalize {{ title }}
       v-spacer
       v-btn(outlined, :color="`${color}`", :to="`${fullPath}/equipe`", nuxt, v-if="!isSmAndDown").mr-4
@@ -67,7 +69,7 @@ export default {
 </script>
 
 <style>
-.pole-btn::before {
+.header-btn::before {
   background-color: transparent;
 }
 </style>
