@@ -3,7 +3,7 @@
     v-col(cols="12")
       v-tabs(centered, show-arrows)
         v-tabs-slider(color="primary")
-        v-tab(v-for="tab in tabs", :key="tab.name", :to="tab.path", nuxt, exact) {{ tab.name }}
+        v-tab(v-for="tab in tabs", :key="tab.title", :to="`${tab.title}`", nuxt, exact) {{ tab.title }}
     v-container
       nuxt-child
 </template>
@@ -12,25 +12,16 @@
 export default {
   middleware({ redirect, route }) {
     if (route.fullPath.match(/^\/vie-etudiante\/?$/)) {
-      redirect('/vie-etudiante/bi-campus')
+      redirect('/vie-etudiante/insa')
     }
   },
-  data() {
+  async asyncData({ $content, params }) {
+    const tabs = await $content(`vie-etudiante`)
+      .only(['title', 'order'])
+      .sortBy('order')
+      .fetch()
     return {
-      tabs: [
-        {
-          name: 'bi-campus',
-          path: '/vie-etudiante/bi-campus',
-        },
-        {
-          name: 'blois',
-          path: '/vie-etudiante/blois',
-        },
-        {
-          name: 'bourges',
-          path: '/vie-etudiante/bourges',
-        },
-      ],
+      tabs,
     }
   },
 }
