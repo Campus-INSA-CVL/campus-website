@@ -1,11 +1,12 @@
 <template lang="pug">
   v-navigation-drawer(app, v-model="handleDrawer")
-    v-list(nav, flat)
+    v-list(nav)
       v-list-item-group(color="primary")
         v-list-item(v-for="(item, indice) in nav", :key="indice", nuxt, :to="item.path")
           v-list-item-icon
             v-icon(left) {{ item.icon }}
-          v-list-item-title.text-uppercase {{ item.name }}
+          v-list-item-content
+            v-list-item-title.text-uppercase {{ item.name }}
 
     template(v-slot:prepend)
       v-container(no-gutters).pb-0

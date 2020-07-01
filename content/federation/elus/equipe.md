@@ -2,21 +2,21 @@
 title: équipe du pôle culturel
 color: cultural
 team:
-  bureau:
-    - responsability: président
+  élus au CE:
+    - responsability: vice-président étudiant
       name: Jules Perrault
-      description: responsable de l'association
-    - responsability: trésorier
+      description: Phasellus et laoreet augue. Aliquam tristique nisi sed velit faucibus auctor. Nulla turpis diam, volutpat nec nisl vitae.
+    - responsability: élus
       name: Courtland Vaillancour
       description: Phasellus et laoreet augue. Aliquam tristique nisi sed velit faucibus auctor. Nulla turpis diam, volutpat nec nisl vitae.
       avatar: federation/culturel/tresorier.png
-  communication:
-    - responsability: responsable communication
+  élus au CA:
+    - responsability: président étudiant
       name: Charlotte Beaudoin
-      description: gère son équipe de communication afin d'augmenter la visibilité de l'association
+      description: Phasellus et laoreet augue. Aliquam tristique nisi sed velit faucibus auctor. Nulla turpis diam, volutpat nec nisl vitae.
 ---
 
-# c'est la team du pôle Q !
+# c'est les élus
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer facilisis imperdiet pharetra. Suspendisse consectetur aliquam urna vitae auctor. Nunc nec vestibulum mi. Sed tincidunt, justo vel laoreet molestie, ex augue lacinia turpis, sed cursus dui nisl eu orci. Praesent vel interdum orci, eget vestibulum orci. Curabitur id eros magna. Pellentesque vel faucibus lacus.
 

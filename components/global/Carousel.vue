@@ -6,6 +6,7 @@
 
 <script>
 export default {
+  name: 'Carousel',
   props: {
     names: {
       type: Array,
@@ -19,7 +20,7 @@ export default {
   },
   methods: {
     requireLink(link) {
-      return require(`../assets/${this.folderName}/${link}`)
+      return require(`@/assets/${this.folderName}/${link}`)
     },
   },
 }

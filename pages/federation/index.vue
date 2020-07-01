@@ -1,6 +1,6 @@
 <template lang="pug">
   v-row(tag="section", no-gutters)
-    v-col(cols="12", lg="6", offset-lg="3")
+    v-col(cols="12", lg="8", offset-lg="2")
       v-row
         v-col(cols="12", sm="6", lg="6", v-for="federation in content.federations", :key="federation.path")
           preview-card(:content="federation")

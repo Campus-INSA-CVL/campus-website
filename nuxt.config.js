@@ -43,7 +43,7 @@ export default {
    ** See https://nuxtjs.org/api/configuration-components
    */
   components: [
-    '~/components',
+    '~/components/',
     { path: '~/components/shell/', prefix: 'shell' },
   ],
   /*
@@ -85,6 +85,7 @@ export default {
           prom: '#0096AA',
           solidarities: '#ED6C26',
           technical: '#B4B2B1',
+          tutorinsa: '#4c98d2',
         },
         dark: {
           primary: colors.blue.darken2,
