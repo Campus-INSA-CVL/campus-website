@@ -14,7 +14,7 @@ export default {
     return {
       type: 'association',
       title: 'pôle culturel',
-      color: 'cultural',
+      color: 'culturelColor',
       path: {
         main: 'federation',
         secondary: 'culturel',

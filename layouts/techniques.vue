@@ -14,7 +14,7 @@ export default {
     return {
       type: 'association',
       title: 'pôle techniques',
-      color: 'technical',
+      color: 'techniquesColor',
       path: {
         main: 'federation',
         secondary: 'techniques',

@@ -6,11 +6,11 @@
     template(v-slot:extension, v-if="type === 'association'")
       v-btn(icon, nuxt, to='/federation', exact).text--secondary
         v-icon mdi-web
-      v-btn(:to="fullPath", depressed, nuxt, :color="`${color}--text`").header-btn
+      v-btn(:to="fullPath", depressed, nuxt, :color="`${color}--text`", exact).header-btn
         v-toolbar-title.font-weight-bold.text-capitalize {{ title }}
       v-spacer
 
-      v-btn(:outlined="btn.style.outlined", :depressed="btn.style.depressed", :color="`${color}`", dark, :to="`${fullPath}/${btn.path}`", nuxt, :class="index !== btns.length - 1 ? 'mr-4': ''", v-for="(btn, index) in btns", :key="index", , v-if="!isSmAndDown")
+      v-btn(:outlined="btn.style.outlined", :depressed="btn.style.depressed", :color="`${color}`", dark, :to="`${fullPath}/${btn.path}`", exact, nuxt, :class="index !== btns.length - 1 ? 'mr-4': ''", v-for="(btn, index) in btns", :key="index", , v-if="!isSmAndDown")
         v-icon(:left="!isSmAndDown") {{ btn.icon }}
         span(v-if="!isSmAndDown") {{ btn.name }}
 
@@ -71,6 +71,6 @@ export default {
 
 <style>
 .header-btn::before {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 </style>

@@ -14,7 +14,7 @@ export default {
     return {
       type: 'association',
       title: 'élus',
-      color: 'elected',
+      color: 'elusColor',
       path: {
         main: 'federation',
         secondary: 'elus',

@@ -1,10 +1,10 @@
 @import 'mixins/colors';
-$federation: 'culturel' --v-cultural-base, 'sport' --v-sports-base,
-  'gala' --v-prom-base, 'techniques' --v-technical-base, 'elus' --v-elected-base,
-  'solidarites' --v-solidarities-base;
+$federation: 'culturel' --v-culturelColor-base, 'sport' --v-sportColor-base,
+  'gala' --v-prom-base, 'techniques' --v-techniquesColor-base,
+  'elus' --v-elusColor-base, 'solidarites' --v-solidaritesColor-base;
 
 @each $name, $color in $federation {
-  .#{$name}.nuxt-content {
+  ##{$name}.nuxt-content {
     @include content-color($color);
   }
 }

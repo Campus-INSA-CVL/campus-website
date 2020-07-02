@@ -81,14 +81,13 @@ export default {
       themes: {
         light: {
           primary: '#EF1D13',
-          secondary: '#5F5E5E',
-          elected: '#EEAB00',
-          cultural: '#80BA27',
-          sports: '#772056',
-          prom: '#0096AA',
-          solidarities: '#ED6C26',
-          technical: '#B4B2B1',
-          tutorinsa: '#4c98d2',
+          elusColor: '#EEAB00',
+          culturelColor: '#80BA27',
+          sportColor: '#772056',
+          galaColor: '#0096AA',
+          solidaritesColor: '#ED6C26',
+          techniquesColor: '#B4B2B1',
+          tutorinsaColor: '#4c98d2',
         },
         dark: {
           primary: colors.blue.darken2,
