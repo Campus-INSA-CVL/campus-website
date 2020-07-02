@@ -30,6 +30,22 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   /*
+   ** Customize the progress-bar color
+   */
+  loading: {
+    color: '#EF1D13',
+    height: '4px',
+    throttle: 0,
+  },
+  /*
+   ** Customize the loading indicator color
+   */
+  loadingIndicator: {
+    name: 'three-bounce',
+    color: 'white',
+    background: 'EF1D13',
+  },
+  /*
    ** Global CSS
    */
   css: ['@/assets/scss/main.scss'],
