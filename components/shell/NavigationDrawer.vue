@@ -52,6 +52,16 @@ export default {
           path: '/outils',
           icon: 'mdi-toolbox',
         },
+        {
+          name: 'nous contacter',
+          path: '/nous-contacter',
+          icon: 'mdi-card-account-mail',
+        },
+        {
+          name: 'à propos',
+          path: '/a-propos',
+          icon: 'mdi-information',
+        },
       ],
     }
   },
