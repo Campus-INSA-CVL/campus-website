@@ -88,6 +88,8 @@ export default {
           solidaritesColor: '#ED6C26',
           techniquesColor: '#B4B2B1',
           tutorinsaColor: '#4c98d2',
+          cafetColor: '#964B00',
+          partenariatsColor: '#EE82EE',
         },
         dark: {
           primary: colors.blue.darken2,

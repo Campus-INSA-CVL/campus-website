@@ -1,8 +1,10 @@
 ---
 title: cafet
+description: Quisque vel finibus sapien, eu egestas tortor. Proin ultrices arcu eu massa rutrum, quis feugiat neque convallis. In tristique dolor orci, eu placerat augue placerat sed. Nullam venenatis lorem vulputate tincidunt malesuada. Quisque maximus egestas risus. Nulla a ligula dui. Proin feugiat lacinia mi, ac pulvinar lectus posuere a. Suspendisse vitae commodo felis. Quisque posuere pharetra orci, eu hendrerit eros tempus a.
+color: cafetColor
 folderName: services/cafet
 # image must be 500 pixels height to match perfectly
-imagesName:
+imagesNames:
   - 'menu.jpg'
   - 'boissons.jpg'
   - 'dwich.jpg'
@@ -20,7 +22,7 @@ Quisque vel finibus sapien, eu egestas tortor. Proin ultrices arcu eu massa rutr
 
 <v-row justify="center">
   <v-col cols="12" sm="8" md="6" lg="4">
-    <carousel :names="imagesName" :folder-name="folderName"></carousel>
+    <carousel :names="imagesNames" :folder-name="folderName"></carousel>
   </v-col>
 </v-row>
 
