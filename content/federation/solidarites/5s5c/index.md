@@ -1,6 +1,6 @@
 ---
-title: équipe du pôle sport
-color: sportColor
+title: 5 Continents 5 Sommets
+color: solidaritesColor
 team:
   bureau:
     - responsability: président
@@ -16,7 +16,7 @@ team:
       description: gère son équipe de communication afin d'augmenter la visibilité de l'association
 ---
 
-# c'est la team du pôle sport !
+# 5 Continents 5 Sommets !
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer facilisis imperdiet pharetra. Suspendisse consectetur aliquam urna vitae auctor. Nunc nec vestibulum mi. Sed tincidunt, justo vel laoreet molestie, ex augue lacinia turpis, sed cursus dui nisl eu orci. Praesent vel interdum orci, eget vestibulum orci. Curabitur id eros magna. Pellentesque vel faucibus lacus.
 

@@ -27,6 +27,12 @@ export default {
           style: { outlined: true, depressed: false },
         },
         {
+          name: 'les sports',
+          path: 'sports',
+          icon: 'mdi-handball',
+          style: { outlined: false, depressed: true },
+        },
+        {
           name: 'les associations',
           path: 'associations',
           icon: 'mdi-file-tree',

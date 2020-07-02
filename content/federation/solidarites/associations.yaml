@@ -1,1 +1,21 @@
 associations:
+  - title: 5 continents 5 sommets
+    path: /federation/solidarites/associations/5s5c
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+    color: solidaritesColor
+  - title: élèves sans frontières
+    path: /federation/solidarites/associations/eleves-sans-frontieres
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+    color: solidaritesColor
+  - title: genepi
+    path: /federation/solidarites/associations/genepi
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+    color: solidaritesColor
+  - title: "R3: Réussir, Réaliser, Rencontrer"
+    path: /federation/solidarites/associations/r3
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+    color: solidaritesColor
+  - title: on sensibilise
+    path: /federation/solidarites/associations/on-sensibilise
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+    color: solidaritesColor
