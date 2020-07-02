@@ -22,14 +22,14 @@
   "dependencies": {
     "@nuxt/content": "^1.4.1",
     "@nuxtjs/pwa": "^3.0.0-beta.20",
-    "nuxt": "^2.13.2"
+    "nuxt": "^2.13.3"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.0.0",
     "@nuxtjs/eslint-module": "^2.0.0",
     "@nuxtjs/vuetify": "^1.11.2",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.2.0",
+    "eslint": "^7.3.1",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-nuxt": "^1.0.0",
     "eslint-plugin-prettier": "^3.1.4",
@@ -39,6 +39,6 @@
     "prettier": "^2.0.5",
     "pug": "^3.0.0",
     "pug-plain-loader": "^1.0.0",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^9.0.0"
   }
 }
