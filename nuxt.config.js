@@ -90,6 +90,7 @@ export default {
           tutorinsaColor: '#4c98d2',
           cafetColor: '#964B00',
           partenariatsColor: '#EE82EE',
+          shopColor: '#8A2BE2',
         },
         dark: {
           primary: colors.blue.darken2,
