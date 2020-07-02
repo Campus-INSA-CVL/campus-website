@@ -1,5 +1,5 @@
 <template lang="pug">
-  nuxt-content(:document="page")
+  nuxt-content(:document="page", :class="color")
 </template>
 
 <script>
@@ -13,6 +13,11 @@ export default {
   },
   layout({ params }) {
     return params.federation ?? 'default'
+  },
+  computed: {
+    color() {
+      return this.$route.params.federation ?? ''
+    },
   },
 }
 </script>

@@ -16,7 +16,7 @@ team:
       description: gère son équipe de communication afin d'augmenter la visibilité de l'association
 ---
 
-# bienvenue dans insarpège !
+# Bienvenue dans INSArpège !
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer facilisis imperdiet pharetra. Suspendisse consectetur aliquam urna vitae auctor. Nunc nec vestibulum mi. Sed tincidunt, justo vel laoreet molestie, ex augue lacinia turpis, sed cursus dui nisl eu orci. Praesent vel interdum orci, eget vestibulum orci. Curabitur id eros magna. Pellentesque vel faucibus lacus.
 
@@ -27,6 +27,8 @@ Suspendisse venenatis convallis ultricies. Pellentesque ac orci sed justo congue
 Mauris vitae felis turpis. Nullam sodales eleifend quam. Maecenas arcu enim, volutpat nec tellus nec, elementum pretium diam. Duis in tellus eget quam scelerisque fringilla. In auctor tellus ex, quis scelerisque nibh efficitur eu. Ut vel odio bibendum, faucibus elit at, luctus risus. Praesent aliquam id risus eu porttitor. Nullam tempus purus cursus ligula volutpat bibendum. Praesent magna risus, semper at rutrum eget, fringilla nec ante. Morbi convallis diam ipsum, ac fringilla purus ultrices in. Donec varius, mauris eget rhoncus posuere, velit arcu finibus orci, ut auctor felis nulla quis urna.
 
 Donec non magna est. Aliquam erat volutpat. Proin venenatis justo vel fermentum pellentesque. Praesent dignissim enim eget facilisis commodo. Donec ac nisl augue. Sed ultrices turpis lectus, in laoreet risus egestas quis. Nunc a leo nec risus tristique interdum. Nulla faucibus volutpat dignissim. Vivamus nec ex in quam euismod tempor.
+
+---
 
 # L'équipe
 

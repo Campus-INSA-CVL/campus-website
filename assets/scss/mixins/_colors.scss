@@ -1,0 +1,18 @@
+@mixin content-color($color-css) {
+  h1 {
+    &::before {
+      color: var($color-css);
+    }
+  }
+  ul {
+    li::before {
+      color: var($color-css);
+    }
+  }
+  a {
+    color: var($color-css);
+  }
+  hr {
+    background-color: var($color-css);
+  }
+}

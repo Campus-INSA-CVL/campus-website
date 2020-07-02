@@ -14,7 +14,7 @@ export default {
     return {
       type: 'association',
       title: 'pôle sportif',
-      color: 'sport',
+      color: 'sports',
       path: {
         main: 'federation',
         secondary: 'sport',

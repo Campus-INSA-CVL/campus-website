@@ -32,7 +32,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['@/assets/scss/main.scss'],
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
@@ -74,6 +74,9 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {
+      options: {
+        customProperties: true,
+      },
       dark: false,
       themes: {
         light: {
@@ -81,7 +84,7 @@ export default {
           secondary: '#5F5E5E',
           elected: '#EEAB00',
           cultural: '#80BA27',
-          sport: '#772056',
+          sports: '#772056',
           prom: '#0096AA',
           solidarities: '#ED6C26',
           technical: '#B4B2B1',
