@@ -3,7 +3,7 @@
     v-col(cols="12")
       v-tabs(centered, show-arrows)
         v-tabs-slider(color="primary")
-        v-tab(v-for="tab in tabs", :key="tab.title", :to="`${tab.title}`", nuxt, exact) {{ tab.title }}
+        v-tab(v-for="tab in tabs", :key="tab.title", :to="`${tab.slug}`", nuxt, exact) {{ tab.title }}
     v-container
       nuxt-child
 </template>
@@ -17,7 +17,7 @@ export default {
   },
   async asyncData({ $content, params }) {
     const tabs = await $content(`vie-etudiante`)
-      .only(['title', 'order'])
+      .only(['title', 'order', 'slug'])
       .sortBy('order')
       .fetch()
     return {
