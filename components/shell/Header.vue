@@ -9,21 +9,18 @@
       v-btn(:to="fullPath", depressed, nuxt, :color="`${color}--text`").header-btn
         v-toolbar-title.font-weight-bold.text-capitalize {{ title }}
       v-spacer
-      v-btn(outlined, :color="`${color}`", :to="`${fullPath}/equipe`", nuxt, v-if="!isSmAndDown").mr-4
-        v-icon(:left="!isSmAndDown") mdi-account-group
-        span(v-if="!isSmAndDown") l'équipe
-      v-btn(depressed, :color="`${color}`", :to="`${fullPath}/associations`", nuxt, dark, v-if="!isSmAndDown")
-        v-icon(left) mdi-file-tree
-        span les associations
+
+      v-btn(:outlined="btn.style.outlined", :depressed="btn.style.depressed", :color="`${color}`", dark, :to="`${fullPath}/${btn.path}`", nuxt, :class="index !== btns.length - 1 ? 'mr-4': ''", v-for="(btn, index) in btns", :key="index", , v-if="!isSmAndDown")
+        v-icon(:left="!isSmAndDown") {{ btn.icon }}
+        span(v-if="!isSmAndDown") {{ btn.name }}
+
       v-menu(offset-y, v-if="isSmAndDown")
         template(v-slot:activator="{ on, attrs }")
           v-btn(depressed, :color="`${color}`", dark, v-bind="attrs", v-on="on")
             v-icon {{ JSON.parse(attrs['aria-expanded']) ? 'mdi-menu-up' : 'mdi-menu-down'}}
         v-list(:color="`${color}--text`", flat).text-uppercase
-          v-list-item(nuxt, :to="`${fullPath}/equipe`")
-            v-list-item-title l'équipe
-          v-list-item(nuxt, :to="`${fullPath}/associations`")
-            v-list-item-title les associations
+          v-list-item(nuxt, :to="`${fullPath}/${btn.path}`", v-for="(btn, index) in btns", :key="index")
+            v-list-item-title {{  btn.name }}
 </template>
 
 <script>
@@ -44,6 +41,10 @@ export default {
     path: {
       type: Object,
       default: () => {},
+    },
+    btns: {
+      type: Array,
+      default: () => [],
     },
   },
   computed: {
