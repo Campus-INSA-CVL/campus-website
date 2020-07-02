@@ -43,7 +43,7 @@ export default {
   loadingIndicator: {
     name: 'three-bounce',
     color: 'white',
-    background: 'EF1D13',
+    background: '#EF1D13',
   },
   /*
    ** Global CSS
