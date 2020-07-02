@@ -14,7 +14,7 @@ export default {
     return {
       type: 'association',
       title: 'pôle sportif',
-      color: 'sports',
+      color: 'sportColor',
       path: {
         main: 'federation',
         secondary: 'sport',
@@ -25,6 +25,12 @@ export default {
           path: 'equipe',
           icon: 'mdi-account-group',
           style: { outlined: true, depressed: false },
+        },
+        {
+          name: 'les sports',
+          path: 'sports',
+          icon: 'mdi-handball',
+          style: { outlined: false, depressed: true },
         },
         {
           name: 'les associations',

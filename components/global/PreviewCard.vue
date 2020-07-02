@@ -1,6 +1,6 @@
 <template lang="pug">
   v-hover(v-slot:default="{ hover }")
-    v-card(:to="content.path", :elevation="hover ? 4 : 0")
+    v-card(:to="content.path", nuxt, :elevation="hover ? 4 : 0", )
       v-card-title(:class="`${content.color}--text`").font-weight-bold.text-uppercase {{ content.title }}
       v-card-text {{ content.description }}
       v-card-actions

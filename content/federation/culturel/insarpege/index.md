@@ -1,6 +1,6 @@
 ---
 title: INSArpège
-color: cultural
+color: culturelColor
 team:
   bureau:
     - responsability: président

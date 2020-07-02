@@ -1,6 +1,6 @@
 ---
 title: équipe du pôle culturel
-color: cultural
+color: culturelColor
 team:
   bureau:
     - responsability: président

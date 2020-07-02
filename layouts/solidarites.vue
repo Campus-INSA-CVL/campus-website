@@ -14,7 +14,7 @@ export default {
     return {
       type: 'association',
       title: 'pôle des solidarités',
-      color: 'solidarities',
+      color: 'solidaritesColor',
       path: {
         main: 'federation',
         secondary: 'solidarites',

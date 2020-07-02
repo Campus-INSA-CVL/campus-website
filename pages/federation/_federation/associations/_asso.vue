@@ -1,25 +1,24 @@
 <template lang="pug">
-  nuxt-content(:document="content", :class="color")
+  nuxt-content(:document="content", :id="color")
 </template>
 
 <script>
-import fetchContent from '@/mixins/fetch-content'
-
 export default {
-  mixins: [
-    fetchContent({
-      folderName: 'federation',
-      paramsNames: ['federation', 'asso'],
-      fileName: 'index',
-    }),
-  ],
-  layout({ params }) {
-    return params.federation ?? 'default'
+  async asyncData({ $content, params }) {
+    const { federation, asso } = params
+    let content = $content(`federation/${federation}/${asso}/index`)
+    content = await content.fetch()
+    return {
+      content,
+    }
   },
   computed: {
     color() {
       return this.$route.params.federation ?? ''
     },
+  },
+  layout({ params }) {
+    return params.federation ?? 'default'
   },
 }
 </script>

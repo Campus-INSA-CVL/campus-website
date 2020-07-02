@@ -14,7 +14,7 @@ export default {
     return {
       type: 'association',
       title: 'gala',
-      color: 'prom',
+      color: 'galaColor',
       path: {
         main: 'federation',
         secondary: 'gala',

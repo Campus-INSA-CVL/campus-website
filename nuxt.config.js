@@ -30,6 +30,22 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   /*
+   ** Customize the progress-bar color
+   */
+  loading: {
+    color: '#EF1D13',
+    height: '4px',
+    throttle: 0,
+  },
+  /*
+   ** Customize the loading indicator color
+   */
+  loadingIndicator: {
+    name: 'three-bounce',
+    color: 'white',
+    background: '#EF1D13',
+  },
+  /*
    ** Global CSS
    */
   css: ['@/assets/scss/main.scss'],
@@ -81,14 +97,16 @@ export default {
       themes: {
         light: {
           primary: '#EF1D13',
-          secondary: '#5F5E5E',
-          elected: '#EEAB00',
-          cultural: '#80BA27',
-          sports: '#772056',
-          prom: '#0096AA',
-          solidarities: '#ED6C26',
-          technical: '#B4B2B1',
-          tutorinsa: '#4c98d2',
+          elusColor: '#EEAB00',
+          culturelColor: '#80BA27',
+          sportColor: '#772056',
+          galaColor: '#0096AA',
+          solidaritesColor: '#ED6C26',
+          techniquesColor: '#B4B2B1',
+          tutorinsaColor: '#4c98d2',
+          cafetColor: '#964B00',
+          partenariatsColor: '#EE82EE',
+          shopColor: '#8A2BE2',
         },
         dark: {
           primary: colors.blue.darken2,
