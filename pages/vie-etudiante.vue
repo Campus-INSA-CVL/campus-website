@@ -10,6 +10,7 @@
 
 <script>
 export default {
+  name: 'VieEtudiante',
   middleware({ redirect, route }) {
     if (route.fullPath.match(/^\/vie-etudiante\/?$/)) {
       redirect('/vie-etudiante/insa')

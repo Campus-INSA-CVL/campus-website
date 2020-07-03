@@ -19,6 +19,7 @@
 
 <script>
 export default {
+  name: 'NavigationDrawer',
   data() {
     return {
       nav: [

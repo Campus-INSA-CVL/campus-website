@@ -10,6 +10,7 @@
 
 <script>
 export default {
+  name: 'Footer',
   props: {
     socialNetworks: {
       type: Boolean,
