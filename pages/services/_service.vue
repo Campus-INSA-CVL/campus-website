@@ -17,5 +17,10 @@ export default {
       page,
     }
   },
+  head() {
+    return {
+      title: this.$route.params.service.toUpperCase(),
+    }
+  },
 }
 </script>

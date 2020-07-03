@@ -1,5 +1,5 @@
 ---
-title: équipe du pôle culturel
+title: équipe des élus
 color: cultural
 team:
   élus au CE:

@@ -11,5 +11,10 @@ export default {
       page,
     }
   },
+  head() {
+    return {
+      title: `sports à ${this.$route.params.tab}`.toUpperCase(),
+    }
+  },
 }
 </script>

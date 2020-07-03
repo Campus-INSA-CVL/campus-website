@@ -18,5 +18,10 @@ export default {
       fileName: 'index',
     }),
   ],
+  head() {
+    return {
+      title: 'acceuil'.toUpperCase(),
+    }
+  },
 }
 </script>

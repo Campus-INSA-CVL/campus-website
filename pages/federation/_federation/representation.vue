@@ -27,5 +27,10 @@ export default {
   layout({ params }) {
     return params.federation ?? 'default'
   },
+  head() {
+    return {
+      title: 'représentation'.toUpperCase(),
+    }
+  },
 }
 </script>

@@ -19,5 +19,10 @@ export default {
       return this.$route.params.federation ?? ''
     },
   },
+  head() {
+    return {
+      title: this.page.title.toUpperCase() ?? 'chargement...'.toUpperCase(),
+    }
+  },
 }
 </script>

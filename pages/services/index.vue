@@ -17,6 +17,11 @@ export default {
       only: ['title', 'description', 'path', 'color'],
     }),
   ],
+  head() {
+    return {
+      title: 'services'.toUpperCase(),
+    }
+  },
 }
 </script>
 
