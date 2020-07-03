@@ -48,7 +48,7 @@
   "dependencies": {
     "@nuxt/content": "^1.4.1",
     "@nuxtjs/pwa": "^3.0.0-beta.20",
-    "nuxt": "^2.13.2"
+    "nuxt": "^2.13.3"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.0.0",
