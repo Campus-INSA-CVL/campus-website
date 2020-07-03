@@ -121,6 +121,20 @@ export default {
     },
   },
   /*
+   ** PWA module configuration
+   ** https://github.com/nuxt-community/pwa-module
+   */
+  pwa: {
+    manifest: {
+      name: 'Campus INSA Centre-Val de Loire',
+      short_name: 'Campus INSA CVL',
+      orientation: 'portrait',
+      display: 'standalone',
+      lang: 'fr',
+      description: "Website du campus de l'INSA Centre-Val de Loire",
+    },
+  },
+  /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
