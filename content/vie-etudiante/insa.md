@@ -21,4 +21,4 @@ Aenean ac justo mattis, scelerisque magna ut, tincidunt urna. In congue augue se
 - Fusce congue dolor vel accumsan sagittis.
 - Aenean vitae est id dolor tincidunt placerat.
 
-<v-img src="https://via.placeholder.com/600x400"><v-img>
+<v-img src="https://via.placeholder.com/600x400"></v-img>
