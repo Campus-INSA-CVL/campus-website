@@ -17,5 +17,10 @@ export default {
       fileName: 'index',
     }),
   ],
+  head() {
+    return {
+      title: 'olympiades'.toUpperCase(),
+    }
+  },
 }
 </script>

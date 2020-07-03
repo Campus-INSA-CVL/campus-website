@@ -1,3 +1,7 @@
+---
+title: pôle techniques
+---
+
 # techniques
 
 [vers la team](/federation/techniques/equipe)

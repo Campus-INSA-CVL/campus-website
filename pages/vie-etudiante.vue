@@ -24,5 +24,10 @@ export default {
       tabs,
     }
   },
+  head() {
+    return {
+      title: 'vie étudiante'.toUpperCase(),
+    }
+  },
 }
 </script>

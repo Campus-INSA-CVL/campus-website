@@ -16,6 +16,11 @@ export default {
       fileName: 'index',
     }),
   ],
+  head() {
+    return {
+      title: 'fédération'.toUpperCase(),
+    }
+  },
 }
 </script>
 

@@ -20,5 +20,10 @@ export default {
   layout({ params }) {
     return params.federation ?? 'default'
   },
+  head() {
+    return {
+      title: this.content.title ?? 'chargement...'.toUpperCase(),
+    }
+  },
 }
 </script>

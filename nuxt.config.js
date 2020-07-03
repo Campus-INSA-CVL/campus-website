@@ -11,13 +11,16 @@ export default {
    ** See https://nuxtjs.org/api/configuration-target
    */
   target: 'server',
+  generate: {
+    fallback: true,
+  },
   /*
    ** Headers of the page
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    titleTemplate: '%s - ' + process.env.npm_package_name,
-    title: process.env.npm_package_name || '',
+    titleTemplate: '%s' + ' - Campus INSA CVL',
+    title: 'CHARGEMENT...',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -118,6 +121,20 @@ export default {
           success: colors.green.accent3,
         },
       },
+    },
+  },
+  /*
+   ** PWA module configuration
+   ** https://github.com/nuxt-community/pwa-module
+   */
+  pwa: {
+    manifest: {
+      name: 'Campus INSA Centre-Val de Loire',
+      short_name: 'Campus INSA CVL',
+      orientation: 'portrait',
+      display: 'standalone',
+      lang: 'fr',
+      description: "Website du campus de l'INSA Centre-Val de Loire",
     },
   },
   /*

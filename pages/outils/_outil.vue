@@ -11,5 +11,10 @@ export default {
       page,
     }
   },
+  head() {
+    return {
+      title: this.$route.params.outil.toUpperCase(),
+    }
+  },
 }
 </script>
