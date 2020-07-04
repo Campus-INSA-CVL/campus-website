@@ -3,7 +3,7 @@
     template(v-for="pole in poles")
       div.font-weight-bold.text-center.text-h5.text-capitalize {{ pole }}
       v-row(:key="pole", justify="center")
-        v-col(cols="12", sm="6", lg="5", v-for="user in team[pole]", :key="user.name")
+        v-col(cols="12", sm="6", xl="5", v-for="user in team[pole]", :key="user.name")
           v-card(outlined, :class="`${color}--text`")
             v-list-item(two-line)
               v-list-item-content
