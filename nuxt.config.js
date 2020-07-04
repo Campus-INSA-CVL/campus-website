@@ -76,6 +76,20 @@ export default {
     color: 'white',
     background: '#EF1D13',
   },
+  /**
+   * Customize the page transition
+   */
+  pageTransition: {
+    name: 'page',
+    mode: 'out-in',
+  },
+  /**
+   * Customize the layout transition
+   */
+  layoutTransition: {
+    name: 'layout',
+    mode: '',
+  },
   /*
    ** Global CSS
    */
