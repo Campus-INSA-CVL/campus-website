@@ -8,7 +8,7 @@
           | Vous pouvez aussi retrouver l'ensemble de son code source sur Github !
     v-row(tag="section", justify="space-around")
       v-col(cols="12", md="4", align="center")
-        v-btn(to="/nous-contacter", outlined).primary--text
+        v-btn(to="/nous-contacter", outlined, nuxt).primary--text
           v-icon(left) mdi-card-account-mail
           span nous contacter
       v-col(cols="12", md="4", align="center")
