@@ -31,39 +31,39 @@ export default {
       },
       {
         hid: 'og:locale',
-        name: 'og:locale',
+        property: 'og:locale',
         content: 'fr_FR',
       },
       {
         hid: 'og:type',
-        name: 'og:type',
+        property: 'og:type',
         content: 'website',
       },
       {
         hid: 'og:title',
-        name: 'og:title',
+        property: 'og:title',
         content: 'Campus INSA Centre-Val de Loire',
       },
       {
         hid: 'og:description',
-        name: 'og:description',
+        property: 'og:description',
         content: "Website du campus de l'INSA Centre-Val de Loire",
       },
       {
         hid: 'og:image',
-        name: 'og:image',
+        property: 'og:image',
         content:
           'https://raw.githubusercontent.com/Campus-INSA-CVL/campus-website/master/static/icon.png?token=AKZLUYA3V5QXSSQYTXWCOLC7ACPPW',
       },
       {
         hid: 'og:site_name',
-        name: 'og:site_name',
+        property: 'og:site_name',
         content: 'Campus INSA CVL',
       },
       {
         hid: 'twitter:card',
         name: 'twitter:card',
-        content: 'content',
+        content: 'summary',
       },
       {
         hid: 'twitter:title',
