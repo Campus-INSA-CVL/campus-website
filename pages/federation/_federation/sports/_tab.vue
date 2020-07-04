@@ -14,6 +14,36 @@ export default {
   head() {
     return {
       title: `sports à ${this.$route.params.tab}`.toUpperCase(),
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            "Retrouver l'ensemble des sports du Campus de l'INSA Centre-Val de Loire",
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: `SPORTS À ${this.$route.params.tab.toUpperCase()} - Campus INSA Centre-Val de Loire`,
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            "Retrouver l'ensemble des sports du Campus de l'INSA Centre-Val de Loire",
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: `SPORTS À ${this.$route.params.tab.toUpperCase()} - Campus INSA Centre-Val de Loire`,
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            "Retrouver l'ensemble des sports du Campus de l'INSA Centre-Val de Loire",
+        },
+      ],
     }
   },
 }

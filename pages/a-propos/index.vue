@@ -43,6 +43,36 @@ export default {
   head() {
     return {
       title: 'à propos'.toUpperCase(),
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            "À propos du website du Campus de l'INSA Centre-Val de Loire",
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: `À PROPOS - Campus INSA Centre-Val de Loire`,
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            "À propos du website du Campus de l'INSA Centre-Val de Loire",
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: `À PROPOS - Campus INSA Centre-Val de Loire`,
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            "À propos du website du Campus de l'INSA Centre-Val de Loire",
+        },
+      ],
     }
   },
 }

@@ -23,6 +23,36 @@ export default {
   head() {
     return {
       title: 'associations'.toUpperCase(),
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            "Découvrir les associations d'un pôle du Campus de l'INSA Centre-Val de Loire",
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: `ASSOCIATIONS - Campus INSA Centre-Val de Loire`,
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            "Découvrir les associations d'un pôle du Campus de l'INSA Centre-Val de Loire",
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: `ASSOCIATIONS - Campus INSA Centre-Val de Loire`,
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            "Découvrir les associations d'un pôle du Campus de l'INSA Centre-Val de Loire",
+        },
+      ],
     }
   },
 }

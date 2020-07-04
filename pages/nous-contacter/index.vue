@@ -35,6 +35,33 @@ export default {
   head() {
     return {
       title: 'nous contacter'.toUpperCase(),
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: "Contacter le Campus de l'INSA Centre-Val de Loire",
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: `NOUS CONTACTER - Campus INSA Centre-Val de Loire`,
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: "Contacter le Campus de l'INSA Centre-Val de Loire",
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: `NOUS CONTACTER - Campus INSA Centre-Val de Loire`,
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: "Contacter le Campus de l'INSA Centre-Val de Loire",
+        },
+      ],
     }
   },
 }

@@ -26,6 +26,36 @@ export default {
   head() {
     return {
       title: this.content.title.toUpperCase() ?? 'chargement...'.toUpperCase(),
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            "Décrouvrir l'équipe d'un pôle du Campus de l'INSA Centre-Val de Loire",
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: `${this.content.title.toUpperCase()} - Campus INSA Centre-Val de Loire`,
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            "Décrouvrir l'équipe d'un pôle du Campus de l'INSA Centre-Val de Loire",
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: `${this.content.title.toUpperCase()} - Campus INSA Centre-Val de Loire`,
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            "Décrouvrir l'équipe d'un pôle du Campus de l'INSA Centre-Val de Loire",
+        },
+      ],
     }
   },
 }
