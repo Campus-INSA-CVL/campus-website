@@ -27,7 +27,59 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || '',
+        content: "Website du campus de l'INSA Centre-Val de Loire",
+      },
+      {
+        hid: 'og:locale',
+        name: 'og:locale',
+        content: 'fr_FR',
+      },
+      {
+        hid: 'og:type',
+        name: 'og:type',
+        content: 'website',
+      },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content: 'Campus INSA Centre-Val de Loire',
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content: "Website du campus de l'INSA Centre-Val de Loire",
+      },
+      {
+        hid: 'og:image',
+        name: 'og:image',
+        content:
+          'https://raw.githubusercontent.com/Campus-INSA-CVL/campus-website/master/static/icon.png?token=AKZLUYA3V5QXSSQYTXWCOLC7ACPPW',
+      },
+      {
+        hid: 'og:site_name',
+        name: 'og:site_name',
+        content: 'Campus INSA CVL',
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'content',
+      },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'Campus INSA Centre-Val de Loire',
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: "Website du campus de l'INSA Centre-Val de Loire",
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content:
+          'https://raw.githubusercontent.com/Campus-INSA-CVL/campus-website/master/static/icon.png?token=AKZLUYA3V5QXSSQYTXWCOLC7ACPPW',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
