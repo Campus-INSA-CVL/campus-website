@@ -25,11 +25,6 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
-        hid: 'description',
-        name: 'description',
-        content: "Website du campus de l'INSA Centre-Val de Loire",
-      },
-      {
         hid: 'og:locale',
         property: 'og:locale',
         content: 'fr_FR',
@@ -38,16 +33,6 @@ export default {
         hid: 'og:type',
         property: 'og:type',
         content: 'website',
-      },
-      {
-        hid: 'og:title',
-        property: 'og:title',
-        content: 'Campus INSA Centre-Val de Loire',
-      },
-      {
-        hid: 'og:description',
-        property: 'og:description',
-        content: "Website du campus de l'INSA Centre-Val de Loire",
       },
       {
         hid: 'og:image',
@@ -65,16 +50,7 @@ export default {
         name: 'twitter:card',
         content: 'summary',
       },
-      {
-        hid: 'twitter:title',
-        name: 'twitter:title',
-        content: 'Campus INSA Centre-Val de Loire',
-      },
-      {
-        hid: 'twitter:description',
-        name: 'twitter:description',
-        content: "Website du campus de l'INSA Centre-Val de Loire",
-      },
+
       {
         hid: 'twitter:image',
         name: 'twitter:image',
