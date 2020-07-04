@@ -78,6 +78,7 @@ export default {
    */
   modules: [
     '@nuxtjs/pwa',
+    'nuxt-webfontloader',
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
   ],
@@ -92,6 +93,10 @@ export default {
    */
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
+    defaultAssets: false,
+    icons: {
+      iconfont: 'mdiSvg',
+    },
     theme: {
       options: {
         customProperties: true,
@@ -124,6 +129,15 @@ export default {
           success: colors.green.accent3,
         },
       },
+    },
+  },
+  /*
+   ** Webfontloader module configuration
+   ** https://github.com/Developmint/nuxt-webfontloader
+   */
+  webfontloader: {
+    google: {
+      families: ['Roboto:100,300,400,500,700,900'],
     },
   },
   /*
