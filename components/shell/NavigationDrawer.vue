@@ -15,6 +15,17 @@
             v-img(alt="logo du Campus INSA CVL", :src="require('~/assets/img/icon.png')", width="50")
           v-col(cols="12")
             v-divider
+
+    template(v-slot:append)
+      v-container
+        v-row(justify="center", no-gutters, align="center")
+          v-col(cols="12")
+            v-divider.pb-4
+          v-col(cols="12")
+            div.font-weight-bold.grey--text.lighten-1.
+              #[span.text-capitalize thème] de l'application
+          v-col(cols="6", justify="center")
+            v-switch(v-model="$vuetify.theme.dark", inset, :label='formatTheme', hide-details).my-2
 </template>
 
 <script>
@@ -98,6 +109,23 @@ export default {
         }
       },
     },
+    formatTheme() {
+      return this.$vuetify.theme.dark ? 'Sombre' : 'Lumineuse'
+    },
+  },
+  watch: {
+    '$vuetify.theme.dark'(a) {
+      localStorage.setItem('dark', JSON.stringify(a))
+    },
+  },
+  mounted() {
+    if (localStorage.getItem('dark')) {
+      try {
+        this.$vuetify.theme.dark = JSON.parse(localStorage.getItem('dark'))
+      } catch (error) {
+        localStorage.removeItem('dark')
+      }
+    }
   },
 }
 </script>

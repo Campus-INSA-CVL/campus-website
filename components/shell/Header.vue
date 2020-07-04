@@ -2,7 +2,7 @@
   v-app-bar(app, elevate-on-scroll)
     v-app-bar-nav-icon(@click.stop="toggleDrawer()")
     v-btn(to="/", nuxt, exact, depressed).header-btn
-      v-toolbar-title #[span.text-lowercase.font-weight-light.primary--text  #campus] #[span.text-uppercase.font-weight-light.primary--text insa]#[span.text-uppercase.font-weight-bold.primary--text cvl]
+      v-toolbar-title #[span.text-lowercase.font-weight-regular.primary--text  #campus] #[span.text-uppercase.font-weight-regular.primary--text insa]#[span.text-uppercase.font-weight-black.primary--text cvl]
     template(v-slot:extension, v-if="type === 'association'")
       v-btn(icon, nuxt, to='/federation', exact).text--secondary
         v-icon {{ svg.mdiWeb }}
