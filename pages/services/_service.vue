@@ -17,6 +17,9 @@ export default {
       page,
     }
   },
+  layout() {
+    return 'services'
+  },
   head() {
     return {
       title: this.$route.params.service.toUpperCase(),

@@ -17,6 +17,9 @@ export default {
       page,
     }
   },
+  layout() {
+    return 'outils'
+  },
   head() {
     return {
       title: this.$route.params.outil.toUpperCase(),
