@@ -19,6 +19,7 @@
 
 <script>
 export default {
+  name: 'Team',
   props: {
     team: {
       type: Object,

@@ -1,5 +1,5 @@
 <template lang="pug">
-  v-app
+  shell-app
     shell-navigation-drawer
     shell-header
     v-main

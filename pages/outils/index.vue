@@ -14,7 +14,7 @@ export default {
     fetchContent({
       folderName: 'outils',
       sortBy: { key: 'title', direction: 'asc' },
-      only: ['title', 'description', 'path', 'color'],
+      only: ['title', 'description', 'path', 'color', 'link'],
     }),
   ],
   head() {

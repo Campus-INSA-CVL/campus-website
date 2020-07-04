@@ -21,10 +21,16 @@
         v-list(:color="`${color}--text`", flat).text-uppercase
           v-list-item(nuxt, :to="`${fullPath}/${btn.path}`", v-for="(btn, index) in btns", :key="index")
             v-list-item-title {{  btn.name }}
+    template(v-slot:extension, v-if="type === 'page'")
+      v-btn(icon, nuxt, :to="`/${path.main}`", exact).text--secondary
+        v-icon mdi-web
+      v-btn(:to="fullPath", depressed, nuxt, :color="`${color}--text`", exact).header-btn
+        v-toolbar-title.font-weight-bold.text-capitalize {{ title }}
 </template>
 
 <script>
 export default {
+  name: 'Header',
   props: {
     type: {
       type: String,
@@ -49,7 +55,7 @@ export default {
   },
   computed: {
     fullPath() {
-      return `/${this.path.main}/${this.path.secondary}`
+      return `/${this.path.main}/${this.path.secondary ?? ''}`
     },
     teamPath() {
       return this.$route.params

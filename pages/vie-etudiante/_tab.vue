@@ -3,7 +3,11 @@
 </template>
 
 <script>
+import { VImg } from 'vuetify/lib/components/VImg'
 export default {
+  components: {
+    VImg,
+  },
   async asyncData({ $content, params }) {
     const { tab } = params
     const page = await $content(`vie-etudiante/${tab}`).fetch()

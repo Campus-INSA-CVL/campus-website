@@ -12,6 +12,7 @@
 import fetchContent from '@/mixins/fetch-content'
 
 export default {
+  name: 'Index',
   mixins: [
     fetchContent({
       folderName: 'index',
