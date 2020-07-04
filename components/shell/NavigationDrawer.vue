@@ -4,7 +4,7 @@
       v-list-item-group(color="primary")
         v-list-item(v-for="(item, indice) in nav", :key="indice", nuxt, :to="item.path")
           v-list-item-icon
-            v-icon(left) {{ item.icon }}
+            v-icon(left) {{ svg[item.icon] }}
           v-list-item-content
             v-list-item-title.text-uppercase {{ item.name }}
 
@@ -18,50 +18,71 @@
 </template>
 
 <script>
+import {
+  mdiHome,
+  mdiSchool,
+  mdiRoomService,
+  mdiHomeAssistant,
+  mdiMedal,
+  mdiToolbox,
+  mdiCardAccountMail,
+  mdiInformation,
+} from '@mdi/js'
+
 export default {
   name: 'NavigationDrawer',
   data() {
     return {
+      svg: {
+        mdiHome,
+        mdiSchool,
+        mdiRoomService,
+        mdiHomeAssistant,
+        mdiMedal,
+        mdiToolbox,
+        mdiCardAccountMail,
+        mdiInformation,
+      },
       nav: [
         {
           name: 'Acceuil',
           path: '/',
-          icon: 'mdi-home',
+          icon: 'mdiHome',
         },
         {
           name: 'Vie étudiante',
           path: '/vie-etudiante',
-          icon: 'mdi-school',
+          icon: 'mdiSchool',
         },
         {
           name: 'Fédération',
           path: '/federation',
-          icon: 'mdi-home-assistant',
+          icon: 'mdiHomeAssistant',
         },
         {
           name: 'Services',
           path: '/services',
-          icon: 'mdi-room-service',
+          icon: 'mdiRoomService',
         },
         {
           name: 'Olympiades',
           path: '/olympiades',
-          icon: 'mdi-medal',
+          icon: 'mdiMedal',
         },
         {
           name: 'Outils',
           path: '/outils',
-          icon: 'mdi-toolbox',
+          icon: 'mdiToolbox',
         },
         {
           name: 'nous contacter',
           path: '/nous-contacter',
-          icon: 'mdi-card-account-mail',
+          icon: 'mdiCardAccountMail',
         },
         {
           name: 'à propos',
           path: '/a-propos',
-          icon: 'mdi-information',
+          icon: 'mdiInformation',
         },
       ],
     }

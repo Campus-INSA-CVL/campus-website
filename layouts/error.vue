@@ -9,17 +9,17 @@
         div.font-weight-light Si tu penses que c'est une erreur, n'hésite pas à nous contacter !
       v-col(cols="12", sm="4", align="center")
         v-btn(href="https://github.com/Campus-INSA-CVL/campus-website/", outlined, target="_blank").primary--text
-          v-icon(left) mdi-github
+          v-icon(left) {{ svg.mdiGithub }}
           span github
       v-col(cols="12", sm="4", align="center")
         v-btn(to="/nous-contacter", outlined, nuxt).primary--text
-          v-icon(left) mdi-card-account-mail
+          v-icon(left) {{ svg.mdiCardAccountMail }}
           span nous contacter
       v-col(cols="12", align="center")
         div.font-weight-light Sinon, on te laisse retourner à l'acceuil !
       v-col(cols="12", align="center")
         v-btn(to="/", outlined, nuxt).primary--text
-          v-icon(left) mdi-home
+          v-icon(left) {{ svg.mdiHome }}
           span acceuil
     v-row(v-else)
       v-col(cols="12", align="center")
@@ -27,6 +27,8 @@
 </template>
 
 <script>
+import { mdiHome, mdiCardAccountMail, mdiGithub } from '@mdi/js'
+
 export default {
   layout: 'default',
   props: {
@@ -37,6 +39,11 @@ export default {
   },
   data() {
     return {
+      svg: {
+        mdiHome,
+        mdiCardAccountMail,
+        mdiGithub,
+      },
       pageNotFound: '404 Not Found',
       otherError: "C'est une erreur",
     }

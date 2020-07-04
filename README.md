@@ -7,7 +7,7 @@
 
 # #️⃣ Campus website
 
-> The new campus website for the students of the INSA Centre-Val de Loire !
+> The new campus website for students of the INSA Centre-Val de Loire !
 
 ## How it works ?
 

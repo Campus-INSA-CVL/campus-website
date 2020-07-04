@@ -1,5 +1,7 @@
 <template lang="pug">
-  nuxt-content(:document="content", :id="color")
+  v-row(tag="section", no-gutters)
+    v-col(cols="12", md="10", lg="8", offset-md="1", offset-lg="2")
+      nuxt-content(:document="content", :id="color")
 </template>
 
 <script>
