@@ -1,6 +1,6 @@
 @import 'mixins/colors';
 $federation: 'culturel' --v-culturelColor-base, 'sport' --v-sportColor-base,
-  'gala' --v-prom-base, 'techniques' --v-techniquesColor-base,
+  'gala' --v-galaColor-base, 'techniques' --v-techniquesColor-base,
   'elus' --v-elusColor-base, 'solidarites' --v-solidaritesColor-base;
 
 @each $name, $color in $federation {
