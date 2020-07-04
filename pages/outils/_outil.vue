@@ -23,6 +23,33 @@ export default {
   head() {
     return {
       title: this.$route.params.outil.toUpperCase(),
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.page.description,
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: `${this.$route.params.outil.toUpperCase()} - Campus INSA Centre-Val de Loire`,
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.page.description,
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: `${this.$route.params.outil.toUpperCase()} - Campus INSA Centre-Val de Loire`,
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: this.page.description,
+        },
+      ],
     }
   },
 }
