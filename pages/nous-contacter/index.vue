@@ -5,12 +5,12 @@
       v-col(cols="12", align="center")
         div.font-weight-bold.text-uppercase par téléphone
         v-btn(href="tel:+33254558436", outlined).primary--text.mt-4
-          v-icon(left) mdi-phone
+          v-icon(left) {{ svg.mdiPhone }}
           span 02-54-55-84-36
       v-col(cols="12", align="center")
         div.font-weight-bold.text-uppercase par mail
         v-btn(href="mailto:contact@bde.insa-cvl.fr", outlined).primary--text.mt-4
-          v-icon(left) mdi-email
+          v-icon(left) {{ svg.mdiEmail }}
           span contact@bde.insa-cvl.fr
       v-col(cols="12", align="center")
         div.font-weight-bold.text-uppercase.mb-4 nos adresses
@@ -20,7 +20,17 @@
 </template>
 
 <script>
+import { mdiEmail, mdiPhone } from '@mdi/js'
+
 export default {
+  data() {
+    return {
+      svg: {
+        mdiEmail,
+        mdiPhone,
+      },
+    }
+  },
   head() {
     return {
       title: 'nous contacter'.toUpperCase(),

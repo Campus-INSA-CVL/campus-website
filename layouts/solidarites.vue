@@ -9,6 +9,8 @@
 </template>
 
 <script>
+import {} from '@mdi/js'
+
 export default {
   data() {
     return {
@@ -23,13 +25,13 @@ export default {
         {
           name: "l'équipe",
           path: 'equipe',
-          icon: 'mdi-account-group',
+          icon: 'mdiAccountGroup',
           style: { outlined: true, depressed: false },
         },
         {
           name: 'les associations',
           path: 'associations',
-          icon: 'mdi-file-tree',
+          icon: 'mdiFileTree',
           style: { outlined: false, depressed: true },
         },
       ],

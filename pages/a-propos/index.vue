@@ -9,20 +9,31 @@
     v-row(tag="section", justify="space-around")
       v-col(cols="12", md="4", align="center")
         v-btn(to="/nous-contacter", outlined, nuxt).primary--text
-          v-icon(left) mdi-card-account-mail
+          v-icon(left) {{ svg.mdiCardAccountMail }}
           span nous contacter
       v-col(cols="12", md="4", align="center")
         v-btn(href="https://github.com/Campus-INSA-CVL/campus-website/", outlined, target="_blank").primary--text
-          v-icon(left) mdi-github
+          v-icon(left) {{ svg.mdiGithub }}
           span github
       v-col(cols="12", md="4", align="center")
         v-btn(href="https://www.insa-centrevaldeloire.fr/", outlined, target="_blank").primary--text
-          v-icon(left) mdi-school
+          v-icon(left) {{ svg.mdiSchool }}
           span insa centre-val de loire
 </template>
 
 <script>
+import { mdiCardAccountMail, mdiGithub, mdiSchool } from '@mdi/js'
+
 export default {
+  data() {
+    return {
+      svg: {
+        mdiCardAccountMail,
+        mdiGithub,
+        mdiSchool,
+      },
+    }
+  },
   computed: {
     campusPath() {
       return require('@/assets/img/icon.png')

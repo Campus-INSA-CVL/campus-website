@@ -5,10 +5,12 @@
         div.text-center.font-weight-light.text-secondary.mx-2 {{ new Date().getFullYear() }} - Campus INSA Centre-Val de Loire
       v-col(cols="12", sm="4", align="center", v-if="socialNetworks")
         v-btn(v-for="network in networks", :key="network.path", icon, :href="network.path", target="_blank").text--secondary.mx-2
-          v-icon {{ network.icon }}
+          v-icon {{ svg[network.icon] }}
 </template>
 
 <script>
+import { mdiFacebook, mdiInstagram, mdiGithub } from '@mdi/js'
+
 export default {
   name: 'Footer',
   props: {
@@ -19,17 +21,22 @@ export default {
   },
   data() {
     return {
+      svg: {
+        mdiFacebook,
+        mdiInstagram,
+        mdiGithub,
+      },
       networks: [
         {
-          icon: 'mdi-facebook',
+          icon: 'mdiFacebook',
           path: 'https://www.facebook.com/campusinsacvl',
         },
         {
-          icon: 'mdi-instagram',
+          icon: 'mdiInstagram',
           path: 'https://www.instagram.com/campusinsacvl/',
         },
         {
-          icon: 'mdi-github',
+          icon: 'mdiGithub',
           path: 'https://github.com/Campus-INSA-CVL',
         },
       ],
