@@ -1,0 +1,57 @@
+<style>
+  body,
+  html,
+  #<%= globals.id %> {
+    background: <%= options.background %>;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .loading-indicator {
+    width: 60px;
+    height: 60px;
+    position: relative;
+
+    -webkit-animation: rotate 6s infinite ease;
+    animation: rotate 6s infinite ease;
+  }
+  .loading-indicator .logo {
+    background-color: white;
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  .loading-indicator .logo::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-image: url('/icon-256.png');
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+  }
+
+  @-webkit-keyframes rotate {
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+    }
+  }
+</style>
+
+<div class="loading-indicator">
+  <div class="logo"></div>
+</div>
