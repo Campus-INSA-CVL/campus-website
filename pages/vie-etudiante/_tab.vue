@@ -1,5 +1,5 @@
 <template lang="pug">
-  nuxt-content(:document="page").default
+  nuxt-content(:document="page")
 </template>
 
 <script>
