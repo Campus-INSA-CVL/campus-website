@@ -2,13 +2,13 @@
   &-enter-active,
   &-leave-active {
     transition-property: all;
-    transition-timing-function: ease-in-out;
-    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
   }
   &-enter,
   &-leave-to {
     opacity: 0;
-    transform: scale(0.995, 0.995);
+    transform: scale(0.996, 0.996) translateY(-3px);
   }
 }
 
