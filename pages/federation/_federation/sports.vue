@@ -7,7 +7,8 @@
     v-container(fluid).px-0.pb-0
       v-row(no-gutters)
         v-col(cols="12", md="10", lg="8", offset-md="1", offset-lg="2")
-          nuxt-child
+          transition(name="sub-page", mode="out-in")
+            nuxt-child
 </template>
 
 <script>

@@ -12,6 +12,19 @@
   }
 }
 
+.sub-page {
+  &-enter-active,
+  &-leave-active {
+    transition-property: all;
+    transition-timing-function: ease-out;
+    transition-duration: 300ms;
+  }
+  &-enter,
+  &-leave-to {
+    opacity: 0;
+    transform: translateY(-3px);
+  }
+}
 // .layout {
 //   &-enter-active,
 //   &-leave-active {
