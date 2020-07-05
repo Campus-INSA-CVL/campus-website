@@ -13,8 +13,8 @@ export default {
       page,
     }
   },
-  layout({ params }) {
-    return params.federation ?? 'default'
+  layout() {
+    return 'default'
   },
   computed: {
     color() {

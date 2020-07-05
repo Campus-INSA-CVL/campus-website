@@ -19,8 +19,8 @@ export default {
       return this.$route.params.federation ?? ''
     },
   },
-  layout({ params }) {
-    return params.federation ?? 'default'
+  layout() {
+    return 'default'
   },
   head() {
     return {

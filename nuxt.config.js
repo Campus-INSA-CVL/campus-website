@@ -70,7 +70,7 @@ export default {
    ** Customize the loading indicator color
    */
   loadingIndicator: {
-    name: 'three-bounce',
+    name: '~/loading-indicator.html',
     color: 'white',
     background: '#EF1D13',
   },
