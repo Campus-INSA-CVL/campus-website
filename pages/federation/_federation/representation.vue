@@ -26,8 +26,8 @@ export default {
       tabs,
     }
   },
-  layout({ params }) {
-    return params.federation ?? 'default'
+  layout() {
+    return 'default'
   },
   head() {
     return {

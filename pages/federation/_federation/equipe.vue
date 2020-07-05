@@ -15,8 +15,8 @@ export default {
       fileName: 'equipe',
     }),
   ],
-  layout({ params }) {
-    return params.federation ?? 'default'
+  layout() {
+    return 'default'
   },
   computed: {
     color() {
