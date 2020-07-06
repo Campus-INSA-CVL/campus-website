@@ -1,5 +1,3 @@
-const { description } = require('../../package')
-
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
@@ -8,7 +6,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: description,
+  description: " documentation du website campus de l'INSA Centre-Val de Loire",
   base: '/campus-website/',
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -23,7 +21,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    displayAllHeaders: true,
+    // displayAllHeaders: true,
     repo: 'Campus-INSA-CVL/campus-website',
     docsDir: 'docs',
     editLinks: true,
