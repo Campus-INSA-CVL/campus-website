@@ -1,5 +1,5 @@
 ---
-title: Bienvenue
+title: 👋 Bienvenue
 sidebarDepth: 3
 ---
 

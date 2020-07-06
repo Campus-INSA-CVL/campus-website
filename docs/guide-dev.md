@@ -1,5 +1,5 @@
 ---
-title: Guide pour les développeurs
+title: 👩‍💻 Guide pour les développeurs
 sidebarDepth: 2
 ---
 
@@ -7,7 +7,7 @@ sidebarDepth: 2
 
 ## Technologies utilisées
 
-Ce projet, _le site campus de l'INSA Centre-Val de Loire_, est créé en utlisant le framework front-end [Nuxt.js](https://nuxtjs.org/) et son module [@nuxt/content](https://content.nuxtjs.org/). Nuxt.js est un framework gratuit et open source basé sur [Vue.js](https://vuejs.org/) et [Node.js](https://nodejs.org/).
+Ce projet, _le site campus de l'INSA Centre-Val de Loire_, est créé en utlisant le framework front-end [Nuxt.js](https://nuxtjs.org/) et son module [@nuxt/content](https://content.nuxtjs.org/). Nuxt.js est un framework gratuit et open source basé sur [Vue.js](https://vuejs.org/) et [Node.js](https://nodejs.org/). Pour le design général, le projet utilise [Vuetify](https://vuetifyjs.com), une bibliothèque UI.
 
 **Vue.js** (aussi appelé plus simplement Vue), est un **framework JavaScript open-source** utilisé pour construire des interfaces utilisateur et des **applications web** monopages.
 
@@ -189,7 +189,11 @@ Il s'agit simplement d'un composant, pas de chargement de Markdown
 ## Exemples
 
 :::tip
-Pour la modification du contenu, des exemples sont disponibles dans le [guide pour les associations](/guide-associations.html#exemple)
+Pour la modification du contenu, des exemples sont disponibles dans le [guide pour les associations](/guide-associations.html)
+:::
+
+::: danger
+L'utilisation de composants Vuetify dans les fichiers Markdown est possible mais il faut penser à l'importer dans le composant qui va l'afficher, car le treeeshaking ne pourra pas les voirs
 :::
 
 ### Création d'un nouveau pôle
