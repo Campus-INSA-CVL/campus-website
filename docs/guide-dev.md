@@ -73,7 +73,7 @@ Vivamus sed enim ut magna lacinia lobortis.
 |                     Path                      |      Content (`/federation`)       |        Params        | Function                                                      |
 | :-------------------------------------------: | :--------------------------------: | :------------------: | :------------------------------------------------------------ |
 |                 `/federation`                 |           **index.yaml**           |         none         | Présentation de l'ensemble des pôles de la fédération         |
-|           `/federation/:federation`           |     **/:federation/index.md**      |     _federation_     | Présentation d'un fédération                                  |
+|           `/federation/:federation`           |     **/:federation/index.md**      |     _federation_     | Présentation d'une fédération                                 |
 |       `/federation/:federation/equipe/`       |     **/:federation/equipe.md**     |     _federation_     | Présentation de l'équipe d'un pôle                            |
 |    `/federation/:federation/associations/`    | **/:federation/associations.yaml** |     _federation_     | Présentation de l'ensemble des associations du pole           |
 |     `/federation/:federation/sports/:tab`     |         **/sport/sports/**         | _federation_ , _tab_ | Présentation des différents sports, utilisé par le pôle sport |
