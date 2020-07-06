@@ -2,11 +2,12 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Doc Campus Website',
+  title: 'Docs Campus Website',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: " documentation du website campus de l'INSA Centre-Val de Loire",
+  description:
+    "Documentation du website du Campus de l'INSA Centre-Val de Loire",
   base: '/campus-website/',
   /**
    * Extra tags to be injected to the page HTML `<head>`
