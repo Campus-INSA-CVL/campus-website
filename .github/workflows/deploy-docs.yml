@@ -1,0 +1,16 @@
+name: Docs
+on:
+  push:
+    paths:
+      - "docs/**"
+    branches:
+      - master
+jobs:
+  release:
+    name: Deploy to gh-pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+      - name: Deploy
+        run: ./docs/deploy.sh
