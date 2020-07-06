@@ -11,7 +11,7 @@
 
 ## How it works ? ![Docs](https://github.com/Campus-INSA-CVL/campus-website/workflows/Docs/badge.svg)
 
-To understand how the website works, [go to the documentation]() et explore !
+To understand how the website works, [go to the documentation](https://campus-insa-cvl.github.io/campus-website/) et explore !
 
 ## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Campus-INSA-CVL/tutorinsa-server/issues)
 
