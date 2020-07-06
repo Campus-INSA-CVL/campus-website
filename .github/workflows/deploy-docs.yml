@@ -18,7 +18,7 @@ jobs:
       - name: Install and Build 🔧
         run: |
           npm install --production=false
-          npm run build
+          npm run docs:build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
