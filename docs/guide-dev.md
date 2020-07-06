@@ -117,7 +117,7 @@ Vivamus sed enim ut magna lacinia lobortis.
 ```
 
 **Résultat**
-![résultat du l'exemple](/services/card.jpg)
+<img :src="$withBase('/services/card.jpg')" alt="résultat de l'exemple">
 
 ### Olympiades
 
@@ -168,7 +168,7 @@ Vivamus sed enim ut magna lacinia lobortis.
 ```
 
 **Résultat**
-![résultat du l'exemple](/outils/card.jpg)
+<img :src="$withBase('/outils/card.jpg')" alt="résultat de l'exemple">
 
 ### Nous Contacter
 
@@ -185,3 +185,91 @@ Il s'agit simplement d'un composant, pas de chargement de Markdown
 `Content: none`
 
 Il s'agit simplement d'un composant, pas de chargement de Markdown
+
+## Exemples
+
+:::tip
+Pour la modification du contenu, des exemples sont disponibles dans le [guide pour les associations](/guide-associations.html#exemple)
+:::
+
+### Création d'un nouveau pôle
+
+- Ajouter dans le fichier `/content/federation/index.yaml` le nouveau pôle
+
+```yaml
+federation:
+  - path: federation/${nouveauPole}
+    title: Nom Du Nouveau Pole
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    color: poleColor (ajouter aussi la couleur dans `nuxt.config.js`)
+```
+
+- Créer un nouveau dossier `/content/federation/${nouveauPole}` et les fichiers `index.md` et `equipe.md` dans ce dernier.
+
+:::tip À Savoir
+Le dossier va contenir l'enesemble des fichiers relatifs au pôle et l'ensemble des dossiers pour les associations
+:::
+
+- Créer un fichier `associations.yaml` qui va contenir la liste de l'ensemble des associations du pôle
+
+- Dans le fichier `/layouts/default.vue`, ajouter l'association dans la config afin de mettre en place la toolbar.
+
+### Création d'une association
+
+- Ajouter l'association dans le fichier `associations.yaml` du pôle souhaité.
+
+```diff
+associations:
+    - title: club robotique
+      path: /federation/techniques/associations/club-robotique
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      color: techniquesColor
++   - title: La nouvelle asso !
++     path: /federation/techniques/associations/nouvelle-asso
++     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
++     color: assoColor
+```
+
+- Créer un dossier, au même endroit que le fichier d'associations, portant le nom qui a été mis dans le champs path du fichier `associations.yaml`, donc `mkdir nouvelle-asso` dans ce cas.
+
+- Ajouter un fichier `index.md` dans le dossier de l'association
+
+### Création d'un service ou d'un outil
+
+- Ajouter un fichier Markdown dans le dossier souhaité, `/content/outils` ou `/content/services`
+
+:::warning
+Le nom du fichier sera le nom dans l'url. Il est donc important de bien le choisir
+:::
+
+- Ajouter un front matter dans le fichier
+
+```md
+---
+title: Nom du service ou de l'outil
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam.
+color: serviceOuOutilColor
+---
+
+# Lorem ipsum dolor
+
+Vivamus sed enim ut magna lacinia lobortis.
+```
+
+### Création d'un nouvelle onglet (Vie Étudiante, Sports, Représentation)
+
+- Ajouter un nouveau fichier Markdown dans le dossier correspondant, `/content/vie-etudiante` par exemple
+
+:::warning
+Le nom du fichier sera le nom dans l'url. Il est donc important de bien le choisir
+:::
+
+- Ajouter le front matter dans le fichier
+
+```md
+---
+<!-- content/vie-etudiante/new-tab.md -->
+title: bi-campus <!-- titre utilisé dans les onglets -->
+order: 1 <!-- place dans les onglets, trié dans l'ordre croissant -->
+---
+```
