@@ -12,3 +12,5 @@ Ce projet, _le site campus de l'INSA Centre-Val de Loire_, est créé en utlisan
 C'est grâce à l'ensemble de ces technologies que le site campus a pu voir le jour.
 
 # Fonctionnement
+
+![Docs](https://github.com/Campus-INSA-CVL/campus-website/workflows/Docs/badge.svg)

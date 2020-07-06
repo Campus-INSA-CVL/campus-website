@@ -11,6 +11,8 @@
 
 ## How it works ?
 
+![Docs](https://github.com/Campus-INSA-CVL/campus-website/workflows/Docs/badge.svg)
+
 ## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Campus-INSA-CVL/tutorinsa-server/issues)
 
 Feel free to help us ! Use [issues](https://github.com/Campus-INSA-CVL/tutorinsa-server/issues) and [pull requests](https://github.com/Campus-INSA-CVL/tutorinsa-server/pulls) !
