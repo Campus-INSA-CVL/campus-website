@@ -1,6 +1,6 @@
 <template lang="pug">
   v-row(no-gutters)
-    v-col(cols="12")
+    v-col(cols="12", md="10", lg="8", offset-md="1", offset-lg="2")
       v-tabs(centered, show-arrows, color="elusColor")
         v-tabs-slider(color="elusColor")
         v-tab(v-for="tab in tabs", :key="tab.title", :to="`${tab.slug}`", nuxt, exact) {{ tab.title }}
