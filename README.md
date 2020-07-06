@@ -7,17 +7,19 @@
 
 # #️⃣ Campus website
 
-> The new campus website for students of the INSA Centre-Val de Loire !
+**The new campus website for students of the INSA Centre-Val de Loire !**
 
-## How it works ? ![Docs](https://github.com/Campus-INSA-CVL/campus-website/workflows/Docs/badge.svg)
+## 📝 Want to create or update content? ![Docs](https://github.com/Campus-INSA-CVL/campus-website/workflows/Docs/badge.svg)
 
-To understand how the website works, [go to the documentation](https://campus-insa-cvl.github.io/campus-website/) et explore !
+To simplify the process of creating content, we have created a docs to explain to writers or to developers how to do it. There is many examples and it you want more information, feel free to contact us !
 
-## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Campus-INSA-CVL/tutorinsa-server/issues)
+[Go to the documentation](https://campus-insa-cvl.github.io/campus-website/) and explore !
+
+## 👋 Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Campus-INSA-CVL/tutorinsa-server/issues)
 
 Feel free to help us ! Use [issues](https://github.com/Campus-INSA-CVL/tutorinsa-server/issues) and [pull requests](https://github.com/Campus-INSA-CVL/tutorinsa-server/pulls) !
 
-## Build Setup
+## 👩‍💻 Build Setup
 
 **Requirement**
 
