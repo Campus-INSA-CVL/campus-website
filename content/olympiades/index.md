@@ -36,7 +36,7 @@ Aliquam convallis sollicitudin purus. Praesent aliquam, enim at fermentum mollis
 
 | familles  | rang |
 | --------- | ---- |
-| cerbere   | 1    |
+| cerber    | 1    |
 | sphinx    | 2    |
 | kraken    | 3    |
 | minotaure | 4    |
