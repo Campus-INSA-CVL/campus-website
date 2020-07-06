@@ -12,5 +12,11 @@ jobs:
     steps:
       - name: Git checkout
         uses: actions/checkout@v2
-      - name: Deploy
-        run: ./docs/deploy.sh
+      - name: Build and Deploy
+        uses: grasilife/github-pages-deploy-action@master
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BASE_BRANCH: master
+          BRANCH: gh-pages
+          FOLDER: docs/.vuepress/dist # The folder the action should deploy.
+          BUILD_SCRIPT: npm install && npm run docs:build
