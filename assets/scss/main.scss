@@ -97,3 +97,14 @@
     }
   }
 }
+
+::-webkit-scrollbar {
+  background-color: var(--v-secondary-darken1);
+  max-width: 6px;
+  max-height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--v-secondary-lighten4);
+  border-radius: 6px;
+}
