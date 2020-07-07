@@ -365,6 +365,7 @@ Les blogs se font par pôles et non par association, mais une association peut p
 
 - Ajouter un dossier `blog` dans la fédération désirée
 - Ajouter le bouton blog dans le config de la fédération dans le layout
+- Ajouter votre premier article
 
 ::: warning Nommer ses articles
 L'url sera formée par le nom du fichier Markdown présent dans le dossier blog. Ainsi, il est important de bien le nommer.
