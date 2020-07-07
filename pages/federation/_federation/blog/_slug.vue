@@ -62,5 +62,40 @@ export default {
       return new Date(date).toLocaleDateString('fr', options)
     },
   },
+  head() {
+    return {
+      title: this.article.title.toUpperCase() ?? 'chargement...'.toUpperCase(),
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            this.article.description + ' - Campus INSA Centre-Val de Loire',
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: `${this.article.title.toUpperCase()} - Campus INSA Centre-Val de Loire`,
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            this.article.description + ' - Campus INSA Centre-Val de Loire',
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: `${this.article.title.toUpperCase()} - Campus INSA Centre-Val de Loire`,
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            this.article.description + ' - Campus INSA Centre-Val de Loire',
+        },
+      ],
+    }
+  },
 }
 </script>

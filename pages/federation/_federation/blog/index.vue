@@ -64,29 +64,11 @@ export default {
   },
   watch: {
     async itemsPerPage() {
-      this.articles = await this.$content(
-        'federation',
-        this.$route.params.federation,
-        'blog'
-      )
-        .only(['title', 'color', 'description', 'slug', 'path'])
-        .sortBy('createdAt', 'asc')
-        .limit(this.itemsPerPage)
-        .skip(this.skip)
-        .fetch()
+      this.articles = await this.fetchArticles
       this.page = 1
     },
     async page() {
-      this.articles = await this.$content(
-        'federation',
-        this.$route.params.federation,
-        'blog'
-      )
-        .only(['title', 'color', 'description', 'slug', 'path'])
-        .sortBy('createdAt', 'asc')
-        .limit(this.itemsPerPage)
-        .skip(this.skip)
-        .fetch()
+      this.articles = await this.fetchArticles
     },
     async searchQuery(searchQuery) {
       if (!searchQuery) {
@@ -123,6 +105,52 @@ export default {
       this.articles = articles.slice(0, this.itemsPerPage)
       this.total = this.articles.length
     },
+  },
+  methods: {
+    async fetchArticles() {
+      return await this.$content(
+        'federation',
+        this.$route.params.federation,
+        'blog'
+      )
+        .only(['title', 'color', 'description', 'slug', 'path'])
+        .sortBy('createdAt', 'asc')
+        .limit(this.itemsPerPage)
+        .skip(this.skip)
+        .fetch()
+    },
+  },
+  head() {
+    return {
+      title: 'le blog'.toUpperCase(),
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: "Blog d'un pôle du Campus de l'INSA Centre-Val de Loire",
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: `Blog - Campus INSA Centre-Val de Loire`,
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: "Blog d'un pôle du Campus de l'INSA Centre-Val de Loire",
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: `Blog - Campus INSA Centre-Val de Loire`,
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: "Blog d'un pôle du Campus de l'INSA Centre-Val de Loire",
+        },
+      ],
+    }
   },
 }
 </script>
