@@ -131,12 +131,12 @@ export default {
           color: 'sportColor',
           path: {
             main: 'federation',
-            secondary: 'sport',
+            secondary: 'sport' /* redirection vers /federation/sport */,
           },
           btns: [
             {
               name: "l'équipe",
-              path: 'equipe',
+              path: 'equipe' /* redirection vers /federation/sport/equipe */,
               icon: 'mdiAccountGroup',
               style: { outlined: true, depressed: false },
             },
