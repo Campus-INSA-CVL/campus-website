@@ -358,3 +358,15 @@ order: 1 <!-- place dans les onglets, trié dans l'ordre croissant -->
 ```
 
 ### Création d'un blog
+
+::: tip À savoir
+Les blogs se font par pôles et non par association, mais une association peut publier dans le blog de son pôle
+:::
+
+- Ajouter un dossier `blog` dans la fédération désirée
+- Ajouter le bouton blog dans le config de la fédération dans le layout
+
+::: warning Nommer ses articles
+L'url sera formée par le nom du fichier Markdown présent dans le dossier blog. Ainsi, il est important de bien le nommer.
+**Exemple:** `/2020-07-15-mon-nouvel-article-de-blog`
+:::
