@@ -126,7 +126,9 @@ export default {
    ** Content module configuration
    ** See https://content.nuxtjs.org/configuration
    */
-  content: {},
+  content: {
+    fullTextSearchFields: ['title', 'description', 'slug', 'text'],
+  },
   /*
    ** vuetify module configuration
    ** https://github.com/nuxt-community/vuetify-module

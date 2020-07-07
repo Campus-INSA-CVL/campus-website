@@ -2,6 +2,8 @@
 title: Le second article
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus hendrerit est sed leo finibus, ac facilisis dolor dapibus.
 color: culturelColor
+author:
+  name: 'Pôle Q'
 ---
 
 # Le second article

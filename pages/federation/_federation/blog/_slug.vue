@@ -2,7 +2,19 @@
   v-row(tag="section", no-gutters)
     v-col(cols="12", md="10", lg="8", offset-md="1", offset-lg="2")
       nuxt-content(:document="article", :id="color")
+
+      v-row(justify="end")
+        v-col
+          v-card(elevation="0")
+            v-card-title
+              | #[span.text-capitalize.font-weight-light par]&nbsp;{{ article.author.name }}
+              v-spacer
+              div.subtitle-1
+                | #[span.font-weight-light mis à jour le]&nbsp;{{ formatDate(article.updatedAt) }}&nbsp;|
+                | #[span.font-weight-light publié le]&nbsp;{{ formatDate(article.createdAt) }}
+
       v-divider(:class="article.color")
+
       v-row
         v-col(cols="12", sm="6", align="start", v-if="prev")
           v-card(nuxt, :to="prev.slug", elevation="0")
@@ -42,6 +54,12 @@ export default {
   computed: {
     color() {
       return this.$route.params.federation ?? ''
+    },
+  },
+  methods: {
+    formatDate(date) {
+      const options = { year: 'numeric', month: 'long', day: 'numeric' }
+      return new Date(date).toLocaleDateString('fr', options)
     },
   },
 }

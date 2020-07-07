@@ -2,6 +2,8 @@
 title: Le troisième article !
 description: Mauris congue orci eget ornare scelerisque.
 color: culturelColor
+author:
+  name: 'insaction'
 ---
 
 # Le troisième article !

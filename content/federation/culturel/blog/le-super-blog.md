@@ -2,6 +2,8 @@
 title: Le super blog
 description: Mauris congue orci eget ornare scelerisque.
 color: culturelColor
+author:
+  name: 'Insarpère'
 ---
 
 # Le super blog
