@@ -4,7 +4,7 @@
       v-toolbar(flat)
         v-row(justify="space-around")
           v-col(cols="6", sm="5", md="4", xl="3")
-            v-select(label="Élements par page", :items="itemsPerPageArray", :menu-props="{bottom: true, offsetY: true}", v-model="itemsPerPage", hide-details, outlined, dense,:color="color")
+            v-select(label="Élements par page", :items="itemsPerPageArray", :menu-props="{bottom: true, offsetY: true}", v-model="itemsPerPage", hide-details, outlined, dense,:color="color", :item-color="color")
           v-col(cols="6", sm="5", md="4", xl="3")
             v-text-field(:prepend-inner-icon="svg.mdiMagnify", v-model="searchQuery", type="search", autocomplete="off", placeholder="Chercher des Articles", outlined, dense, hide-details, single-line, :color="color")
       v-row(justify="center")
