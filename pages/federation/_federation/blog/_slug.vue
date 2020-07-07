@@ -1,9 +1,19 @@
 <template lang="pug">
   v-row(tag="section", no-gutters)
     v-col(cols="12", md="10", lg="8", offset-md="1", offset-lg="2")
-      pre {{ prev }}
-      pre {{ next }}
       nuxt-content(:document="article", :id="color")
+      v-divider(:class="article.color")
+      v-row
+        v-col(cols="12", sm="6", align="start", v-if="prev")
+          v-card(nuxt, :to="prev.slug", elevation="0")
+            v-card-title.text-left {{ prev.title }}
+            v-card-text.text-truncate {{ prev.description }}
+        v-col(cols="12", sm="6", align="end", :offset-sm=" prev ? 0 : 6", v-if="next")
+          v-card(nuxt, :to="next.slug", elevation="0")
+            v-card-title
+              v-spacer
+              | {{ next.title }}
+            v-card-text.text-truncate {{ next.description }}
 </template>
 
 <script>
@@ -18,7 +28,7 @@ export default {
     ).fetch()
 
     const [prev, next] = await $content('federation', params.federation, 'blog')
-      .only(['title', 'slug'])
+      .only(['title', 'slug', 'description'])
       .sortBy('createdAt', 'asc')
       .surround(params.slug)
       .fetch()
