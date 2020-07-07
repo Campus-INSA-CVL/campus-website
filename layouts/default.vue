@@ -39,6 +39,7 @@ import {
   mdiWeb,
   mdiHandball,
   mdiEye,
+  mdiTextBoxMultiple,
 } from '@mdi/js'
 
 export default {
@@ -52,6 +53,7 @@ export default {
         mdiWeb,
         mdiHandball,
         mdiEye,
+        mdiTextBoxMultiple,
       },
       config: {
         culturel: {
@@ -73,6 +75,12 @@ export default {
               name: 'les associations',
               path: 'associations',
               icon: 'mdiFileTree',
+              style: { outlined: false, depressed: true },
+            },
+            {
+              name: 'le blog',
+              path: 'blog',
+              icon: 'mdiTextBoxMultiple',
               style: { outlined: false, depressed: true },
             },
           ],
