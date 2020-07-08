@@ -123,6 +123,7 @@ export default {
     '@nuxt/content',
     '@nuxtjs/feed',
     '@nuxtjs/sitemap',
+    '@nuxtjs/robots',
   ],
   /*
    ** Content module configuration
@@ -257,6 +258,14 @@ export default {
       }
       return path
     },
+  },
+  /*
+   ** Robots module configuration
+   ** See https://github.com/nuxt-community/robots-module
+   */
+  robots: {
+    UserAgent: '*',
+    Sitemap: 'https://campus.insa-cvl.fr/sitemap.xml',
   },
   /*
    ** vuetify module configuration
