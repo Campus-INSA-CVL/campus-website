@@ -1,9 +1,9 @@
 ---
-title: Le super blog de Insarpège
+title: Le super blog
 description: Mauris congue orci eget ornare scelerisque.
-color: culturelColor
+color: solidaritesColor
 author:
-  name: 'Insarpère'
+  name: 'genepi'
 ---
 
 # Le super blog

@@ -11,10 +11,15 @@
         v-col(cols="12", sm="6", lg="6", v-for="article in articles", :key="article.slug")
           preview-card(:content="article")
       v-pagination(v-model="page", :length="totalPages", elevation="0", :color="color")
+      v-row(justify="end")
+        v-col(align="end")
+          v-btn(x-small, depressed, :href="`/feed/${$route.params.federation}/rss.xml`", target="_blank").text--secondary
+            v-icon(left) {{ svg.mdiRss }}
+            | Flux RSS
 </template>
 
 <script>
-import { mdiMagnify } from '@mdi/js'
+import { mdiMagnify, mdiRss } from '@mdi/js'
 
 const itemsPerPage = 12
 
@@ -44,6 +49,7 @@ export default {
     return {
       svg: {
         mdiMagnify,
+        mdiRss,
       },
       searchQuery: '',
       page: 1,

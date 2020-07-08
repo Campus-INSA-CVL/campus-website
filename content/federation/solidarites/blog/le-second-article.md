@@ -1,12 +1,12 @@
 ---
-title: Le super blog de Insarpège
-description: Mauris congue orci eget ornare scelerisque.
-color: culturelColor
+title: Le second article
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus hendrerit est sed leo finibus, ac facilisis dolor dapibus.
+color: solidaritesColor
 author:
-  name: 'Insarpère'
+  name: '5S5C'
 ---
 
-# Le super blog
+# Le second article
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus hendrerit est sed leo finibus, ac facilisis dolor dapibus. Cras interdum quis velit in vehicula. Donec ex sem, consequat id faucibus cursus, aliquam vel velit. Cras nec sem vitae neque sodales vulputate a sed risus. Curabitur condimentum libero sed lacinia lobortis. Cras auctor dui et quam sagittis, eu viverra ante finibus. Proin vitae elit sed sem pellentesque tempus sit amet sed nulla. Aliquam auctor, neque id tempor suscipit, quam erat feugiat ipsum, eget tempor nulla enim vitae dolor. Sed sed egestas ligula, auctor dapibus lorem. Curabitur vel ex nibh. Aliquam nec justo vitae ante placerat accumsan eget in ante. Phasellus nec eros turpis. Sed ac commodo ante. Duis nec fringilla elit. Aenean quam nisi, egestas sit amet vestibulum vel, fermentum eu lacus. Phasellus sed leo vel libero malesuada dignissim eget suscipit felis.
 
