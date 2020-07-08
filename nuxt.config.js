@@ -210,7 +210,8 @@ export default {
         '/federation/sport/associations',
         '/federation/sport/sports',
         '/federation/techniques/associations',
-        // '/federation/culturel/blog',
+        '/federation/culturel/blog',
+        '/federation/solidarites/blog',
       ]
       let path = []
 
