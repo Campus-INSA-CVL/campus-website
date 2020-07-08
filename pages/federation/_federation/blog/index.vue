@@ -70,11 +70,11 @@ export default {
   },
   watch: {
     async itemsPerPage() {
-      this.articles = await this.fetchArticles
+      this.articles = await this.fetchArticles()
       this.page = 1
     },
     async page() {
-      this.articles = await this.fetchArticles
+      this.articles = await this.fetchArticles()
     },
     async searchQuery(searchQuery) {
       if (!searchQuery) {
