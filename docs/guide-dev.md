@@ -365,6 +365,24 @@ Les blogs se font par pôles et non par association, mais une association peut p
 
 - Ajouter un dossier `blog` dans la fédération désirée
 - Ajouter le bouton blog dans le config de la fédération dans le layout
+- Ajouter le pôle dans la base de génération des flux RSS
+
+**Exemple**
+
+```js
+// nuxt.config.js
+feed: {
+  data: [
+    {
+      path: 'nom du pôle (utiliser le nom du dossier)',
+      title: 'Le titre du flux',
+      description: 'La description du flux',
+    },
+  ],
+  factory: (data) ...
+}
+```
+
 - Ajouter votre premier article
 
 ::: warning Nommer ses articles
