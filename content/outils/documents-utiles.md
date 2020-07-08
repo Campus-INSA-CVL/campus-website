@@ -1,6 +1,6 @@
 ---
 title: documents-utiles
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+description: Tu trouveras ici tout un tas de documents utiles pour ta vie associative ou au sein de la fédération !
 color: documentsColor
 filesFederation:
   - name: démission du conseil d'administration
@@ -15,9 +15,7 @@ filesFederation:
     link: liste-emargement.pdf
 ---
 
-# outils associations
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+# Outils Associations
 
 <v-row justify="center">
   <v-col cols="12" align="center">
@@ -25,9 +23,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt l
   </v-col>
 </v-row>
 
-# outils fédération
+# Outils Fédération
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+Voici les documents qui peuvent servir à tout membre de la fédération :
 
 _cliquer pour télécharger_
 
