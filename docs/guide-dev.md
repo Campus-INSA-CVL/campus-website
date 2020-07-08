@@ -383,6 +383,26 @@ feed: {
 }
 ```
 
+- Ajouter le path du dossier du blog dans le sitemap
+
+**Exemple**
+
+```js
+// nuxt.config.js
+sitemap: {
+  routes: async () => {
+    const { $content } = require('@nuxt/content')
+    const dynRoutes = [
+      ...
+      '/federation/culturel/blog',
+    ]
+    let path = []
+
+    for await (const route of dynRoutes) ...
+  }
+}
+```
+
 - Ajouter votre premier article (ne pas laisser le dossier blog vide)
 
 ::: warning Nommer ses articles
