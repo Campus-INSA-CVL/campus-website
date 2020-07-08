@@ -39,6 +39,7 @@ import {
   mdiWeb,
   mdiHandball,
   mdiEye,
+  mdiTextBoxMultiple,
 } from '@mdi/js'
 
 export default {
@@ -52,6 +53,7 @@ export default {
         mdiWeb,
         mdiHandball,
         mdiEye,
+        mdiTextBoxMultiple,
       },
       config: {
         culturel: {
@@ -75,6 +77,12 @@ export default {
               icon: 'mdiFileTree',
               style: { outlined: false, depressed: true },
             },
+            {
+              name: 'le blog',
+              path: 'blog',
+              icon: 'mdiTextBoxMultiple',
+              style: { outlined: false, depressed: true },
+            },
           ],
         },
         solidarites: {
@@ -96,6 +104,12 @@ export default {
               name: 'les associations',
               path: 'associations',
               icon: 'mdiFileTree',
+              style: { outlined: false, depressed: true },
+            },
+            {
+              name: 'le blog',
+              path: 'blog',
+              icon: 'mdiTextBoxMultiple',
               style: { outlined: false, depressed: true },
             },
           ],
@@ -123,12 +137,12 @@ export default {
           color: 'sportColor',
           path: {
             main: 'federation',
-            secondary: 'sport',
+            secondary: 'sport' /* redirection vers /federation/sport */,
           },
           btns: [
             {
               name: "l'équipe",
-              path: 'equipe',
+              path: 'equipe' /* redirection vers /federation/sport/equipe */,
               icon: 'mdiAccountGroup',
               style: { outlined: true, depressed: false },
             },

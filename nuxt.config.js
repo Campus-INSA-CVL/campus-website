@@ -85,8 +85,8 @@ export default {
    * Customize the layout transition
    */
   layoutTransition: {
-    name: 'layout',
-    mode: 'out-in',
+    name: 'page',
+    mode: 'in-out',
   },
   /*
    ** Global CSS
@@ -121,12 +121,153 @@ export default {
     'nuxt-webfontloader',
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
+    '@nuxtjs/feed',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots',
   ],
   /*
    ** Content module configuration
    ** See https://content.nuxtjs.org/configuration
    */
-  content: {},
+  content: {
+    fullTextSearchFields: ['title', 'description', 'slug', 'text'],
+  },
+  /*
+   ** Feed module configuration
+   ** See https://github.com/nuxt-community/feed-module
+   */
+  feed: {
+    data: [
+      {
+        path: 'culturel',
+        title: 'Le blog du pôle Culturel',
+        description: 'Mauris congue orci eget ornare scelerisque.',
+      },
+      {
+        path: 'solidarites',
+        title: 'Pôle Solidarités',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      },
+    ],
+    factory: (data) => {
+      const baseUrlArticles = 'https://campus.insa-cvl.fr'
+
+      const { $content } = require('@nuxt/content')
+
+      return data.map(({ path, title, description }) => {
+        const createFeedArticles = async function (feed) {
+          feed.options = {
+            title,
+            description,
+            link: baseUrlArticles,
+          }
+
+          const articles = await $content(`federation/${path}/blog`).fetch()
+
+          articles.forEach((article) => {
+            const url = `${baseUrlArticles}/federation/${path}/blog/${article.slug}`
+
+            feed.addItem({
+              title: article.title,
+              id: url,
+              link: url,
+              date: new Date(article.updatedAt),
+              description: article.description,
+              author: article.author,
+            })
+          })
+        }
+        return {
+          path: `/feed/${path}/rss.xml`,
+          type: 'rss2',
+          create: createFeedArticles,
+        }
+      })
+    },
+  },
+  /*
+   ** Sitemap module configuration
+   ** See https://github.com/nuxt-community/sitemap-module
+   */
+  sitemap: {
+    hostname: 'https://campus.insa-cvl.fr',
+    gzip: true,
+    defaults: {
+      changefreq: 'weekly',
+      priority: 1,
+      lastmod: new Date(),
+    },
+    routes: async () => {
+      const { $content } = require('@nuxt/content')
+      const dynRoutes = [
+        '/vie-etudiante',
+        '/services',
+        '/outils',
+        '/federation/index',
+        '/federation/culturel/associations',
+        '/federation/elus/representation',
+        '/federation/solidarites/associations',
+        '/federation/sport/associations',
+        '/federation/sport/sports',
+        '/federation/techniques/associations',
+        '/federation/culturel/blog',
+        '/federation/solidarites/blog',
+      ]
+      let path = []
+
+      for await (const route of dynRoutes) {
+        if (route.includes('associations')) {
+          const content = await $content(route).fetch()
+          path = [
+            ...content.associations.map((file) => {
+              return {
+                url: file.path,
+                changefreq: 'monthly',
+                priority: 0.3,
+                lastmod: new Date(),
+              }
+            }),
+            ...path,
+          ]
+        } else if (route === '/federation/index') {
+          const content = await $content(route).fetch()
+          path = [
+            ...content.federations.map((file) => {
+              return {
+                url: file.path,
+                changefreq: 'monthly',
+                priority: 0.7,
+                lastmod: new Date(),
+              }
+            }),
+            ...path,
+          ]
+        } else {
+          const content = await $content(route).only(['path']).fetch()
+          path = [
+            ...content.map((file) => {
+              return {
+                url: file.path,
+                changefreq: 'weekly',
+                priority: 0.5,
+                lastmod: new Date(),
+              }
+            }),
+            ...path,
+          ]
+        }
+      }
+      return path
+    },
+  },
+  /*
+   ** Robots module configuration
+   ** See https://github.com/nuxt-community/robots-module
+   */
+  robots: {
+    UserAgent: '*',
+    Sitemap: 'https://campus.insa-cvl.fr/sitemap.xml',
+  },
   /*
    ** vuetify module configuration
    ** https://github.com/nuxt-community/vuetify-module

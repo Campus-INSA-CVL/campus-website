@@ -15,9 +15,6 @@
   }
   a {
     font-weight: 500;
-    &:visited {
-      color: var(--v-primary-darken3);
-    }
     &:hover {
       color: var(--v-primary-lighten1);
     }
@@ -99,4 +96,15 @@
       content: '';
     }
   }
+}
+
+::-webkit-scrollbar {
+  background-color: var(--v-secondary-darken1);
+  max-width: 6px;
+  max-height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--v-secondary-lighten4);
+  border-radius: 6px;
 }

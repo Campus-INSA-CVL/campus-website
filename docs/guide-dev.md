@@ -19,6 +19,85 @@ Le projet reprend la structure générale de `create-nuxt-app`.
 
 ## Layouts
 
+### default
+
+En fonction de l'url, ce layout va s'adapter. En effet, pour permettre une navigation plus aisé, une extension de la navbar fait son apparition lorsque l'utilisateur accède une card (fédération, outils, services).
+
+Il est possible de modifier l'apparence directement depuis le composant `Header`. Cependant, dans le layout default, une configuration lui est passé afin de faciliter sa modification, dans l'objet `config`. Le nom de l'object dans config doit être le même que le nom passé dans l'url, comme le paramètre fédération ou outils ou services.
+
+**Champs disponibles en fonction du type de l'extension**
+
+|    type     | fields                           |
+| :---------: | -------------------------------- |
+| association | `type, title, color, path, btns` |
+|    page     | `type, title, path`              |
+
+**Propriété disponible**
+
+| Fields  |         Type          | Property                  | Functions                                                          |
+| :-----: | :-------------------: | ------------------------- | ------------------------------------------------------------------ |
+| `type`  | `association || page` | none                      | Permet de déterminer le type d'extension à afficher                |
+| `title` |       `string`        | none                      | Permet de définir le titre, à droite, de l'extension               |
+| `color` |       `string`        | none                      | Permet de définir la couleur général de l'extension                |
+| `path`  |       `object`        | {main, secondary?}        | Permet de définir le chemin de redirection du titre de l'extension |
+| `btns`  |       `object`        | {name, path, icon, style} | Permet de créer les boutons                                        |
+
+**Propriété disponible pour le champs btns**
+
+| Fields  |   Type   | Property                                  | Functions                                                                                             |
+| :-----: | :------: | ----------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `name`  | `string` | none                                      | Permet de définir le nom du bouton                                                                    |
+| `path`  | `string` | none                                      | Permet de définir le chemin de redirection du bouton (suite de celui passé dans `path` précedamment ) |
+| `icon`  | `string` | none                                      | Permet de définir l'icon du bouton                                                                    |
+| `style` | `object` | { outlined: Boolean, depressed: Boolean } | Permet de définir le style du bouton                                                                  |
+
+**Exemple**
+
+```js
+config: {
+  culturel: {
+    type: 'association',
+    title: 'pôle culturel',
+    color: 'culturelColor',
+    path: {
+      main: 'federation',
+      secondary: 'culturel',
+    },
+    btns: [
+      {
+        name: "l'équipe",
+        path: 'equipe',
+        icon: 'mdiAccountGroup',
+        style: { outlined: true, depressed: false },
+      },
+      {
+        name: 'les associations',
+        path: 'associations',
+        icon: 'mdiFileTree',
+        style: { outlined: false, depressed: true },
+      },
+      {
+        name: 'le blog',
+        path: 'blog',
+        icon: 'mdiTextBoxMultiple',
+        style: { outlined: false, depressed: true },
+      },
+    ],
+  },
+  services: {
+    type: 'page',
+    title: 'services',
+    path: {
+      main: 'services',
+    },
+  },
+}
+```
+
+::: warning Ajout d'un icon
+Lors de l'ajout d'un icon qui n'est pas déjà implémenté, il est important de l'importer
+:::
+
 ## Pages
 
 On retrouve sur le site campus différentes routes.
@@ -277,3 +356,56 @@ title: bi-campus <!-- titre utilisé dans les onglets -->
 order: 1 <!-- place dans les onglets, trié dans l'ordre croissant -->
 ---
 ```
+
+### Création d'un blog
+
+::: tip À savoir
+Les blogs se font par pôles et non par association, mais une association peut publier dans le blog de son pôle
+:::
+
+- Ajouter un dossier `blog` dans la fédération désirée
+- Ajouter le bouton blog dans le config de la fédération dans le layout
+- Ajouter le pôle dans la base de génération des flux RSS
+
+**Exemple**
+
+```js
+// nuxt.config.js
+feed: {
+  data: [
+    {
+      path: 'nom du pôle (utiliser le nom du dossier)',
+      title: 'Le titre du flux',
+      description: 'La description du flux',
+    },
+  ],
+  factory: (data) ...
+}
+```
+
+- Ajouter le path du dossier du blog dans le sitemap
+
+**Exemple**
+
+```js
+// nuxt.config.js
+sitemap: {
+  routes: async () => {
+    const { $content } = require('@nuxt/content')
+    const dynRoutes = [
+      ...
+      '/federation/culturel/blog',
+    ]
+    let path = []
+
+    for await (const route of dynRoutes) ...
+  }
+}
+```
+
+- Ajouter votre premier article (ne pas laisser le dossier blog vide)
+
+::: warning Nommer ses articles
+L'url sera formée par le nom du fichier Markdown présent dans le dossier blog. Ainsi, il est important de bien le nommer.
+**Exemple:** `/2020-07-15-mon-nouvel-article-de-blog`
+:::

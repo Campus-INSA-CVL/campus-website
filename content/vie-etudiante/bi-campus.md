@@ -3,39 +3,54 @@ title: bi-campus
 order: 1
 ---
 
-# Lorem ipsum dolor
+# Découvrez les campus de l'INSA Centre-Val de Loire
 
-Vivamus sed enim ut magna lacinia lobortis. In eu elit ultrices, convallis velit sit amet, pulvinar erat. Integer faucibus sed magna nec viverra. Morbi blandit justo vel nulla tempor vehicula. Integer vitae mollis risus. Vestibulum massa dolor, blandit ac mi quis, faucibus congue nibh. Mauris sodales mauris eu egestas consequat. Suspendisse potenti.
+> Des élèves impliqués dans l’INSA Centre Val de Loire grâce à une vie étudiante organisée et dynamique.
 
-## Lorem ipsum dolor
+## Une organisation associative lisible autour du BDE
 
-Nullam mollis rhoncus eros id facilisis. Suspendisse hendrerit suscipit neque eu viverra. Sed suscipit efficitur diam, in commodo ligula pulvinar ut. Phasellus feugiat dapibus tortor at convallis. Fusce vitae ornare lorem. Maecenas ullamcorper neque vitae purus auctor commodo ut at ligula. Nulla leo ante, hendrerit eu nunc in, aliquet malesuada nibh. Sed eleifend nulla eros, id ullamcorper diam blandit in.
+A l’INSA Centre Val de Loire, une extraordinaire variété d’activités est proposée par les associations étudiantes. Chaque élève trouve à s’épanouir. Mais une multitude d’activités ne doit pas être synonyme de labyrinthe. Ainsi, nous avons fait « simple et efficace » :
 
-- Aliquam mollis neque sed leo rutrum posuere.
-- Proin accumsan arcu id tellus volutpat, id lacinia turpis placerat.
-- Aliquam ornare purus nec nunc pharetra, finibus lacinia felis luctus.
-- Morbi pellentesque magna ac sem tempor suscipit.
+- 1 BDE, présent au quotidien sur les campus au service des élèves. C’est le garant de l’unité associative : acteur de rayonnement et de mutualisation pour les associations et interlocuteur majeur identifié pour les parties prenantes. Sa légitimité et son indépendance sont assurés par ses administrateurs : les pôles associatifs thématiques.
+- 5 pôles associatifs thématiques (sport, culture, gala, techniques, solidarités) rassemblés autour du BDE. Pourvoyeurs d’activités extrêmement variées pour les élèves, ces pôles permettent en outre à chacun de développer des projets associatifs en couveuse.
+  Cras porttitor lacus dolor, ut convallis massa placerat at. Nam arcu elit, dignissim ac arcu vel, fermentum condimentum nunc. Aliquam erat volutpat. Morbi accumsan mollis feugiat. Pellentesque aliquet lectus nec facilisis faucibus. Mauris elementum mi libero, et dapibus ex ornare sit amet. Donec semper maximus quam vel cursus.
 
-Cras porttitor lacus dolor, ut convallis massa placerat at. Nam arcu elit, dignissim ac arcu vel, fermentum condimentum nunc. Aliquam erat volutpat. Morbi accumsan mollis feugiat. Pellentesque aliquet lectus nec facilisis faucibus. Mauris elementum mi libero, et dapibus ex ornare sit amet. Donec semper maximus quam vel cursus.
+## Un cadre de vie agréable sur les campus
 
-## Lorem ipsum dolor
+L’INSA Centre Val de Loire, c’est avant tout une histoire de campus. 2 villes distantes de 100 km et 2 campus : Blois et Bourges. La formation par apprentissage est hébergée dans le CFSA Hubert Curien, à Bourges. La vie sur ces campus est agréable, il y a tout pour que chaque élève puisse vivre confortablement et se concentrer sur sa réussite.
 
-Morbi aliquet blandit nunc, ac ultrices est egestas quis. Donec auctor fermentum ligula, quis laoreet ex facilisis quis. Sed diam leo, sagittis sit amet nibh vitae, suscipit mattis purus. Suspendisse potenti. Nunc rhoncus id velit at accumsan. Vivamus erat lacus, vulputate at dolor ac, vulputate vulputate turpis. Vestibulum interdum risus eros, non elementum turpis dictum vel. Proin in blandit quam, eget convallis libero. In hac habitasse platea dictumst. Nullam sit amet nisl commodo, commodo ipsum ut, scelerisque eros.
+- Des logements INSA Centre Val de Loire gérés par le CROUS sont proposés à tout primo arrivant sur un campus et le parc locatif privé est abondant (Logements en cours de construction)
+- Des restaurants universitaires du CROUS déjà présents dans les 2 villes
+- Des infrastructures sportives accessibles et des projets très concrets de nouvelles constructions sur les campus
+- Des aides sociales de l’INSA Centre Val de Loire pour les élèves en difficultés financières
+- Un pôle santé sur chaque campus en cours de finalisation
 
-Cras libero nunc, venenatis eget porttitor eget, viverra vel urna. In porta luctus dolor. Duis et imperdiet lacus. Pellentesque dignissim sollicitudin velit quis viverra. Ut eget ligula eget neque lacinia consequat. Nulla mauris orci, sollicitudin a vehicula id, varius non metus. Donec bibendum felis ac blandit pellentesque. Aenean condimentum faucibus tellus, a pharetra sapien commodo a. Suspendisse purus elit, vulputate id ullamcorper ut, sollicitudin id lorem. Sed ac ornare justo, vitae vestibulum dui. Duis luctus fermentum eleifend. Morbi aliquet augue at arcu euismod, id consectetur lorem faucibus. Cras vehicula blandit nunc efficitur iaculis. Aenean tempor, nisi consectetur rutrum sodales, libero turpis consequat metus, a sodales tortor diam non diam. Morbi non nisl nisl. Sed velit est, maximus pharetra lacinia id, placerat sed eros.
+## Une représentatin forte et moderne des élèves autour du vice-président étudiant
 
-- Proin tempor ante eu ante semper, in dictum ligula semper.
-- Praesent accumsan eros ut lectus molestie rutrum.
-- Cras laoreet nisl quis dapibus volutpat.
-- Aliquam iaculis lacus vitae arcu scelerisque, ut sagittis ante finibus.
-- Nam id sapien non nulla semper commodo vitae sed diam.
+A l’INSA Centre Val de Loire, les élèves sont au coeur de l’établissement. Leur participation dans la gouvernance en est un exemple concret. 70 élèves élus, titulaires et suppléants, participent à la gouvernance de l’Institut.
 
-## Lorem ipsum dolor sit
+- 5 élus au Conseil d’Administration, dont 1 siège au bureau du conseil
+- 12 élus au Conseil des Études, dont 1 est élu Vice-président étudiant, c’est l’interlocuteur majeur de la représentation des élèves
+- 18 élus dans les conseils de départements (3 pour chacun des 6 départements).
 
-In pellentesque risus elementum dui rhoncus, et aliquam felis aliquet. Donec blandit auctor lectus vitae condimentum. Curabitur mattis odio ut lacus blandit ultrices. Aliquam commodo, diam cursus posuere gravida, augue nisl sollicitudin enim, eu pretium sem dolor faucibus purus. Aliquam ac enim justo. Nulla tincidunt eget sapien id imperdiet. Donec volutpat dui a nunc pellentesque, at posuere tortor suscipit. Etiam dui neque, placerat quis eleifend eget, consectetur eleifend ante. Sed ornare nec tortor sed varius. Sed vulputate enim magna, suscipit iaculis quam blandit ut. Praesent dignissim est a sodales malesuada. Sed tempus ultrices enim at consequat. Morbi eros elit, scelerisque eget urna nec, facilisis commodo massa. Vivamus eu lacinia ipsum. Quisque massa nisi, tempor et augue ut, dictum tempus arcu.
+Ces élus participent à de nombreuses instances internes : Conseil de la Vie Etudiante (CVE), Fonds de Solidarité et de Développement des Initiatives Étudiantes (FSDIE), Comité d’Hygiène de Sécurité et des Conditions de Travail d’Établissement (CHSCTE), Section disciplinaire, pour ne citer qu’eux.
 
-Suspendisse ipsum est, scelerisque at pharetra et, vehicula vitae nisi. Nulla faucibus a lacus in molestie. Quisque viverra luctus est, quis suscipit dolor ultricies in. Fusce nisl massa, imperdiet sit amet tempus ac, convallis vitae ligula. Nam nisl sapien, pharetra in ante vitae, venenatis auctor risus. Sed id eros eleifend, egestas orci eu, faucibus turpis. Nam ullamcorper interdum lorem a fermentum. Morbi nulla nibh, consequat non ipsum vel, sollicitudin egestas massa. Nullam luctus mauris at suscipit lacinia.
+## Une instance centrale: le conseil de la vie étudiante
 
-## Lorem ipsum dolor sit
+L’INSA Centre Val de Loire, c’est une histoire de famille.
 
-Morbi ut tortor in urna cursus varius facilisis ut est. Sed commodo mi nibh, nec aliquam dui blandit vel. Ut faucibus laoreet urna non rutrum. Cras convallis elit nec rhoncus placerat. Proin at condimentum magna, sit amet laoreet ligula. In ultrices arcu non convallis tempor. Duis cursus hendrerit volutpat. Donec consectetur diam vel consectetur tristique. Pellentesque hendrerit, tortor ac tincidunt semper, ipsum justo pulvinar turpis, eget rhoncus diam metus non nibh. In hac habitasse platea dictumst.
+Alors nous avons réuni tous les acteurs de la vie étudiante dans un Conseil de la Vie Étudiante : les Présidents des pôles associatifs et du BDE à parité avec des élus élèves des différents conseils, ainsi que le Président de l’association des diplômés et le service de la vie étudiante.
+
+Au sein de cette instance existe une formation restreinte pour permettre une réactivité importante : le Bureau de la Vie Étudiante (Président et Vice-président du BDE, le VPE et l’élu élève membre du bureau du conseil d’administration et le chargé de mission vie étudiante auprès du Directeur).
+
+Le Conseil de la Vie Etudiante rend compte de ses réflexions au conseil d’administration : preuve de son importance. On y parle de toutes les dimensions de la vie des élèves afin de faire des propositions concrètes d’amélioration.
+
+# Les étudiants étrangers
+
+Chaque année l’INSA accueille des étudiant(e)s venant des 4 coins du monde pour étudier sur un des deux campus.
+
+Le BDE met en place un système de parainage parain (marraine) – filleul(e) et les étudiants étrangers peuvent en avoir !
+
+Le service des relations internationales met en place chaque année une soirée internationale dédiée aux étudiants étrangers. Cette soirée est sous forme d’apéritif dinatoire où l’on peut ammener un plat de son pays.
+
+[Plus d’informations](http://www.insa-centrevaldeloire.fr/fr/international)

@@ -202,6 +202,29 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 ## Les blogs
 
-::: danger Soon
-Cette fonction n'est pas encore disponible
+Le blog vous permet de communiquer au travers de fichiers textes riches, permanents et facilement retrouvables. Il y en a un par fédération. Pour commencer à alimenter votre blog, rien de plus simple !
+
+### Création d'un article
+
+- Aller dans votre fédération puis dans le dossier blog (si celui-ci n'est pas présent, demander au respo info de créer un blog pour votre fédération)
+- Ajouter un fichier Markdown avec `title, description, color, author` dans l'en-tête du fichier (voir exemple)
+- Remplir votre fichier avec les informations que vous souhaitez !
+
+::: warning Nommer ses articles
+L'url sera formée par le nom du fichier Markdown présent dans le dossier blog. Ainsi, il est important de bien le nommer.
+**Exemple:** `/2020-07-15-mon-nouvel-article-de-blog`
 :::
+
+```md
+---
+title: Le super blog
+description: Mauris congue orci eget ornare scelerisque.
+color: culturelColor
+author:
+  name: 'Insarpère'
+---
+
+# Le super blog
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+```
