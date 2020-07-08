@@ -383,7 +383,7 @@ feed: {
 }
 ```
 
-- Ajouter votre premier article
+- Ajouter votre premier article (ne pas laisser le dossier blog vide)
 
 ::: warning Nommer ses articles
 L'url sera formée par le nom du fichier Markdown présent dans le dossier blog. Ainsi, il est important de bien le nommer.
