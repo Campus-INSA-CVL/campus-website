@@ -31,6 +31,11 @@ import { mdiHome, mdiCardAccountMail, mdiGithub } from '@mdi/js'
 
 export default {
   layout: 'default',
+  //  Error with page transition
+  // transition: {
+  //   name: 'page',
+  //   mode: 'in-out',
+  // },
   props: {
     error: {
       type: Object,

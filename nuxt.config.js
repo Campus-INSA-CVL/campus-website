@@ -85,8 +85,8 @@ export default {
    * Customize the layout transition
    */
   layoutTransition: {
-    name: 'layout',
-    mode: 'out-in',
+    name: 'page',
+    mode: 'in-out',
   },
   /*
    ** Global CSS
