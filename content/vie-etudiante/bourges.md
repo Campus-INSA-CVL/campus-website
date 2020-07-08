@@ -3,26 +3,46 @@ title: bourges
 order: 3
 ---
 
-# Lorem ipsum dolor sit
+# Campus de Bourges
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus tincidunt auctor. Sed pharetra, lacus et pellentesque tempus, magna felis pharetra ipsum, quis lobortis nunc diam non velit. In tempor, justo nec varius ornare, purus odio rutrum sapien, ut gravida nisl ante sit amet erat. Pellentesque in pharetra erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas vitae semper nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer auctor diam sit amet enim lobortis, a venenatis tortor faucibus. Fusce et vehicula dui. Duis dui enim, vehicula nec fringilla a, tempor vel magna. Proin fermentum sapien ac vehicula suscipit. Aenean finibus egestas nisl vel tincidunt. Proin ac justo vel justo volutpat vehicula.
+## Site du Technopôle Lahitolle
 
-Phasellus ut diam aliquam, consectetur arcu et, venenatis nisl. Fusce cursus convallis ligula, ac sollicitudin purus mollis ac. Phasellus neque tellus, placerat eu suscipit vitae, tincidunt sed nulla. In in leo libero. Maecenas vehicula convallis enim at euismod. Suspendisse potenti. Integer mollis dictum turpis vel viverra. Sed malesuada aliquet diam sed luctus. Suspendisse luctus mollis tellus non imperdiet. Suspendisse pulvinar viverra libero et egestas.
+### Les locaux
 
-Sed venenatis lorem eu leo faucibus bibendum. Proin et efficitur augue. Aenean lobortis vehicula erat, et lobortis dui pulvinar vitae. Vestibulum hendrerit eros eget est pulvinar tincidunt. Quisque interdum, metus vel condimentum tempor, libero nulla suscipit mi, vel condimentum libero augue ut leo. Fusce ac aliquam risus. Ut ipsum lectus, ornare a urna cursus, dignissim aliquet felis. Vivamus et sagittis massa, in placerat lectus. Sed vel massa eleifend, fringilla lorem in, fringilla diam.
+Ce campus de l’école est composé de deux bâtiments principaux où sont dispensés les cours. Il comprend également des salles réservées aux TPs et un labo de langue.
 
-## Lorem ipsum dolor sit
+Depuis 2013, les associatifs peuvent se réunir au Pav’, un bâtiment consacré aux associations de l’école.
 
-Sed ultricies tincidunt sem, sed congue augue consectetur eget. Suspendisse tempus eleifend lacus, at aliquet purus placerat in. Fusce vel iaculis elit. Sed ut iaculis purus, a vehicula ante. Suspendisse volutpat eleifend erat, eget pellentesque nibh tincidunt sit amet. Quisque condimentum viverra magna, a sagittis felis vulputate nec. Praesent ultricies convallis feugiat. Phasellus eu metus ipsum. Aenean rhoncus neque eu fringilla interdum. Quisque sed orci ut arcu semper condimentum non ac elit. Quisque posuere elit nec interdum egestas. Sed et ultricies leo.
+Le club musique (INSArpège) de l’INSA Centre Val de Loire possède un local à musique, ouvert à tous les adhérents et mis à disposition des groupes d’école d’ingénieur venant se produire sur scène pendant le Printemps de Bourges grâce au club Les Etudiants Partent en LIVE de l’INSA Centre Val de Loire.
 
-## Lorem ipsum dolor sit
+Les associations du pôle technique disposent également d’un atelier.
 
-Donec at porta odio. Nulla porttitor interdum risus ac suscipit. Vestibulum id turpis posuere, convallis risus ut, elementum massa. Fusce eu ornare dui. Morbi et sapien nec neque cursus consectetur. Fusce tempor erat quis erat egestas, vel lobortis sapien iaculis. Maecenas a erat non mi ullamcorper condimentum. Suspendisse vel mi id nisl tincidunt sollicitudin nec id libero. Nulla risus metus, dapibus vitae viverra quis, convallis in urna. Nulla consectetur pellentesque nulla, ac pulvinar nulla blandit et. Aliquam hendrerit massa sem, a pharetra massa euismod et. Sed accumsan, nibh ultricies egestas sagittis, dui neque aliquam mi, ultricies congue velit lectus a turpis. Maecenas imperdiet augue non lectus sollicitudin, placerat sodales neque pulvinar. Aliquam eget quam accumsan, commodo augue eu, pharetra orci. Curabitur condimentum libero ut ex vestibulum ullamcorper. Aenean augue arcu, auctor sed scelerisque non, lacinia sed dui.
+Un terrain de basket est aussi à disposition de tous les élèves.
 
-## Lorem ipsum dolor sit
+### Restauration
 
-Curabitur euismod aliquam ligula, sit amet tincidunt eros tincidunt sed. Nam consectetur interdum nibh, eget maximus nunc malesuada nec. Praesent lobortis ex magna, ut dictum tellus consequat eu. Curabitur imperdiet ac orci non dictum. Nullam sit amet posuere erat. Maecenas id velit sed magna sagittis efficitur nec nec ex. Vestibulum sit amet elementum tortor. Duis nulla quam, pellentesque accumsan tortor sed, cursus dapibus lectus. Nunc pulvinar finibus placerat. Quisque congue velit vel diam cursus, in sollicitudin nulla consequat. Integer non tellus sit amet dolor imperdiet eleifend sit amet eu mi. Mauris risus ex, ultricies eget arcu quis, aliquet luctus sem. Vestibulum non blandit elit.
+Depuis 2014, les élèves peuvent profiter d’un nouveau restaurant universitaire construit sur le campus et géré par le Crous.
 
-Nam nec orci turpis. Ut molestie nisl in enim malesuada facilisis. Nam molestie dignissim scelerisque. Quisque in eros tortor. Curabitur at purus at mi convallis elementum. Nunc porta fermentum risus in mollis. Aliquam neque nunc, dapibus sit amet purus ut, dignissim dignissim ante. Suspendisse potenti. Phasellus ut iaculis enim. Suspendisse a purus faucibus, ultricies velit id, iaculis magna. In velit turpis, lacinia ut suscipit at, facilisis in enim. Praesent euismod mi nec justo pretium ullamcorper. Mauris tempus, urna non blandit iaculis, massa arcu dignissim libero, eu egestas ipsum lacus et massa. Aliquam pellentesque vel orci vel dignissim.
+### Logement
 
-Phasellus in ornare orci. Curabitur sed dolor id ex ultrices auctor sit amet quis nibh. Sed eget turpis auctor, malesuada nibh ut, luctus ipsum. Curabitur vel nunc vehicula, suscipit mi eget, interdum eros. Pellentesque auctor nulla vitae turpis volutpat porta eu nec mauris. Morbi ac turpis vitae enim sollicitudin elementum bibendum sit amet lacus. Sed vel suscipit nibh. Aenean velit purus, tincidunt eget interdum in, feugiat in ipsum. Aenean lacinia sit amet augue et fringilla. Nullam posuere ullamcorper blandit.
+En plus de la résidence Amaryllis, une deuxième résidence « Marie Curie », réservée aux élèves de l’INSA Centre Val de Loire a vu le jour à la rentrée 2014 sur le campus. Elles proposent des T1 allant de 18m² à 23m² voire 31m² pour les doubles T1 à partager.
+
+Il existe trois grandes façons de se loger :
+
+- soit en passant par le CROUS : pour avoir un appartement en résidence il faut tout d’abord faire un [DSE](https://www.messervices.etudiant.gouv.fr/envole/) (Dossier Social Etudiant). C’est le seul moyen d’avoir une résidence. Il faut s’y prendre assez tôt pour espérer en avoir une car il y a pas mal de demandes. Les visites sont normalement possibles et conseillées car certaines résidences sont un peu anciennes et d’autres plus modernes. Pour Bourges il faut passer par ici : https://www.crous-orleans-tours.fr/logements/nos-residences/bourges/
+- soit en passant par un particulier : beaucoup de colocs se font par ce biais. Il est très facile d’en monter une avec de bons potes ! On peut également trouver des logements assez sympas dans le centre. Attention le campus de Bourges n’est pas du tout dans le centre ville et Bourges est bien plus étendue que Blois ! De nombreux sites existent comme le Bon coin (c’est ce qui marche le mieux).
+- soit en passant par une agence : l’avantage de cette méthode est la disponibilité. Vous pouvez visiter beaucoup de logements, vous avez un service de qualité en ce qui concerne les communs, la gestion du paiement des loyers est plus facile.
+
+### Accès et pratiques
+
+L’école se situe à 20 min à pieds du centre ville et 30 mn de la gare SNCF de Bourges. Soit 3h de Paris (2h30 de train).
+
+Lignes de bus desservant l’INSA Centre Val de Loire : 2, 4, 18 (arrêt Lahitolle), 7 (arrêt Pignoux).
+
+## Site du CFSA Hubert Curien
+
+Le campus du CFSA Hubert Curien est à proximité du centre-ville de Bourges à deux pas du Palais d’Auron.
+
+Ce campus accueille la formation ERE (Energie Risque Environnement) dispensée par alternance sous contrat d’apprentisage.
+
+Intégrée à l’INSA, les élèves ingénieurs apprentis en ERE partagent leurs cours entre le campus rue Louis Mallet et celui de Lahitolle depuis la rentrée 2014.

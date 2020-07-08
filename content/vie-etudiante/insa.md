@@ -3,20 +3,21 @@ title: insa
 order: 0
 ---
 
-# Lorem ipsum
+# INSA
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a interdum felis, nec cursus nisi. Duis ac augue vel sapien scelerisque congue hendrerit sed enim. Praesent pulvinar blandit magna. Nullam congue mattis odio. Etiam vitae fermentum quam. Vivamus eu feugiat odio, vitae sagittis purus. Donec eleifend massa id risus pellentesque, nec imperdiet urna ultricies. Proin ullamcorper purus vitae sollicitudin cursus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam aliquet commodo nunc sed sodales. Mauris sed nunc vel ante aliquam viverra. Pellentesque suscipit aliquam neque, at dapibus justo varius vel. Pellentesque aliquam, lectus nec molestie ultricies, magna nisi gravida ipsum, et imperdiet metus ligula a magna. Etiam non tincidunt metus. Suspendisse ornare mi nec arcu varius vulputate.
+Le groupe INSA (Institut National des Sciences Appliquées) est constitué de 14 établissements publics français de recherche et d’enseignement supérieur. Plus grand ensemble de formation d’ingénieurs en France (10 % des ingénieurs), ils délivrent principalement le diplôme d’ingénieur après une formation de cinq années après le baccalauréat. Leurs étudiants sont appelés Insaïens ou parfois Insaliens.
 
-Donec vehicula dapibus felis venenatis sodales. In eget metus ac sapien ultricies feugiat. Ut luctus cursus leo nec rhoncus. Suspendisse elementum neque in mollis sagittis. Maecenas eleifend lobortis lacus nec cursus. Fusce maximus arcu sit amet fermentum consectetur. Vestibulum varius urna ac lectus consectetur, sit amet iaculis tortor iaculis. Nunc ac tellus vitae quam pharetra imperdiet at nec nisi. Sed bibendum sit amet urna nec aliquam. Sed ut mi gravida, luctus urna vel, consequat magna.
+Il est constitué des INSA fondatrices qui ont une identité commune et des écoles partenaires qui sont historiquement indépendantes. L’ensemble recrute grâce au concours commun du groupe INSA (pour l’admission post-bac seulement).
 
-Aenean ac justo mattis, scelerisque magna ut, tincidunt urna. In congue augue sed ipsum efficitur bibendum. Donec eget consequat dolor. Donec vel venenatis lacus. Morbi tristique rutrum semper. Donec in augue id nibh venenatis cursus. Maecenas sed elementum nulla, id iaculis sem. Duis feugiat nunc tortor, id vehicula sapien aliquet et. Phasellus convallis gravida arcu non viverra. Maecenas sapien nulla, scelerisque at varius id, consectetur a lectus. Aenean euismod diam id orci semper convallis. Maecenas pulvinar, neque vel sodales condimentum, ipsum lorem maximus magna, et molestie erat felis semper ante. Cras at rutrum orci, ac aliquam nulla. Sed ultricies justo justo, nec consectetur mi porttitor tincidunt. Suspendisse nunc felis, volutpat et ante a, lacinia fermentum lorem. Quisque venenatis eget enim ut tempus.
+L’histoire de ce groupe entre dans le cadre d’une politique de décentralisation. De création assez récente, les INSA ont essentiellement un objectif social qui est de donner accès au plus grand nombre d’étudiants à des études supérieures de qualité quel que soit leur milieu d’origine.
 
-# Lorem ipsum
+# Les INSA en France
 
-- Integer sed dolor quis arcu bibendum commodo.
-- Aenean sed diam aliquam, luctus erat non, aliquet magna.
-- Donec sed metus dictum ex laoreet blandit ac eu ligula.
-- Aliquam feugiat orci ac vulputate accumsan.
-- Suspendisse sed nisl imperdiet tellus fermentum porta vel et nibh.
-- Fusce congue dolor vel accumsan sagittis.
-- Aenean vitae est id dolor tincidunt placerat.
+- [INSA Centre-Val de Loire](https://www.groupe-insa.fr/decouvrir/nos-ecoles/insa-centre-val-de-loire)
+- [INSA Hauts-de-France](https://www.groupe-insa.fr/decouvrir/nos-ecoles/insa-hauts-de-france)
+- [INSA Lyon](https://www.groupe-insa.fr/decouvrir/nos-ecoles/insa-lyon)
+- [INSA Rennes](https://www.groupe-insa.fr/decouvrir/nos-ecoles/insa-rennes)
+- [INSA Rouen Normandie](https://www.groupe-insa.fr/decouvrir/nos-ecoles/insa-rouen-normandie)
+- [INSA Strasbourg](https://www.groupe-insa.fr/decouvrir/nos-ecoles/insa-strasbourg)
+- [INSA Toulouse](https://www.groupe-insa.fr/decouvrir/nos-ecoles/insa-toulouse)
+- [INSA Euro-Méditerranée](https://www.groupe-insa.fr/decouvrir/nos-ecoles/insa-euro-mediterranee)
