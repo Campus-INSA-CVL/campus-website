@@ -58,21 +58,20 @@
     }
   }
   blockquote {
-    margin: 0;
-    margin-top: 0;
-    margin-bottom: 16px;
-    padding: 0 1em;
-    color: #6a737d;
-    border-left: 0.25em solid #dfe2e5;
+    margin: 1.5em 10px;
+    padding: 1em 10px 0.01em 10px;
+    background-color: #f9f9f9;
+    color: #212529;
+    border-left: 10px solid #cccccc;
     p {
       text-indent: 0;
     }
-    & > :first-child {
-      margin-top: 0;
-    }
-    & > :last-child {
-      margin-bottom: 0;
-    }
+    // & > :first-child {
+    //   margin-top: 0;
+    // }
+    // & > :last-child {
+    //   margin-bottom: 0;
+    // }
   }
   hr {
     box-sizing: initial;
@@ -96,6 +95,14 @@
       display: table;
       content: '';
     }
+  }
+}
+
+.theme--dark {
+  & blockquote {
+    background-color: #0c0c0c;
+    color: #fdfdfd;
+    border-left: 10px solid #383838;
   }
 }
 
