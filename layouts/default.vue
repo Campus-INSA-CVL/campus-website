@@ -56,6 +56,41 @@ export default {
         mdiTextBoxMultiple,
       },
       config: {
+        bde: {
+          type: 'association',
+          title: 'bde',
+          color: 'primary',
+          path: {
+            main: 'federation',
+            secondary: 'bde',
+          },
+          btns: [
+            {
+              name: "l'équipe",
+              path: 'equipe',
+              icon: 'mdiAccountGroup',
+              style: { outlined: true, depressed: false },
+            },
+            {
+              name: 'insapp',
+              path: 'insapp',
+              icon: 'mdiAccountGroup',
+              style: { outlined: false, depressed: true },
+            },
+            {
+              name: 'aiep',
+              path: 'aiep',
+              icon: 'mdiAccountGroup',
+              style: { outlined: false, depressed: true },
+            },
+            {
+              name: 'publications officielles',
+              path: 'publications-officielles',
+              icon: 'mdiAccountGroup',
+              style: { outlined: false, depressed: true },
+            },
+          ],
+        },
         culturel: {
           type: 'association',
           title: 'pôle culturel',
