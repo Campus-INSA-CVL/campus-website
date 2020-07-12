@@ -1,0 +1,17 @@
+.invisible {
+  opacity: 0;
+}
+.moveup {
+  animation: moveup 0.5s ease-out;
+}
+
+@keyframes moveup {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
