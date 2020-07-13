@@ -96,10 +96,26 @@ title: pôle culturel <!-- Sera utilisé pour le nom de la card sur la page féd
 # hello
 ```
 
-### Modification de l'équipe d'un pôle
+### Modification de l'équipe d'un pôle/association
 
 - Dans le dossier fédération, se rendre dans le dossier du pôle
 - Apporter les modifications au fichier `equipe.md`
+
+ou
+
+- Se rendre dans le dossier de votre association
+- Apporter les modifications au fichier `index.md`
+
+::: tip Gestion des photos de profil
+Il est possible de mettre une image personnalisée pour chaque personne de l'équipe.
+
+- Placer votre image dans le dossier assets puis dans le dossier du nom de votre fédération (puis de votre association si besoin)
+- Ajouter un champs avatar en indiquant le chemin vers votre image
+
+**Exemple**
+
+Si votre image `president.jpg` se situe dans le dossier `bde` du dossier `federation` du dossier `assets` alors il faut ajouter: `avatar: federation/bde/president.jpg`
+:::
 
 **Exemple**
 
@@ -198,6 +214,43 @@ order: 2 <!-- utilsé pour ranger les onglets -->
 # Lorem ipsum dolor sit
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+```
+
+### Ajout de documents téléchargeables
+
+- Se rendre dans le dossier de votre fédération ou de votre association dans le dossier assets.
+- Ajouter votre fichier
+- Se rendre dans le fichier md dans lequel vous souhaitez ajouter le fichier téléchargeable
+- Ajouter dans le front matter un tableau d'object contenant le _name_ à afficher et le _link_ du fichier
+- Ajouter dans le _body_ le composant `DownloasLinks`
+
+**Exemple**
+
+```md
+---
+title: documents-utiles
+description: Tu trouveras ici tout un tas de documents utiles pour ta vie associative ou au sein de la fédération !
+color: documentsColor
+filesFederation:
+  - name: démission du conseil d'administration
+    link: /outils/demission-ca.pdf
+  - name: démission association
+    link: /outils/demission-association.pdf
+  - name: défraiement kilomètre
+    link: /outils/defraiement-kilometrique.pdf
+  - name: lettre de procuration
+    link: /outils/lettre-procuration.pdf
+  - name: liste émargement
+    link: /outils/liste-emargement.pdf
+---
+
+# Outils Fédération
+
+Voici les documents qui peuvent servir à tout membre de la fédération :
+
+_cliquer pour télécharger_
+
+<DownloadLinks :files="filesFederation"></DownloadLinks>
 ```
 
 ## Les blogs

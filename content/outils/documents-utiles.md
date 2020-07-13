@@ -12,7 +12,7 @@ filesFederation:
   - name: lettre de procuration
     link: /outils/lettre-procuration.pdf
   - name: liste émargement
-    link: liste-emargement.pdf
+    link: /outils/liste-emargement.pdf
 ---
 
 # Outils Associations
