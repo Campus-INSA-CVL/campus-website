@@ -59,7 +59,7 @@ Il existe un point commun entre toutes ces modifications, elles reposent sur la 
 
 Pour en **savoir plus** sur le Markdown: [Getting Started](https://www.markdownguide.org/getting-started/)
 
-Pour **apprendre la synthaxe** (très simple) du Markdown: [Basic Synctax](https://www.markdownguide.org/basic-syntax/)
+Pour **apprendre la synthaxe** (très simple) du Markdown: [Basic Syntax](https://www.markdownguide.org/basic-syntax/)
 
 Pour **écrire du markdown**: [Dillinger](https://dillinger.io/)
 

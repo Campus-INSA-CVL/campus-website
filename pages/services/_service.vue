@@ -5,13 +5,7 @@
 </template>
 
 <script>
-import { VRow, VCol } from 'vuetify/lib/components/VGrid'
-
 export default {
-  components: {
-    VRow,
-    VCol,
-  },
   async asyncData({ $content, params }) {
     const { service } = params
     const page = await $content(`services/${service}`).fetch()

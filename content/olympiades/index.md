@@ -14,11 +14,9 @@ imagesName:
 
 Il y a cinq familles a l’INSA CVL. Tu ne pourras pas choisir ta famille, elle te sera donnée comme étant la meme que ton parrain ou ta marraine.
 
-<v-row justify="center">
-  <v-col cols="12" sm="8" md="6" lg="4">
-    <carousel :names="imagesName" :folder-name="folderName"></carousel>
-  </v-col>
-</v-row>
+<center>
+  <carousel :names="imagesName" :folder-name="folderName"></carousel>
+</center>
 
 # Résultats
 
