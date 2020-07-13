@@ -9,10 +9,10 @@
               v-list-item-content
                 div.body-2.text-uppercase.font-weight-light.mb-2 {{ user.responsability }}
                 v-list-item-title(:class="$vuetify.breakpoint.mdAndUp ? 'text-h5' : ''").font-weight-bold {{ user.name }}
-              v-list-item-avatar(:size="size")
+              v-list-item-avatar(:size="size").mb-0
                 v-img(:src="requireLink(user.avatar)")
             v-card-text.text-justify.pt-0
-              v-divider(:class="color").mb-4
+              v-divider(:class="color").my-4
               | {{ user.description }}
 
 </template>

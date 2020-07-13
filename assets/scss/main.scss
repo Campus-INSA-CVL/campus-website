@@ -73,12 +73,7 @@
     //   margin-bottom: 0;
     // }
   }
-  hr {
-    box-sizing: initial;
-    height: 0;
-    overflow: visible;
-    height: 0;
-    margin: 15px 0;
+  > hr {
     overflow: hidden;
     background: transparent;
     border: 0;
@@ -86,7 +81,6 @@
     padding: 0;
     margin: 24px 0;
     background-color: var(--v-primary-base);
-    border: 0;
     &:after {
       clear: both;
     }

@@ -12,7 +12,7 @@ Concrètement, il organise tout type d’évènements, propose des services et r
 ## Le BDE à Blois
 
 <center>
-  <view-img folder-name="bde" name="bde-blois.jpg" max-width="800"></view-img>
+  <view-img folder-name="federation/bde" name="bde-blois.jpg" max-width="800"></view-img>
 </center>
 
 ## Le BDE à Bourges
