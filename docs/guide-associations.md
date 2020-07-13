@@ -218,7 +218,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 ### Ajout de documents téléchargeables
 
-- Se rendre dans le dossier de votre fédération ou de votre association dans le dossier assets.
+- Se rendre dans le dossier de votre fédération ou de votre association dans le dossier `static`.
 - Ajouter votre fichier
 - Se rendre dans le fichier md dans lequel vous souhaitez ajouter le fichier téléchargeable
 - Ajouter dans le front matter un tableau d'object contenant le _name_ à afficher et le _link_ du fichier
