@@ -21,7 +21,7 @@ Il y a cinq familles a l’INSA CVL. Tu ne pourras pas choisir ta famille, elle 
 # Résultats
 
 | familles  | rang |
-| --------- | ---- |
+| :---------: | ----: |
 | cerber    | 1    |
 | sphinx    | 2    |
 | kraken    | 3    |
