@@ -53,11 +53,11 @@
     "@nuxtjs/pwa": "^3.0.0-beta.20",
     "@nuxtjs/robots": "^2.4.2",
     "@nuxtjs/sitemap": "^2.4.0",
-    "@tailwindcss/typography": "^0.2.0",
     "nuxt": "^2.13.3",
     "nuxt-webfontloader": "^1.1.0"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.2.0",
     "@mdi/js": "^5.3.45",
     "@nuxtjs/eslint-config": "^3.0.0",
     "@nuxtjs/eslint-module": "^2.0.0",
