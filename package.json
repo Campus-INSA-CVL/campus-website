@@ -35,6 +35,7 @@
     "export": "nuxt export",
     "serve": "nuxt serve",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint:fix": "npm run lint:js -- --fix",
     "lint": "npm run lint:js",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
