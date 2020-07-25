@@ -31,6 +31,9 @@
 .theme--dark .prose {
   color: hsl(218, 17%, 65%);
 }
+.theme--dark .prose thead {
+  color: hsl(220, 26%, 64%);
+}
 .theme--dark .prose h1 {
   color: hsl(220, 26%, 86%);
 }
