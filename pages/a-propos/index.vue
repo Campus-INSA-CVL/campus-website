@@ -7,6 +7,9 @@
         v-col(cols="12", sm="8", align="center")
           p.font-weight-medium.mb-0 Ce site a été conçu par des élèves-ingénieurs de l'INSA Centre-Val de Loire. Pour tous problèmes ou retours, n'hésitez pas à nous contacter !<br />
             | Vous pouvez aussi retrouver l'ensemble de son code source sur Github !
+        v-col(cols="12", sm="8", align="center")
+          div.text-capitalize.font-weight-light.primary--text développeur: #[span.font-weight-bold SOUBIRAN Estéban]
+          //- div.text-capitalize.font-weight-light.primary--text illustrateur (home page): #[span.font-weight-bold lastname firstname]
       v-row(justify="center", no-gutters, align="center")
         v-col(cols="12")
           div.text-secondary.font-weight-light.text-center.body-2 v0.8.0
