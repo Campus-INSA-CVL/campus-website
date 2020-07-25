@@ -1,3 +1,37 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.prose ul > li::before {
+  position: static;
+  background-color: transparent;
+}
+
+@media (min-width: 640px) {
+  .sm\:prose ul > li::before {
+    position: static !important;
+    background-color: transparent !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:prose-lg ul > li::before {
+    position: static !important;
+    background-color: transparent !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:prose-2xl ul > li::before {
+    position: static !important;
+    background-color: transparent !important;
+  }
+}
+
+.theme--dark .prose {
+  color: hsl(218, 17%, 65%);
+}
+
+.theme--dark .prose h1 {
+  color: hsl(220, 26%, 86%);
+}
