@@ -31,7 +31,21 @@
 .theme--dark .prose {
   color: hsl(218, 17%, 65%);
 }
-
 .theme--dark .prose h1 {
+  color: hsl(220, 26%, 86%);
+}
+.theme--dark .prose h2 {
+  color: hsl(220, 26%, 86%);
+}
+.theme--dark .prose h3 {
+  color: hsl(220, 26%, 86%);
+}
+.theme--dark .prose h4 {
+  color: hsl(220, 26%, 86%);
+}
+.theme--dark .prose h5 {
+  color: hsl(220, 26%, 86%);
+}
+.theme--dark .prose h6 {
   color: hsl(220, 26%, 86%);
 }
