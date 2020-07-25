@@ -1,5 +1,5 @@
 <template lang="pug">
-  nuxt-content(:document="page")
+  nuxt-content(:document="page", class="prose prose-sm sm:prose lg:prose-lg xl:prose-xl")
 </template>
 
 <script>
