@@ -241,6 +241,23 @@ export default {
             },
           ],
         },
+        'les-autres-assos': {
+          type: 'association',
+          title: 'les autres assos',
+          color: 'othersColor',
+          path: {
+            main: 'federation',
+            secondary: 'les-autres-assos',
+          },
+          btns: [
+            {
+              name: 'les associations',
+              path: 'associations',
+              icon: 'mdiFileTree',
+              style: { outlined: false, depressed: true },
+            },
+          ],
+        },
         services: {
           type: 'page',
           title: 'services',
