@@ -1,10 +1,10 @@
 ---
-title: Club théatre
+title: ins'agora
 color: culturelColor
 team:
   bureau:
     - responsability: président
-      name: Michel Harquin
+      name: Jordan Béziaud
       description: responsable de l'association
     - responsability: trésorier
       name: Courtland Vaillancour
@@ -16,7 +16,7 @@ team:
       description: gère son équipe de communication afin d'augmenter la visibilité de l'association
 ---
 
-# Bienvenue dans Club théatre !
+# Bienvenue dans INSArpège !
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer facilisis imperdiet pharetra. Suspendisse consectetur aliquam urna vitae auctor. Nunc nec vestibulum mi. Sed tincidunt, justo vel laoreet molestie, ex augue lacinia turpis, sed cursus dui nisl eu orci. Praesent vel interdum orci, eget vestibulum orci. Curabitur id eros magna. Pellentesque vel faucibus lacus.
 
