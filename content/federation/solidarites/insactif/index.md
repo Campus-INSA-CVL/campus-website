@@ -1,5 +1,5 @@
 ---
-title: On sensibilise
+title: ins'actif
 color: solidaritesColor
 team:
   bureau:
