@@ -17,11 +17,11 @@ connaisseurs de GitHub, vous pouvez simplement soumettre une Pull Request afin
 de modifier les sources du website. Pour les autres, nous allons voir ensemble
 comment soumettre vos modifications.
 
-::: warning
+::: warning N'oubliez pas
 
-N'oubliez pas Pensez à prévenir le respo info ou le respo asso des changements
-que vous allez réaliser afin de s'assurer que les changements sont bien voulus
-et qu'ils puissent être accepter.
+Pensez à prévenir le respo info ou le respo asso des changements que vous allez
+réaliser afin de s'assurer que les changements sont bien voulus et qu'ils
+puissent être acceptés.
 
 :::
 
@@ -29,9 +29,9 @@ et qu'ils puissent être accepter.
 
 Afin de simplifier le process de création et de maintien du site, les pages
 créées ont pour objectif de **récupérer le contenu de fichiers textes** afin de
-les affichers sur l'écran de l'utilisateur. Ainsi, vous n'aurez qu'à
-**modifier** de **petits fichiers textes**. Rien de plus simple ! Cela permet
-aussi de s'affranchir des notions de droits utilisateurs et donc de facilier les
+les afficher sur l'écran de l'utilisateur. Ainsi, vous n'aurez qu'à **modifier**
+de **petits fichiers textes**. Rien de plus simple ! Cela permet aussi de
+s'affranchir des notions de droits utilisateurs et donc de faciliter les
 passations. Aussi, le président, le secrétaire et plus généralement n'importe
 qui, sous réserve d'acception des modifications par le respo info ou respo asso,
 sera en mesure de mettre à jour le contenu du site !
@@ -47,25 +47,25 @@ Vous pouvez aller lire le [Guide pour les développeur](/guide-dev.html)
 Afin de voir le fichier brut, il vous suffit de vous rendre dans le dossier
 `content` trouvable sur
 [GitHub](https://github.com/Campus-INSA-CVL/campus-website/). Ensuite,
-l'arboresence est assez facile à comprendre puisqu'il s'agit de la même que
+l'arborescence est assez facile à comprendre puisqu'il s'agit de la même que
 celle que l'on peut suivre sur le website campus. Les fichiers qui nous
-interessent le plus sont les fichiers dont l'extension est `md`.
+intéressent le plus sont les fichiers dont l'extension est `md`.
 
 ### Arborescence
 
 ```
 content
 |---federation
-    |----fichiers et dossiers pour l'ensemblde des fédérations
+    |----fichiers et dossiers pour l'ensemble des fédérations
     index
-    |----fichier pour l'acceuil
+    |----fichier pour l'accueil
     olympiade
     |----fichiers pour les olympiades
     outils
     |----fichiers pour présenter les outils
     services
     |----fichiers pour présenter les services
-    vie-etudiante
+    vie-étudiante
     |----fichiers de présentation de l'INSA et des campus
 ```
 
@@ -82,7 +82,7 @@ modification technique, nous vous invitons à prendre contact avec le BDE
 
 Pour les créateurs experts, vous pouvez explorer
 [cette partie](https://content.nuxtjs.org/writing/) du module utilisé afin de
-compredre les possibilités offertes par le Markdown. Il notamment possible
+comprendre les possibilités offertes par le Markdown. Il notamment possible
 d'utiliser le front matter afin de stocker des données utilisables par les
 composants. Il est aussi possible d'utiliser des composants custom ou ceux de
 [Vuetify](https://vuetifyjs.com).
@@ -91,14 +91,14 @@ composants. Il est aussi possible d'utiliser des composants custom ou ceux de
 
 Il existe un point commun entre toutes ces modifications, elles reposent sur la
 modification d'un fichier Markdown. Il s'agit de fichier texte qui vont
-permettre de mettre en place de la sémentique sur votre texte, c'est à dire ce
+permettre de mettre en place de la sémantique sur votre texte, c'est à dire ce
 qui est le titre, les paragraphes, un tableau et pleins de choses encore. Vous
 n'avez pas à vous occuper du design.
 
 Pour en **savoir plus** sur le Markdown:
 [Getting Started](https://www.markdownguide.org/getting-started/)
 
-Pour **apprendre la synthaxe** (très simple) du Markdown:
+Pour **apprendre la syntaxe** (très simple) du Markdown:
 [Basic Syntax](https://www.markdownguide.org/basic-syntax/)
 
 Pour **écrire du markdown**: [Dillinger](https://dillinger.io/)
@@ -143,7 +143,7 @@ title:
 ### Modification de l'équipe d'un pôle/association
 
 - Dans le dossier fédération, se rendre dans le dossier du pôle
-- Apporter les modifications au fichier `equipe.md`
+- Apporter les modifications au fichier `équipe.md`
 
 ou
 
@@ -294,7 +294,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   téléchargeable
 - Ajouter dans le front matter un tableau d'object contenant le _name_ à
   afficher et le _link_ du fichier
-- Ajouter dans le _body_ le composant `DownloasLinks`
+- Ajouter dans le _body_ le composant `DownloadLinks`
 
 **Exemple**
 
