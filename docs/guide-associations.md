@@ -17,9 +17,13 @@ connaisseurs de GitHub, vous pouvez simplement soumettre une Pull Request afin
 de modifier les sources du website. Pour les autres, nous allons voir ensemble
 comment soumettre vos modifications.
 
-::: warning N'oubliez pas Pensez à prévenir le respo info ou le respo asso des
-changements que vous allez réaliser afin de s'assurer que les changements sont
-bien voulus et qu'ils puissent être accepter. :::
+::: warning
+
+N'oubliez pas Pensez à prévenir le respo info ou le respo asso des changements
+que vous allez réaliser afin de s'assurer que les changements sont bien voulus
+et qu'ils puissent être accepter.
+
+:::
 
 ## Fonctionnement
 
@@ -32,8 +36,11 @@ passations. Aussi, le président, le secrétaire et plus généralement n'import
 qui, sous réserve d'acception des modifications par le respo info ou respo asso,
 sera en mesure de mettre à jour le contenu du site !
 
-::: tip En savoir plus Vous pouvez aller lire le
-[Guide pour les développeur](/guide-dev.html) :::
+::: tip En savoir plus
+
+Vous pouvez aller lire le [Guide pour les développeur](/guide-dev.html)
+
+:::
 
 ## Localisation du contenu
 
@@ -64,16 +71,23 @@ content
 
 ## Modification du contenu
 
-:::tip Création de nouvelles routes Pour la création d'une nouvelle association,
-outil ou service (et onglet) ou une modification technique, nous vous invitons à
-prendre contact avec le BDE :::
+:::tip Création de nouvelles routes
 
-:::tip Expert Pour les créateurs experts, vous pouvez explorer
+Pour la création d'une nouvelle association, outil ou service (et onglet) ou une
+modification technique, nous vous invitons à prendre contact avec le BDE
+
+:::
+
+:::tip Expert
+
+Pour les créateurs experts, vous pouvez explorer
 [cette partie](https://content.nuxtjs.org/writing/) du module utilisé afin de
 compredre les possibilités offertes par le Markdown. Il notamment possible
 d'utiliser le front matter afin de stocker des données utilisables par les
 composants. Il est aussi possible d'utiliser des composants custom ou ceux de
-[Vuetify](https://vuetifyjs.com). :::
+[Vuetify](https://vuetifyjs.com).
+
+:::
 
 Il existe un point commun entre toutes ces modifications, elles reposent sur la
 modification d'un fichier Markdown. Il s'agit de fichier texte qui vont
@@ -147,7 +161,9 @@ personnalisée pour chaque personne de l'équipe.
 
 Si votre image `president.jpg` se situe dans le dossier `bde` du dossier
 `federation` du dossier `assets` alors il faut ajouter:
-`avatar: federation/bde/president.jpg` :::
+`avatar: federation/bde/president.jpg`
+
+:::
 
 **Exemple**
 
@@ -224,7 +240,9 @@ personnalisée pour chaque personne de l'équipe.
 
 Si votre image `president.jpg` se situe dans le dossier `bde` du dossier
 `federation` du dossier `assets` alors il faut ajouter:
-`avatar: federation/bde/president.jpg` :::
+`avatar: federation/bde/president.jpg`
+
+:::
 
 ### Modification d'un outil ou d'un service
 
@@ -323,9 +341,13 @@ commencer à alimenter votre blog, rien de plus simple !
   l'en-tête du fichier (voir exemple)
 - Remplir votre fichier avec les informations que vous souhaitez !
 
-::: warning Nommer ses articles L'url sera formée par le nom du fichier Markdown
-présent dans le dossier blog. Ainsi, il est important de bien le nommer.
-**Exemple:** `/2020-07-15-mon-nouvel-article-de-blog` :::
+::: warning Nommer ses articles
+
+L'url sera formée par le nom du fichier Markdown présent dans le dossier blog.
+Ainsi, il est important de bien le nommer. **Exemple:**
+`/2020-07-15-mon-nouvel-article-de-blog`
+
+:::
 
 ```md
 ---
