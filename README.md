@@ -11,13 +11,18 @@
 
 ## 📝 Want to create or update content? ![Docs](https://github.com/Campus-INSA-CVL/campus-website/workflows/Docs/badge.svg)
 
-To simplify the process of creating content, we have created a docs to explain to writers or to developers how to do it. There is many examples and it you want more information, feel free to contact us !
+To simplify the process of creating content, we have created a docs to explain
+to writers or to developers how to do it. There is many examples and it you want
+more information, feel free to contact us !
 
-[Go to the documentation](https://campus-insa-cvl.github.io/campus-website/) and explore !
+[Go to the documentation](https://campus-insa-cvl.github.io/campus-website/) and
+explore !
 
 ## 👋 Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Campus-INSA-CVL/tutorinsa-server/issues)
 
-Feel free to help us ! Use [issues](https://github.com/Campus-INSA-CVL/tutorinsa-server/issues) and [pull requests](https://github.com/Campus-INSA-CVL/tutorinsa-server/pulls) !
+Feel free to help us ! Use
+[issues](https://github.com/Campus-INSA-CVL/tutorinsa-server/issues) and
+[pull requests](https://github.com/Campus-INSA-CVL/tutorinsa-server/pulls) !
 
 ## 👩‍💻 Build Setup
 
@@ -34,12 +39,8 @@ $ npm install
 # serve with hot reload at localhost:3000
 $ npm run dev
 
-# build for production and launch server
-$ npm run build
-$ npm run start
-
 # generate static project
-$ npm run build && npm run export
+$ npm run generate
 # serve static project
-$ npm run serve
+$ npm run start
 ```
