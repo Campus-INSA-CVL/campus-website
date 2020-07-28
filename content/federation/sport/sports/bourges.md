@@ -3,6 +3,4 @@ title: bourges
 order: 1
 ---
 
-# les sports de bourges
-
-wesh
+# Bienvenue dans les sports à Bourges

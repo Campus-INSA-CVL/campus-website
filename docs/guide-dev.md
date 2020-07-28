@@ -7,23 +7,39 @@ sidebarDepth: 2
 
 ## Technologies utilisées
 
-Ce projet, _le site campus de l'INSA Centre-Val de Loire_, est créé en utlisant le framework front-end [Nuxt.js](https://nuxtjs.org/) et son module [@nuxt/content](https://content.nuxtjs.org/). Nuxt.js est un framework gratuit et open source basé sur [Vue.js](https://vuejs.org/) et [Node.js](https://nodejs.org/). Pour le design général, le projet utilise [Vuetify](https://vuetifyjs.com), une bibliothèque UI.
+Ce projet, _le site campus de l'INSA Centre-Val de Loire_, est créé en utilisant
+le framework front-end [Nuxt.js](https://nuxtjs.org/) et son module
+[@nuxt/content](https://content.nuxtjs.org/). Nuxt.js est un framework gratuit
+et open source basé sur [Vue.js](https://vuejs.org/) et
+[Node.js](https://nodejs.org/). Pour le design général, le projet utilise
+[Vuetify](https://vuetifyjs.com), une bibliothèque UI.
 
-**Vue.js** (aussi appelé plus simplement Vue), est un **framework JavaScript open-source** utilisé pour construire des interfaces utilisateur et des **applications web** monopages.
+**Vue.js** (aussi appelé plus simplement Vue), est un **framework JavaScript
+open-source** utilisé pour construire des interfaces utilisateur et des
+**applications web** monopage.
 
-C'est grâce à l'ensemble de ces technologies que le site campus a pu voir le jour.
+C'est grâce à l'ensemble de ces technologies que le site campus a pu voir le
+jour.
 
 Le projet reprend la structure générale de `create-nuxt-app`.
 
-> Afin de comprendre ce qui suit, il est essentiel d'avoir les notions de bases sur Nuxt.js et donc par extension des connaissances sur Vue.js. Aussi, le module @nuxt/content est l'élément clé du projet.
+> Afin de comprendre ce qui suit, il est essentiel d'avoir les notions de bases
+> sur Nuxt.js et donc par extension des connaissances sur Vue.js. Aussi, le
+> module @nuxt/content est l'élément clé du projet.
 
 ## Layouts
 
 ### default
 
-En fonction de l'url, ce layout va s'adapter. En effet, pour permettre une navigation plus aisé, une extension de la navbar fait son apparition lorsque l'utilisateur accède une card (fédération, outils, services).
+En fonction de l'url, ce layout va s'adapter. En effet, pour permettre une
+navigation plus aisé, une extension de la navbar fait son apparition lorsque
+l'utilisateur accède une card (fédération, outils, services).
 
-Il est possible de modifier l'apparence directement depuis le composant `Header`. Cependant, dans le layout default, une configuration lui est passé afin de faciliter sa modification, dans l'objet `config`. Le nom de l'object dans config doit être le même que le nom passé dans l'url, comme le paramètre fédération ou outils ou services.
+Il est possible de modifier l'apparence directement depuis le composant
+`Header`. Cependant, dans le layout default, une configuration lui est passé
+afin de faciliter sa modification, dans l'objet `config`. Le nom de l'object
+dans config doit être le même que le nom passé dans l'url, comme le paramètre
+fédération ou outils ou services.
 
 **Champs disponibles en fonction du type de l'extension**
 
@@ -47,7 +63,7 @@ Il est possible de modifier l'apparence directement depuis le composant `Header`
 | Fields  |   Type   | Property                                  | Functions                                                                                             |
 | :-----: | :------: | ----------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | `name`  | `string` | none                                      | Permet de définir le nom du bouton                                                                    |
-| `path`  | `string` | none                                      | Permet de définir le chemin de redirection du bouton (suite de celui passé dans `path` précedamment ) |
+| `path`  | `string` | none                                      | Permet de définir le chemin de redirection du bouton (suite de celui passé dans `path` précédemment ) |
 | `icon`  | `string` | none                                      | Permet de définir l'icon du bouton                                                                    |
 | `style` | `object` | { outlined: Boolean, depressed: Boolean } | Permet de définir le style du bouton                                                                  |
 
@@ -94,9 +110,8 @@ config: {
 }
 ```
 
-::: warning Ajout d'un icon
-Lors de l'ajout d'un icon qui n'est pas déjà implémenté, il est important de l'importer
-:::
+::: warning Ajout d'un icon Lors de l'ajout d'un icon qui n'est pas déjà
+implémenté, il est important de l'importer :::
 
 ## Pages
 
@@ -104,7 +119,7 @@ On retrouve sur le site campus différentes routes.
 
 |       Path        |      Name      | Function                                                                   |
 | :---------------: | :------------: | :------------------------------------------------------------------------- |
-|        `/`        |    Acceuil     | page initial du site                                                       |
+|        `/`        |    Accueil     | page initial du site                                                       |
 | `/vie-etudiante`  | Vie Étudiante  | présente l'insa et les campus                                              |
 |   `/federation`   |   Fédération   | présente l'ensemble des associations présente dans la fédération du campus |
 |    `/services`    |    Services    | présente les différents services offerts par le BDE                        |
@@ -113,23 +128,29 @@ On retrouve sur le site campus différentes routes.
 | `/nous-contacter` | Nous Contacter | page de contacte du campus ou du webmaster                                 |
 |    `/a-propos`    |    À Propos    | page sur le site                                                           |
 
-### Acceuil
+### Accueil
 
 `Path: /`
 
 `Content: /index/index.yaml`
 
-Charge un fichier YAML afin d'ajouter le texte, changer les images... L'objectif est de garder l'utilisation d'un composant afin de pouvoir créer une page d'acceuil attirante tout en profitant de la facilité de changement du contenu.
+Charge un fichier YAML afin d'ajouter le texte, changer les images... L'objectif
+est de garder l'utilisation d'un composant afin de pouvoir créer une page
+d'accueil attirante tout en profitant de la facilité de changement du contenu.
 
 ### Vie Étudiante
 
 `Path: /vie-etudiante/:tab`
 
-`tab` est un paramètre qui permet de récuper le fichier Markdown qui correspond afin de l'afficher.
+`tab` est un paramètre qui permet de récupérer le fichier Markdown qui
+correspond afin de l'afficher.
 
 `Content: /vie-etudiante/**.md`
 
-L'ensemble des fichiers Markdown sont récupérés et leur front matter permet de créer les onglets. Ainsi, l'ajout d'un fichier Markdown dans ce dossier avec le titre présent dans le front matter permet d'automatiquement générer une nouvelle route, le nom du fichier servant d'url (paramètre tab) !
+L'ensemble des fichiers Markdown sont récupérés et leur front matter permet de
+créer les onglets. Ainsi, l'ajout d'un fichier Markdown dans ce dossier avec le
+titre présent dans le front matter permet d'automatiquement générer une nouvelle
+route, le nom du fichier servant d'url (paramètre tab) !
 
 **Exemple**
 
@@ -159,11 +180,12 @@ Vivamus sed enim ut magna lacinia lobortis.
 | `/federation/:federation/representation/:tab` |     **/elus/representation/**      | _federation_, _tab_  | Présentation des différents conseils, utilisé par les élus    |
 |  `/federation/:federation/association/:asso`  |  **/:federation/:asso/index.md**   | _federation_, _asso_ | Présentation d'une association                                |
 
-:::tip
-Les routes `sports/:tab` et `representation/:tab` sont similaires à [outils](#outils) ou [services](#services) au niveau fonctionnement. Ainsi, ils est possibles de s'**adapter** à chaque association
-:::
+:::tip Les routes `sports/:tab` et `representation/:tab` sont similaires à
+[outils](#outils) ou [services](#services) au niveau fonctionnement. Ainsi, ils
+est possibles de s'**adapter** à chaque association :::
 
-En fonction de l'url et donc des paramètres, les données à aller chercher ne sont pas les mêmes.
+En fonction de l'url et donc des paramètres, les données à aller chercher ne
+sont pas les mêmes.
 
 [Voir les exemples](#exemples)
 
@@ -171,22 +193,28 @@ En fonction de l'url et donc des paramètres, les données à aller chercher ne 
 
 `Path: /services/:service?`
 
-`service` est un paramètre qui permet de récuper le fichier Markdown qui correspond afin de l'afficher.
+`service` est un paramètre qui permet de récupérer le fichier Markdown qui
+correspond afin de l'afficher.
 
 `Content: /services/**.md`
 
-L'ensemble des fichiers Markdown sont récupérés et leur front matter permet de créer les cards. Ainsi, l'ajout d'un fichier Markdown dans ce dossier avec le titre et la description présente dans le front matter permet d'automatiquement générer une nouvelle route, le nom du fichier servant d'url (paramètre serivce) ! Le body est ensuite utilisé sur la page de l'outil.
+L'ensemble des fichiers Markdown sont récupérés et leur front matter permet de
+créer les cards. Ainsi, l'ajout d'un fichier Markdown dans ce dossier avec le
+titre et la description présente dans le front matter permet d'automatiquement
+générer une nouvelle route, le nom du fichier servant d'url (paramètre service)
+! Le body est ensuite utilisé sur la page de l'outil.
 
-:::tip
-Il est aussi possible de définir une couleur poour la card (penser à ajouter la couleur dans le fichier de configuration de nuxt).
-:::
+:::tip Il est aussi possible de définir une couleur pour la card (penser à
+ajouter la couleur dans le fichier de configuration de nuxt). :::
 
 **Exemple**
 
 ```md
 ---
 title: cafet
-description: Quisque vel finibus sapien, eu egestas tortor. Proin ultrices arcu eu massa rutrum, quis feugiat neque convallis.
+description:
+  Quisque vel finibus sapien, eu egestas tortor. Proin ultrices arcu eu massa
+  rutrum, quis feugiat neque convallis.
 color: cafetColor
 ---
 
@@ -222,22 +250,28 @@ Vivamus sed enim ut magna lacinia lobortis.
 
 `Path: /outils/:outil?`
 
-`outil` est un paramètre qui permet de récuper le fichier Markdown qui correspond afin de l'afficher.
+`outil` est un paramètre qui permet de récupérer le fichier Markdown qui
+correspond afin de l'afficher.
 
 `Content: /outils/**.md`
 
-L'ensemble des fichiers Markdown sont récupérés et leur front matter permet de créer les cards. Ainsi, l'ajout d'un fichier Markdown dans ce dossier avec le titre et la description présente dans le front matter permet d'automatiquement générer une nouvelle route, le nom du fichier servant d'url (paramètre outil) ! Le body est ensuite utilisé sur la page de l'outil.
+L'ensemble des fichiers Markdown sont récupérés et leur front matter permet de
+créer les cards. Ainsi, l'ajout d'un fichier Markdown dans ce dossier avec le
+titre et la description présente dans le front matter permet d'automatiquement
+générer une nouvelle route, le nom du fichier servant d'url (paramètre outil) !
+Le body est ensuite utilisé sur la page de l'outil.
 
-:::tip
-Il est aussi possible de définir une couleur poour la card (penser à ajouter la couleur dans le fichier de configuration de nuxt).
-:::
+:::tip Il est aussi possible de définir une couleur poour la card (penser à
+ajouter la couleur dans le fichier de configuration de nuxt). :::
 
 **Exemple**
 
 ```md
 ---
 title: alumni
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam.
+description:
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt
+  lectus, ut accumsan diam.
 color: alumniColor
 ---
 
@@ -267,13 +301,12 @@ Il s'agit simplement d'un composant, pas de chargement de Markdown
 
 ## Exemples
 
-:::tip
-Pour la modification du contenu, des exemples sont disponibles dans le [guide pour les associations](/guide-associations.html)
-:::
+:::tip Pour la modification du contenu, des exemples sont disponibles dans le
+[guide pour les associations](/guide-associations.html) :::
 
-::: danger
-L'utilisation de composants Vuetify dans les fichiers Markdown est possible mais il faut penser à l'importer dans le composant qui va l'afficher, car le treeeshaking ne pourra pas les voirs
-:::
+::: danger L'utilisation de composants Vuetify dans les fichiers Markdown est
+possible mais il faut penser à l'importer dans le composant qui va l'afficher,
+car le treeeshaking ne pourra pas les voir :::
 
 ### Création d'un nouveau pôle
 
@@ -287,15 +320,17 @@ federation:
     color: poleColor (ajouter aussi la couleur dans `nuxt.config.js`)
 ```
 
-- Créer un nouveau dossier `/content/federation/${nouveauPole}` et les fichiers `index.md` et `equipe.md` dans ce dernier.
+- Créer un nouveau dossier `/content/federation/${nouveauPole}` et les fichiers
+  `index.md` et `equipe.md` dans ce dernier.
 
-:::tip À Savoir
-Le dossier va contenir l'enesemble des fichiers relatifs au pôle et l'ensemble des dossiers pour les associations
-:::
+:::tip À Savoir Le dossier va contenir l'ensemble des fichiers relatifs au pôle
+et l'ensemble des dossiers pour les associations :::
 
-- Créer un fichier `associations.yaml` qui va contenir la liste de l'ensemble des associations du pôle
+- Créer un fichier `associations.yaml` qui va contenir la liste de l'ensemble
+  des associations du pôle
 
-- Dans le fichier `/layouts/default.vue`, ajouter l'association dans la config afin de mettre en place la toolbar.
+- Dans le fichier `/layouts/default.vue`, ajouter l'association dans la config
+  afin de mettre en place la toolbar.
 
 ### Création d'une association
 
@@ -313,24 +348,28 @@ associations:
 +     color: assoColor
 ```
 
-- Créer un dossier, au même endroit que le fichier d'associations, portant le nom qui a été mis dans le champs path du fichier `associations.yaml`, donc `mkdir nouvelle-asso` dans ce cas.
+- Créer un dossier, au même endroit que le fichier d'associations, portant le
+  nom qui a été mis dans le champs path du fichier `associations.yaml`, donc
+  `mkdir nouvelle-asso` dans ce cas.
 
 - Ajouter un fichier `index.md` dans le dossier de l'association
 
 ### Création d'un service ou d'un outil
 
-- Ajouter un fichier Markdown dans le dossier souhaité, `/content/outils` ou `/content/services`
+- Ajouter un fichier Markdown dans le dossier souhaité, `/content/outils` ou
+  `/content/services`
 
-:::warning
-Le nom du fichier sera le nom dans l'url. Il est donc important de bien le choisir
-:::
+:::warning Le nom du fichier sera le nom dans l'url. Il est donc important de
+bien le choisir :::
 
 - Ajouter un front matter dans le fichier
 
 ```md
 ---
 title: Nom du service ou de l'outil
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam.
+description:
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt
+  lectus, ut accumsan diam.
 color: serviceOuOutilColor
 ---
 
@@ -341,11 +380,11 @@ Vivamus sed enim ut magna lacinia lobortis.
 
 ### Création d'un nouvelle onglet (Vie Étudiante, Sports, Représentation)
 
-- Ajouter un nouveau fichier Markdown dans le dossier correspondant, `/content/vie-etudiante` par exemple
+- Ajouter un nouveau fichier Markdown dans le dossier correspondant,
+  `/content/vie-etudiante` par exemple
 
-:::warning
-Le nom du fichier sera le nom dans l'url. Il est donc important de bien le choisir
-:::
+:::warning Le nom du fichier sera le nom dans l'url. Il est donc important de
+bien le choisir :::
 
 - Ajouter le front matter dans le fichier
 
@@ -359,9 +398,8 @@ order: 1 <!-- place dans les onglets, trié dans l'ordre croissant -->
 
 ### Création d'un blog
 
-::: tip À savoir
-Les blogs se font par pôles et non par association, mais une association peut publier dans le blog de son pôle
-:::
+::: tip À savoir Les blogs se font par pôles et non par association, mais une
+association peut publier dans le blog de son pôle :::
 
 - Ajouter un dossier `blog` dans la fédération désirée
 - Ajouter le bouton blog dans le config de la fédération dans le layout
@@ -405,7 +443,6 @@ sitemap: {
 
 - Ajouter votre premier article (ne pas laisser le dossier blog vide)
 
-::: warning Nommer ses articles
-L'url sera formée par le nom du fichier Markdown présent dans le dossier blog. Ainsi, il est important de bien le nommer.
-**Exemple:** `/2020-07-15-mon-nouvel-article-de-blog`
-:::
+::: warning Nommer ses articles L'url sera formée par le nom du fichier Markdown
+présent dans le dossier blog. Ainsi, il est important de bien le nommer.
+**Exemple:** `/2020-07-15-mon-nouvel-article-de-blog` :::

@@ -28,8 +28,6 @@ imagesNames:
 
 > Ils nous font confiance !
 
-<v-row justify="center">
-  <v-col cols="12" sm="8" md="6" lg="4">
-    <carousel :names="imagesNames" :folder-name="folderName"></carousel>
-  </v-col>
-</v-row>
+<center>
+  <carousel :names="imagesNames" :folder-name="folderName"></carousel>
+</center>

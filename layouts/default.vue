@@ -56,6 +56,41 @@ export default {
         mdiTextBoxMultiple,
       },
       config: {
+        bde: {
+          type: 'association',
+          title: 'bde',
+          color: 'primary',
+          path: {
+            main: 'federation',
+            secondary: 'bde',
+          },
+          btns: [
+            {
+              name: "l'équipe",
+              path: 'equipe',
+              icon: 'mdiAccountGroup',
+              style: { outlined: true, depressed: false },
+            },
+            {
+              name: 'insapp',
+              path: 'insapp',
+              icon: 'mdiAccountGroup',
+              style: { outlined: false, depressed: true },
+            },
+            {
+              name: 'aiep',
+              path: 'aiep',
+              icon: 'mdiAccountGroup',
+              style: { outlined: false, depressed: true },
+            },
+            {
+              name: 'publications officielles',
+              path: 'publications-officielles',
+              icon: 'mdiAccountGroup',
+              style: { outlined: false, depressed: true },
+            },
+          ],
+        },
         culturel: {
           type: 'association',
           title: 'pôle culturel',
@@ -77,12 +112,12 @@ export default {
               icon: 'mdiFileTree',
               style: { outlined: false, depressed: true },
             },
-            {
-              name: 'le blog',
-              path: 'blog',
-              icon: 'mdiTextBoxMultiple',
-              style: { outlined: false, depressed: true },
-            },
+            // {
+            //   name: 'le blog',
+            //   path: 'blog',
+            //   icon: 'mdiTextBoxMultiple',
+            //   style: { outlined: false, depressed: true },
+            // },
           ],
         },
         solidarites: {
@@ -106,12 +141,12 @@ export default {
               icon: 'mdiFileTree',
               style: { outlined: false, depressed: true },
             },
-            {
-              name: 'le blog',
-              path: 'blog',
-              icon: 'mdiTextBoxMultiple',
-              style: { outlined: false, depressed: true },
-            },
+            // {
+            //   name: 'le blog',
+            //   path: 'blog',
+            //   icon: 'mdiTextBoxMultiple',
+            //   style: { outlined: false, depressed: true },
+            // },
           ],
         },
         gala: {
@@ -198,6 +233,23 @@ export default {
               icon: 'mdiAccountGroup',
               style: { outlined: true, depressed: false },
             },
+            {
+              name: 'les associations',
+              path: 'associations',
+              icon: 'mdiFileTree',
+              style: { outlined: false, depressed: true },
+            },
+          ],
+        },
+        'les-autres-assos': {
+          type: 'association',
+          title: 'les autres assos',
+          color: 'othersColor',
+          path: {
+            main: 'federation',
+            secondary: 'les-autres-assos',
+          },
+          btns: [
             {
               name: 'les associations',
               path: 'associations',

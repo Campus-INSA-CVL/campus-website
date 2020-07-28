@@ -8,7 +8,7 @@ export default {
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
    */
-  target: 'server',
+  target: 'static',
   generate: {
     fallback: true,
   },
@@ -112,6 +112,7 @@ export default {
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
     '@nuxtjs/vuetify',
+    '@nuxtjs/tailwindcss',
   ],
   /*
    ** Nuxt.js modules
@@ -138,16 +139,16 @@ export default {
    */
   feed: {
     data: [
-      {
-        path: 'culturel',
-        title: 'Le blog du pôle Culturel',
-        description: 'Mauris congue orci eget ornare scelerisque.',
-      },
-      {
-        path: 'solidarites',
-        title: 'Pôle Solidarités',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      },
+      // {
+      //   path: 'culturel',
+      //   title: 'Le blog du pôle Culturel',
+      //   description: 'Mauris congue orci eget ornare scelerisque.',
+      // },
+      // {
+      //   path: 'solidarites',
+      //   title: 'Pôle Solidarités',
+      //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      // },
     ],
     factory: (data) => {
       const baseUrlArticles = 'https://campus.insa-cvl.fr'
@@ -210,8 +211,8 @@ export default {
         '/federation/sport/associations',
         '/federation/sport/sports',
         '/federation/techniques/associations',
-        '/federation/culturel/blog',
-        '/federation/solidarites/blog',
+        // '/federation/culturel/blog',
+        // '/federation/solidarites/blog',
       ]
       let path = []
 
@@ -292,6 +293,7 @@ export default {
           galaColor: '#0096AA',
           solidaritesColor: '#ED6C26',
           techniquesColor: '#B4B2B1',
+          othersColor: '#4b6584',
           cafetColor: '#78e08f',
           partenariatsColor: '#38ada9',
           shopColor: '#079992',
@@ -308,6 +310,7 @@ export default {
           galaColor: '#0096AA',
           solidaritesColor: '#ED6C26',
           techniquesColor: '#B4B2B1',
+          othersColor: '#4b6584',
           cafetColor: '#78e08f',
           partenariatsColor: '#38ada9',
           shopColor: '#079992',

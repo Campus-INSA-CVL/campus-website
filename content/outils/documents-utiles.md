@@ -12,16 +12,14 @@ filesFederation:
   - name: lettre de procuration
     link: /outils/lettre-procuration.pdf
   - name: liste émargement
-    link: liste-emargement.pdf
+    link: /outils/liste-emargement.pdf
 ---
 
 # Outils Associations
 
-<v-row justify="center">
-  <v-col cols="12" align="center">
-    <view-img folder-name="outils" name="creer-son-association.jpg" max-width="600"></view-img>
-  </v-col>
-</v-row>
+<center>
+  <view-img folder-name="outils" name="creer-son-association.jpg" max-width="600"></view-img>
+</center>
 
 # Outils Fédération
 

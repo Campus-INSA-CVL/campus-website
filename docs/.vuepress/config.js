@@ -26,9 +26,14 @@ module.exports = {
     repo: 'Campus-INSA-CVL/campus-website',
     docsDir: 'docs',
     editLinks: true,
-    // editLinkText: 'Aidez nous à améliorer cette page',
-    // lastUpdated: false,
-    sidebar: ['/bienvenue.md', '/guide-associations.md', '/guide-dev.md'],
+    editLinkText: 'Aidez nous à améliorer cette page',
+    lastUpdated: false,
+    sidebar: [
+      '/bienvenue.md',
+      '/guide-associations.md',
+      '/guide-dev.md',
+      '/template.md',
+    ],
     serviceWorker: {
       updatePopup: true,
     },
