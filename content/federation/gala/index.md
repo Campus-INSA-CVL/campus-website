@@ -2,6 +2,6 @@
 title: gala
 ---
 
-# gala
+# Gala
 
 [vers la team](/federation/gala/equipe)

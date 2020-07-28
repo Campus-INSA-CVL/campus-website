@@ -139,16 +139,16 @@ export default {
    */
   feed: {
     data: [
-      {
-        path: 'culturel',
-        title: 'Le blog du pôle Culturel',
-        description: 'Mauris congue orci eget ornare scelerisque.',
-      },
-      {
-        path: 'solidarites',
-        title: 'Pôle Solidarités',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      },
+      // {
+      //   path: 'culturel',
+      //   title: 'Le blog du pôle Culturel',
+      //   description: 'Mauris congue orci eget ornare scelerisque.',
+      // },
+      // {
+      //   path: 'solidarites',
+      //   title: 'Pôle Solidarités',
+      //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      // },
     ],
     factory: (data) => {
       const baseUrlArticles = 'https://campus.insa-cvl.fr'
@@ -211,8 +211,8 @@ export default {
         '/federation/sport/associations',
         '/federation/sport/sports',
         '/federation/techniques/associations',
-        '/federation/culturel/blog',
-        '/federation/solidarites/blog',
+        // '/federation/culturel/blog',
+        // '/federation/solidarites/blog',
       ]
       let path = []
 

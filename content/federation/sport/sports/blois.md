@@ -3,6 +3,4 @@ title: blois
 order: 0
 ---
 
-# les sports de blois
-
-wesh
+# Bienvenue dans les sports à Blois

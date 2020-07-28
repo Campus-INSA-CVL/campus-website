@@ -112,12 +112,12 @@ export default {
               icon: 'mdiFileTree',
               style: { outlined: false, depressed: true },
             },
-            {
-              name: 'le blog',
-              path: 'blog',
-              icon: 'mdiTextBoxMultiple',
-              style: { outlined: false, depressed: true },
-            },
+            // {
+            //   name: 'le blog',
+            //   path: 'blog',
+            //   icon: 'mdiTextBoxMultiple',
+            //   style: { outlined: false, depressed: true },
+            // },
           ],
         },
         solidarites: {
@@ -141,12 +141,12 @@ export default {
               icon: 'mdiFileTree',
               style: { outlined: false, depressed: true },
             },
-            {
-              name: 'le blog',
-              path: 'blog',
-              icon: 'mdiTextBoxMultiple',
-              style: { outlined: false, depressed: true },
-            },
+            // {
+            //   name: 'le blog',
+            //   path: 'blog',
+            //   icon: 'mdiTextBoxMultiple',
+            //   style: { outlined: false, depressed: true },
+            // },
           ],
         },
         gala: {
