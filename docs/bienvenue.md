@@ -12,5 +12,5 @@ L'objectif est de permettre à chacun de comprendre comment il peut mettre à jo
 Servez-vous de cette opportunité et n'hésitez pas à partager la page de votre association sur les réseaux !
 
 :::tip
-N'oubliez pas que une association inconnue est une association qui va avoir du mal à avoir des membres. En parcourant le site, une personne pourrait tomber sur votre association est **être séduite**. De là, elle pourrait facilement vous contacter, en ayant connaissance du bureau par exemple.
+N'oubliez pas qu'une association inconnue est une association qui va avoir du mal à avoir des membres. En parcourant le site, une personne pourrait tomber sur votre association et **être séduite**. De là, elle pourrait facilement vous contacter, en ayant connaissance du bureau par exemple.
 :::
