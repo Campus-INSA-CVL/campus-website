@@ -12,7 +12,7 @@ exemple._
 ## Ce qu'il faut savoir avant de commencer
 
 Tout d'abord, l'ensemble du code source du website est disponible
-[ici](https://github.com/Campus-INSA-CVL/campus-website). Ainsi, pour les plus
+[ici](https://github.com/Campus-INSA-CVL/campus-website/tree/master/content). Ainsi, pour les plus
 connaisseurs de GitHub, vous pouvez simplement soumettre une Pull Request afin
 de modifier les sources du website. Pour les autres, nous allons voir ensemble
 comment soumettre vos modifications.
