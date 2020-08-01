@@ -21,8 +21,8 @@ explore !
 ## 👋 Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Campus-INSA-CVL/tutorinsa-server/issues)
 
 Feel free to help us ! Use
-[issues](https://github.com/Campus-INSA-CVL/tutorinsa-server/issues) and
-[pull requests](https://github.com/Campus-INSA-CVL/tutorinsa-server/pulls) !
+[issues](https://github.com/Campus-INSA-CVL/campus-website/issues) and
+[pull requests](https://github.com/Campus-INSA-CVL/campus-website/pulls) !
 
 ## 👩‍💻 Build Setup
 
