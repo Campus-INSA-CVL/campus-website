@@ -104,6 +104,7 @@ export default {
   components: [
     '~/components/',
     { path: '~/components/shell/', prefix: 'shell' },
+    { path: '~/components/campus/', prefix: 'campus' },
   ],
   /*
    ** Nuxt.js dev-modules
