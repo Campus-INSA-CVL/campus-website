@@ -109,6 +109,11 @@ Pour **écrire du markdown**: [Dillinger](https://dillinger.io/)
 
 **ou**
 
+- utiliser [codesandbox](/codesandbox.html) pour effectuer vos modifications
+- donner vos modifications aux respos
+
+**ou**
+
 - Aller sur [GitHub](https://github.com/Campus-INSA-CVL/campus-website/)
 - Parcourir l'arborescence pour trouver le fichier à modifier
 - Cliquer sur le crayon, en haut à droite du document

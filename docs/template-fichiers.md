@@ -1,5 +1,5 @@
 ---
-title: 📄 Template
+title: 📄 Template des fichiers
 sidebarDepth: 2
 ---
 
