@@ -20,6 +20,13 @@ team:
     - responsability: trésorier
       name: ZHOU Jade
       description: responsable du budget de l'association
+social:
+  facebook: 'https://facebook.com'
+  instagram: 'https://instagram.com'
+  twitter: 'https://twitter.com'
+  twitch: 'https://twitch.com'
+  snapchat: 'https://snapchat.com'
+  discord: 'https://discord.com'
 ---
 
 # Bienvenue dans Gree'NSA Bourges
@@ -55,12 +62,17 @@ l'ensemble des INSA ! Dans le futur, elle souhaite s'ouvrir d'avantage sur
 l'extérieur et porter d'avantage de projets de formations afin d'accélérer la
 sensibilisation !
 
-Alors si cela vous plaît ou que vous souhaitez nous rejoindre, n'hésitez pas à nous contacter ! 💚
+Alors si cela vous plaît ou que vous souhaitez nous rejoindre, n'hésitez pas à
+nous contacter ! 💚
 
 Vous pouvez aussi nous retrouver sur les réseaux et sur Discord !
 
+<social :social="social" :color="color"></social>
+
 - [Facebook](https://www.facebook.com/greensa.bourges1/)
 - [Discord](https://discord.gg/45AfzHq)
+
+---
 
 # L'équipe
 
