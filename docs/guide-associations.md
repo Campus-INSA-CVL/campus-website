@@ -223,11 +223,22 @@ team: <!-- données utilisées pour la création visuel de la team -->
     - responsability: responsable communication
       name: Charlotte Beaudoin
       description: gère son équipe de communication afin d'augmenter la visibilité de l'association
+social:
+  facebook: 'https://facebook.com'
+  instagram: 'https://instagram.com'
+  twitter: 'https://twitter.com'
+  twitch: 'https://twitch.com'
+  snapchat: 'https://snapchat.com'
+  discord: 'https://discord.com'
 ---
 
 # Bienvenue dans INSAction !
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+# Les réseaux
+
+<social :social="social" :color="color"></social>
 
 # L'équipe
 
@@ -367,3 +378,9 @@ author:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ```
+
+## Les composants
+
+> Pour enrichir votre présentation
+
+Coming soon !

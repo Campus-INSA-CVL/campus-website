@@ -30,10 +30,11 @@ module.exports = {
     lastUpdated: true,
     sidebar: [
       '/bienvenue.md',
+      '/templates-associations.md',
       '/codesandbox.md',
       '/guide-associations.md',
       '/guide-dev.md',
-      '/template-fichiers.md',
+      '/templates-fichiers.md',
     ],
     serviceWorker: {
       updatePopup: true,

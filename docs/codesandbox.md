@@ -8,6 +8,16 @@ sidebarDepth: 3
 > Un moyen de simplifier le process de création de la fiche de présentation de
 > vos associations !
 
+::: warning
+
+Pour les plus novices ou ceux qui souhaitent faire simple mais rapide et
+efficace, vous avez accès
+[ici](https://campus-insa-cvl.github.io/campus-website-templates/) à un
+générateur pour votre asso ! Vous pouvez en savoir plus
+[ici](templates-associations.html)
+
+:::
+
 ## Objectif
 
 L'objectif de
@@ -25,7 +35,7 @@ Rien à installer, rien à télécharger et pas de manipulations complexes !
 L'utilisation de cet outil est aussi très aisé ! Pour commencer, il vous faut
 vous connecter au site ! Ensuite, vous devez dupliquer (fork) le repo dans votre
 espace personnel ! Ensuite, vous avez une prévisualisation à droite, dans un
-navigateur et le contenu à gauche ! En tand que créateur de contenu, commencer
+navigateur et le contenu à gauche ! En tand que créateur de contenu, commencez
 par choisir le template qui vous plait en naviguant dans l'app au travers du
 navigateur. Une fois le template trouvé, il vous faut aller dans le dossier
 `content/pages` puis cliquer sur le nom du fichier qui a le nom du template que
