@@ -1,5 +1,5 @@
 ---
-title: 📄 Template
+title: 📄 Templates des fichiers
 sidebarDepth: 2
 ---
 
@@ -76,9 +76,20 @@ team:
       name: ipsum
       description:
       avatar: federation/culturel/tresorier.png
+social:
+  facebook: 'https://facebook.com'
+  instagram: 'https://instagram.com'
+  twitter: 'https://twitter.com'
+  twitch: 'https://twitch.com'
+  snapchat: 'https://snapchat.com'
+  discord: 'https://discord.com'
 ---
 
 # lorem
+
+<social :social="social" :color="color"></social>
+
+<team :team="team" :color="color"></team>
 ```
 
 ## Service / Outil

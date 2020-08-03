@@ -27,12 +27,14 @@ module.exports = {
     docsDir: 'docs',
     editLinks: true,
     editLinkText: 'Aidez nous à améliorer cette page',
-    lastUpdated: false,
+    lastUpdated: true,
     sidebar: [
       '/bienvenue.md',
+      '/templates-associations.md',
+      '/codesandbox.md',
       '/guide-associations.md',
       '/guide-dev.md',
-      '/template.md',
+      '/templates-fichiers.md',
     ],
     serviceWorker: {
       updatePopup: true,
