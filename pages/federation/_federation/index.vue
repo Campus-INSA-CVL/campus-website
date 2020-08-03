@@ -5,7 +5,14 @@
 </template>
 
 <script>
+import Team from '@/components/campus/Team'
+import Social from '@/components/campus/Social'
+
 export default {
+  components: {
+    CampusTeam: Team,
+    CampusSocial: Social,
+  },
   async asyncData({ $content, params }) {
     const { federation } = params
     const page = await $content(`federation/${federation}/index`).fetch()

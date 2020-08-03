@@ -5,7 +5,14 @@
 </template>
 
 <script>
+import Team from '@/components/campus/Team'
+import Social from '@/components/campus/Social'
+
 export default {
+  components: {
+    CampusTeam: Team,
+    CampusSocial: Social,
+  },
   async asyncData({ $content, params }) {
     const { federation, asso } = params
     let content = $content(`federation/${federation}/${asso}/index`)
