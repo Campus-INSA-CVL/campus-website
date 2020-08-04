@@ -8,12 +8,14 @@
 import Team from '@/components/campus/Team'
 import Social from '@/components/campus/Social'
 import Image from '@/components/campus/Image'
+import Center from '@/components/campus/Center'
 
 export default {
   components: {
     CampusTeam: Team,
     CampusSocial: Social,
     CampusImage: Image,
+    CampusCenter: Center,
   },
   async asyncData({ $content, params }) {
     const { federation } = params

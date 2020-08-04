@@ -14,9 +14,9 @@ régionales et nationales.
 
 ## Le BDE à Blois
 
-<center>
+<campus-center>
   <campus-image folder-name="federation/bde" name="bde-blois.jpg" max-width="800"></campus-image>
-</center>
+</campus-center>
 
 ## Le BDE à Bourges
 
