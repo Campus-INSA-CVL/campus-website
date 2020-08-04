@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'ViewImg',
+  name: 'Image',
   props: {
     maxWidth: {
       type: String,
