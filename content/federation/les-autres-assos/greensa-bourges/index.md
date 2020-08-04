@@ -67,7 +67,7 @@ nous contacter ! 💚
 
 Vous pouvez aussi nous retrouver sur les réseaux et sur Discord !
 
-<social :social="social" :color="color"></social>
+<campus-social :social="social" :color="color"></campus-social>
 
 - [Facebook](https://www.facebook.com/greensa.bourges1/)
 - [Discord](https://discord.gg/45AfzHq)
@@ -76,4 +76,4 @@ Vous pouvez aussi nous retrouver sur les réseaux et sur Discord !
 
 # L'équipe
 
-<team :team="team" :color="color"></team>
+<campus-team :team="team" :color="color"></campus-team>

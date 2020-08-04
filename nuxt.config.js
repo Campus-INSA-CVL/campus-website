@@ -97,6 +97,7 @@ export default {
    */
   content: {
     fullTextSearchFields: ['title', 'description', 'slug', 'text'],
+    liveEdit: false,
   },
   /*
    ** Feed module configuration
