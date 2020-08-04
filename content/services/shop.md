@@ -1,9 +1,12 @@
 ---
-title: shop
+title: INSA Shop
 description: Le shop est la grande boutique de la marque INSA, par les étudiants pour les étudiants
 color: shopColor
 ---
 
 # Le Shop
 
-[C'est où les tee-shirts ?](https://shop.insa-cvl.fr)
+> ## Partager une identité commune
+
+
+[C'est où les tee-shirts ?](https://insashop.fr)
