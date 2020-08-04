@@ -7,11 +7,13 @@
 <script>
 import Team from '@/components/campus/Team'
 import Social from '@/components/campus/Social'
+import Image from '@/components/campus/Image'
 
 export default {
   components: {
     CampusTeam: Team,
     CampusSocial: Social,
+    CampusImage: Image,
   },
   async asyncData({ $content, params }) {
     const { federation } = params
