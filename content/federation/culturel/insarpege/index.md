@@ -6,6 +6,7 @@ team:
     - responsability: Président (responsable Bourges)
       name: Jordan Béziaud
       description: responsable de l'association au niveau administratif 
+      avatar: federation/culturel/insarpege/jordan_prez.png
     - responsability: Vice-Président (responsable Blois)
       name: Maxence Gréssent
       description: responsable des projets et de la communication intérieur 
@@ -16,7 +17,7 @@ team:
     - responsability: Secrétaire (Bourges)
       name: Cyprien Leschi 
       description: transcrit toute les décisions importantes à l'écrit, organise les ressources informatiques et crée les compte-rendus de chaque réunions
-      avatar: federation/culturel/tresorier.png
+      avatar: federation/culturel/insarpege/cyp_secretaire.jpg
   bureau de Blois:
     - responsability: Vice-Président
       name: Vincent Auduc
@@ -27,6 +28,7 @@ team:
     - responsability: Responsable Organisation
       name: Valentin Agnes 
       description: s'occupe de la gestion du matériel (inventaire, etc ...) et de la plannification des événements sur le campus de Blois
+      avatar: federation/culturel/insarpege/valentin_orga.jpg
     - responsability: Responsable Animation
       name: Clothilde Pilod 
       description: responsable de la préparation et de la mise en œuvre des événements
@@ -40,10 +42,11 @@ team:
     - responsability: Responsable Organisation 
       name: Baptiste Gauthier
       description: s'occupe de la gestion du matériel (inventaire, etc ...) et de la plannification des événements sur le campus de Bourges
+      avatar: federation/culturel/insarpege/baptiste_orga.jpg
     - responsability: Responsable Communication 
       name: Agathe Leca
       description: gère l'image de l'association sur les réseaux et prépare la com' des événements 
-
+      avatar: federation/culturel/insarpege/agathe_com.jpg
 social:
   facebook: 'https://www.facebook.com/insarpege'
   instagram: 'https://instagram.com/insarpege'
@@ -110,3 +113,7 @@ Vous pouvez suivre notre activité sur les réseaux :
 # L'équipe
 
 <team :team="team" :color="color"></team>
+
+
+    
+
