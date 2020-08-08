@@ -1,6 +1,8 @@
 ---
 title: partenariats
-description: Les partenariats te permettent d'obtenir des offres interressantes et au meilleur prix !
+description:
+  Les partenariats te permettent d'obtenir des offres interressantes et au
+  meilleur prix !
 color: partenariatsColor
 folderName: services/partenariats
 # image must be 500 pixels height to match perfectly

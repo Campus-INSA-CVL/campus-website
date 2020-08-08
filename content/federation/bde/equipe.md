@@ -21,7 +21,9 @@ team:
   communication:
     - responsability: responsable communication
       name: Charlotte Beaudoin
-      description: gère son équipe de communication afin d'augmenter la visibilité de l'association
+      description:
+        gère son équipe de communication afin d'augmenter la visibilité de
+        l'association
 ---
 
 # c'est l'équipe du bde
