@@ -48,7 +48,7 @@ team:
 
 # L'équipe
 
-<team :team="team" :color="color"></team>
+<campus-team :team="team" :color="color"></campus-team>
 ```
 
 ## Association
@@ -87,9 +87,9 @@ social:
 
 # lorem
 
-<social :social="social" :color="color"></social>
+<campus-social :social="social" :color="color"></campus-social>
 
-<team :team="team" :color="color"></team>
+<campus-team :team="team" :color="color"></campus-team>
 ```
 
 ## Service / Outil
