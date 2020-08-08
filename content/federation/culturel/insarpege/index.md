@@ -5,45 +5,61 @@ team:
   bureau:
     - responsability: Président (responsable Bourges)
       name: Jordan Béziaud
-      description: responsable de l'association au niveau administratif 
+      description: responsable de l'association au niveau administratif
     - responsability: Vice-Président (responsable Blois)
       name: Maxence Gréssent
-      description: responsable des projets et de la communication intérieur 
+      description: responsable des projets et de la communication intérieur
     - responsability: Trésorier (Blois)
       name: Carla Beny
-      description: responsable de la trésorerie de l'association, organise le budget en prévision des événements
+      description:
+        responsable de la trésorerie de l'association, organise le budget en
+        prévision des événements
       avatar: federation/culturel/tresorier.png
     - responsability: Secrétaire (Bourges)
-      name: Cyprien Leschi 
-      description: transcrit toute les décisions importantes à l'écrit, organise les ressources informatiques et crée les compte-rendus de chaque réunions
+      name: Cyprien Leschi
+      description:
+        transcrit toute les décisions importantes à l'écrit, organise les
+        ressources informatiques et crée les compte-rendus de chaque réunions
       avatar: federation/culturel/tresorier.png
   bureau de Blois:
     - responsability: Vice-Président
       name: Vincent Auduc
-      description: épaule les décisions du responsable de Blois, organise les projets sur le campus de Blois
+      description:
+        épaule les décisions du responsable de Blois, organise les projets sur
+        le campus de Blois
     - responsability: Secrétaire
-      name: Réda Benjelloun 
-      description: organise les compte-rendus et les ressources de l'association sur le campus de Blois 
+      name: Réda Benjelloun
+      description:
+        organise les compte-rendus et les ressources de l'association sur le
+        campus de Blois
     - responsability: Responsable Organisation
-      name: Valentin Agnes 
-      description: s'occupe de la gestion du matériel (inventaire, etc ...) et de la plannification des événements sur le campus de Blois
+      name: Valentin Agnes
+      description:
+        s'occupe de la gestion du matériel (inventaire, etc ...) et de la
+        plannification des événements sur le campus de Blois
     - responsability: Responsable Animation
-      name: Clothilde Pilod 
-      description: responsable de la préparation et de la mise en œuvre des événements
+      name: Clothilde Pilod
+      description:
+        responsable de la préparation et de la mise en œuvre des événements
   bureau de Bourges:
     - responsability: Vice-Président
-      name: Ronadelli Appollon 
-      description: épaule les décisions du responsable de Bourges, organise les projets sur le campus de Blois
+      name: Ronadelli Appollon
+      description:
+        épaule les décisions du responsable de Bourges, organise les projets sur
+        le campus de Blois
     - responsability: Trésorier
       name: Christophe Imbert
       description: gère le budget et les recettes localement sur Bourges
-    - responsability: Responsable Organisation 
+    - responsability: Responsable Organisation
       name: Baptiste Gauthier
-      description: s'occupe de la gestion du matériel (inventaire, etc ...) et de la plannification des événements sur le campus de Bourges
-    - responsability: Responsable Communication 
+      description:
+        s'occupe de la gestion du matériel (inventaire, etc ...) et de la
+        plannification des événements sur le campus de Bourges
+    - responsability: Responsable Communication
       name: Agathe Leca
-      description: gère l'image de l'association sur les réseaux et prépare la com' des événements 
-
+      description:
+        gère l'image de l'association sur les réseaux et prépare la com' des
+        événements
 social:
   facebook: 'https://www.facebook.com/insarpege'
   instagram: 'https://instagram.com/insarpege'
