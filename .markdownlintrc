@@ -1,0 +1,13 @@
+{
+  "MD007": {
+    "indent": 2
+  },
+  "MD025": {
+    "front_matter_title": ""
+  },
+  "MD030": {
+    "ul_single": 1,
+    "ul_multi": 1
+  },
+  "MD033": false
+}

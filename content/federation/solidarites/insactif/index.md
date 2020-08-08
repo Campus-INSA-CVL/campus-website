@@ -60,6 +60,6 @@ augue. Sed ultrices turpis lectus, in laoreet risus egestas quis. Nunc a leo nec
 risus tristique interdum. Nulla faucibus volutpat dignissim. Vivamus nec ex in
 quam euismod tempor.
 
-# L'équipe
+## L'équipe
 
 <team :team="team" :color="color"></team>

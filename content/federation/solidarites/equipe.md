@@ -20,6 +20,6 @@ team:
         l'association
 ---
 
-# L'équipe du pôle solidarité
+## L'équipe du pôle solidarité
 
 <team :team="team" :color="color"></team>

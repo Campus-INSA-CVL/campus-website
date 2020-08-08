@@ -5,6 +5,8 @@ order: 0
 
 # INSA
 
+## Le groupe INSA
+
 Le groupe INSA (Institut National des Sciences Appliquées) est constitué de 14
 établissements publics français de recherche et d’enseignement supérieur. Plus
 grand ensemble de formation d’ingénieurs en France (10 % des ingénieurs), ils
@@ -21,7 +23,7 @@ De création assez récente, les INSA ont essentiellement un objectif social qui
 est de donner accès au plus grand nombre d’étudiants à des études supérieures de
 qualité quel que soit leur milieu d’origine.
 
-# Les INSA en France
+## Les INSA en France
 
 - [INSA Centre-Val de Loire](https://www.groupe-insa.fr/decouvrir/nos-ecoles/insa-centre-val-de-loire)
 - [INSA Hauts-de-France](https://www.groupe-insa.fr/decouvrir/nos-ecoles/insa-hauts-de-france)

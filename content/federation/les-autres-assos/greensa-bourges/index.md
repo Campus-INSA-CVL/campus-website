@@ -74,6 +74,6 @@ Vous pouvez aussi nous retrouver sur les réseaux et sur Discord !
 
 ---
 
-# L'équipe
+## L'équipe
 
 <campus-team :team="team" :color="color"></campus-team>

@@ -20,8 +20,8 @@ team:
         l'association
 ---
 
-# Bienvenue dans Élèves sans frontières !
+# Bienvenue dans Élèves sans frontières
 
-# L'équipe
+## L'équipe
 
 <team :team="team" :color="color"></team>

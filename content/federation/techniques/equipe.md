@@ -20,6 +20,6 @@ team:
         l'association
 ---
 
-# L'équipe du pôle technique
+## L'équipe du pôle technique
 
 <team :team="team" :color="color"></team>

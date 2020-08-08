@@ -19,7 +19,7 @@ sera donnée comme étant la meme que ton parrain ou ta marraine.
   <carousel :names="imagesName" :folder-name="folderName"></carousel>
 </center>
 
-# Résultats
+## Résultats
 
 | familles  | rang |
 | :-------: | ---: |

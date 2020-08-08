@@ -22,6 +22,6 @@ team:
 
 # Bienvenue dans Insagénieuse
 
-# L'équipe
+## L'équipe
 
 <team :team="team" :color="color"></team>

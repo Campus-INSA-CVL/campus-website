@@ -20,6 +20,6 @@ team:
         l'association
 ---
 
-# L'équipe du pôle sport
+## L'équipe du pôle sport
 
 <team :team="team" :color="color"></team>

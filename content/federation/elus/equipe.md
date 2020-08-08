@@ -22,6 +22,6 @@ team:
         auctor. Nulla turpis diam, volutpat nec nisl vitae.
 ---
 
-# L'équipe des élus
+## L'équipe des élus
 
 <team :team="team" :color="color"></team>

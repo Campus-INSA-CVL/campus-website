@@ -65,14 +65,18 @@ social:
   instagram: 'https://instagram.com/insarpege'
 ---
 
-# Bienvenue dans INSA'rpège !
+# Bienvenue dans INSA'rpège
 
-<center>
-  <view-img folder-name="federation/culturel/insarpege" name="logo.png" max-width="400"></view-img>
-</center>
+<campus-center>
+  <campus-responsive-image
+    folder-name="federation/culturel/insarpege"
+    name="logo.png"
+    max-width="400">
+  </campus-responsive-image>
+</campus-center>
 
 Insa’rpège, c'est l'association qui représente la vie **musicale** de l'école
-sous toute ses formes ! 🎤 🎹 🎺 🎸 🎵
+sous toutes ses formes ! 🎤 🎹 🎺 🎸 🎵
 
 ## Les objectifs
 
@@ -89,9 +93,9 @@ salle et de notre matériel 🥁 🎙
 
 L’association permet également à ceux-ci d’intégrer des groupes dans des styles
 divers pour ensuite se produire, ou non, en public au sein de l’école tels que
-les afterworks principalement ou à l’extérieur lors d'évenements diverses. Ces
+les afterworks principalement ou à l’extérieur lors d'évènements diverses. Ces
 représentations peuvent intervenir dans un large éventail d'événements pour
-apporter ambiance musicale de folie 🥳
+apporter une ambiance musicale de folie 🥳
 
 On représente enfin la musique de 💜 l'INSA CVL 💜. C'est à dire que lors
 d'événements inter-INSA ou inter-écoles où l'on doit faire intervenir de la zik,
@@ -119,10 +123,10 @@ liste non-exhaustive de nos événements 😎 :
 
 Vous pouvez suivre notre activité sur les réseaux :
 
-<social :social="social" :color="color"></social>
+<campus-social :social="social" :color="color"></campus-social>
 
 ---
 
-# L'équipe
+## L'équipe
 
-<team :team="team" :color="color"></team>
+<campus-team :team="team" :color="color"></campus-team>

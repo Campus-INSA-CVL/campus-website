@@ -23,10 +23,9 @@ filesFederation:
   <view-img folder-name="outils" name="creer-son-association.jpg" max-width="600"></view-img>
 </center>
 
-# Outils Fédération
+## Outils Fédération
 
-Voici les documents qui peuvent servir à tout membre de la fédération :
-
-_cliquer pour télécharger_
+Voici les documents qui peuvent servir à tout membre de la fédération (_cliquer
+pour télécharger_)
 
 <DownloadLinks :files="filesFederation"></DownloadLinks>

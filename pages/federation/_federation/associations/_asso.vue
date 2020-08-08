@@ -7,11 +7,17 @@
 <script>
 import Team from '@/components/campus/Team'
 import Social from '@/components/campus/Social'
+import Center from '@/components/campus/Center'
+import ResponsiveImage from '@/components/campus/ResponsiveImage'
+import Carousel from '@/components/campus/Carousel'
 
 export default {
   components: {
     CampusTeam: Team,
     CampusSocial: Social,
+    CampusCenter: Center,
+    CampusResponsiveImage: ResponsiveImage,
+    CampusCarousel: Carousel,
   },
   async asyncData({ $content, params }) {
     const { federation, asso } = params
