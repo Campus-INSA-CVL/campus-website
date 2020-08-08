@@ -383,4 +383,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 > Pour enrichir votre présentation
 
-Coming soon !
+Afin de proposer du contenu autre que du texte pour vos associations, vous avez
+la possibilité d'utiliser des composants. L'idée est de leur injecter, depuis le
+front-matter, de la donnée et de les mettre dans votre fichier markdown
+[à cette manière](https://content.nuxtjs.org/writing#vue-components).
+
+Afin de savoir comment les utilser, je vous invite à regarder les templates
+disponibles
+[ici](https://github.com/Campus-INSA-CVL/campus-website-templates/tree/master/content/pages)
+(dans les fichiers `*.md`).
