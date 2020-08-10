@@ -71,6 +71,11 @@ export default {
           icon: 'mdiHomeAssistant',
         },
         {
+          name: 'Olympiades',
+          path: '/olympiades',
+          icon: 'mdiMedal',
+        },
+        {
           name: 'Services',
           path: '/services',
           icon: 'mdiRoomService',
@@ -79,11 +84,6 @@ export default {
           name: 'Outils',
           path: '/outils',
           icon: 'mdiToolbox',
-        },
-        {
-          name: 'Olympiades',
-          path: '/olympiades',
-          icon: 'mdiMedal',
         },
         {
           name: 'nous contacter',
