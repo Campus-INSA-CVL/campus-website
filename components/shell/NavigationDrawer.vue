@@ -76,14 +76,14 @@ export default {
           icon: 'mdiRoomService',
         },
         {
-          name: 'Olympiades',
-          path: '/olympiades',
-          icon: 'mdiMedal',
-        },
-        {
           name: 'Outils',
           path: '/outils',
           icon: 'mdiToolbox',
+        },
+        {
+          name: 'Olympiades',
+          path: '/olympiades',
+          icon: 'mdiMedal',
         },
         {
           name: 'nous contacter',
