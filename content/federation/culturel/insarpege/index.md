@@ -14,13 +14,12 @@ team:
       description:
         responsable de la trésorerie de l'association, organise le budget en
         prévision des événements
-      avatar: federation/culturel/tresorier.png
+      avatar: user-random-female.png
     - responsability: Secrétaire (Bourges)
       name: Cyprien Leschi
       description:
         transcrit toute les décisions importantes à l'écrit, organise les
         ressources informatiques et crée les compte-rendus de chaque réunions
-      avatar: federation/culturel/tresorier.png
   bureau de Blois:
     - responsability: Vice-Président
       name: Vincent Auduc
@@ -41,6 +40,7 @@ team:
       name: Clothilde Pilod
       description:
         responsable de la préparation et de la mise en œuvre des événements
+      avatar: user-random-female.png
   bureau de Bourges:
     - responsability: Vice-Président
       name: Ronadelli Appollon
@@ -60,6 +60,7 @@ team:
       description:
         gère l'image de l'association sur les réseaux et prépare la com' des
         événements
+      avatar: user-random-female.png
 social:
   facebook: 'https://www.facebook.com/insarpege'
   instagram: 'https://instagram.com/insarpege'
