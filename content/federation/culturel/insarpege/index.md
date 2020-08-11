@@ -5,11 +5,12 @@ team:
   bureau:
     - responsability: Président (responsable Bourges)
       name: Jordan Béziaud
-      description: responsable de l'association au niveau administratif 
+      description: responsable de l'association au niveau administratif mais également bi-campus en assurant une cohésion musicale 
       avatar: federation/culturel/insarpege/jordan_prez.png
     - responsability: Vice-Président (responsable Blois)
       name: Maxence Gréssent
       description: responsable des projets et de la communication intérieur 
+      avatar: federation/culturel/insarpege/maxence_vice_prez.jpg
     - responsability: Trésorier (Blois)
       name: Carla Beny
       description: responsable de la trésorerie de l'association, organise le budget en prévision des événements
@@ -22,9 +23,11 @@ team:
     - responsability: Vice-Président
       name: Vincent Auduc
       description: épaule les décisions du responsable de Blois, organise les projets sur le campus de Blois
+      avatar: federation/culturel/insarpege/vincent_vice_prez.png
     - responsability: Secrétaire
       name: Réda Benjelloun 
       description: organise les compte-rendus et les ressources de l'association sur le campus de Blois 
+      avatar: federation/culturel/insarpege/reda_secretaire.jpg
     - responsability: Responsable Organisation
       name: Valentin Agnes 
       description: s'occupe de la gestion du matériel (inventaire, etc ...) et de la plannification des événements sur le campus de Blois
@@ -32,10 +35,12 @@ team:
     - responsability: Responsable Animation
       name: Clothilde Pilod 
       description: responsable de la préparation et de la mise en œuvre des événements
+      avatar: federation/culturel/insarpege/clothilde_event.jpg
   bureau de Bourges:
     - responsability: Vice-Président
       name: Ronadelli Appollon 
       description: épaule les décisions du responsable de Bourges, organise les projets sur le campus de Blois
+      avatar: federation/culturel/insarpege/rona_vice_prez.jpg
     - responsability: Trésorier
       name: Christophe Imbert
       description: gère le budget et les recettes localement sur Bourges
