@@ -3,6 +3,10 @@ associations:
     path: /federation/culturel/associations/insarpege
     description: Insa’rpège, c'est l'association qui représente la vie musicale de l'école sous toute ses formes ! 🎤 🎹 🎺 🎸 🎵 A travers des représentations, afterworks, fanfares, nous prenons pars à la vie de l'école en amenant une ambiance musicale qualitative à la majorité des événements de l'école ! Notre local permet aussi aux étudiants de continuer la pratique de leurs instruments dans l'enceinte du campus ! 
     color: culturelColor
+  - title: dancinsa
+    path: /federation/culturel/associations/dancinsa
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+    color: culturelColor
   - title: insabrasse
     path: /federation/culturel/associations/insabrasse
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
