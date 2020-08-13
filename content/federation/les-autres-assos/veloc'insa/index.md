@@ -20,12 +20,12 @@ team:
         l'association
 ---
 
-# Bienvenue dans veloc'INSA 
+# Bienvenue dans veloc'INSA
 
 <center>
   <view-img folder-name="federation/les-autres-assos/veloc'insa" name="logo.jpg" max-width="400"></view-img>
 </center>
 
-# L'équipe
+## L'équipe
 
 <team :team="team" :color="color"></team>
