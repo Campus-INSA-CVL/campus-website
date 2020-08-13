@@ -5,48 +5,57 @@ team:
   bureau:
     - responsability: Président (responsable Bourges)
       name: Jordan Béziaud
-      description: responsable de l'association au niveau administratif
+      description:
+        responsable de l'association au niveau administratif mais également
+        bi-campus en assurant une cohésion musicale
+      avatar: federation/culturel/insarpege/jordan_prez.jpeg
     - responsability: Vice-Président (responsable Blois)
-      name: Maxence Gréssent
-      description: responsable des projets et de la communication intérieur
+      name: Maxence Gressent
+      description: responsable des projets et de la communication intérieure
+      avatar: federation/culturel/insarpege/maxence_vice_prez.jpeg
     - responsability: Trésorier (Blois)
       name: Carla Beny
       description:
         responsable de la trésorerie de l'association, organise le budget en
         prévision des événements
-      avatar: user-random-female.png
+      avatar: federation/culturel/insarpege/carla_treso.jpg
     - responsability: Secrétaire (Bourges)
       name: Cyprien Leschi
       description:
         transcrit toute les décisions importantes à l'écrit, organise les
         ressources informatiques et crée les compte-rendus de chaque réunions
+      avatar: federation/culturel/insarpege/cyp_secretaire.jpg
   bureau de Blois:
     - responsability: Vice-Président
       name: Vincent Auduc
       description:
         épaule les décisions du responsable de Blois, organise les projets sur
         le campus de Blois
+      avatar: federation/culturel/insarpege/vincent_vice_prez.jpeg
     - responsability: Secrétaire
       name: Réda Benjelloun
       description:
         organise les compte-rendus et les ressources de l'association sur le
         campus de Blois
+      avatar: federation/culturel/insarpege/reda_secretaire.jpg
     - responsability: Responsable Organisation
       name: Valentin Agnes
       description:
         s'occupe de la gestion du matériel (inventaire, etc ...) et de la
         plannification des événements sur le campus de Blois
+      avatar: federation/culturel/insarpege/valentin_orga.jpg
     - responsability: Responsable Animation
       name: Clothilde Pilod
       description:
         responsable de la préparation et de la mise en œuvre des événements
-      avatar: user-random-female.png
+      avatar: federation/culturel/insarpege/clothilde_event.jpg
   bureau de Bourges:
     - responsability: Vice-Président
       name: Ronadelli Appollon
       description:
         épaule les décisions du responsable de Bourges, organise les projets sur
         le campus de Blois
+      avatar: federation/culturel/insarpege/rona_vice_prez.jpeg
     - responsability: Trésorier
       name: Christophe Imbert
       description: gère le budget et les recettes localement sur Bourges
@@ -55,18 +64,19 @@ team:
       description:
         s'occupe de la gestion du matériel (inventaire, etc ...) et de la
         plannification des événements sur le campus de Bourges
+      avatar: federation/culturel/insarpege/baptiste_orga.jpg
     - responsability: Responsable Communication
       name: Agathe Leca
       description:
         gère l'image de l'association sur les réseaux et prépare la com' des
         événements
-      avatar: user-random-female.png
+      avatar: federation/culturel/insarpege/agathe_com.jpg
 social:
   facebook: 'https://www.facebook.com/insarpege'
   instagram: 'https://instagram.com/insarpege'
 ---
 
-# Bienvenue dans INSA'rpège
+# Bienvenue chez INSA'rpège
 
 <campus-center>
   <campus-responsive-image
@@ -93,10 +103,10 @@ parallèle de leurs études 🎓, notamment de par la mise à disposition de not
 salle et de notre matériel 🥁 🎙
 
 L’association permet également à ceux-ci d’intégrer des groupes dans des styles
-divers pour ensuite se produire, ou non, en public au sein de l’école tels que
-les afterworks principalement ou à l’extérieur lors d'évènements diverses. Ces
-représentations peuvent intervenir dans un large éventail d'événements pour
-apporter une ambiance musicale de folie 🥳
+divers pour ensuite se produire, ou non, en public au sein de l’école par
+exemple pendant les afterworks principalement ou à l’extérieur lors d'évenements
+diverses. Ces représentations peuvent intervenir dans un large éventail
+d'événements pour apporter une ambiance musicale de folie 🥳
 
 On représente enfin la musique de 💜 l'INSA CVL 💜. C'est à dire que lors
 d'événements inter-INSA ou inter-écoles où l'on doit faire intervenir de la zik,
@@ -107,7 +117,7 @@ mat' 🙃)
 Si tu veux plus de détail, n'hésite pas à contacter
 [Jordan Béziaud](https://www.facebook.com/jordan.beziaud) sur Bourges ou
 [Maxence Gressent](https://www.facebook.com/profile.php?id=100009153364994) sur
-Blois !
+Blois
 
 ## Les événements
 

@@ -20,7 +20,7 @@ team:
         l'association
 ---
 
-# Bienvenue dans ISI !
+# Bienvenue dans ISI
 
 ## L'équipe
 

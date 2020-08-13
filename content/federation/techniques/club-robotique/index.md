@@ -20,7 +20,7 @@ team:
         l'association
 ---
 
-# Bienvenue dans le Club robotique !
+# Bienvenue dans le Club robotique
 
 ## L'équipe
 

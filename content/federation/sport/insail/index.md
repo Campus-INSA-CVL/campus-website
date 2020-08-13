@@ -35,7 +35,7 @@ team:
         l'association
 ---
 
-# Bienvenue dans INSAil !
+# Bienvenue dans INSAil
 
 ---
 

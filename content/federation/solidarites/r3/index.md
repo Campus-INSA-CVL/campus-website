@@ -20,7 +20,7 @@ team:
         l'association
 ---
 
-# Bienvenue dans R3: Rencontrer, Réaliser, Réussir !
+# Bienvenue dans R3: Rencontrer, Réaliser, Réussir
 
 ## L'équipe
 

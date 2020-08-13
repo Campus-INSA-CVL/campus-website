@@ -20,7 +20,7 @@ team:
         l'association
 ---
 
-# Bienvenue au Printemps des Grandes Écoles !
+# Bienvenue au Printemps des Grandes Écoles
 
 ---
 

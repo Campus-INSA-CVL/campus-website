@@ -20,7 +20,7 @@ team:
         l'association
 ---
 
-# Gam'INSA !
+# Gam'INSA
 
 ## L'équipe
 

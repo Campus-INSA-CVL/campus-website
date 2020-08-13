@@ -20,7 +20,7 @@ team:
         l'association
 ---
 
-# Bienvenue dans le 4L Trophy !
+# Bienvenue dans le 4L Trophy
 
 ## L'équipe
 

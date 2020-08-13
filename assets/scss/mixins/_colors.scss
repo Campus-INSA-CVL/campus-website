@@ -4,6 +4,9 @@
       color: var($color-css + 'base');
     }
   }
+  strong {
+    color: var($color-css + 'base');
+  }
   ul {
     li::before {
       color: var($color-css + 'base');

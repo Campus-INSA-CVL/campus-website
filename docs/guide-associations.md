@@ -53,7 +53,7 @@ intéressent le plus sont les fichiers dont l'extension est `md`.
 
 ### Arborescence
 
-```
+```txt
 content
 |---federation
     |----fichiers et dossiers pour l'ensemble des fédérations
@@ -103,16 +103,16 @@ Pour **apprendre la syntaxe** (très simple) du Markdown:
 
 Pour **écrire du markdown**: [Dillinger](https://dillinger.io/)
 
-### Comment modifier le contenu ?
+### Comment modifier le contenu
 
 - Demander au respo info de réaliser les modifications souhaitées
 
-**ou**
+ou
 
 - utiliser [codesandbox](/codesandbox.html) pour effectuer vos modifications
 - donner vos modifications aux respos
 
-**ou**
+ou
 
 - Aller sur [GitHub](https://github.com/Campus-INSA-CVL/campus-website/)
 - Parcourir l'arborescence pour trouver le fichier à modifier
@@ -122,7 +122,7 @@ Pour **écrire du markdown**: [Dillinger](https://dillinger.io/)
   nouvelle pull request et en expliquant la motivation des changements dans la
   description
 
-**ou**
+ou
 
 - Effectuer un fork du repo sur votre machine de travail
 - Effectuer les modifications en créant une nouvelle branche
@@ -133,7 +133,7 @@ Pour **écrire du markdown**: [Dillinger](https://dillinger.io/)
 - Dans le dossier fédération, se rendre dans le dossier du pôle
 - Apporter les modifications au fichier `index.md`
 
-**Exemple**
+Exemple
 
 ```md
 ---
@@ -162,7 +162,7 @@ personnalisée pour chaque personne de l'équipe.
   fédération (puis de votre association si besoin)
 - Ajouter un champs avatar en indiquant le chemin vers votre image
 
-**Exemple**
+Exemple
 
 Si votre image `president.jpg` se situe dans le dossier `bde` du dossier
 `federation` du dossier `assets` alors il faut ajouter:
@@ -170,7 +170,7 @@ Si votre image `president.jpg` se situe dans le dossier `bde` du dossier
 
 :::
 
-**Exemple**
+Exemple
 
 ```md
 ---
@@ -183,12 +183,14 @@ team: <!-- données utilisées pour la création visuel de la team -->
       description: responsable de l'association
     - responsability: trésorier
       name: Courtland Vaillancour
-      description: Phasellus et laoreet augue. Aliquam tristique nisi sed velit faucibus auctor. Nulla turpis diam, volutpat nec nisl vitae.
+      description: Phasellus et laoreet augue. Aliquam tristique nisi sed velit
+      faucibus auctor. Nulla turpis diam, volutpat nec nisl vitae.
       avatar: federation/culturel/tresorier.png
   communication:
     - responsability: responsable communication
       name: Charlotte Beaudoin
-      description: gère son équipe de communication afin d'augmenter la visibilité de l'association
+      description: gère son équipe de communication afin d'augmenter la visibilité
+      de l'association
 ---
 
 # L'équipe
@@ -204,7 +206,7 @@ team: <!-- données utilisées pour la création visuel de la team -->
   pas visible, demandez au respo info de la faire)
 - Modifier le fichier `index.md`
 
-**Exemple**
+Exemple
 
 ```md
 ---
@@ -217,12 +219,14 @@ team: <!-- données utilisées pour la création visuel de la team -->
       description: responsable de l'association
     - responsability: trésorier
       name: Courtland Vaillancour
-      description: Phasellus et laoreet augue. Aliquam tristique nisi sed velit faucibus auctor. Nulla turpis diam, volutpat nec nisl vitae.
+      description: Phasellus et laoreet augue. Aliquam tristique nisi sed velit
+      faucibus auctor. Nulla turpis diam, volutpat nec nisl vitae.
       avatar: federation/culturel/tresorier.png
   communication:
     - responsability: responsable communication
       name: Charlotte Beaudoin
-      description: gère son équipe de communication afin d'augmenter la visibilité de l'association
+      description: gère son équipe de communication afin d'augmenter la visibilité
+      de l'association
 social:
   facebook: 'https://facebook.com'
   instagram: 'https://instagram.com'
@@ -232,15 +236,15 @@ social:
   discord: 'https://discord.com'
 ---
 
-# Bienvenue dans INSAction !
+# Bienvenue dans INSAction
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-# Les réseaux
+## Les réseaux
 
 <campus-social :social="social" :color="color"></campus-social>
 
-# L'équipe
+## L'équipe
 
 <campus-team :team="team" :color="color"></campus-team>
 ```
@@ -252,7 +256,7 @@ personnalisée pour chaque personne de l'équipe.
   fédération (puis de votre association si besoin)
 - Ajouter un champs avatar en indiquant le chemin vers votre image
 
-**Exemple**
+Exemple
 
 Si votre image `president.jpg` se situe dans le dossier `bde` du dossier
 `federation` du dossier `assets` alors il faut ajouter:
@@ -265,7 +269,7 @@ Si votre image `president.jpg` se situe dans le dossier `bde` du dossier
 - Trouver le fichier dans le dossier correspondant
 - Procéder aux modifications
 
-**Exemple**
+Exemple
 
 ```md
 ---
@@ -288,7 +292,7 @@ Quisque luctus odio et est maximus posuere id nec quam.
 - Trouver le fichier dans le dossier correspondant
 - Procéder aux modifications
 
-**Exemple**
+Exemple
 
 ```md
 ---
@@ -312,7 +316,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   afficher et le _link_ du fichier
 - Ajouter dans le _body_ le composant `DownloadLinks`
 
-**Exemple**
+Exemple
 
 ```md
 ---
@@ -371,7 +375,7 @@ title: Le super blog
 description: Mauris congue orci eget ornare scelerisque.
 color: culturelColor
 author:
-  name: 'Insarpère'
+  name: 'Insarpège'
 ---
 
 # Le super blog
@@ -388,7 +392,7 @@ la possibilité d'utiliser des composants. L'idée est de leur injecter, depuis 
 front-matter, de la donnée et de les mettre dans votre fichier markdown
 [à cette manière](https://content.nuxtjs.org/writing#vue-components).
 
-Afin de savoir comment les utilser, je vous invite à regarder les templates
+Afin de savoir comment les utiliser, je vous invite à regarder les templates
 disponibles
 [ici](https://github.com/Campus-INSA-CVL/campus-website-templates/tree/master/content/pages)
 (dans les fichiers `*.md`).

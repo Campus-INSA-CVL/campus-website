@@ -20,7 +20,7 @@ team:
         l'association
 ---
 
-# Bienvenue dans INSA'press !
+# Bienvenue dans INSA'press
 
 ---
 

@@ -20,7 +20,7 @@ team:
         l'association
 ---
 
-# Bienvenue dans à Comed'INSA !
+# Bienvenue dans à Comed'INSA
 
 ---
 

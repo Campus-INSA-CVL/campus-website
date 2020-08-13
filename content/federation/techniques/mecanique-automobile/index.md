@@ -20,7 +20,7 @@ team:
         l'association
 ---
 
-# Bienvenue dans mécanique automobile !
+# Bienvenue dans mécanique automobile
 
 ## L'équipe
 

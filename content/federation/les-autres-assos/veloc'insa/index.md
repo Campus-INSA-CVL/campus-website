@@ -1,10 +1,10 @@
 ---
-title: club oenologie
-color: culturelColor
+title: Veloc'INSA
+color: othersColor
 team:
   bureau:
     - responsability: président
-      name: Michel Harquin
+      name: Jules Perrault
       description: responsable de l'association
     - responsability: trésorier
       name: Courtland Vaillancour
@@ -20,9 +20,11 @@ team:
         l'association
 ---
 
-# Bienvenue dans le club Oenologie
+# Bienvenue dans veloc'INSA
 
----
+<center>
+  <view-img folder-name="federation/les-autres-assos/veloc'insa" name="logo.jpg" max-width="400"></view-img>
+</center>
 
 ## L'équipe
 

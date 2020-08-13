@@ -20,7 +20,7 @@ team:
         l'association
 ---
 
-# Bienvenue dans INSA Kids !
+# Bienvenue dans INSA Kids
 
 ---
 

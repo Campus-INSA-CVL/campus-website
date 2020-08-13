@@ -20,7 +20,7 @@ team:
         l'association
 ---
 
-# Bienvenue dans INS'Actif !
+# Bienvenue dans INS'Actif
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer facilisis
 imperdiet pharetra. Suspendisse consectetur aliquam urna vitae auctor. Nunc nec

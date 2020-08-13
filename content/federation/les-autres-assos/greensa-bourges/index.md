@@ -47,7 +47,7 @@ cela qu'elle travaille de concert avec d'autres associations de l'école dans un
 but commun, celui de l'environnement, de l'écologie et du développement durable,
 pour mener des actions concrètes ! Elle est aussi en lien étroit avec
 l'administration dans un objectif de mener des actions de sensibilisations et de
-formations auprès des élèves et professeurs de l'école !
+formations auprès des élèves et professeurs de l'école
 
 ## Les évènements
 
@@ -60,12 +60,12 @@ l'[AEI](https://www.facebook.com/aeinsa/) pour mener respectivement un projet
 sur la région Centre-Val de Loire et un projet commun de sensibilisation sur
 l'ensemble des INSA ! Dans le futur, elle souhaite s'ouvrir d'avantage sur
 l'extérieur et porter d'avantage de projets de formations afin d'accélérer la
-sensibilisation !
+sensibilisation
 
 Alors si cela vous plaît ou que vous souhaitez nous rejoindre, n'hésitez pas à
 nous contacter ! 💚
 
-Vous pouvez aussi nous retrouver sur les réseaux et sur Discord !
+Vous pouvez aussi nous retrouver sur les réseaux et sur Discord
 
 <campus-social :social="social" :color="color"></campus-social>
 

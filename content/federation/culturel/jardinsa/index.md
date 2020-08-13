@@ -20,7 +20,7 @@ team:
         l'association
 ---
 
-# Bienvenue dans Jard'INSA !
+# Bienvenue dans Jard'INSA
 
 ---
 
