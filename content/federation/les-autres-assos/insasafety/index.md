@@ -23,7 +23,7 @@ team:
 <campus-center>
   <campus-responsive-image
     folder-name="federation/les-autres-assos/insafety"
-    name="logo.png"
+    name="logo.jpg"
     max-width="400">
   </campus-responsive-image>
 </campus-center>
