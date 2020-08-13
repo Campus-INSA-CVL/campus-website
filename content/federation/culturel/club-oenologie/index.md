@@ -20,7 +20,7 @@ team:
         l'association
 ---
 
-# Bienvenue dans le club Oenologie !
+# Bienvenue dans le club Oenologie
 
 ---
 

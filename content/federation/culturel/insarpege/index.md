@@ -107,7 +107,7 @@ mat' 🙃)
 Si tu veux plus de détail, n'hésite pas à contacter
 [Jordan Béziaud](https://www.facebook.com/jordan.beziaud) sur Bourges ou
 [Maxence Gressent](https://www.facebook.com/profile.php?id=100009153364994) sur
-Blois !
+Blois
 
 ## Les événements
 

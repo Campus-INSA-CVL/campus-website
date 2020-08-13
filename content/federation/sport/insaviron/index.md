@@ -20,7 +20,7 @@ team:
         l'association
 ---
 
-# Bienvenue dans INSAVIRON !
+# Bienvenue dans INSAVIRON
 
 ---
 

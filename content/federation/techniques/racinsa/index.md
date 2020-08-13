@@ -20,7 +20,7 @@ team:
         l'association
 ---
 
-# Bienvenue dans Rac'INSA !
+# Bienvenue dans Rac'INSA
 
 ## L'équipe
 

@@ -20,7 +20,7 @@ team:
         l'association
 ---
 
-# Bienvenue dans High-five !
+# Bienvenue dans High-five
 
 ---
 

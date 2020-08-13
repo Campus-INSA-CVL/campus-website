@@ -20,7 +20,7 @@ team:
         l'association
 ---
 
-# Bienvenue dans INSAction !
+# Bienvenue dans INSAction
 
 ---
 

@@ -20,7 +20,7 @@ team:
         l'association
 ---
 
-# Bienvenue dans INSAbrasse !
+# Bienvenue dans INSAbrasse
 
 ---
 
