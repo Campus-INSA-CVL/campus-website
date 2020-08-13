@@ -41,14 +41,14 @@ afin de faciliter sa modification, dans l'objet `config`. Le nom de l'object
 dans config doit être le même que le nom passé dans l'url, comme le paramètre
 fédération ou outils ou services.
 
-**Champs disponibles en fonction du type de l'extension**
+Champs disponibles en fonction du type de l'extension
 
 |    type     | fields                           |
 | :---------: | -------------------------------- |
 | association | `type, title, color, path, btns` |
 |    page     | `type, title, path`              |
 
-**Propriété disponible**
+Propriété disponible
 
 | Fields  |         Type          | Property                  | Functions                                                          |
 | :-----: | :-------------------: | ------------------------- | ------------------------------------------------------------------ |
@@ -58,7 +58,7 @@ fédération ou outils ou services.
 | `path`  |       `object`        | {main, secondary?}        | Permet de définir le chemin de redirection du titre de l'extension |
 | `btns`  |       `object`        | {name, path, icon, style} | Permet de créer les boutons                                        |
 
-**Propriété disponible pour le champs btns**
+Propriété disponible pour le champs **btns**
 
 | Fields  |   Type   | Property                                  | Functions                                                                                             |
 | :-----: | :------: | ----------------------------------------- | ----------------------------------------------------------------------------------------------------- |
@@ -67,7 +67,7 @@ fédération ou outils ou services.
 | `icon`  | `string` | none                                      | Permet de définir l'icon du bouton                                                                    |
 | `style` | `object` | { outlined: Boolean, depressed: Boolean } | Permet de définir le style du bouton                                                                  |
 
-**Exemple**
+Exemple
 
 ```js
 config: {
@@ -156,7 +156,7 @@ créer les onglets. Ainsi, l'ajout d'un fichier Markdown dans ce dossier avec le
 titre présent dans le front matter permet d'automatiquement générer une nouvelle
 route, le nom du fichier servant d'url (paramètre tab) !
 
-**Exemple**
+Exemple
 
 ```md
 ---
@@ -219,7 +219,7 @@ couleur dans le fichier de configuration de nuxt).
 
 :::
 
-**Exemple**
+Exemple
 
 ```md
 ---
@@ -246,7 +246,7 @@ Vivamus sed enim ut magna lacinia lobortis.
 
 Une seule page et donc un seul fichier Markdown à charger et à afficher.
 
-**Exemple**
+Exemple
 
 ```md
 ---
@@ -280,7 +280,7 @@ couleur dans le fichier de configuration de nuxt).
 
 :::
 
-**Exemple**
+Exemple
 
 ```md
 ---
@@ -445,7 +445,7 @@ publier dans le blog de son pôle
 - Ajouter le bouton blog dans le config de la fédération dans le layout
 - Ajouter le pôle dans la base de génération des flux RSS
 
-**Exemple**
+Exemple
 
 ```js
 // nuxt.config.js
@@ -463,7 +463,7 @@ feed: {
 
 - Ajouter le path du dossier du blog dans le sitemap
 
-**Exemple**
+Exemple
 
 ```js
 // nuxt.config.js

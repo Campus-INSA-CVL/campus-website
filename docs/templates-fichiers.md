@@ -37,10 +37,10 @@ title: lorem
 color: loremColor
 team:
   bureau:
-    - responsability: lorem       
+    - responsability: lorem
       name: lorem
       description:
-    - responsability: ipsum 
+    - responsability: ipsum
       name: ipsum
       description:
       avatar: federation/culturel/tresorier.png
@@ -69,10 +69,10 @@ title: lorem
 color: loremColor
 team:
   bureau:
-    - responsability: lorem       
+    - responsability: lorem
       name: lorem
       description:
-    - responsability: ipsum 
+    - responsability: ipsum
       name: ipsum
       description:
       avatar: federation/culturel/tresorier.png
@@ -106,7 +106,7 @@ color: loremColor
 
 ## Tab
 
-```
+```md
 ---
 title: lorem
 order: 0
