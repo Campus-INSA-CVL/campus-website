@@ -4,10 +4,16 @@ color: othersColor
 team:
   bureau:
     - responsability: président
-      name: Jules Perrault
+      name: Sebastien Marchou-Payen
       description: responsable de l'association
-    - responsability: trésorier
-      name: Courtland Vaillancour
+    - responsability: secrétaire
+      name: Maxence Pomeon
+      description:
+        Phasellus et laoreet augue. Aliquam tristique nisi sed velit faucibus
+        auctor. Nulla turpis diam, volutpat nec nisl vitae.
+      avatar: federation/culturel/tresorier.png
+    - responsability: trésorier 
+      name: Thomas Nigon
       description:
         Phasellus et laoreet augue. Aliquam tristique nisi sed velit faucibus
         auctor. Nulla turpis diam, volutpat nec nisl vitae.
@@ -18,6 +24,9 @@ team:
       description:
         gère son équipe de communication afin d'augmenter la visibilité de
         l'association
+social:
+  facebook: 'https://www.facebook.com/fromINSAtoSaviors/'
+
 ---
 
 <campus-center>
@@ -43,6 +52,8 @@ aux risques quotidiens et à ceux que vous rencontrerez dans votre future
 carrière.
 
 L'équipe INSAFETY 😊
+
+<campus-social :social="social" :color="color"></campus-social>
 
 ---
 
