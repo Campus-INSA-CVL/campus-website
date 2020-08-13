@@ -16,7 +16,8 @@ imagesNames:
 
 ## Le site Cafet
 
-Le site cafe te permettra de commander à n’importe quelle heure de la mâtiné pour le midi.
+Le site cafe te permettra de commander à n’importe quelle heure de la mâtiné
+pour le midi.
 
 [Passer une commande](cafet.insa-cvl.org)
 

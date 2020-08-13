@@ -20,6 +20,6 @@ team:
         l'association
 ---
 
-# L'équipe du Gala
+## L'équipe du Gala
 
 <team :team="team" :color="color"></team>

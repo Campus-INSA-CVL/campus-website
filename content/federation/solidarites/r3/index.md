@@ -22,6 +22,6 @@ team:
 
 # Bienvenue dans R3: Rencontrer, Réaliser, Réussir !
 
-# L'équipe
+## L'équipe
 
 <team :team="team" :color="color"></team>

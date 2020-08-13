@@ -20,8 +20,8 @@ team:
         l'association
 ---
 
-# Bienvenue dans 5 Continents 5 Sommets !
+# Bienvenue dans 5 Continents 5 Sommets
 
-# L'équipe
+## L'équipe
 
 <team :team="team" :color="color"></team>

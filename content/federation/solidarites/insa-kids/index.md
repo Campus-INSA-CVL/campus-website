@@ -24,6 +24,6 @@ team:
 
 ---
 
-# L'équipe
+## L'équipe
 
 <team :team="team" :color="color"></team>

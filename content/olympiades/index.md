@@ -12,18 +12,19 @@ imagesName:
 
 # Familles
 
-Il y a cinq familles a l’INSA CVL. Tu ne pourras pas choisir ta famille, elle te sera donnée comme étant la meme que ton parrain ou ta marraine.
+Il y a cinq familles a l’INSA CVL. Tu ne pourras pas choisir ta famille, elle te
+sera donnée comme étant la meme que ton parrain ou ta marraine.
 
 <center>
   <carousel :names="imagesName" :folder-name="folderName"></carousel>
 </center>
 
-# Résultats
+## Résultats
 
 | familles  | rang |
-| :---------: | ----: |
-| cerber    | 1    |
-| sphinx    | 2    |
-| kraken    | 3    |
-| minotaure | 4    |
-| phoenix   | 5    |
+| :-------: | ---: |
+|  cerber   |    1 |
+|  sphinx   |    2 |
+|  kraken   |    3 |
+| minotaure |    4 |
+|  phoenix  |    5 |

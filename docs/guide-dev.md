@@ -110,8 +110,12 @@ config: {
 }
 ```
 
-::: warning Ajout d'un icon Lors de l'ajout d'un icon qui n'est pas déjà
-implémenté, il est important de l'importer :::
+::: warning Ajout d'un icon
+
+Lors de l'ajout d'un icon qui n'est pas déjà implémenté, il est important de
+l'importer
+
+:::
 
 ## Pages
 
@@ -180,9 +184,13 @@ Vivamus sed enim ut magna lacinia lobortis.
 | `/federation/:federation/representation/:tab` |     **/elus/representation/**      | _federation_, _tab_  | Présentation des différents conseils, utilisé par les élus    |
 |  `/federation/:federation/association/:asso`  |  **/:federation/:asso/index.md**   | _federation_, _asso_ | Présentation d'une association                                |
 
-:::tip Les routes `sports/:tab` et `representation/:tab` sont similaires à
+:::tip
+
+Les routes `sports/:tab` et `representation/:tab` sont similaires à
 [outils](#outils) ou [services](#services) au niveau fonctionnement. Ainsi, ils
-est possibles de s'**adapter** à chaque association :::
+est possibles de s'**adapter** à chaque association
+
+:::
 
 En fonction de l'url et donc des paramètres, les données à aller chercher ne
 sont pas les mêmes.
@@ -204,8 +212,12 @@ titre et la description présente dans le front matter permet d'automatiquement
 générer une nouvelle route, le nom du fichier servant d'url (paramètre service)
 ! Le body est ensuite utilisé sur la page de l'outil.
 
-:::tip Il est aussi possible de définir une couleur pour la card (penser à
-ajouter la couleur dans le fichier de configuration de nuxt). :::
+:::tip
+
+Il est aussi possible de définir une couleur pour la card (penser à ajouter la
+couleur dans le fichier de configuration de nuxt).
+
+:::
 
 **Exemple**
 
@@ -261,8 +273,12 @@ titre et la description présente dans le front matter permet d'automatiquement
 générer une nouvelle route, le nom du fichier servant d'url (paramètre outil) !
 Le body est ensuite utilisé sur la page de l'outil.
 
-:::tip Il est aussi possible de définir une couleur poour la card (penser à
-ajouter la couleur dans le fichier de configuration de nuxt). :::
+:::tip
+
+Il est aussi possible de définir une couleur poour la card (penser à ajouter la
+couleur dans le fichier de configuration de nuxt).
+
+:::
 
 **Exemple**
 
@@ -301,12 +317,20 @@ Il s'agit simplement d'un composant, pas de chargement de Markdown
 
 ## Exemples
 
-:::tip Pour la modification du contenu, des exemples sont disponibles dans le
-[guide pour les associations](/guide-associations.html) :::
+:::tip
 
-::: danger L'utilisation de composants Vuetify dans les fichiers Markdown est
-possible mais il faut penser à l'importer dans le composant qui va l'afficher,
-car le treeeshaking ne pourra pas les voir :::
+Pour la modification du contenu, des exemples sont disponibles dans le
+[guide pour les associations](/guide-associations.html)
+
+:::
+
+::: danger
+
+L'utilisation de composants Vuetify dans les fichiers Markdown est possible mais
+il faut penser à l'importer dans le composant qui va l'afficher, car le
+treeeshaking ne pourra pas les voir
+
+:::
 
 ### Création d'un nouveau pôle
 
@@ -323,8 +347,12 @@ federation:
 - Créer un nouveau dossier `/content/federation/${nouveauPole}` et les fichiers
   `index.md` et `equipe.md` dans ce dernier.
 
-:::tip À Savoir Le dossier va contenir l'ensemble des fichiers relatifs au pôle
-et l'ensemble des dossiers pour les associations :::
+:::tip À Savoir
+
+Le dossier va contenir l'ensemble des fichiers relatifs au pôle et l'ensemble
+des dossiers pour les associations
+
+:::
 
 - Créer un fichier `associations.yaml` qui va contenir la liste de l'ensemble
   des associations du pôle
@@ -359,8 +387,12 @@ associations:
 - Ajouter un fichier Markdown dans le dossier souhaité, `/content/outils` ou
   `/content/services`
 
-:::warning Le nom du fichier sera le nom dans l'url. Il est donc important de
-bien le choisir :::
+:::warning
+
+Le nom du fichier sera le nom dans l'url. Il est donc important de bien le
+choisir
+
+:::
 
 - Ajouter un front matter dans le fichier
 
@@ -383,8 +415,12 @@ Vivamus sed enim ut magna lacinia lobortis.
 - Ajouter un nouveau fichier Markdown dans le dossier correspondant,
   `/content/vie-etudiante` par exemple
 
-:::warning Le nom du fichier sera le nom dans l'url. Il est donc important de
-bien le choisir :::
+:::warning
+
+Le nom du fichier sera le nom dans l'url. Il est donc important de bien le
+choisir
+
+:::
 
 - Ajouter le front matter dans le fichier
 
@@ -398,8 +434,12 @@ order: 1 <!-- place dans les onglets, trié dans l'ordre croissant -->
 
 ### Création d'un blog
 
-::: tip À savoir Les blogs se font par pôles et non par association, mais une
-association peut publier dans le blog de son pôle :::
+::: tip À savoir
+
+Les blogs se font par pôles et non par association, mais une association peut
+publier dans le blog de son pôle
+
+:::
 
 - Ajouter un dossier `blog` dans la fédération désirée
 - Ajouter le bouton blog dans le config de la fédération dans le layout
@@ -443,6 +483,24 @@ sitemap: {
 
 - Ajouter votre premier article (ne pas laisser le dossier blog vide)
 
-::: warning Nommer ses articles L'url sera formée par le nom du fichier Markdown
-présent dans le dossier blog. Ainsi, il est important de bien le nommer.
-**Exemple:** `/2020-07-15-mon-nouvel-article-de-blog` :::
+::: warning Nommer ses articles
+
+L'url sera formée par le nom du fichier Markdown présent dans le dossier blog.
+Ainsi, il est important de bien le nommer. **Exemple:**
+`/2020-07-15-mon-nouvel-article-de-blog`
+
+:::
+
+## Les composants
+
+Afin d'enrichir les pages des associations, il a été crée des composants qui
+peuvent être utilisé dans les fichiers markdown. En effet,
+[Nuxt Content](https://content.nuxtjs.org/writing#vue-components) permet cela !
+Ainsi, il est prévu que les composants développés pour les associations soit
+stockés dans `components/campus`.
+
+Pour gérer le contenu des composants, il faut utiliser le front-matter du
+fichier de l'association. Ainsi, on utilisera des props dans les composants.
+
+Aussi, il faut veiller à mettre à jour la documentation et le générateur de
+templates !

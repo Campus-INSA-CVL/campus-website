@@ -22,6 +22,6 @@ team:
 
 # Bienvenue dans le 4L Trophy !
 
-# L'équipe
+## L'équipe
 
 <team :team="team" :color="color"></team>

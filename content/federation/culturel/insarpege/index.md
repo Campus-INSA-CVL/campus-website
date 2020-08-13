@@ -44,7 +44,7 @@ team:
     - responsability: Trésorier
       name: Christophe Imbert
       description: gère le budget et les recettes localement sur Bourges
-    - responsability: Responsable Organisation 
+    - responsability: Responsable Organisation
       name: Baptiste Gauthier
       description: s'occupe de la gestion du matériel (inventaire, etc ...) et de la plannification des événements sur le campus de Bourges
       avatar: federation/culturel/insarpege/baptiste_orga.jpg
@@ -59,12 +59,16 @@ social:
 
 # Bienvenue chez INSA'rpège !
 
-<center>
-  <view-img folder-name="federation/culturel/insarpege" name="logo.png" max-width="400"></view-img>
-</center>
+<campus-center>
+  <campus-responsive-image
+    folder-name="federation/culturel/insarpege"
+    name="logo.png"
+    max-width="400">
+  </campus-responsive-image>
+</campus-center>
 
 Insa’rpège, c'est l'association qui représente la vie **musicale** de l'école
-sous toute ses formes ! 🎤 🎹 🎺 🎸 🎵
+sous toutes ses formes ! 🎤 🎹 🎺 🎸 🎵
 
 ## Les objectifs
 
@@ -111,14 +115,10 @@ liste non-exhaustive de nos événements 😎 :
 
 Vous pouvez suivre notre activité sur les réseaux :
 
-<social :social="social" :color="color"></social>
+<campus-social :social="social" :color="color"></campus-social>
 
 ---
 
-# L'équipe
+## L'équipe
 
-<team :team="team" :color="color"></team>
-
-
-    
-
+<campus-team :team="team" :color="color"></campus-team>

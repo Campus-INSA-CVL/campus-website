@@ -1,6 +1,6 @@
 <template lang="pug">
   v-row(justify="space-around")
-    v-col(v-for="key in keys", :key="key", align="center")
+    v-col(v-for="key in keys", :key="key", align="center", v-if="social[key]")
       v-btn(icon, :href="social[key]", target="_blank", :class='`${color}--text`', x-large)
         v-icon(large) {{ svg[key] }}
 </template>

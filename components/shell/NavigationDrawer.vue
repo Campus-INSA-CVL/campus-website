@@ -71,14 +71,14 @@ export default {
           icon: 'mdiHomeAssistant',
         },
         {
-          name: 'Services',
-          path: '/services',
-          icon: 'mdiRoomService',
-        },
-        {
           name: 'Olympiades',
           path: '/olympiades',
           icon: 'mdiMedal',
+        },
+        {
+          name: 'Services',
+          path: '/services',
+          icon: 'mdiRoomService',
         },
         {
           name: 'Outils',

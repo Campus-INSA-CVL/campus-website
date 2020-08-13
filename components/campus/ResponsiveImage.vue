@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'ViewImg',
+  name: 'ResponsiveImage',
   props: {
     maxWidth: {
       type: String,

@@ -21,7 +21,7 @@ générateur pour votre asso ! Vous pouvez en savoir plus
 ## Objectif
 
 L'objectif de
-[codesandbox](https://codesandbox.io/s/campus-website-template-hyvcs?file=/content/pages/base.md)
+[codesandbox](https://codesandbox.io/s/github/Campus-INSA-CVL/campus-website-template/tree/master/)
 est de vous offrir un **environnement de création**, en ligne et **le plus
 simplement** possible ! Vous n'avez rien à faire !
 
@@ -35,7 +35,7 @@ Rien à installer, rien à télécharger et pas de manipulations complexes !
 L'utilisation de cet outil est aussi très aisé ! Pour commencer, il vous faut
 vous connecter au site ! Ensuite, vous devez dupliquer (fork) le repo dans votre
 espace personnel ! Ensuite, vous avez une prévisualisation à droite, dans un
-navigateur et le contenu à gauche ! En tand que créateur de contenu, commencez
+navigateur et le contenu à gauche ! En tant que créateur de contenu, commencez
 par choisir le template qui vous plait en naviguant dans l'app au travers du
 navigateur. Une fois le template trouvé, il vous faut aller dans le dossier
 `content/pages` puis cliquer sur le nom du fichier qui a le nom du template que

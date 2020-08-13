@@ -72,24 +72,32 @@ export default {
               style: { outlined: true, depressed: false },
             },
             {
-              name: 'insapp',
-              path: 'insapp',
-              icon: 'mdiAccountGroup',
-              style: { outlined: false, depressed: true },
-            },
-            {
-              name: 'aiep',
-              path: 'aiep',
-              icon: 'mdiAccountGroup',
-              style: { outlined: false, depressed: true },
-            },
-            {
               name: 'publications officielles',
               path: 'publications-officielles',
               icon: 'mdiAccountGroup',
               style: { outlined: false, depressed: true },
             },
           ],
+        },
+        aiep: {
+          type: 'association',
+          title: 'aiep',
+          color: 'primary',
+          path: {
+            main: 'federation',
+            secondary: 'aiep',
+          },
+          btns: [],
+        },
+        insapp: {
+          type: 'association',
+          title: 'insapp',
+          color: 'primary',
+          path: {
+            main: 'federation',
+            secondary: 'insapp',
+          },
+          btns: [],
         },
         culturel: {
           type: 'association',

@@ -22,6 +22,6 @@ team:
 
 # Bienvenue dans Gree'NSA Blois
 
-# L'équipe
+## L'équipe
 
 <team :team="team" :color="color"></team>

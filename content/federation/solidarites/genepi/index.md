@@ -20,8 +20,8 @@ team:
         l'association
 ---
 
-# Bienvenue dans Genepi !
+# Bienvenue dans Genepi
 
-# L'équipe
+## L'équipe
 
 <team :team="team" :color="color"></team>

@@ -1,12 +1,14 @@
 ---
 title: eleves
-description: Se trouve ici tous les outils dont les élèves auront besoins pour leur cursus
+description:
+  Se trouve ici tous les outils dont les élèves auront besoins pour leur cursus
 color: elevesColor
 ---
 
 # Outils INSA
 
-Ces outils concernent ta vie quotidienne ils te seront très utiles ! Mets les dans tes favoris !
+Ces outils concernent ta vie quotidienne ils te seront très utiles ! Mets les
+dans tes favoris !
 
 - [moodle](https://celene.insa-cvl.fr/)
 - [hyperplanning](http://hyperplanning.insa-cvl.fr/)
