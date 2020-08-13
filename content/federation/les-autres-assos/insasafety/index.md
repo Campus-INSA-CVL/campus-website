@@ -12,7 +12,7 @@ team:
         Phasellus et laoreet augue. Aliquam tristique nisi sed velit faucibus
         auctor. Nulla turpis diam, volutpat nec nisl vitae.
       avatar: federation/culturel/tresorier.png
-    - responsability: trésorier 
+    - responsability: trésorier
       name: Thomas Nigon
       description:
         Phasellus et laoreet augue. Aliquam tristique nisi sed velit faucibus
@@ -26,7 +26,6 @@ team:
         l'association
 social:
   facebook: 'https://www.facebook.com/fromINSAtoSaviors/'
-
 ---
 
 <campus-center>

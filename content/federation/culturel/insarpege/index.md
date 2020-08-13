@@ -8,11 +8,11 @@ team:
       description:
         responsable de l'association au niveau administratif mais également
         bi-campus en assurant une cohésion musicale
-      avatar: federation/culturel/insarpege/jordan_prez.jpg
+      avatar: federation/culturel/insarpege/jordan_prez.jpeg
     - responsability: Vice-Président (responsable Blois)
       name: Maxence Gressent
       description: responsable des projets et de la communication intérieure
-      avatar: federation/culturel/insarpege/maxence_vice_prez.jpg
+      avatar: federation/culturel/insarpege/maxence_vice_prez.jpeg
     - responsability: Trésorier (Blois)
       name: Carla Beny
       description:
@@ -31,7 +31,7 @@ team:
       description:
         épaule les décisions du responsable de Blois, organise les projets sur
         le campus de Blois
-      avatar: federation/culturel/insarpege/vincent_vice_prez.png
+      avatar: federation/culturel/insarpege/vincent_vice_prez.jpeg
     - responsability: Secrétaire
       name: Réda Benjelloun
       description:
@@ -55,7 +55,7 @@ team:
       description:
         épaule les décisions du responsable de Bourges, organise les projets sur
         le campus de Blois
-      avatar: federation/culturel/insarpege/rona_vice_prez.jpg
+      avatar: federation/culturel/insarpege/rona_vice_prez.jpeg
     - responsability: Trésorier
       name: Christophe Imbert
       description: gère le budget et les recettes localement sur Bourges
@@ -76,7 +76,7 @@ social:
   instagram: 'https://instagram.com/insarpege'
 ---
 
-# Bienvenue chez INSA'rpège !
+# Bienvenue chez INSA'rpège
 
 <campus-center>
   <campus-responsive-image
