@@ -8,7 +8,7 @@ team:
       description:
         responsable de l'association au niveau administratif mais également
         bi-campus en assurant une cohésion musicale
-      avatar: federation/culturel/insarpege/jordan_prez.png
+      avatar: federation/culturel/insarpege/jordan_prez.jpg
     - responsability: Vice-Président (responsable Blois)
       name: Maxence Gressent
       description: responsable des projets et de la communication intérieure
