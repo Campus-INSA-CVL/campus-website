@@ -38,7 +38,9 @@
     "lint:fix": "npm run lint:js -- --fix && npm run lint:md -- --fix",
     "lint": "npm run lint:js && npm run lint:md",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "patch": "npm version patch",
+    "minor": "npm version minor"
   },
   "lint-staged": {
     "*.{js,vue}": "npm run lint:js",
