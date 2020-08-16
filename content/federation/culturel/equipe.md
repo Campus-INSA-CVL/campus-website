@@ -22,4 +22,4 @@ team:
 
 ## L'équipe du pôle culturel
 
-<team :team="team" :color="color"></team>
+<campus-team :team="team" :color="color"></campus-team>
