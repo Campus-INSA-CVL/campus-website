@@ -11,7 +11,6 @@ team:
       description:
         Phasellus et laoreet augue. Aliquam tristique nisi sed velit faucibus
         auctor. Nulla turpis diam, volutpat nec nisl vitae.
-      avatar: federation/culturel/tresorier.png
   communication:
     - responsability: responsable communication
       name: Charlotte Beaudoin
