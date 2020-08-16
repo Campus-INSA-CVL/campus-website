@@ -3,6 +3,10 @@ associations:
     path: /federation/culturel/associations/insarpege
     description: Insa’rpège, c'est l'association qui représente la vie musicale de l'école sous toute ses formes ! 🎤 🎹 🎺 🎸 🎵 A travers des représentations, afterworks, fanfares, nous prenons pars à la vie de l'école en amenant une ambiance musicale qualitative à la majorité des événements de l'école ! Notre local permet aussi aux étudiants de continuer la pratique de leurs instruments dans l'enceinte du campus ! 
     color: culturelColor
+  - title: dancinsa
+    path: /federation/culturel/associations/dancinsa
+    description: Dancin'sa est l'association de danse de l'INSA ! 🕺 🎵 💃 Elle propose tous types de cours, pour des représentations en fin d'année. L'association organise aussi des afterworks en collaborant avec d'autres associations. Nul besoin de savoir danser pour l'intégrer, les cours de danse ou de figure qui s'y trouvent sont pour tous les niveaux ! Nous avons aussi un partenariat avec le conservatoire de Bourges, pour danser dans les meilleures conditions !
+    color: culturelColor
   - title: insabrasse
     path: /federation/culturel/associations/insabrasse
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
