@@ -1,5 +1,5 @@
 ---
-title: danc'insa
+title: dancin'sa
 color: culturelColor
 team:
   bureau:
@@ -9,6 +9,7 @@ team:
     - responsability: Vice-Présidente
       name: Irma Brault
       description: Responsable des projets et de la communication intérieur
+      avatar: user-random-female.png
     - responsability: Trésoriere
       name: Emma-Louise Forissier
       description:
@@ -20,6 +21,7 @@ team:
       description:
         Transcrit toute les décisions importantes à l'écrit, organise les
         ressources informatiques et crée les compte-rendus de chaque réunions
+      avatar: user-random-female.png
 social:
   facebook: 'https://www.facebook.com/DancINSA-363600620718020'
   instagram: 'https://instagram.com/rcd.jeremy'
