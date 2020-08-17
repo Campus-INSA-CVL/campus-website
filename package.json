@@ -52,10 +52,10 @@
   "dependencies": {
     "@nuxt/content": "^1.6.0",
     "@nuxtjs/feed": "github:rclement/feed-module#fix-generate-failure",
-    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "@nuxtjs/pwa": "^3.0.0",
     "@nuxtjs/robots": "^2.4.2",
     "@nuxtjs/sitemap": "^2.4.0",
-    "nuxt": "^2.14.1",
+    "nuxt": "^2.14.3",
     "nuxt-webfontloader": "^1.1.0"
   },
   "devDependencies": {
@@ -68,7 +68,7 @@
     "@vuepress/plugin-back-to-top": "^1.5.3",
     "@vuepress/plugin-medium-zoom": "^1.5.3",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.6.0",
+    "eslint": "^7.7.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-md": "^1.0.19",
     "eslint-plugin-nuxt": "^1.0.0",
