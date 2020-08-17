@@ -16,7 +16,7 @@ team:
       description:
         transcrit toute les décisions importantes à l'écrit, organise les
         ressources informatiques et crée les compte-rendus de chaque réunions
-      avatar: federation/culturel/insarpege/agathe_com.jpg
+      avatar: federation/culturel/secretaire.jpg
     - responsability: Trésorier (Blois)
       name: Luc Prieur
       description:
@@ -57,7 +57,7 @@ team:
       description:
         s'occupe de la gestion du matériel (inventaire, etc ...) et de la
         plannification des événements sur le campus de Bourges
-      avatar: federation/culturel/insarpege/jordan_prez.jpeg
+      avatar: federation/culturel/respo_event.jpeg
     - responsability: Responsable Événementiel
       name: Unknow
       description:
@@ -78,7 +78,7 @@ team:
       description:
         gère la sécurité et le bon deroulement des évènements organisés par le
         pôle culturel
-      avatar: federation/culturel/alcor_prev.jpg
+      avatar: federation/culturel/respo_prev.jpg
 social:
   facebook: 'https://www.facebook.com/DancINSA-363600620718020'
   instagram: 'https://instagram.com/rcd.jeremy'
