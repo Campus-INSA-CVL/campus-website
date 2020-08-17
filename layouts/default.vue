@@ -108,12 +108,12 @@ export default {
             secondary: 'culturel',
           },
           btns: [
-            {
-              name: "l'équipe",
-              path: 'equipe',
-              icon: 'mdiAccountGroup',
-              style: { outlined: true, depressed: false },
-            },
+            // {
+            //  name: "l'équipe",
+            //  path: 'equipe',
+            //  icon: 'mdiAccountGroup',
+            //  style: { outlined: true, depressed: false },
+            // },
             {
               name: 'les associations',
               path: 'associations',
