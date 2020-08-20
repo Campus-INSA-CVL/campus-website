@@ -52,22 +52,17 @@ team:
     - responsability: Trésorier
       name: Enzo Hoummady
       description: gère le budget et les recettes localement sur Bourges
-    - responsability: Responsable Événementiel
+    - responsability: Responsable Communication
       name: Jordan Béziaud
       description:
-        s'occupe de la gestion du matériel (inventaire, etc ...) et de la
-        plannification des événements sur le campus de Bourges
-      avatar: federation/culturel/respo_event.jpeg
+        gère l'image de l'association sur les réseaux et prépare la com' des
+        événements
+      avatar: federation/culturel/respo_com.jpeg
     - responsability: Responsable Événementiel
       name: Unknow
       description:
         s'occupe de la gestion du matériel (inventaire, etc ...) et de la
         plannification des événements sur le campus de Bourges
-    - responsability: Responsable Communication
-      name: Unknown
-      description:
-        gère l'image de l'association sur les réseaux et prépare la com' des
-        événements
     - responsability: Responsable Communication
       name: Unknown
       description:
