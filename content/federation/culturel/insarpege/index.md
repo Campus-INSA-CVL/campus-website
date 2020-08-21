@@ -1,6 +1,9 @@
 ---
 title: INSArpège
 color: culturelColor
+imagesName:
+  - carousel-1.jpeg
+  - carousel-2.jpeg
 team:
   bureau:
     - responsability: Président (responsable Bourges)
@@ -131,6 +134,10 @@ liste non-exhaustive de nos événements 😎 :
 - Intervention dans des événements de la ville (fête de la musique, carnaval)
 - Mise en place de répétition de groupes pour travailler un style de musique
   (Jam vie)
+
+<campus-center>
+  <campus-carousel :names="imagesName" folder-name="federation/culturel/insarpege"></campus-carousel>
+</campus-center>
 
 Vous pouvez suivre notre activité sur les réseaux :
 
