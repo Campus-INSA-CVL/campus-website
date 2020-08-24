@@ -12,8 +12,8 @@ team:
         bi-campus en assurant une cohésion musicale
     avatar: federation/culturel/insarpege/jordan_prez.jpeg
 social:
-  facebook: 'https://www.facebook.com/insarpege'
-  instagram: 'https://instagram.com/insarpege'
+  instagram: 'https://www.instagram.com/insashop.cvl/'
+  internet: 'https://www.insashop.fr/centre-val-de-loire/'
 ---
 
 # Le Shop
