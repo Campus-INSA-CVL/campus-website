@@ -2,7 +2,6 @@
 title: INSA'roule
 description: On bricole
 color: techniquesColor
-
 team:
   bureau:
     - responsability: président
