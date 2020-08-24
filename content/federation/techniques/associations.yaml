@@ -15,9 +15,9 @@ associations:
     path: /federation/techniques/associations/gaminsa
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
     color: techniquesColor
-  - title: mécanique automobile
-    path: /federation/techniques/associations/mecanique-automobile
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+  - title: insaroule
+    path: /federation/techniques/associations/insa-roule
+    description: Le club mécanique de l'INSA CVL 
     color: techniquesColor
   - title: 4l trophy
     path: /federation/techniques/associations/4l-trophy
