@@ -52,12 +52,12 @@
     }
   },
   "dependencies": {
-    "@nuxt/content": "^1.6.0",
+    "@nuxt/content": "^1.6.1",
     "@nuxtjs/feed": "github:rclement/feed-module#fix-generate-failure",
-    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "@nuxtjs/pwa": "^3.0.1",
     "@nuxtjs/robots": "^2.4.2",
     "@nuxtjs/sitemap": "^2.4.0",
-    "nuxt": "^2.14.1",
+    "nuxt": "^2.14.3",
     "nuxt-webfontloader": "^1.1.0"
   },
   "devDependencies": {
@@ -67,10 +67,10 @@
     "@nuxtjs/tailwindcss": "^2.1.1",
     "@nuxtjs/vuetify": "^1.11.2",
     "@tailwindcss/typography": "^0.2.0",
-    "@vuepress/plugin-back-to-top": "^1.5.3",
-    "@vuepress/plugin-medium-zoom": "^1.5.3",
+    "@vuepress/plugin-back-to-top": "^1.5.4",
+    "@vuepress/plugin-medium-zoom": "^1.5.4",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.6.0",
+    "eslint": "^7.7.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-md": "^1.0.19",
     "eslint-plugin-nuxt": "^1.0.0",
@@ -87,7 +87,7 @@
     "remark-preset-lint-markdown-style-guide": "^3.0.1",
     "remark-preset-lint-recommended": "^4.0.1",
     "sass-loader": "^8.0.2",
-    "vuepress": "^1.5.3",
+    "vuepress": "^1.5.4",
     "vuepress-theme-default-prefers-color-scheme": "^1.1.0"
   }
 }
