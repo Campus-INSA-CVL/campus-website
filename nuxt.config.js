@@ -8,14 +8,15 @@ export default {
    ** Nuxt rendering mode
    ** See https://nuxtjs.org/api/configuration-mode
    */
-  mode: 'universal',
+  // mode: 'universal',
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
    */
-  target: 'server',
+  target: 'static',
+  ssr: true,
   generate: {
-    fallback: true,
+    fallback: false,
   },
   /*
    ** Headers of the page
