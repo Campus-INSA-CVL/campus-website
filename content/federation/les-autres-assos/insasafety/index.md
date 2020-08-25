@@ -58,4 +58,4 @@ L'équipe INSAFETY 😊
 
 ## L'équipe
 
-<team :team="team" :color="color"></team>
+<campus-team :team="team" :color="color"></campus-team>
