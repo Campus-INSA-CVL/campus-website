@@ -13,7 +13,7 @@ export default {
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
    */
-  target: 'static',
+  target: 'server',
   ssr: true,
   generate: {
     fallback: false,
