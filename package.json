@@ -44,7 +44,7 @@
   },
   "lint-staged": {
     "*.{js,vue}": "npm run lint:js",
-    "content/**": "npm run lint:md"
+    "content/**/*.md": "npm run lint:md"
   },
   "husky": {
     "hooks": {
@@ -81,7 +81,6 @@
     "prettier": "^2.0.5",
     "pug": "^3.0.0",
     "pug-plain-loader": "^1.0.0",
-    "remark-cli": "^8.0.1",
     "remark-frontmatter": "^2.0.0",
     "remark-lint-no-heading-punctuation": "^2.0.1",
     "remark-preset-lint-markdown-style-guide": "^3.0.1",

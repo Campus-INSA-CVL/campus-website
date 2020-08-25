@@ -22,4 +22,6 @@ team:
 
 ## L'équipe du Gala
 
+# L'event
+
 <team :team="team" :color="color"></team>
