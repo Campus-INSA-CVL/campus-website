@@ -2,6 +2,12 @@
 @import 'federation';
 @import 'intersection-observer';
 
+@font-face {
+  font-family: 'Arial Rounded';
+  font-weight: 700;
+  src: url('../fonts/arlrdbd.ttf');
+}
+
 .nuxt-content {
   h1 {
     &::before {

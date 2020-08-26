@@ -1,26 +1,36 @@
 <template lang="pug">
   section
-    div.typewriter-container
-      v-img(src="https://via.placeholder.com/900x250").rounded
-      h1.typewriter.primary--text.text-left.text-h4.font-weight-light Le campus de l'INSA CVL c'est<br />#[span(data-period="2000", data-type='[ "cool", "stylé", "amusant ]').font-weight-bold#typewriter-animation]
+    div.parallax-container
+      h1.parallax-title.text-h3 #campus INSA CVL
+      parallax(:sectionHeight="42", :speed-factor="0.3", breakpoint="(min-width: 300px)")
+          v-img(:src="heroBanner", min-height="500").rounded
+    v-row(no-guetter, justify="center")
+      v-col(:cols="$vuetify.breakpoint.smAndDown ? '6' : undefined", v-for="card in cards", :style="`color: ${card.color};font-family: 'Arial Rounded'!important;`", align="center").pa-0.text-uppercase.text-subtitle-1.font-weight-bold #
+        | {{card.title}}
+    v-row
+      v-col
+        div.typewriter-container
+          h2.typewriter.primary--text.text-left.text-h4.font-weight-light.text-center Le campus de l'INSA CVL est un lieu<br />#[span.font-weight-bold#typewriter-animation]
     v-row(justify="center")
-      v-col(cols="12", md="6" , xl="4", v-for="n in 4", :key="n")
-        v-card(v-intersect.once="{ handler: onIntersect, options: { threshold: 0.4 } }", outlined)
-          v-container
-            div.font-weight-bold.text-h5 Lorem ipsum
-            v-row
-              v-col
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque.
-              v-col(cols="auto")
-                v-img(src="https://via.placeholder.com/200", height="200", width="200").rounded
+      v-col(cols="12", sm="6" , xl="4", v-for="card in cards", :key="card.title")
+        v-card(v-intersect.once="{ handler: onIntersect, options: { threshold: 0.4 } }", outlined, :color="card.color", dark)
+          v-card-title.font-weight-bold.text-h5.text-uppercase #
+            | {{card.title}}
+          v-card-text.text-justify Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque.
+              //- v-col(cols="auto")
+              //-   v-img(src="https://via.placeholder.com/200", height="200", width="200").rounded
 
 </template>
 
 <script>
+import Parallax from 'vue-parallaxy'
 import fetchContent from '@/mixins/fetch-content'
 
 export default {
   name: 'Index',
+  components: {
+    Parallax,
+  },
   mixins: [
     fetchContent({
       folderName: 'index',
@@ -31,16 +41,65 @@ export default {
     return {
       el: null,
       toRotate: [
-        "un lieu d'appretissage !",
-        'un lieu de convivialité !',
-        'une représentation forte dans les instances !',
-        'une vie associative riche !',
+        'de partage.',
+        "d'entraide.",
+        'de bonne humeur.',
+        "d'investissement.",
+        'de connaissance.',
       ],
       loopNum: 0,
       isDeleting: false,
       period: 2000,
       txt: '',
+      cards: [
+        {
+          title: 'partage',
+          color: '#f7a900',
+        },
+        {
+          title: 'entraide',
+          color: '#6bbe00',
+        },
+        {
+          title: 'bonne humeur',
+          color: '#0098ad',
+        },
+        {
+          title: 'investissement',
+          color: '#fd6300',
+        },
+        {
+          title: 'connaissance',
+          color: '#811158',
+        },
+      ] /* [
+        {
+          title: 'partage',
+          color: '#df5a5a',
+        },
+        {
+          title: 'entraide',
+          color: '#e9944f',
+        },
+        {
+          title: 'bonne humeur',
+          color: '#f2d34f',
+        },
+        {
+          title: 'investissement',
+          color: '#ede584',
+        },
+        {
+          title: 'connaissance',
+          color: '#e3ecc7',
+        },
+      ], */,
     }
+  },
+  computed: {
+    heroBanner() {
+      return require('@/assets/img/hero-banner-classic.png')
+    },
   },
   mounted() {
     const cards = document.getElementsByClassName('v-card')
@@ -49,6 +108,8 @@ export default {
       card.classList.add('invisible')
     }
     const typewriter = document.getElementById('typewriter-animation')
+    if (!typewriter) return
+
     this.el = typewriter
 
     this.typewriter()
@@ -56,7 +117,7 @@ export default {
     const css = document.createElement('style')
     css.type = 'text/css'
     css.innerHTML =
-      '#typewriter-animation .wrap { border-right: 0.08em solid #fff }'
+      '#typewriter-animation .wrap { border-right: 0.08em solid #555 }'
     document.body.appendChild(css)
   },
   methods: {
@@ -137,12 +198,42 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.typewriter-container {
+.Masthead {
+  z-index: 0;
   position: relative;
 }
-.typewriter {
-  position: absolute;
-  bottom: 50px;
-  left: 10px;
+@media screen and (min-width: 768px) {
+  .Masthead {
+    min-height: 0;
+  }
 }
+.parallax-container {
+  position: relative;
+}
+.parallax-title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  padding: 20px;
+  // background: rgba(0, 0, 0, 0.6);
+  font-family: 'Arial Rounded';
+  margin: 0 50px;
+  font-weight: bold;
+  border: 0.35rem solid white;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  text-shadow: 2px 2px 1rem hsla(0, 0%, 0%, 0.75);
+  z-index: 2;
+}
+// .typewriter-container {
+//   position: relative;
+// }
+// .typewriter {
+//   position: absolute;
+//   bottom: 50px;
+//   left: 10px;
+// }
 </style>
