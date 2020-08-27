@@ -1,6 +1,6 @@
 <template lang="pug">
   v-hover(v-slot:default="{ hover }")
-    v-card(:to="path", nuxt, :elevation="hover && toHover ? 4 : 0", v-intersect.once="{ handler: onIntersect, options: { threshold: 0.25 } }", :class="intersectingClass")
+    v-card(:to="path", nuxt, :elevation="hover && toHover ? 4 : 0", v-intersect.once="{ handler: onIntersect, options: { threshold: 0.25 } }", :class="intersectingClass", v-bind="$attrs")
       slot
 </template>
 
