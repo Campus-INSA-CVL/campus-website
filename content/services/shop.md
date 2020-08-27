@@ -6,36 +6,43 @@ description:
 color: shopColor
 team:
   Team INSA Shop:
-    - responsability: Responsable Insa Shop 
+    - responsability: Responsable Insa Shop
       name: Jordan Béziaud
       description:
-        Manageur de l'équipe, s'occupe de la partie financière, administrative, et assure la coordination des différents pôles de la boutique
+        Manageur de l'équipe, s'occupe de la partie financière, administrative,
+        et assure la coordination des différents pôles de la boutique
       avatar: federation/culturel/insarpege/jordan_prez.jpeg
-    - responsability: Pôle Site Internet  
+    - responsability: Pôle Site Internet
       name: Dorian Beaufils
       description:
-        Technicien du site internet, s'occupe également du suivi des commandes et de l'actualisation du contenu disponible sur le site campus
-    - responsability: Pôle Boutique / Produit  
+        Technicien du site internet, s'occupe également du suivi des commandes
+        et de l'actualisation du contenu disponible sur le site campus
+    - responsability: Pôle Boutique / Produit
       name: Nour Yazji
       description:
-        S'occupe du suivi des stocks, du design des produits et de l'aménagement de la boutique
-    - responsability: Pôle Boutique / Produit  
+        S'occupe du suivi des stocks, du design des produits et de l'aménagement
+        de la boutique
+    - responsability: Pôle Boutique / Produit
       name: Julien Poitevin
       description:
-        S'occupe du suivi des stocks, du design des produits et de l'aménagement de la boutique
-    - responsability: Pôle Boutique / Produit  
-      name: Jérémie Dhune 
+        S'occupe du suivi des stocks, du design des produits et de l'aménagement
+        de la boutique
+    - responsability: Pôle Boutique / Produit
+      name: Jérémie Dhune
       description:
-        S'occupe du suivi des stocks, du design des produits et de l'aménagement de la boutique 
-    - responsability: Pôle Communication  
-      name: Ronadelli Appolon 
+        S'occupe du suivi des stocks, du design des produits et de l'aménagement
+        de la boutique
+    - responsability: Pôle Communication
+      name: Ronadelli Appolon
       description:
-        S'occupe de la gestion des réseaux sociaux et de l'image de la boutique sur différents supports
-    - responsability: Pôle Association  
-      name: Benjamin Garo 
+        S'occupe de la gestion des réseaux sociaux et de l'image de la boutique
+        sur différents supports
+    - responsability: Pôle Association
+      name: Benjamin Garo
       description:
-        Gère la relation entre la boutique et les associations en veillant au bon déroulement des collaborations 
-    
+        Gère la relation entre la boutique et les associations en veillant au
+        bon déroulement des collaborations
+
 social:
   instagram: 'https://www.instagram.com/insashop.cvl/'
   facebook: 'https://www.facebook.com/insashop.cvl/'
@@ -68,9 +75,11 @@ social:
   un soutien prononcé de l’administration, nous croyons en ce projet et à sa
   réussite sur nos campus !
 
---- 
+---
 
-# Pour retrouver le détail de l'ensemble de notre gamme, c'est par **[ici](https://www.insashop.fr/centre-val-de-loire/)**
+## Pour retrouver l'ensemble de notre gamme :
+
+## <div align="center"> **[insashop.fr/centre-val-de-loire/](https://www.insashop.fr/centre-val-de-loire/)** </div>
 
 ---
 
