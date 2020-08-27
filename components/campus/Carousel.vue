@@ -1,5 +1,5 @@
 <template lang="pug">
-  v-carousel(cycle, continous, show-arrows-on-hover, interval="3000", height="100%")
+  v-carousel(cycle, continous, show-arrows-on-hover, interval="4000", height="100%")
     v-carousel-item(v-for="(name, index) in names", :key="index")
       v-img(:src="requireLink(name)")
 </template>
