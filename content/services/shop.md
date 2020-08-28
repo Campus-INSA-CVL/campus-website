@@ -5,19 +5,49 @@ description:
   étudiants
 color: shopColor
 team:
-  bureau:
-    - responsability: Président (responsable Bourges)
+  Team INSA Shop:
+    - responsability: Responsable Insa Shop
       name: Jordan Béziaud
       description:
-        responsable de l'association au niveau administratif mais également
-        bi-campus en assurant une cohésion musicale
+        Manageur de l'équipe, s'occupe de la partie financière, administrative,
+        et assure la coordination des différents pôles de la boutique
       avatar: federation/culturel/insarpege/jordan_prez.jpeg
+    - responsability: Pôle Site Internet
+      name: Dorian Beaufils
+      description:
+        Technicien du site internet, s'occupe également du suivi des commandes
+        et de l'actualisation du contenu disponible sur le site campus
+    - responsability: Pôle Boutique / Produit
+      name: Nour Yazji
+      description:
+        S'occupe du suivi des stocks, du design des produits et de l'aménagement
+        de la boutique
+    - responsability: Pôle Boutique / Produit
+      name: Julien Poitevin
+      description:
+        S'occupe du suivi des stocks, du design des produits et de l'aménagement
+        de la boutique
+    - responsability: Pôle Boutique / Produit
+      name: Jérémie Dhune
+      description:
+        S'occupe du suivi des stocks, du design des produits et de l'aménagement
+        de la boutique
+    - responsability: Pôle Communication
+      name: Ronadelli Appolon
+      description:
+        S'occupe de la gestion des réseaux sociaux et de l'image de la boutique
+        sur différents supports
+    - responsability: Pôle Association
+      name: Benjamin Garo
+      description:
+        Gère la relation entre la boutique et les associations en veillant au
+        bon déroulement des collaborations
 social:
-  facebook: 'https://www.facebook.com/insarpege'
-  instagram: 'https://instagram.com/insarpege'
+  instagram: 'https://www.instagram.com/insashop.cvl/'
+  facebook: 'https://www.facebook.com/insashop.cvl/'
 ---
 
-# Le Shop
+# INSA Shop CVL
 
 > Partageons une identité
 
@@ -44,13 +74,18 @@ social:
   un soutien prononcé de l’administration, nous croyons en ce projet et à sa
   réussite sur nos campus !
 
-Pour retrouver le détail de l'ensemble de notre gamme, c'est
-**[ici](https://www.insashop.fr/centre-val-de-loire/)**
+---
+
+## Pour retrouver l'ensemble de notre gamme
+
+<campus-center class="text-h4">
+  <a href="https://www.insashop.fr/centre-val-de-loire/" rel="nofollow noopener noreferrer" target="_blank">insashop.fr/centre-val-de-loire/</a>
+</campus-center>
+
+---
 
 Vous pouvez également suivre notre activité sur les réseaux :
 
 <campus-social :social="social" :color="color"></campus-social>
-
-## L'équipe
 
 <campus-team :team="team" :color="color"></campus-team>

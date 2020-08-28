@@ -143,6 +143,14 @@ export default {
       display: 'standalone',
       lang: 'fr',
       description: "Website du campus de l'INSA Centre-Val de Loire",
+      icons: [
+        {
+          src: '/icon.png',
+          type: 'image/png',
+          sizes: '512x512',
+          purpose: 'any maskable',
+        },
+      ],
     },
   },
   /*
