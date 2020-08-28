@@ -137,6 +137,7 @@ export default {
    */
   pwa: {
     manifest: {
+      useWebmanifestExtension: true,
       name: 'Campus INSA Centre-Val de Loire',
       short_name: 'Campus INSA CVL',
       orientation: 'portrait',
