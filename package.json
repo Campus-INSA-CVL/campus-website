@@ -52,12 +52,12 @@
     }
   },
   "dependencies": {
-    "@nuxt/content": "^1.6.1",
+    "@nuxt/content": "^1.7.0",
     "@nuxtjs/feed": "github:rclement/feed-module#fix-generate-failure",
-    "@nuxtjs/pwa": "^3.0.1",
+    "@nuxtjs/pwa": "^3.0.2",
     "@nuxtjs/robots": "^2.4.2",
     "@nuxtjs/sitemap": "^2.4.0",
-    "nuxt": "^2.14.3",
+    "nuxt": "^2.14.4",
     "nuxt-webfontloader": "^1.1.0"
   },
   "devDependencies": {
@@ -76,9 +76,9 @@
     "eslint-plugin-nuxt": "^1.0.0",
     "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.2.5",
-    "lint-staged": "^10.2.11",
+    "lint-staged": "^10.2.13",
     "node-sass": "^4.14.1",
-    "prettier": "^2.0.5",
+    "prettier": "^2.1.1",
     "pug": "^3.0.0",
     "pug-plain-loader": "^1.0.0",
     "remark-frontmatter": "^2.0.0",
