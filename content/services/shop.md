@@ -42,7 +42,6 @@ team:
       description:
         Gère la relation entre la boutique et les associations en veillant au
         bon déroulement des collaborations
-
 social:
   instagram: 'https://www.instagram.com/insashop.cvl/'
   facebook: 'https://www.facebook.com/insashop.cvl/'
@@ -50,7 +49,7 @@ social:
 
 # INSA Shop CVL
 
-> <h1> Partageons une identité </h1>
+> Partageons une identité
 
 <campus-center>
   <campus-responsive-image
@@ -77,9 +76,11 @@ social:
 
 ---
 
-## Pour retrouver l'ensemble de notre gamme :
+## Pour retrouver l'ensemble de notre gamme
 
-## <div align="center"> **[insashop.fr/centre-val-de-loire/](https://www.insashop.fr/centre-val-de-loire/)** </div>
+<campus-center class="text-h4">
+  <a href="https://www.insashop.fr/centre-val-de-loire/" rel="nofollow noopener noreferrer" target="_blank">insashop.fr/centre-val-de-loire/</a>
+</campus-center>
 
 ---
 

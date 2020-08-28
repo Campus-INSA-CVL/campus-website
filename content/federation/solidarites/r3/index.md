@@ -19,15 +19,18 @@ team:
     - responsability: président
       name: Pauline Orillus
       description:
+      avatar: user-random-female.png
     - responsability: vice-président
       name: Azalaïs Le Bigot
       description:
+      avatar: user-random-female.png
     - responsability: trésorier
       name: Clément Mellier
       description:
     - responsability: secrétaire
       name: Léonie Houel
       description:
+      avatar: user-random-female.png
 social:
   facebook: https://www.facebook.com/RencontrerRealiserReussir/
 ---
@@ -35,7 +38,7 @@ social:
 # Donnez-moi un R, donnez-moi un ³, donnez-moi R³
 
 <campus-center>
-  <campus-responsive-image folder-name="federation/solidarites/r3" name="logo.jpeg" max-width="800"></campus-responsive-image>
+  <campus-responsive-image folder-name="federation/solidarites/r3" name="logo.jpeg" max-width="400"></campus-responsive-image>
 </campus-center>
 
 > L’association R³ : Rencontrer, Réaliser, Réussir réunit des élèves-ingénieurs
