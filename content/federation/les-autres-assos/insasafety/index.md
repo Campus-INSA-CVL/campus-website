@@ -5,7 +5,6 @@ team:
   bureau:
     - responsability: Président
       name: Sebastien Marchou-Payen
-      description: responsable de l'association
     - responsability: Secrétaire
       name: Maxence Pomeon
     - responsability: Trésorier
