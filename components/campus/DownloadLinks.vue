@@ -1,7 +1,7 @@
 <template lang="pug">
   ul
     li(v-for="file in files")
-      DownloadLink(:link="file.link", :name="file.name")
+      CampusDownloadLink(:link="file.link", :name="file.name")
 </template>
 
 <script>

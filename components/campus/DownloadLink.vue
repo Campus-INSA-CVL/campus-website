@@ -1,8 +1,13 @@
 <template lang="pug">
-  a(:href="path", download) {{ name }}
+  span
+    a(:href="path", target="_blank") {{ name }}
+    v-btn(icon, :href="path", download).ml-4.primary--text
+      v-icon {{ svg.mdiDownload }}
 </template>
 
 <script>
+import { mdiDownload } from '@mdi/js'
+
 export default {
   name: 'DownLoadLink',
   props: {
@@ -14,6 +19,13 @@ export default {
       type: String,
       default: '',
     },
+  },
+  data() {
+    return {
+      svg: {
+        mdiDownload,
+      },
+    }
   },
   computed: {
     path() {
