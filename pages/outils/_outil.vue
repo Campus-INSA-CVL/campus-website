@@ -10,6 +10,7 @@ import Social from '@/components/campus/Social'
 import Center from '@/components/campus/Center'
 import ResponsiveImage from '@/components/campus/ResponsiveImage'
 import Carousel from '@/components/campus/Carousel'
+import DownloadLinks from '@/components/campus/DownloadLinks'
 
 export default {
   components: {
@@ -18,6 +19,7 @@ export default {
     CampusCenter: Center,
     CampusResponsiveImage: ResponsiveImage,
     CampusCarousel: Carousel,
+    CampusDownloadLinks: DownloadLinks,
   },
   async asyncData({ $content, params }) {
     const { outil } = params

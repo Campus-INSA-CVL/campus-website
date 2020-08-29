@@ -17,15 +17,19 @@ filesFederation:
     link: /outils/liste-emargement.pdf
 ---
 
-# Outils Associations
+# Outils
 
-<center>
-  <view-img folder-name="outils" name="creer-son-association.jpg" max-width="600"></view-img>
-</center>
+## Associations
 
-## Outils Fédération
+<campus-center>
+  <campus-responsive-image
+    folder-name="outils"
+    name="creer-son-association.jpg"
+    max-width="600"></campus-responsive-image>
+</campus-center>
 
-Voici les documents qui peuvent servir à tout membre de la fédération (_cliquer
-pour télécharger_)
+## Fédération
 
-<DownloadLinks :files="filesFederation"></DownloadLinks>
+Voici les documents qui peuvent servir à tout membre de la fédération
+
+<campus-download-links :files="filesFederation"></campus-download-links>
