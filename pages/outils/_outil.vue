@@ -1,11 +1,26 @@
 <template lang="pug">
   v-row(tag="section", no-gutters)
     v-col(cols="12", md="10", lg="8", offset-md="1", offset-lg="2")
-      nuxt-content(:document="page", class="prose prose-sm sm:prose lg:prose-lg xl:prose-xl mx-auto")
+      nuxt-content(:document="page", class="prose prose-sm sm:prose lg:prose-lg xl:prose-xl mx-auto", :id="color")
 </template>
 
 <script>
+import Team from '@/components/campus/Team'
+import Social from '@/components/campus/Social'
+import Center from '@/components/campus/Center'
+import ResponsiveImage from '@/components/campus/ResponsiveImage'
+import Carousel from '@/components/campus/Carousel'
+import DownloadLinks from '@/components/campus/DownloadLinks'
+
 export default {
+  components: {
+    CampusTeam: Team,
+    CampusSocial: Social,
+    CampusCenter: Center,
+    CampusResponsiveImage: ResponsiveImage,
+    CampusCarousel: Carousel,
+    CampusDownloadLinks: DownloadLinks,
+  },
   async asyncData({ $content, params }) {
     const { outil } = params
     const page = await $content(`outils/${outil}`).fetch()
@@ -15,6 +30,11 @@ export default {
   },
   layout() {
     return 'outils'
+  },
+  computed: {
+    color() {
+      return this.$route.params.outil ?? ''
+    },
   },
   head() {
     return {

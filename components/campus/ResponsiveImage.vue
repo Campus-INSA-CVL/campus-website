@@ -1,5 +1,5 @@
 <template lang="pug">
-  v-img(:src="path", :max-width="maxWidth")
+  v-img(:src="path", :max-width="maxWidth").rounded
 </template>
 
 <script>

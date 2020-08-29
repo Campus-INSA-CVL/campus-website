@@ -3,27 +3,12 @@ title: INSA Safety
 color: othersColor
 team:
   bureau:
-    - responsability: président
+    - responsability: Président
       name: Sebastien Marchou-Payen
-      description: responsable de l'association
-    - responsability: secrétaire
+    - responsability: Secrétaire
       name: Maxence Pomeon
-      description:
-        Phasellus et laoreet augue. Aliquam tristique nisi sed velit faucibus
-        auctor. Nulla turpis diam, volutpat nec nisl vitae.
-      avatar: federation/culturel/tresorier.png
-    - responsability: trésorier
+    - responsability: Trésorier
       name: Thomas Nigon
-      description:
-        Phasellus et laoreet augue. Aliquam tristique nisi sed velit faucibus
-        auctor. Nulla turpis diam, volutpat nec nisl vitae.
-      avatar: federation/culturel/tresorier.png
-  communication:
-    - responsability: responsable communication
-      name: Charlotte Beaudoin
-      description:
-        gère son équipe de communication afin d'augmenter la visibilité de
-        l'association
 social:
   facebook: 'https://www.facebook.com/fromINSAtoSaviors/'
 ---
@@ -58,4 +43,4 @@ L'équipe INSAFETY 😊
 
 ## L'équipe
 
-<team :team="team" :color="color"></team>
+<campus-team :team="team" :color="color"></campus-team>

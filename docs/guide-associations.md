@@ -234,6 +234,7 @@ social:
   twitch: 'https://twitch.com'
   snapchat: 'https://snapchat.com'
   discord: 'https://discord.com'
+  linkedin: 'https://linkedin.com'
 ---
 
 # Bienvenue dans INSAction
@@ -249,8 +250,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <campus-team :team="team" :color="color"></campus-team>
 ```
 
-::: tip Gestion des photos de profil Il est possible de mettre une image
-personnalisée pour chaque personne de l'équipe.
+::: tip Gestion des photos de profil
+
+Il est possible de mettre une image personnalisée pour chaque personne de
+l'équipe.
 
 - Placer votre image dans le dossier assets puis dans le dossier du nom de votre
   fédération (puis de votre association si besoin)
@@ -261,6 +264,23 @@ Exemple
 Si votre image `president.jpg` se situe dans le dossier `bde` du dossier
 `federation` du dossier `assets` alors il faut ajouter:
 `avatar: federation/bde/president.jpg`
+
+:::
+
+::: tip Snapchat
+
+Snapchat ne propose pas de lien pour l'ajout d'ami. Ainsi, vous avez 2
+possibilités:
+
+- mettre une url qui pointe vers le qr de Snapchat, dans ce cas, pas de
+  changement de comportement
+- mettre votre nom utilisateur, dans ce cas, lorsque l'utilisateur passera sur
+  le logo Snapchat sur la page de votre association, alors un tooltip fera son
+  apparition avec le nom que vous avez saisi
+
+Example: `snapchat: snapchat` donne
+
+<img :src="$withBase('/social/tooltip.jpg')" alt="logo snapchat avec tooltip">
 
 :::
 

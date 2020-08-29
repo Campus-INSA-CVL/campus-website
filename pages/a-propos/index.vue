@@ -9,10 +9,11 @@
             | Vous pouvez aussi retrouver l'ensemble de son code source sur Github !
         v-col(cols="12", sm="8", align="center")
           div.text-capitalize.font-weight-light.primary--text développeur: #[span.font-weight-bold SOUBIRAN Estéban]
-          //- div.text-capitalize.font-weight-light.primary--text illustrateur (home page): #[span.font-weight-bold lastname firstname]
+          div.text-capitalize.font-weight-light.primary--text contributeurs: #[span.font-weight-bold BEZIAUD Jordan] / #[span.font-weight-bold RICHARD Jérémy]
+          div.text-capitalize.font-weight-light.primary--text gestion serveur: #[span.font-weight-bold LESCHI Cyprien]
       v-row(justify="center", no-gutters, align="center")
         v-col(cols="12")
-          div.text-secondary.font-weight-light.text-center.body-2 v0.8.0
+          div.text-secondary.font-weight-light.text-center.body-2 v0.9.10
       v-row(tag="section", justify="space-around")
         v-col(cols="12", md="4", align="center")
           v-btn(to="/nous-contacter", outlined, nuxt).primary--text

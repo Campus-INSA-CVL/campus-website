@@ -5,9 +5,22 @@
 </template>
 
 <script>
+import Team from '@/components/campus/Team'
+import Social from '@/components/campus/Social'
+import Center from '@/components/campus/Center'
+import ResponsiveImage from '@/components/campus/ResponsiveImage'
+import Carousel from '@/components/campus/Carousel'
+
 import fetchContent from '@/mixins/fetch-content'
 
 export default {
+  components: {
+    CampusTeam: Team,
+    CampusSocial: Social,
+    CampusCenter: Center,
+    CampusResponsiveImage: ResponsiveImage,
+    CampusCarousel: Carousel,
+  },
   mixins: [
     fetchContent({
       folderName: 'federation',

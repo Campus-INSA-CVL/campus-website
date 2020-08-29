@@ -26,7 +26,7 @@
     "node": "^12.0.0",
     "npm": ">= 3.0.0"
   },
-  "version": "0.8.0",
+  "version": "0.9.10",
   "private": true,
   "scripts": {
     "dev": "nuxt dev",
@@ -38,11 +38,13 @@
     "lint:fix": "npm run lint:js -- --fix && npm run lint:md -- --fix",
     "lint": "npm run lint:js && npm run lint:md",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "patch": "npm version patch",
+    "minor": "npm version minor"
   },
   "lint-staged": {
     "*.{js,vue}": "npm run lint:js",
-    "content/**": "npm run lint:md"
+    "content/**/*.md": "npm run lint:md"
   },
   "husky": {
     "hooks": {
@@ -50,42 +52,41 @@
     }
   },
   "dependencies": {
-    "@nuxt/content": "^1.6.0",
+    "@nuxt/content": "^1.7.0",
     "@nuxtjs/feed": "github:rclement/feed-module#fix-generate-failure",
-    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "@nuxtjs/pwa": "^3.0.2",
     "@nuxtjs/robots": "^2.4.2",
     "@nuxtjs/sitemap": "^2.4.0",
-    "nuxt": "^2.14.1",
+    "nuxt": "^2.14.4",
     "nuxt-webfontloader": "^1.1.0"
   },
   "devDependencies": {
-    "@mdi/js": "^5.4.55",
+    "@mdi/js": "^5.5.55",
     "@nuxtjs/eslint-config": "^3.1.0",
     "@nuxtjs/eslint-module": "^2.0.0",
     "@nuxtjs/tailwindcss": "^2.1.1",
     "@nuxtjs/vuetify": "^1.11.2",
     "@tailwindcss/typography": "^0.2.0",
-    "@vuepress/plugin-back-to-top": "^1.5.3",
-    "@vuepress/plugin-medium-zoom": "^1.5.3",
+    "@vuepress/plugin-back-to-top": "^1.5.4",
+    "@vuepress/plugin-medium-zoom": "^1.5.4",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.6.0",
+    "eslint": "^7.7.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-md": "^1.0.19",
     "eslint-plugin-nuxt": "^1.0.0",
     "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.2.5",
-    "lint-staged": "^10.2.11",
+    "lint-staged": "^10.2.13",
     "node-sass": "^4.14.1",
-    "prettier": "^2.0.5",
+    "prettier": "^2.1.1",
     "pug": "^3.0.0",
     "pug-plain-loader": "^1.0.0",
-    "remark-cli": "^8.0.1",
     "remark-frontmatter": "^2.0.0",
     "remark-lint-no-heading-punctuation": "^2.0.1",
     "remark-preset-lint-markdown-style-guide": "^3.0.1",
     "remark-preset-lint-recommended": "^4.0.1",
     "sass-loader": "^8.0.2",
-    "vuepress": "^1.5.3",
+    "vuepress": "^1.5.4",
     "vuepress-theme-default-prefers-color-scheme": "^1.1.0"
   }
 }

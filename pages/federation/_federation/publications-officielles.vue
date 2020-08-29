@@ -5,7 +5,14 @@
 </template>
 
 <script>
+import DownloadLink from '@/components/campus/DownloadLink'
+import DownloadLinks from '@/components/campus/DownloadLinks'
+
 export default {
+  components: {
+    CampusDownloadLink: DownloadLink,
+    CampusDownloadLinks: DownloadLinks,
+  },
   async asyncData({ $content, params }) {
     const { federation } = params
     const page = await $content(
@@ -25,7 +32,7 @@ export default {
   },
   head() {
     return {
-      title: this.page.title.toUpperCase() ?? 'chargement...'.toUpperCase(),
+      title: this.page?.title?.toUpperCase() ?? 'chargement...'.toUpperCase(),
       // meta: [
       //   {
       //     hid: 'description',
