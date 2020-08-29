@@ -1,7 +1,7 @@
 <template lang="pug">
   span
     a(:href="path", target="_blank") {{ name }}
-    v-btn(icon, :href="path", download).ml-4.primary--text
+    v-btn(icon, :href="path", download, :class="color").ml-4
       v-icon {{ svg.mdiDownload }}
 </template>
 
@@ -30,6 +30,9 @@ export default {
   computed: {
     path() {
       return this.link
+    },
+    color() {
+      return `${this.$attrs.color}--text` ?? 'primary--text'
     },
   },
 }
