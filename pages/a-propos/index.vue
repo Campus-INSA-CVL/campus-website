@@ -10,7 +10,7 @@
         v-col(cols="12", sm="8", align="center")
           div.text-capitalize.font-weight-light.primary--text développeur: #[span.font-weight-bold SOUBIRAN Estéban]
           div.text-capitalize.font-weight-light.primary--text contributeurs: #[span.font-weight-bold BEZIAUD Jordan] / #[span.font-weight-bold RICHARD Jérémy]
-          div.text-capitalize.font-weight-light.primary--text gestion serveur: #[span.font-weight-bold Leschi Cyprien]
+          div.text-capitalize.font-weight-light.primary--text gestion serveur: #[span.font-weight-bold LESCHI Cyprien]
       v-row(justify="center", no-gutters, align="center")
         v-col(cols="12")
           div.text-secondary.font-weight-light.text-center.body-2 v0.9.10
