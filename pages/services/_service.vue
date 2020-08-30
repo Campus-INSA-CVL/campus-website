@@ -31,7 +31,7 @@ export default {
   },
   computed: {
     color() {
-      return this.$route.params.outil ?? ''
+      return this.$route.params.service ?? ''
     },
   },
   head() {
