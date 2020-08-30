@@ -11,7 +11,7 @@ team:
       description:
         Manageur de l'équipe, s'occupe de la partie financière, administrative,
         et assure la coordination des différents pôles de la boutique
-      avatar: federation/culturel/insarpege/jordan_prez.jpeg
+      avatar: services/shop/prez.jpeg
     - responsability: Pôle Site Internet
       name: Dorian Beaufils
       description:
@@ -49,7 +49,11 @@ social:
 
 # INSA Shop CVL
 
+<div class="text-h5">
+
 > Partageons une identité
+
+</div>
 
 <campus-center>
   <campus-responsive-image
