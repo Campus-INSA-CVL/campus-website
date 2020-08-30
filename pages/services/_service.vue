@@ -1,7 +1,7 @@
 <template lang="pug">
   v-row(tag="section", no-gutters)
     v-col(cols="12", md="10", lg="8", offset-md="1", offset-lg="2")
-      nuxt-content(:document="page", class="prose prose-sm sm:prose lg:prose-lg xl:prose-xl mx-auto")
+      nuxt-content(:document="page", class="prose prose-sm sm:prose lg:prose-lg xl:prose-xl mx-auto", :id="color")
 </template>
 
 <script>
@@ -28,6 +28,11 @@ export default {
   },
   layout() {
     return 'services'
+  },
+  computed: {
+    color() {
+      return this.$route.params.outil ?? ''
+    },
   },
   head() {
     return {
