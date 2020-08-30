@@ -24,7 +24,7 @@ export default {
         shopColor: '#09537d',
         alumniColor: '#a55eea',
         documentsColor: '#eb3b5a',
-        elevesColor: '#a55eea',
+        outilsInsaColor: '#a55eea',
         tutorinsaColor: '#4c98d2',
       },
       dark: {
@@ -41,7 +41,7 @@ export default {
         shopColor: '#09537d',
         alumniColor: '#a55eea',
         documentsColor: '#eb3b5a',
-        elevesColor: '#a55eea',
+        outilsInsaColor: '#a55eea',
         tutorinsaColor: '#4c98d2',
       },
     },
