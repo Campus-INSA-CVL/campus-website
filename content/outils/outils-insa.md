@@ -1,5 +1,5 @@
 ---
-title: outils-insa
+title: outils insa
 description:
   Tu trouveras ici tous les outils dont tu auras besoin pour le bon déroulement
   de ta scolarité à l'INSA CVL
