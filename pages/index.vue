@@ -1,7 +1,7 @@
 <template lang="pug">
   section
     div.parallax-container
-      h1.parallax-title.text-h3 #campus INSA CVL
+      h1(:class="$vuetify.breakpoint.mdAndUp ? 'text-h1' : 'text-h3'", :style="$vuetify.breakpoint.mdAndUp ? '-webkit-text-stroke: 3.5px white;' : '-webkit-text-stroke: 1.5px white;'").parallax-title #campus INSA CVL
       parallax(:sectionHeight="42", :speed-factor="0.2", breakpoint="(min-width: 200px)").rounded
           v-img(:src="heroBanner", min-height="450")
     v-row(no-guetter, justify="center")
@@ -106,14 +106,17 @@ export default {
   right: 0;
   transform: translateY(-50%);
   padding: 20px;
-  font-family: 'Arial Rounded';
-  margin: 0 50px;
+  font-family: 'Modak' !important;
+  margin: 0 40px;
   font-weight: bold;
   border: 0.35rem solid white;
-  color: white;
   text-align: center;
   border-radius: 5px;
-  text-shadow: 2px 2px 1rem hsla(0, 0%, 0%, 0.75);
+  box-shadow: inset 2px 2px 1rem hsla(0, 0%, 0%, 0.75),
+    2px 2px 1rem hsla(0, 0%, 0%, 0.75);
+  text-shadow: 0px 0px 1rem hsla(0, 0%, 0%, 0.6);
+  color: transparent;
+  paint-order: stroke fill;
   z-index: 2;
 }
 </style>
