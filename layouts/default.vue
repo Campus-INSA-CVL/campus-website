@@ -79,6 +79,16 @@ export default {
             },
           ],
         },
+        iris: {
+          type: 'association',
+          title: 'iris',
+          color: 'irisColor',
+          path: {
+            main: 'federation',
+            secondary: 'iris',
+          },
+          btns: [],
+        },
         aiep: {
           type: 'association',
           title: 'aiep',

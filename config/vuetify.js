@@ -12,6 +12,7 @@ export default {
     themes: {
       light: {
         primary: '#EF1D13',
+        irisColor: '#EF1D13',
         elusColor: '#EEAB00',
         culturelColor: '#80BA27',
         sportColor: '#772056',
@@ -29,6 +30,7 @@ export default {
       },
       dark: {
         primary: '#EF1D13',
+        irisColor: '#EF1D13',
         elusColor: '#EEAB00',
         culturelColor: '#80BA27',
         sportColor: '#772056',
