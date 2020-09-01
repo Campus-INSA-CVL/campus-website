@@ -2,8 +2,8 @@
   section
     div.parallax-container
       h1.parallax-title.text-h3 #campus INSA CVL
-      parallax(:sectionHeight="42", :speed-factor="0.3", breakpoint="(min-width: 300px)").rounded
-          v-img(:src="heroBanner", min-height="500")
+      parallax(:sectionHeight="42", :speed-factor="0.2", breakpoint="(min-width: 200px)").rounded
+          v-img(:src="heroBanner", min-height="450")
     v-row(no-guetter, justify="center")
       v-col(:cols="$vuetify.breakpoint.smAndDown ? '6' : undefined", v-for="card in content.cards", :style="`color: ${card.color};font-family: 'Arial Rounded'!important;`", align="center").pa-0.text-uppercase.text-subtitle-1.font-weight-bold #
         | {{card.title}}
@@ -48,7 +48,7 @@ export default {
   },
   computed: {
     heroBanner() {
-      return require('@/assets/img/hero-banner-classic.png')
+      return require('@/assets/img/hero-banner.png')
     },
   },
   head() {
