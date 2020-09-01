@@ -14,7 +14,7 @@ team:
       name: Killian Bradechard
 ---
 
-# Bienvenue chez INSAbrasse
+# Bienvenue à l'INSA'brasse
 
 > Quand ça mousse, c'est que l'INSA'Brasse
 
