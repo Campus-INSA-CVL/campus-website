@@ -15,9 +15,9 @@ associations:
     path: /federation/culturel/associations/insaction
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
     color: culturelColor
-  - title: comed'insa
-    path: /federation/culturel/associations/comedinsa
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+  - title: comed'insa Bourges
+    path: /federation/culturel/associations/comed-insa-bourges
+    description: Comed'INSA est une association qui rassemble tous les passionnés de théâtre, débutants comme plus expérimentés, pour réaliser saynètes, pièces et improvisations !
     color: culturelColor
   - title: printemps des grandes écoles
     path: /federation/culturel/associations/pge
