@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        olympiades: ['Caesar Dressing', 'Roboto', 'sans-serif'],
+        olympiades: ['Diogenes', 'Roboto', 'sans-serif'],
       },
     },
   },
@@ -25,7 +25,7 @@ module.exports = {
       'nuxt.config.js',
     ],
     options: {
-      whitelist: ['font-olympiades', 'tracking-widest'],
+      whitelist: ['font-olympiades'],
     },
   },
 }

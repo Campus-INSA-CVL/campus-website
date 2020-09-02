@@ -30,7 +30,7 @@ winners:
       avatar: user-random-female.png
 ---
 
-<div class="font-olympiades tracking-widest">
+<div class="font-olympiades">
 
 # Les Olympiades
 
@@ -57,6 +57,17 @@ posuere justo, ac volutpat nisl velit sit amet sem.
 </campus-center>
 
 ## Les défis du mois
+
+### Défis citoyens
+
+<div class="list-lightning font-olympiades">
+
+- faire 7 bonnes actions en une journée
+- créer une pétition sur Change.org et avoir plus de signatures que les autres
+  familles
+- adopter une araignée et s'occuper d'elle
+
+</div>
 
 <campus-center>
   <campus-responsive-image

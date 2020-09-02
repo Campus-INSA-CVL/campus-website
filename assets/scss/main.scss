@@ -2,6 +2,12 @@
 @import 'federation';
 @import 'intersection-observer';
 
+@font-face {
+  font-family: 'Diogenes';
+  font-weight: 400;
+  src: url('../fonts/DIOGENES.ttf');
+}
+
 .nuxt-content {
   h1 {
     &::before {
@@ -37,6 +43,9 @@
       font-weight: bold;
       color: var(--v-primary-base);
     }
+  }
+  .list-lightning ul li::before {
+    content: '⚡';
   }
   // table {
   //   display: block;
