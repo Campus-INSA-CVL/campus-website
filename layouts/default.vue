@@ -228,12 +228,12 @@ export default {
               icon: 'mdiAccountGroup',
               style: { outlined: true, depressed: false },
             },
-            {
-              name: 'représentation',
-              path: 'representation',
-              icon: 'mdiEye',
-              style: { outlined: false, depressed: true },
-            },
+            // {
+            //   name: 'représentation',
+            //   path: 'representation',
+            //   icon: 'mdiEye',
+            //   style: { outlined: false, depressed: true },
+            // },
           ],
         },
         techniques: {

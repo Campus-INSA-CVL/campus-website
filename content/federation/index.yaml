@@ -37,7 +37,7 @@ federations:
     color: sportColor
   - path: federation/elus
     title: les élus
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+    description: Les élus étudiants de l’INSA Centre Val de Loire sont les représentants des élèves dans les conseils statutaires et les réunions officielles, ou non, de l’école.
     color: elusColor
   - path: federation/les-autres-assos
     title: Les autres assos
