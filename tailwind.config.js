@@ -5,7 +5,13 @@
  ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
  */
 module.exports = {
-  theme: {},
+  theme: {
+    extend: {
+      fontFamily: {
+        olympiades: ['Caesar Dressing', 'Roboto', 'sans-serif'],
+      },
+    },
+  },
   variants: {},
   plugins: [require('@tailwindcss/typography')],
   purge: {
@@ -18,5 +24,8 @@ module.exports = {
       'plugins/**/*.js',
       'nuxt.config.js',
     ],
+    options: {
+      whitelist: ['font-olympiades', 'tracking-widest'],
+    },
   },
 }
