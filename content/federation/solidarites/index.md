@@ -23,7 +23,7 @@ team:
 <campus-center>
   <campus-responsive-image
     folder-name="federation/solidarites"
-    name="logo.jpeg"
+    name="logo.png"
     max-width="400"></campus-responsive-image>
 </campus-center>
 
