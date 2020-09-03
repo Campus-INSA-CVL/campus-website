@@ -14,7 +14,6 @@ export default {
       '/outils',
       '/federation/index',
       '/federation/culturel/associations',
-      '/federation/elus/representation',
       '/federation/solidarites/associations',
       '/federation/sport/associations',
       '/federation/sport/sports',
