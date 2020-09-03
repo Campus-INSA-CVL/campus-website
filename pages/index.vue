@@ -1,9 +1,13 @@
 <template lang="pug">
   section
     div.parallax-container
-      h1(:style="$vuetify.breakpoint.mdAndUp ? '-webkit-text-stroke: 3.5px white;font-size: 6rem;' : '-webkit-text-stroke: 1.5px white;font-size: 3.125rem;'").parallax-title #campus INSA CVL
-      parallax(:sectionHeight="42", :speed-factor="0.2", breakpoint="(min-width: 200px)").rounded
-          v-img(:src="heroBanner", min-height="450")
+      h1(:style="$vuetify.breakpoint.mdAndUp ? '-webkit-text-stroke: 3.5px white;font-size: 6rem;' : '-webkit-text-stroke: 1.5px white;font-size: 3.125rem;'").parallax-title
+        | #campus
+        span &nbsp;
+          br(v-if="$vuetify.breakpoint.mdAndDown")
+        | INSA CVL
+      parallax(:sectionHeight="42", :speed-factor="0.15", breakpoint="(min-width: 200px)").rounded
+          v-img(:src="heroBanner", min-height="470")
     v-row(no-guetter, justify="center")
       v-col(:cols="$vuetify.breakpoint.smAndDown ? '6' : undefined", v-for="card in content.cards", :style="`color: ${card.color};font-family: 'Arial Rounded'!important;`", align="center").pa-0.text-uppercase.text-subtitle-1.font-weight-bold #
         | {{card.title}}

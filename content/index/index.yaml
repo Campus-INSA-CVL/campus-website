@@ -1,16 +1,16 @@
 cards:
-  - title: "partage"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque."
-    color: "#f7a900"
-  - title: "entraide"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque."
-    color: "#6bbe00"
-  - title: "bonne humeur"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque."
-    color: "#0098ad"
-  - title: "investissement"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque."
+  - title: connaissance
+    text: L'INSA CVL, école d'ingénieurs, est avant tout basée sur le savoir et la connaissance. Ces derniers, transmis par les différents enseignants-chercheurs, professeurs et doctorants, sont au cœur de la vie des élèves et permettent d'apprendre chaque jour !
     color: "#fd6300"
-  - title: "connaissance"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque."
+  - title: investissement
+    text: Il y a tout d'abord l'investissement dans ses études afin de les réussir au mieux ! Il est essentiel pour une réussite optimale de son cursus ! Mais il y a aussi un investissement, propre à chacun, dans la vie association de l'école qui permet de la rendre toujours plus intéressante et attractive !
+    color: "#f7a900"
+  - title: partage
+    text: L'INSA CVL est un lieu fort dans le partage ! En effet, sa riche vie associative, animée par le BDE et l'ensemble des pôles qui proposent des activités des plus variés, permet à chacun de partager un moment, du savoir, de la connaissance et de faire des rencontres inoubliables !
     color: "#811158"
+  - title: entraide
+    text: Non pas fondé sur un esprit de compétition, l'INSA CVL permet à chacun de s'entre aider ! En effet, le corps enseignant comme les élèves peuvent être amener à s'aider mutuellement, dans l'optique d'une progression continue ! Ce caractère est accentué de par l'existence d'une association de tutorat !
+    color: "#6bbe00"
+  - title: bonne humeur
+    text: Afin de lier l'ensemble des usagers de l'INSA CVL et d'y conserver une vie des plus agréables, la bonne humeur est toujours la bienvenue. En cours, dans les évènements BDE mais aussi aux activités des associations et surtout en chacun de nous !
+    color: "#0098ad"
