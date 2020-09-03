@@ -8,20 +8,13 @@ imagesName:
 team:
   bureau:
     - responsability: président
-      name: Jules Perrault
-      description: responsable de l'association
+      name: Augustin ROUH
+    - responsability: vice-président
+      name: Bastien JAYET
     - responsability: trésorier
-      name: Courtland Vaillancour
-      description:
-        Phasellus et laoreet augue. Aliquam tristique nisi sed velit faucibus
-        auctor. Nulla turpis diam, volutpat nec nisl vitae.
-      avatar: federation/culturel/tresorier.png
-  communication:
-    - responsability: responsable communication
-      name: Charlotte Beaudoin
-      description:
-        gère son équipe de communication afin d'augmenter la visibilité de
-        l'association
+      name: Gaëtan El RAWAS
+    - responsability: secrétaire
+      name: Mathis LESNIEWSKI
 ---
 
 # Bienvenue dans le club robotique
@@ -111,6 +104,6 @@ des interventions dans des médiathèques.
 
 Il s'agit de **Erirat**
 
-<!-- ## L'équipe
+## L'équipe
 
-<team :team="team" :color="color"></team> -->
+<campus-  team :team="team" :color="color"></campus->
