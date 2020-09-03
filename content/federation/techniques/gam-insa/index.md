@@ -8,6 +8,7 @@ social:
   facebook: https://www.facebook.com/GamINSA
   twitch: https://www.twitch.tv/gam_insa
   discord: https://discord.gg/GSh3qeG
+  youtube: https://www.youtube.com/channel/UCTotSH3FrYTa-0LPEF8U8zg
 team:
   bureau:
     - responsability: président
