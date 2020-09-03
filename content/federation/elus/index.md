@@ -98,6 +98,16 @@ importants discutés lors des conseils. Tous les sujets ou problématiques peuve
 justifier la convocation du CVE. Il se réunit au moins 3 fois par an, ou autant
 de fois que nécessaire.
 
+## Les salles des conseils
+
+<campus-center>
+  <campus-responsive-image
+    folder-name="federation/elus"
+    name="salles-conseils.jpg"
+    max-width="800">
+  </campus-responsive-image>
+</campus-center>
+
 ## Pour résumer
 
 <campus-center>

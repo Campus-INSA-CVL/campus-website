@@ -9,6 +9,7 @@ team:
       name: Laurène LEYES
     - responsability: titulaire
       name: Estéban SOUBIRAN
+      avatar: federation/elus/equipe/esteban.png
     - responsability: titulaire
       name: Inès LAHZAMI
     - responsability: titulaire
@@ -52,6 +53,7 @@ team:
   élus au conseil d'administration:
     - responsability: représentant au CA
       name: Victor INSA
+      avatar: federation/elus/equipe/victor.jpg
     - responsability: titulaire
       name: Camille CUISINIER
     - responsability: titulaire
@@ -62,6 +64,7 @@ team:
       name: Issam EL HADDAD
     - responsability: suppléant
       name: Clément VION-DELPHIN
+      avatar: federation/elus/equipe/clement.jpg
     - responsability: suppléante
       name: Louise PINSARD
     - responsability: suppléant
