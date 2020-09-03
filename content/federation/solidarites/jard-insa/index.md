@@ -1,29 +1,16 @@
 ---
 title: Jard'INSA
 color: culturelColor
-team:
-  bureau:
-    - responsability: président
-      name: Jordan Béziaud
-      description: responsable de l'association
-    - responsability: trésorier
-      name: Courtland Vaillancour
-      description:
-        Phasellus et laoreet augue. Aliquam tristique nisi sed velit faucibus
-        auctor. Nulla turpis diam, volutpat nec nisl vitae.
-      avatar: federation/culturel/tresorier.png
-  communication:
-    - responsability: responsable communication
-      name: Charlotte Beaudoin
-      description:
-        gère son équipe de communication afin d'augmenter la visibilité de
-        l'association
 ---
 
-# Bienvenue dans Jard'INSA
+# Bienvenue à Jard'INSA
 
----
+Jard'INSA est une asso de jardinage collaboratif ouverte à toute personne
+présente sur le campus. Les objectifs principaux sont :
 
-## L'équipe
+- Développer la biodiversité au sein de notre campus (Création et entretient
+  d'un jardin, construction de composts et hôtel à insecte)
+- Renouer le lien social (étudiants, prof et administration)
 
-<team :team="team" :color="color"></team>
+En somme, l'élaboration d'un lieu de vie où tout le monde pourra venir profiter
+d'un peu de nature.

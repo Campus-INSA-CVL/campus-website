@@ -9,7 +9,7 @@ associations:
     color: solidaritesColor
   - title: jardinsa
     path: /federation/solidarites/associations/jard-insa
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+    description: Jard'INSA est une asso de jardinage collaboratif ouverte à toute personne présente sur le campus.
     color: solidaritesColor
   - title: "R3: Réussir, Réaliser, Rencontrer"
     path: /federation/solidarites/associations/r3
