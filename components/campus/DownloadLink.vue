@@ -32,7 +32,7 @@ export default {
       return this.link
     },
     color() {
-      return `${this.$attrs.color}--text` ?? 'primary--text'
+      return (this.$attrs.color ?? 'primary') + '--text'
     },
   },
 }

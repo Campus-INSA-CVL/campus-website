@@ -1,5 +1,5 @@
 ---
-title: documents-utiles
+title: documents utiles
 description:
   Tu trouveras ici tout un tas de documents utiles pour ta vie associative ou au
   sein de la fédération !
@@ -17,7 +17,7 @@ filesFederation:
     link: /outils/liste-emargement.pdf
 ---
 
-# Outils
+# Documents
 
 ## Associations
 

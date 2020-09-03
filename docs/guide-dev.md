@@ -50,13 +50,13 @@ Champs disponibles en fonction du type de l'extension
 
 Propriété disponible
 
-| Fields  |         Type          | Property                  | Functions                                                          |
-| :-----: | :-------------------: | ------------------------- | ------------------------------------------------------------------ |
-| `type`  | `association || page` | none                      | Permet de déterminer le type d'extension à afficher                |
-| `title` |       `string`        | none                      | Permet de définir le titre, à droite, de l'extension               |
-| `color` |       `string`        | none                      | Permet de définir la couleur général de l'extension                |
-| `path`  |       `object`        | {main, secondary?}        | Permet de définir le chemin de redirection du titre de l'extension |
-| `btns`  |       `object`        | {name, path, icon, style} | Permet de créer les boutons                                        |
+| Fields  |     Type     | Property                  | Functions                                                          |
+| :-----: | :----------: | ------------------------- | ------------------------------------------------------------------ |
+| `type`  | `association |                           | page`                                                              | none | Permet de déterminer le type d'extension à afficher |
+| `title` |   `string`   | none                      | Permet de définir le titre, à droite, de l'extension               |
+| `color` |   `string`   | none                      | Permet de définir la couleur général de l'extension                |
+| `path`  |   `object`   | {main, secondary?}        | Permet de définir le chemin de redirection du titre de l'extension |
+| `btns`  |   `object`   | {name, path, icon, style} | Permet de créer les boutons                                        |
 
 Propriété disponible pour le champs **btns**
 
@@ -315,9 +315,50 @@ Il s'agit simplement d'un composant, pas de chargement de Markdown
 
 Il s'agit simplement d'un composant, pas de chargement de Markdown
 
+## Gestion des images
+
+Il existe 3 types d'images sur le site campus:
+
+- les logos
+- les photos de profil
+- les autres photos
+
+### Tailes
+
+| Nom              | Size               |
+| ---------------- | ------------------ |
+| Logo             | 500\*500           |
+| Photos de profil | 150\*150           |
+| Autres photos    | 1000\*x ou x\*1000 |
+
+### Recadrage et compression
+
+Pour recadrer les images, l'outils
+[PowerToys](https://github.com/microsoft/PowerToys) est extrêmement performant !
+Il permet sous Windows de resize les images directement depuis l'explorateur de
+fichiers, et plusieurs d'un coup si besoin !
+
+::: tip
+
+Pour les photos de profil, il est conseiller de les recarder en carré au
+préalable avant de les réduire pour s'assurer que l'on garde bien une photo
+cadré !
+
+:::
+
+Une fois les images resize, il faut les passez au compresseur. Le mieux est
+d'utiliser [Image Compressor](https://imagecompressor.com/)
+
+### Pourquoi retailler les images et les compresser
+
+C'est assez simple ! Cela permet de charger les images plus rapidement mais
+aussi d'économiser de la bande passante ! En effet, cela ne sert à rien d'avoir
+uen image immense à charger si elle est affiché en petit sur l'écran de
+l'utilisateur !
+
 ## Exemples
 
-:::tip
+::: tip
 
 Pour la modification du contenu, des exemples sont disponibles dans le
 [guide pour les associations](/guide-associations.html)

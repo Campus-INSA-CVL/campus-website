@@ -2,7 +2,7 @@
 title: 4L Trophy
 color: techniquesColor
 plaquetteSponsoring:
-  - link: /federation/tehniques/4l-trophy/dossier-partenariat-INSAhara.png
+  - link: /federation/techniques/4l-trophy/dossier-partenariat-INSAhara.pdf
     name: Dossier de Sponsoring (Antoine Creuzet - Antonin Falluel)
 ---
 
@@ -37,3 +37,5 @@ de fonds et l’échange avec d’anciens et futurs participants.
 ## Plus d'information ici
 
 <campus-download-links :files="plaquetteSponsoring" :color="color"></campus-download-links>
+
+<!-- <embed src="/federation/techniques/4l-trophy/dossier-partenariat-INSAhara.pdf" type="application/pdf" width="100%" height="600"></embed> -->

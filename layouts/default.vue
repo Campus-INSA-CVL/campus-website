@@ -79,6 +79,16 @@ export default {
             },
           ],
         },
+        iris: {
+          type: 'association',
+          title: 'iris',
+          color: 'irisColor',
+          path: {
+            main: 'federation',
+            secondary: 'iris',
+          },
+          btns: [],
+        },
         aiep: {
           type: 'association',
           title: 'aiep',
@@ -137,12 +147,12 @@ export default {
             secondary: 'solidarites',
           },
           btns: [
-            {
-              name: "l'équipe",
-              path: 'equipe',
-              icon: 'mdiAccountGroup',
-              style: { outlined: true, depressed: false },
-            },
+            // {
+            //   name: "l'équipe",
+            //   path: 'equipe',
+            //   icon: 'mdiAccountGroup',
+            //   style: { outlined: true, depressed: false },
+            // },
             {
               name: 'les associations',
               path: 'associations',
@@ -218,12 +228,12 @@ export default {
               icon: 'mdiAccountGroup',
               style: { outlined: true, depressed: false },
             },
-            {
-              name: 'représentation',
-              path: 'representation',
-              icon: 'mdiEye',
-              style: { outlined: false, depressed: true },
-            },
+            // {
+            //   name: 'représentation',
+            //   path: 'representation',
+            //   icon: 'mdiEye',
+            //   style: { outlined: false, depressed: true },
+            // },
           ],
         },
         techniques: {

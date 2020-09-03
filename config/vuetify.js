@@ -12,6 +12,7 @@ export default {
     themes: {
       light: {
         primary: '#EF1D13',
+        irisColor: '#EF1D13',
         elusColor: '#EEAB00',
         culturelColor: '#80BA27',
         sportColor: '#772056',
@@ -24,11 +25,12 @@ export default {
         shopColor: '#09537d',
         alumniColor: '#a55eea',
         documentsColor: '#eb3b5a',
-        elevesColor: '#a55eea',
+        outilsInsaColor: '#a55eea',
         tutorinsaColor: '#4c98d2',
       },
       dark: {
         primary: '#EF1D13',
+        irisColor: '#EF1D13',
         elusColor: '#EEAB00',
         culturelColor: '#80BA27',
         sportColor: '#772056',
@@ -41,7 +43,7 @@ export default {
         shopColor: '#09537d',
         alumniColor: '#a55eea',
         documentsColor: '#eb3b5a',
-        elevesColor: '#a55eea',
+        outilsInsaColor: '#a55eea',
         tutorinsaColor: '#4c98d2',
       },
     },

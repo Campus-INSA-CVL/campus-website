@@ -2,7 +2,8 @@
 $federation: 'culturel' --v-culturelColor-, 'sport' --v-sportColor-,
   'gala' --v-galaColor-, 'techniques' --v-techniquesColor-,
   'elus' --v-elusColor-, 'solidarites' --v-solidaritesColor-,
-  'les-autres-assos' --v-othersColor-, 'alumni' --v-alumniColor-;
+  'les-autres-assos' --v-othersColor-, 'alumni' --v-alumniColor-,
+  'shop' --v-shopColor-;
 
 @each $name, $color in $federation {
   ##{$name}.nuxt-content {
