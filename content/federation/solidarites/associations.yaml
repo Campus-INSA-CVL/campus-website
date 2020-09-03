@@ -7,7 +7,7 @@ associations:
     path: /federation/solidarites/associations/eleves-sans-frontieres
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
     color: solidaritesColor
-  - title: jardinsa
+  - title: jard'insa
     path: /federation/solidarites/associations/jard-insa
     description: Jard'INSA est une asso de jardinage collaboratif ouverte à toute personne présente sur le campus.
     color: solidaritesColor
