@@ -30,7 +30,7 @@ team:
 <campus-center>
   <campus-responsive-image
     folder-name="federation/techniques/gam-insa"
-    name="logo.jpeg"
+    name="logo.png"
     max-width="400"></campus-responsive-image>
 </campus-center>
 
