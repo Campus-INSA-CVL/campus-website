@@ -19,6 +19,7 @@ import {
   mdiSnapchat,
   mdiDiscord,
   mdiLinkedin,
+  mdiYoutube,
 } from '@mdi/js'
 
 export default {
@@ -40,6 +41,7 @@ export default {
         snapchat: mdiSnapchat,
         discord: mdiDiscord,
         linkedin: mdiLinkedin,
+        youtube: mdiYoutube,
       },
     }
   },
