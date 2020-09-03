@@ -307,7 +307,7 @@ color:
 Quisque luctus odio et est maximus posuere id nec quam.
 ```
 
-### Modification d'un onglet, Vie Étudiante / Sports / Représentation
+### Modification d'un onglet, Vie Étudiante / Sports
 
 - Trouver le fichier dans le dossier correspondant
 - Procéder aux modifications
@@ -325,10 +325,20 @@ order: 2 <!-- utilsé pour ranger les onglets -->
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ```
 
+### Ajout d'images
+
+- Se rendre dans le dossier de votre fédération ou de votre association dans le
+  dossier `assets`
+- Ajouter vos images. Penser à les nommer intelligemment ! (exemple: pour votre
+  logo, nommer l'image logo, pour les images, nommer les avec du sens et pour
+  les photos de profil, nommer les par le rôle de la personne et non par le nom)
+- [Recouper et compresser](/guide-dev.html#gestion-des-images) vos images
+- Ajouter ensuite les liens dans vos différents fichiers !
+
 ### Ajout de documents téléchargeables
 
 - Se rendre dans le dossier de votre fédération ou de votre association dans le
-  dossier `static`.
+  dossier `static`
 - Ajouter votre fichier
 - Se rendre dans le fichier md dans lequel vous souhaitez ajouter le fichier
   téléchargeable
@@ -364,7 +374,7 @@ Voici les documents qui peuvent servir à tout membre de la fédération :
 
 _cliquer pour télécharger_
 
-<DownloadLinks :files="filesFederation"></DownloadLinks>
+<campus-download-links :files="filesFederation"></campus-download-links>
 ```
 
 ## Les blogs
