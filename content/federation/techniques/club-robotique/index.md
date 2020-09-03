@@ -106,4 +106,4 @@ Il s'agit de **Erirat**
 
 ## L'équipe
 
-<campus-  team :team="team" :color="color"></campus->
+<campus-team :team="team" :color="color"></campus-team>
