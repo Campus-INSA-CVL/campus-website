@@ -13,7 +13,7 @@
                 v-col(align="center", cols="8", sm="12")
                   v-list-item-content(:class="isSm ? 'mt-2': ''").pa-0
                     div.body-2.text-uppercase.font-weight-light.ma-0 {{ user.responsability }}
-                    v-list-item-title(:class="$vuetify.breakpoint.mdAndUp ? 'text-h5' : ''").font-weight-bold {{ user.name }}
+                    v-list-item-title(:class="$vuetify.breakpoint.mdAndUp ? 'text-h5' : ''").text-truncate.font-weight-bold {{ user.name }}
             v-card-text.text-justify.pt-0
               v-divider(:class="color").my-2
               | {{ user.description }}

@@ -17,7 +17,11 @@ associations:
     color: culturelColor
   - title: comed'insa Bourges
     path: /federation/culturel/associations/comed-insa-bourges
-    description: Comed'INSA est une association qui rassemble tous les passionnés de théâtre, débutants comme plus expérimentés, pour réaliser saynètes, pièces et improvisations !
+    description: Comed'INSA est une association qui rassemble tous les passionnés de théâtre, débutants comme plus expérimentés, pour réaliser saynètes, pièces et improvisations ! Elle a son homonyme à Blois !
+    color: culturelColor
+  - title: comed'insa Blois
+    path: /federation/culturel/associations/comed-insa-blois
+    description: Comed'INSA est une association qui rassemble tous les passionnés de théâtre, débutants comme plus expérimentés, pour réaliser saynètes, pièces et improvisations ! Elle a son homonyme à Bourges !
     color: culturelColor
   - title: printemps des grandes écoles
     path: /federation/culturel/associations/pge
