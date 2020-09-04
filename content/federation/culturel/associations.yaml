@@ -25,7 +25,7 @@ associations:
     color: culturelColor
   - title: printemps des grandes écoles
     path: /federation/culturel/associations/pge
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+    description: Depuis 2010, le PGE organise chaque année un tremplin musical étudiant dans la   ville de Bourges. Il se déroule au cœur du Printemps de Bourges, sur l'une des scènes les plus incontournables. Les groupes d'étudiants sélectionnés viennent   de toute la France et nous permette de rendre l'expérience du Printemps des Grandes Ecoles exceptionnelle.
     color: culturelColor
   - title: insa'press
     path: /federation/culturel/associations/insa-press
