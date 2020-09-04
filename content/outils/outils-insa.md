@@ -10,7 +10,7 @@ color: outilsInsaColor
 
 L'ensemble de ces outils te sont proposé par l'INSA Centre-Val de Loire. Ils ont
 pour but de te simplifier la vie ou de te permettre de communiquer avec
-l'ensemble des autres usagés de l'école.
+l'ensemble des autres usagers de l'école.
 
 ## Moodle
 
