@@ -108,8 +108,6 @@ Vous pouvez suivre notre activité sur les réseaux :
 
 ---
 
-[vers les assos](/federation/culturel/associations)
-
 ## L'équipe du pôle culturel
 
 <campus-team :team="team" :color="color"></campus-team>
