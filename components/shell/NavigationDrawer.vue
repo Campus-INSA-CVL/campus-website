@@ -56,7 +56,7 @@ export default {
       },
       nav: [
         {
-          name: 'Acceuil',
+          name: 'Accueil',
           path: '/',
           icon: 'mdiHome',
         },
