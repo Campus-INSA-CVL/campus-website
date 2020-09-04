@@ -1,26 +1,37 @@
 <template lang="pug">
   section
-    div.typewriter-container
-      v-img(src="https://via.placeholder.com/900x250").rounded
-      h1.typewriter.primary--text.text-left.text-h4.font-weight-light Le campus de l'INSA CVL c'est<br />#[span(data-period="2000", data-type='[ "cool", "stylé", "amusant ]').font-weight-bold#typewriter-animation]
+    div.parallax-container
+      h1(:style="$vuetify.breakpoint.mdAndUp ? '-webkit-text-stroke: 3.5px white;font-size: 6rem;' : '-webkit-text-stroke: 1.5px white;font-size: 3.125rem;'").parallax-title
+        | #campus
+        span &nbsp;
+          br(v-if="$vuetify.breakpoint.mdAndDown")
+        | INSA CVL
+      parallax(:sectionHeight="42", :speed-factor="0.15", breakpoint="(min-width: 200px)").rounded
+          v-img(:src="heroBanner", min-height="470")
+    v-row(no-guetter, justify="center")
+      v-col(:cols="$vuetify.breakpoint.smAndDown ? '6' : undefined", v-for="card in content.cards", :style="`color: ${card.color};font-family: 'Arial Rounded'!important;`", align="center").pa-0.text-uppercase.text-subtitle-1.font-weight-bold #
+        | {{card.title}}
+    v-row
+      v-col
+        typewriter(:toRotate="toRotate", :typewriterClass="typewriterClass").primary--text.text-left.text-h4.font-weight-light.text-center
+          h2 Le campus de l'INSA CVL est un lieu
     v-row(justify="center")
-      v-col(cols="12", md="6" , xl="4", v-for="n in 4", :key="n")
-        v-card(v-intersect.once="{ handler: onIntersect, options: { threshold: 0.4 } }", outlined)
-          v-container
-            div.font-weight-bold.text-h5 Lorem ipsum
-            v-row
-              v-col
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque.
-              v-col(cols="auto")
-                v-img(src="https://via.placeholder.com/200", height="200", width="200").rounded
-
+      v-col(cols="12", sm="6" , xl="4", v-for="card in content.cards", :key="card.title")
+        intersect-card(dark, :color="card.color")
+          v-card-title.font-weight-bold.text-h5.text-uppercase #
+            | {{card.title}}
+          v-card-text.text-justify {{card.text}}
 </template>
 
 <script>
+import Parallax from 'vue-parallaxy'
 import fetchContent from '@/mixins/fetch-content'
 
 export default {
   name: 'Index',
+  components: {
+    Parallax,
+  },
   mixins: [
     fetchContent({
       folderName: 'index',
@@ -29,76 +40,19 @@ export default {
   ],
   data() {
     return {
-      el: null,
+      typewriterClass: 'font-weight-bold',
       toRotate: [
-        "un lieu d'appretissage !",
-        'un lieu de convivialité !',
-        'une représentation forte dans les instances !',
-        'une vie associative riche !',
+        'de partage.',
+        "d'entraide.",
+        'de bonne humeur.',
+        "d'investissement.",
+        'de connaissance.',
       ],
-      loopNum: 0,
-      isDeleting: false,
-      period: 2000,
-      txt: '',
     }
   },
-  mounted() {
-    const cards = document.getElementsByClassName('v-card')
-    for (let index = 0; index < cards.length; index++) {
-      const card = cards[index]
-      card.classList.add('invisible')
-    }
-    const typewriter = document.getElementById('typewriter-animation')
-    this.el = typewriter
-
-    this.typewriter()
-
-    const css = document.createElement('style')
-    css.type = 'text/css'
-    css.innerHTML =
-      '#typewriter-animation .wrap { border-right: 0.08em solid #fff }'
-    document.body.appendChild(css)
-  },
-  methods: {
-    onIntersect(entries, observer, isIntersecting) {
-      if (isIntersecting) {
-        entries[0].target.classList.add('moveup')
-        entries[0].target.classList.remove('invisible')
-      } else {
-        entries[0].target.classList.remove('moveup')
-      }
-    },
-    typewriter() {
-      const i = this.loopNum % this.toRotate.length
-      const fullTxt = this.toRotate[i]
-
-      if (this.isDeleting) {
-        this.txt = fullTxt.substring(0, this.txt.length - 1)
-      } else {
-        this.txt = fullTxt.substring(0, this.txt.length + 1)
-      }
-
-      this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>'
-
-      const that = this
-      let delta = 150 - Math.random() * 20
-
-      if (this.isDeleting) {
-        delta /= 2
-      }
-
-      if (!this.isDeleting && this.txt === fullTxt) {
-        delta = this.period
-        this.isDeleting = true
-      } else if (this.isDeleting && this.txt === '') {
-        this.isDeleting = false
-        this.loopNum++
-        delta = 300
-      }
-
-      setTimeout(function () {
-        that.typewriter()
-      }, delta)
+  computed: {
+    heroBanner() {
+      return require('@/assets/img/hero-banner.png')
     },
   },
   head() {
@@ -137,12 +91,36 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.typewriter-container {
+.Masthead {
+  z-index: 0;
   position: relative;
 }
-.typewriter {
+@media screen and (min-width: 768px) {
+  .Masthead {
+    min-height: 0;
+  }
+}
+.parallax-container {
+  position: relative;
+}
+.parallax-title {
   position: absolute;
-  bottom: 50px;
-  left: 10px;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  padding: 20px;
+  font-family: 'Modak' !important;
+  margin: 0 40px;
+  font-weight: bold;
+  border: 0.35rem solid white;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 1rem hsla(0, 0%, 0%, 0.75),
+    2px 2px 1rem hsla(0, 0%, 0%, 0.75);
+  text-shadow: 0px 0px 1rem hsla(0, 0%, 0%, 0.6);
+  color: transparent;
+  paint-order: stroke fill;
+  z-index: 2;
 }
 </style>
