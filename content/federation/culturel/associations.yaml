@@ -37,5 +37,5 @@ associations:
     color: culturelColor
   - title: club oenologie
     path: /federation/culturel/associations/club-oenologie
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+    description: Le club oeno est une association qui consiste à faire découvrir et de partager l’œnologie. Nombres de nos soirée sont organisés avec la présence d’un œnologue qui nous explique comment déguster un vin.
     color: culturelColor
