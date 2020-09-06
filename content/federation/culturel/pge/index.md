@@ -25,6 +25,13 @@ social:
 
 # Le Printemps des grandes écoles
 
+<campus-center>
+  <campus-responsive-image
+    folder-name="federation/culturel/pge"
+    name="logo.jpg"
+    max-width="400"></campus-responsive-image>
+</campus-center>
+
 ## L'association en quelques chiffres
 
 Le PGE c'est :
@@ -42,6 +49,8 @@ Le PGE c'est :
 ## Où retrouver le PGE
 
 <campus-social :social="social" :color="color"></campus-social>
+
+et sur notre [site internet](http://printemps-des-grandes-ecoles.fr/) !
 
 ---
 
