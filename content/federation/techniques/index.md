@@ -36,4 +36,4 @@ Le pôle est constitué des associations suivantes :
 
 <campus-team :team="assos" :color="color"></campus-team>
 
-Retrouver les [ici en détail](/federation/techniques/associations) !
+Retrouvez les [ici en détail](/federation/techniques/associations) !
