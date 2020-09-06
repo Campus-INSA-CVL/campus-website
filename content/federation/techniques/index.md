@@ -11,6 +11,7 @@ assos:
     - name: Gam'INSA
       avatar: federation/techniques/gam-insa/logo.png
     - name: ISI
+      avatar: federation/techniques/isi/logo.jpg
 ---
 
 # Le pôle techniques
@@ -31,7 +32,7 @@ pôles, sa mission est de simplifier au maximum la vie des associations qu’il
 fédère, notamment en regroupant les démarches administratives, la recherche de
 partenaires, en dialoguant avec le BDE et l’administration.
 
-Le pole est constitué des associations suivantes :
+Le pôle est constitué des associations suivantes :
 
 <campus-team :team="assos" :color="color"></campus-team>
 
