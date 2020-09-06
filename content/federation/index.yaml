@@ -1,7 +1,7 @@
 federations:
   - path: federation/bde
     title: BDE
-    description: Lorem ipsum dolor sit amet. Consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+    description: Le Bureau des Elèves (BDE) fédère les élèves et la vie associative de l’INSA Centre Val de Loire. Concrètement, il organise tout type d’évènement, propose des services et représente les élèves et la vie associative auprès des instances locales, régionales et nationales.
     color: primary
   - path: federation/aiep
     title: aiep
