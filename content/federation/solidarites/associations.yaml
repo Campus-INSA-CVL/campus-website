@@ -1,11 +1,7 @@
 associations:
   - title: 5 continents 5 sommets
     path: /federation/solidarites/associations/5s5c
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
-    color: solidaritesColor
-  - title: élèves sans frontières
-    path: /federation/solidarites/associations/eleves-sans-frontieres
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+    description: L'association 5 Sommets 5 Continents est une association solidaire et sportive du type loi 1901 créée en 1998 par les élèves-ingénieurs de l'INSA CVL.
     color: solidaritesColor
   - title: jard'insa
     path: /federation/solidarites/associations/jard-insa
@@ -17,5 +13,9 @@ associations:
     color: solidaritesColor
   - title: ins'actif
     path: /federation/solidarites/associations/ins-actif
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+    color: solidaritesColor
+  - title: élèves sans frontières
+    path: /federation/solidarites/associations/eleves-sans-frontieres
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
     color: solidaritesColor
