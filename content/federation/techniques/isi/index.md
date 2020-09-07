@@ -2,13 +2,19 @@
 title: ISI
 color: techniquesColor
 imagesName:
-  - carousel-1.jpg
-  - carousel-2.png
-  - carousel-3.jpg
-  - carousel-4.png
+  - carousel-1.png
+  - carousel-2.jpg
+  - carousel-3.png
 ---
 
 # Club Initiation à la sécurité informatique
+
+<campus-center>
+  <campus-responsive-image
+    folder-name="federation/techniques/isi"
+    name="logo.jpg"
+    max-width="400"></campus-responsive-image>
+</campus-center>
 
 Aujourd'hui un ingénieur se doit de connaître les bases de la sécurité
 informatique, sous peine d'exposer son entreprise à des attaquants potentiels.
