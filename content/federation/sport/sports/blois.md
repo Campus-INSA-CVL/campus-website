@@ -17,6 +17,7 @@ color: sportColor
 - Padel
 - Tennis
 - Athlétisme
+- Basket
 
 ## Handball
 
