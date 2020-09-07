@@ -8,26 +8,7 @@ imagesName:
   - 'minotaure.jpg'
   - 'phoenix.jpg'
   - 'sphinx.jpg'
-winners:
-  mars:
-    - responsability: minotaure
-      name: Armand Loiselle
-      description:
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
-        dolor sit amet, consectetur adipiscing elit.
-  février:
-    - responsability: kraken
-      name: Platt Babin
-      description:
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
-        dolor sit amet, consectetur adipiscing elit.
-  janvier:
-    - responsability: cerbère
-      name: Amarante Martel
-      description:
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
-        dolor sit amet, consectetur adipiscing elit.
-      avatar: user-random-female.png
+winners: []
 ---
 
 <div class="font-olympiades">
@@ -36,52 +17,17 @@ winners:
 
 </div>
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-## Principes
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque congue purus
-eget nibh consequat mollis. Mauris ut pharetra ligula, eget molestie urna. Nam
-dui mi, fringilla et rutrum in, aliquam sed augue. Vestibulum ac sapien eu lorem
-semper tincidunt. Cras sit amet pretium lectus. Maecenas gravida vel velit quis
-lobortis. Vestibulum at risus at ligula ullamcorper mattis a ac nisl. Nullam
-quis porta leo, eget consequat lacus. Curabitur euismod gravida sapien eget
-vestibulum. Duis ut vulputate metus, non malesuada magna. Duis vehicula velit ut
-nibh finibus aliquam. Maecenas eget iaculis nibh, nec consequat diam. Praesent
-consequat, nulla vel malesuada sagittis, orci nunc efficitur mauris, at cursus
-ante erat vitae nulla. Donec scelerisque, ipsum sed dapibus tempus, tellus nisi
-posuere justo, ac volutpat nisl velit sit amet sem.
-
 <campus-center>
   <campus-carousel :names="imagesName" :folder-name="folderName"></campus-carousel>
 </campus-center>
 
 ## Les défis du mois
 
-### Défis citoyens
-
 <div class="list-lightning font-olympiades">
 
-- faire 7 bonnes actions en une journée
-- créer une pétition sur Change.org et avoir plus de signatures que les autres
-  familles
-- adopter une araignée et s'occuper d'elle
+Les défis arrivent très vites !
 
 </div>
-
-<campus-center>
-  <campus-responsive-image
-    folder-name="olympiades"
-    name="defis-mois-1.jpg"
-    max-width="800"></campus-responsive-image>
-</campus-center>
-
-<campus-center>
-  <campus-responsive-image
-    folder-name="olympiades"
-    name="defis-mois-2.jpg"
-    max-width="800"></campus-responsive-image>
-</campus-center>
 
 ## Les champions
 
@@ -91,8 +37,8 @@ posuere justo, ac volutpat nisl velit sit amet sem.
 
 | familles  | rang | point |
 | :-------: | :--: | :---: |
-|  cerber   |  1   | 3000  |
-|  sphinx   |  2   | 3000  |
-|  kraken   |  3   | 3000  |
-| minotaure |  4   | 3000  |
-|  phoenix  |  5   | 3000  |
+| cerbères  |  1   |   0   |
+|  sphinx   |  1   |   0   |
+|  kraken   |  1   |   0   |
+| minotaure |  1   |   0   |
+|  phoenix  |  1   |   0   |
