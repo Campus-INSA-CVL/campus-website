@@ -11,10 +11,6 @@ associations:
     path: /federation/culturel/associations/insa-brasse
     description: L’INSA’Brasse est l’association de brasseur de l’INSA Centre Val de Loire, créée en 2016. Nous brassons de façon artisanale une gamme de bières de caractère, aux arômes développés et à l’esprit insaïen retranscrit. 🍺
     color: culturelColor
-  - title: insaction
-    path: /federation/culturel/associations/insaction
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
-    color: culturelColor
   - title: comed'insa Bourges
     path: /federation/culturel/associations/comed-insa-bourges
     description: Comed'INSA est une association qui rassemble tous les passionnés de théâtre, débutants comme plus expérimentés, pour réaliser saynètes, pièces et improvisations ! Elle a son homonyme à Blois !
@@ -27,10 +23,6 @@ associations:
     path: /federation/culturel/associations/pge
     description: Depuis 2010, le PGE organise chaque année un tremplin musical étudiant dans la   ville de Bourges. Il se déroule au cœur du Printemps de Bourges, sur l'une des scènes les plus incontournables. Les groupes d'étudiants sélectionnés viennent   de toute la France et nous permette de rendre l'expérience du Printemps des Grandes Ecoles exceptionnelle.
     color: culturelColor
-  - title: insa'press
-    path: /federation/culturel/associations/insa-press
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
-    color: culturelColor
   - title: ins'agora
     path: /federation/culturel/associations/insa-gora
     description: INS'AGORA est l'association de l'INSA CVL dont le but est de vous amener à débattre !
@@ -39,3 +31,11 @@ associations:
     path: /federation/culturel/associations/club-oenologie
     description: Le club oeno est une association qui consiste à faire découvrir et de partager l’œnologie. Nombres de nos soirée sont organisés avec la présence d’un œnologue qui nous explique comment déguster un vin.
     color: culturelColor
+  # - title: insaction
+  #   path: /federation/culturel/associations/insaction
+  #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+  #   color: culturelColor
+  # - title: insa'press
+  #   path: /federation/culturel/associations/insa-press
+  #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+  #   color: culturelColor

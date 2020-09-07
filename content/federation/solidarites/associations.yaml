@@ -11,11 +11,11 @@ associations:
     path: /federation/solidarites/associations/r3
     description: « Rencontrer, Réaliser, Réussir », R3 cherche à favoriser l’accès à l’enseignement supérieur et permettre aux jeunes collégiens et lycéens de prendre confiance en eux en développant leur esprit critique et éveiller leur curiosité, principalement grâce à l’échange. L’association agit particulièrement dans le cadre des Cordées de la Réussite.
     color: solidaritesColor
-  - title: ins'actif
-    path: /federation/solidarites/associations/ins-actif
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
-    color: solidaritesColor
-  - title: élèves sans frontières
-    path: /federation/solidarites/associations/eleves-sans-frontieres
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
-    color: solidaritesColor
+  # - title: ins'actif
+  #   path: /federation/solidarites/associations/ins-actif
+  #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+  #   color: solidaritesColor
+  # - title: élèves sans frontières
+  #   path: /federation/solidarites/associations/eleves-sans-frontieres
+  #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+  #   color: solidaritesColor
