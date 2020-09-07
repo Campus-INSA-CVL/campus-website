@@ -86,7 +86,7 @@ social:
   <campus-responsive-image
     folder-name="federation/culturel"
     name="logo.png"
-    max-width="400">
+    max-width="200">
   </campus-responsive-image>
 </campus-center>
 

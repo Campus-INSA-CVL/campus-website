@@ -24,7 +24,7 @@ team:
   <campus-responsive-image
     folder-name="federation/solidarites"
     name="logo.png"
-    max-width="400"></campus-responsive-image>
+    max-width="200"></campus-responsive-image>
 </campus-center>
 
 ## Présentation
