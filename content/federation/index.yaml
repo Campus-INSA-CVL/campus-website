@@ -41,5 +41,5 @@ federations:
     color: elusColor
   - path: federation/les-autres-assos
     title: Les autres assos
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+    description: Il s'agit des associations qui ne sont pas fédérées par le BDE de l'INSA Centre-Val de Loire. Cependant, il s'agit tout de même d'associations qui sont gérées par des étudiants à destination des étudiants et du personnel de l'école !
     color: othersColor

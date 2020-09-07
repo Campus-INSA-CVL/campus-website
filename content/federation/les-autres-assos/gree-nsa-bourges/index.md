@@ -8,7 +8,7 @@ team:
       description:
         responsable de l'association, il est en charge de son bon fonctionnement
         administratif
-      avatar: federation/les-autres-assos/greensa-bourges/president.png
+      avatar: federation/les-autres-assos/gree-nsa-bourges/president.png
     - responsability: vice-président
       name: CORDIER Tom
       description: responsable des projets et de la communication extérieur
@@ -21,19 +21,18 @@ team:
       name: ZHOU Jade
       description: responsable du budget de l'association
 social:
-  facebook: 'https://facebook.com'
-  instagram: 'https://instagram.com'
-  twitter: 'https://twitter.com'
-  twitch: 'https://twitch.com'
-  snapchat: 'https://snapchat.com'
-  discord: 'https://discord.com'
+  facebook: 'https://www.facebook.com/greensa.bourges1/'
+  discord: 'https://discord.gg/45AfzHq'
 ---
 
 # Bienvenue dans Gree'NSA Bourges
 
-<center>
-  <view-img folder-name="federation/les-autres-assos/greensa-bourges" name="logo.png" max-width="400"></view-img>
-</center>
+<campus-center>
+  <campus-responsive-image
+    folder-name="federation/les-autres-assos/gree-nsa-bourges"
+    name="logo.png"
+    max-width="400"></campus-responsive-image>
+</campus-center>
 
 Gree'NSA Bourges est une **association de loi 1901** formé en **Octobre 2019**.
 
@@ -52,7 +51,7 @@ formations auprès des élèves et professeurs de l'école
 ## Les évènements
 
 L'association organise des petits déjeuner bio/local/zéro déchets. Aussi, elle a
-pour souhaite de pouvoir proposer dès la rentrée 2020, un afterwork. Elle est
+pour souhaite de pouvoir proposer dès la rentrée 2020, des after-works. Elle est
 aussi en pleine réflexion et concertation avec des associations de plus grandes
 envergures, comme le
 [BREI CVL](https://www.facebook.com/brei.centre.valdeloire/) ou
@@ -68,9 +67,6 @@ nous contacter ! 💚
 Vous pouvez aussi nous retrouver sur les réseaux et sur Discord
 
 <campus-social :social="social" :color="color"></campus-social>
-
-- [Facebook](https://www.facebook.com/greensa.bourges1/)
-- [Discord](https://discord.gg/45AfzHq)
 
 ---
 

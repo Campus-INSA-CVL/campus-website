@@ -1,5 +1,5 @@
 ---
-title: INSA Safety
+title: INSAfety
 color: othersColor
 team:
   bureau:

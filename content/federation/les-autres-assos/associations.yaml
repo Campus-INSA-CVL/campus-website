@@ -1,6 +1,6 @@
 associations:
-  - title: insa safety
-    path: /federation/les-autres-assos/associations/insa-safety
+  - title: insafety
+    path: /federation/les-autres-assos/associations/insafety
     description: INSAFETY est une association qui vous permettra de vous initier tout au long de l'année aux gestes de secourisme et aux risques domestiques du quotidien.
     color: othersColor
   - title: insagénieuses
@@ -8,11 +8,11 @@ associations:
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
     color: othersColor
   - title: gree'nsa bourges
-    path: /federation/les-autres-assos/associations/greensa-bourges
+    path: /federation/les-autres-assos/associations/gree-nsa-bourges
     description: Gree'NSA Bourges est une association présente sur le campus de Bourges. Avec son homologue à Blois, elle a plusieurs objectifs ! Elle souhaite s'ancrer dans une dynamique local de développement durable au travers différentes moyens d'actions ! Elle a aussi pour volonté de prendre part à la vie de l'école, au travers de la vie étudiante et des formations ! 🌱
     color: othersColor
   - title: gree'nsa blois
-    path: /federation/les-autres-assos/associations/greensa-blois
+    path: /federation/les-autres-assos/associations/gree-nsa-blois
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
     color: othersColor
   - title: Veloc'INSA
