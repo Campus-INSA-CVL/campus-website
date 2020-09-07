@@ -17,7 +17,7 @@ federations:
   # color: primary
   - path: federation/culturel
     title: pôle culturel
-    description: Le pôle culturel vise à partager et promouvoir l'art et les diverses activités culturelles lors de spectacles, d'afterworks collaboratifs, et d'autres événements dynamiques. Il rassemble les différentes associations artistiques, et permet aux étudiants de chaque année d'imaginer, de réaliser, et de présenter des créations tout au long de leur cursus.
+    description: Le pôle culturel vise à partager et promouvoir l'art et les diverses activités culturelles lors de spectacles, d'afterworks collaboratifs, et d'autres événements dynamiques.
     color: culturelColor
   # - path: federation/gala
   #   title: pôle gala
