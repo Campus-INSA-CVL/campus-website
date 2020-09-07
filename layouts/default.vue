@@ -65,12 +65,12 @@ export default {
             secondary: 'bde',
           },
           btns: [
-            {
-              name: "l'équipe",
-              path: 'equipe',
-              icon: 'mdiAccountGroup',
-              style: { outlined: true, depressed: false },
-            },
+            // {
+            //   name: "l'équipe",
+            //   path: 'equipe',
+            //   icon: 'mdiAccountGroup',
+            //   style: { outlined: true, depressed: false },
+            // },
             {
               name: 'publications officielles',
               path: 'publications-officielles',
