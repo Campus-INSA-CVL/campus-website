@@ -4,7 +4,7 @@ color: techniquesColor
 assos:
   associations du pôle:
     - name: Club robot
-      avatar: federation/techniques/club-robotique/logo.png
+      avatar: federation/techniques/club-robotique.png
     - name: INSA'Roule
       avatar: federation/techniques/insa-roule/LOGO.png
     - name: 4L Trophy
