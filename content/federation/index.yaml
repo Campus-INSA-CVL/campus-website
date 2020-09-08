@@ -19,10 +19,10 @@ federations:
     title: pôle culturel
     description: Le pôle culturel vise à partager et promouvoir l'art et les diverses activités culturelles lors de spectacles, d'afterworks collaboratifs, et d'autres événements dynamiques.
     color: culturelColor
-  # - path: federation/gala
-  #   title: pôle gala
-  #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
-  #   color: galaColor
+  - path: federation/gala
+    title: pôle gala
+    description: L'association Gala, c'est l'association qui organise tous les ans le bal de fin d'études et la remise des diplômes des élèves-ingénieurs de l'INSA CVL ! 🎉
+    color: galaColor
   - path: federation/solidarites
     title: pôle solidarités
     description: L’association des solidarités a pour but de promouvoir les œuvres humanitaires et solidaires des élèves de l’INSA CVL.

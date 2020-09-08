@@ -2,6 +2,11 @@
 title: gala
 ---
 
-# Gala
+# Le Gala
 
-[vers la team](/federation/gala/equipe)
+<campus-center>
+  <campus-responsive-image
+    folder-name="federation/gala"
+    name="logo.png"
+    max-width="200"></campus-responsive-image>
+</campus-center>
