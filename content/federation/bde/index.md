@@ -10,20 +10,28 @@ team:
   bureau:
     - responsability: président (blois)
       name: Paul Hennequin
+      avatar: federation/bde/paul.jpg
     - responsability: 1er vice-président (Bourges)
       name: Benoît Ribeiro
+      avatar: federation/bde/benoit.jpg
     - responsability: vice-président adjoint (Blois)
       name: Bastien Martin-Cocher
+      avatar: federation/bde/bastien-martin-cocher.jpg
     - responsability: vice-président adjoint (Bourges)
       name: Antonin Guichard
+      avatar: federation/bde/antho.jpg
     - responsability: trésorière (Bourges)
       name: Amandine Thiel
+      avatar: federation/bde/amandine.png
     - responsability: trésorière adjointe (Blois)
       name: Marine Chauvet
+      avatar: federation/bde/marine-chauvet.jpg
     - responsability: secrétaire (Blois)
       name: Antonin Le Guen
+      avatar: federation/bde/anthonin-le-guen.jpg
     - responsability: secrétaire adjointe (Bourges)
       name: Théa Hoffmann
+      avatar: federation/bde/thea.jpg
   communication - Blois:
     - responsability: responsable communication
       name: Marine Josset
@@ -37,8 +45,10 @@ team:
   communication - Bourges:
     - responsability: responsable communication
       name: Jérémy Richard
+      avatar: federation/bde/jeremy-richard.jpg
     - responsability: chargé de la communication
       name: Maëlie Lebaron
+      avatar: federation/bde/maelie.jpg
     - responsability: chargé de la communication
       name: Lilian Le Texier
       avatar: federation/bde/lilian.jpg
@@ -64,11 +74,13 @@ team:
   animation - Bourges:
     - responsability:
       name: Ronadelli Apollon
+      avatar: federation/bde/rona.jpg
     - responsability:
       name: Lucas Bouisson
       avatar: federation/bde/lucas.jpg
     - responsability:
       name: Emma-Louise Forissier
+      avatar: federation/bde/emma.jpg
     - responsability:
       name: Anthony Laperche
       avatar: federation/bde/anthony.jpg
@@ -85,6 +97,7 @@ team:
   partenariats - Bourges:
     - responsability:
       name: Léa Lopes
+      avatar: federation/bde/lea.jpg
     - responsability:
       name: Enzo Hoummady
       avatar: federation/bde/enzo.jpg
@@ -101,6 +114,7 @@ team:
   Logistique - Bourges:
     - responsability:
       name: Adrien Raguenes
+      avatar: federation/bde/adrien.jpg
     - responsability:
       name: Clément Mellier
       avatar: federation/bde/clement.jpg
@@ -111,6 +125,7 @@ team:
       name: Joris Blachier
     - responsability:
       name: Alice Caillette
+      avatar: federation/bde/alice-caillette.jpg
     - responsability:
       name: Nino Delrieu
       avatar: federation/bde/nino.jpg
@@ -129,17 +144,20 @@ team:
   Boisson - Blois:
     - responsability:
       name: Alice Laurent
+      avatar: federation/bde/alice-laurent.jpg
     - responsability:
       name: Roman Tedo
   Boisson - Bourges:
     - responsability:
       name: Jérémie Dhune
+      avatar: federation/bde/jeremie.jpg
     - responsability:
       name: Dorian Beaufils
       avatar: federation/bde/dorian.jpg
   Décoration - Blois:
     - responsability:
       name: Lucie Labastie
+      avatar: federation/bde/lucie.jpg
     - responsability:
       name: Hugo Lacreu
       avatar: federation/bde/hugo-lacreu.jpg
@@ -191,6 +209,7 @@ team:
   Organisation - Blois:
     - responsability:
       name: François Marchand
+      avatar: federation/bde/francois-marchand.jpg
   Organisation - Bourges:
     - responsability:
       name: Théo Peyretaillade
