@@ -1,6 +1,6 @@
 export default {
-  titleTemplate: '%s' + ' - Campus INSA CVL',
-  title: 'CHARGEMENT...',
+  titleTemplate: (chunk) =>
+    chunk ? chunk + ' - Campus INSA CVL' : 'Campus INSA CVL',
   meta: [
     { charset: 'utf-8' },
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },

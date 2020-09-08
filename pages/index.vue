@@ -9,7 +9,7 @@
       parallax(:sectionHeight="42", :speed-factor="0.15", breakpoint="(min-width: 200px)").rounded
           v-img(:src="heroBanner", min-height="470")
     v-row(no-guetter, justify="center")
-      v-col(:cols="$vuetify.breakpoint.smAndDown ? '6' : undefined", v-for="card in content.cards", :style="`color: ${card.color};font-family: 'Arial Rounded'!important;`", align="center").pa-0.text-uppercase.text-subtitle-1.font-weight-bold #
+      v-col(:cols="$vuetify.breakpoint.smAndDown ? '6' : undefined", v-for="card in content.cards", :key="card.title", :style="`color: ${card.color};font-family: 'Arial Rounded'!important;`", align="center").pa-0.text-uppercase.text-subtitle-1.font-weight-bold #
         | {{card.title}}
     v-row
       v-col
