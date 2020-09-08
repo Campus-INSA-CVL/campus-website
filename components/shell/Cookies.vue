@@ -1,6 +1,6 @@
 <template lang="pug">
   v-snackbar(v-model="snackbar", rounded, :timeout="-1")
-    div.text-justify Ce site utilise un cookie pour vous assurer une meilleur expérience. En continuant, vous consentez à l'utilisation de celui-ci.
+    div.text-justify Ce site utilise un cookie pour vous assurer une meilleure expérience. En continuant, vous consentez à l'utilisation de celui-ci.
     template(v-slot:action="{ attrs }")
       v-btn(@click="close") Fermer
 </template>
