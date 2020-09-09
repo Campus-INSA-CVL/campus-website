@@ -78,7 +78,15 @@ export default {
     '@nuxtjs/eslint-module',
     '@nuxtjs/vuetify',
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-analytics',
   ],
+  /*
+   ** Google Analytics module configuration
+   ** See https://github.com/nuxt-community/analytics-module
+   */
+  googleAnalytics: {
+    id: 'UA-149425297-1',
+  },
   /*
    ** Nuxt.js modules
    */

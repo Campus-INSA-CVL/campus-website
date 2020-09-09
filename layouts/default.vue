@@ -28,6 +28,7 @@
       v-container(fluid)
         nuxt
     shell-footer(social-networks)
+    shell-cookies
 </template>
 
 <script>

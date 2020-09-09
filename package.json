@@ -65,6 +65,7 @@
     "@mdi/js": "^5.5.55",
     "@nuxtjs/eslint-config": "^3.1.0",
     "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/tailwindcss": "^2.1.1",
     "@nuxtjs/vuetify": "^1.11.2",
     "@tailwindcss/typography": "^0.2.0",
