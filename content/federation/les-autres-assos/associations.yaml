@@ -11,7 +11,7 @@ associations:
   #   path: /federation/les-autres-assos/associations/gree-nsa-blois
   #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
   #   color: othersColor
-  # - title: Veloc'INSA
-  #   path: /federation/les-autres-assos/associations/veloc-insa
-  #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
-  #   color: othersColor
+  - title: veloc'
+    path: /federation/les-autres-assos/associations/veloc
+    description: L’association Véloc propose aux étudiants de l'INSA CVL la location de vélo pour leurs déplacements quotidiens. Cela peut vous servir pour vous rendre sur votre campus ou pour découvrir notre région à vélo.
+    color: othersColor
