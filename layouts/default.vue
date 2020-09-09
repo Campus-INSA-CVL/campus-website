@@ -12,7 +12,7 @@
           v-icon(:left="!isSmAndDown") {{ svg[btn.icon] }}
           span(v-if="!isSmAndDown") {{ btn.name }}
 
-        v-menu(offset-y, v-if="isSmAndDown")
+        v-menu(offset-y, v-if="isSmAndDown && config[params].btns")
           template(v-slot:activator="{ on, attrs }")
             v-btn(depressed, :color="`${config[params].color}`", dark, v-bind="attrs", v-on="on")
               v-icon {{ JSON.parse(attrs['aria-expanded']) ? svg.mdiMenuUp : svg.mdiMenuDown }}
@@ -175,14 +175,14 @@ export default {
             main: 'federation',
             secondary: 'gala',
           },
-          btns: [
-            {
-              name: "l'équipe",
-              path: 'equipe',
-              icon: 'mdiAccountGroup',
-              style: { outlined: true, depressed: false },
-            },
-          ],
+          // btns: [
+          //   {
+          //     name: "l'équipe",
+          //     path: 'equipe',
+          //     icon: 'mdiAccountGroup',
+          //     style: { outlined: true, depressed: false },
+          //   },
+          // ],
         },
         sport: {
           type: 'association',
