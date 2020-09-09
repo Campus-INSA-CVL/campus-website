@@ -15,7 +15,7 @@
           div.text-capitalize.font-weight-light.primary--text hébergement: #[a(href="https://www.netlify.com/", target="blank", rel="nofollow noopener noreferrer").font-weight-bold Netlify]
       v-row(justify="center", no-gutters, align="center")
         v-col(cols="12")
-          div.text-secondary.font-weight-light.text-center.body-2 v0.9.17
+          div.text-secondary.font-weight-light.text-center.body-2 v1.0.0
       v-row(tag="section", justify="space-around")
         v-col(cols="12", md="4", align="center")
           v-btn(to="/nous-contacter", outlined, nuxt).primary--text
