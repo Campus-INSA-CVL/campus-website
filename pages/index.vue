@@ -1,7 +1,7 @@
 <template lang="pug">
   section
     div.parallax-container
-      h1(:style="$vuetify.breakpoint.mdAndUp ? '-webkit-text-stroke: 3.5px white;font-size: 6rem;' : '-webkit-text-stroke: 1.5px white;font-size: 3.125rem;'").parallax-title
+      h1(:style="$vuetify.breakpoint.mdAndUp ? '-webkit-text-stroke: 5px white;font-size: 7rem;' : '-webkit-text-stroke: 2.5px white;font-size: 3.5rem;'").parallax-title
         | #campus
         span &nbsp;
           br(v-if="$vuetify.breakpoint.mdAndDown")
@@ -9,7 +9,7 @@
       parallax(:sectionHeight="42", :speed-factor="0.15", breakpoint="(min-width: 200px)").rounded
           v-img(:src="heroBanner", min-height="470")
     v-row(no-guetter, justify="center")
-      v-col(:cols="$vuetify.breakpoint.smAndDown ? '6' : undefined", v-for="card in content.cards", :style="`color: ${card.color};font-family: 'Arial Rounded'!important;`", align="center").pa-0.text-uppercase.text-subtitle-1.font-weight-bold #
+      v-col(:cols="$vuetify.breakpoint.smAndDown ? '6' : undefined", v-for="card in content.cards", :key="card.title", :style="`color: ${card.color};font-family: 'Arial Rounded'!important;`", align="center").pa-0.text-uppercase.text-subtitle-1.font-weight-bold #
         | {{card.title}}
     v-row
       v-col
@@ -106,14 +106,12 @@ export default {
 .parallax-title {
   position: absolute;
   top: 50%;
-  left: 0;
-  right: 0;
+  left: 20px;
+  right: 20px;
   transform: translateY(-50%);
-  padding: 20px;
-  font-family: 'Modak' !important;
-  margin: 0 40px;
+  font-family: 'Arial Rounded', sans-serif !important;
   font-weight: bold;
-  border: 0.35rem solid white;
+  border: 0.2rem solid white;
   text-align: center;
   border-radius: 5px;
   box-shadow: inset 2px 2px 1rem hsla(0, 0%, 0%, 0.75),

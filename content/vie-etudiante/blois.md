@@ -14,13 +14,11 @@ possède de nombreux atouts:
   Desfray disposant de 150 logements étudiants. Une autre résidence (Ducoux)
   d’environ 100 logements a vu le jour depuis la rentrée 2014, également à deux
   pas de l’école.
-
 - Il ne faut que 5 minutes pour se rendre au cœur de ville, où les étudiants
   peuvent déjeuner au Restaurant Universitaire (RU) mais aussi profiter de la
   vie nocturne de Blois, relativement active. Pour les plus pressés, l’école
   dispose d’une cafétéria ouverte chaque midi de la semaine et gérée par le
   Bureau des Élèves.
-
 - A 20 minutes (à pieds de l’école toujours), se trouve la Halle aux Grains,
   Scène Nationale de Blois, lieu de représentation pour les troupes de théâtre,
   de danse, les musiciens ou encore humoristes. C’est également un lieu de
@@ -43,14 +41,12 @@ Il existe trois grandes façons de se loger :
   sont assez chers pour une ville de province mais ça reste raisonnable. Pour
   trouver un logement sur Blois, c'est
   [ici](https://www.crous-orleans-tours.fr/service/antenne-crous-a-blois/https://trouverunlogement.lescrous.fr/)
-
 - soit en passant par un particulier : beaucoup de colocs se font par ce biais.
   Il est très facile d’en monter une avec de bons potes ! On peut également
   trouver des logements assez sympas dans le centre. Attention le campus de
   Bourges n’est pas du tout dans le centre ville et Bourges est bien plus
   étendue que Blois ! De nombreux sites existent comme le Bon coin (c’est ce qui
   marche le mieux).
-
 - soit en passant par une agence : l’avantage de cette méthode est la
   disponibilité. Vous pouvez visiter beaucoup de logements, vous avez un service
   de qualité en ce qui concerne les communs, la gestion du paiement des loyers

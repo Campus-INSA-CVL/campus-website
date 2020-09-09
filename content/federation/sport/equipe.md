@@ -4,22 +4,29 @@ color: sportColor
 team:
   bureau:
     - responsability: président
-      name: Jules Perrault
-      description: responsable de l'association
+      name: Jean ESCARGUEL
+      avatar: federation/sport/president.jpg
+    - responsability: vice-président
+      name: Nathan AMSELLEM
+      avatar: federation/sport/vice-president.jpg
     - responsability: trésorier
-      name: Courtland Vaillancour
-      description:
-        Phasellus et laoreet augue. Aliquam tristique nisi sed velit faucibus
-        auctor. Nulla turpis diam, volutpat nec nisl vitae.
-      avatar: federation/culturel/tresorier.png
-  communication:
-    - responsability: responsable communication
-      name: Charlotte Beaudoin
-      description:
-        gère son équipe de communication afin d'augmenter la visibilité de
-        l'association
+      name: Guillaume MONMASSON
+      avatar: federation/sport/tresorier.jpg
+  gestion:
+    - responsability: Partenariats
+      name: Joris BLACHIER
+      avatar: federation/sport/partenariats.jpg
+    - responsability: Planning
+      name: François MARCHAND
+      avatar: federation/sport/planning.jpg
+    - responsability: Renfort
+      name: Victor POULIZAC
+      avatar: federation/sport/renfort_1.jpg
+    - responsability: Renfort
+      name: Théo MICHOUX
+      avatar: federation/sport/renfort_2.jpg
 ---
 
-## L'équipe du pôle sport
+# L'équipe
 
-<team :team="team" :color="color"></team>
+<campus-team :team="team" :color="color"></campus-team>

@@ -1,39 +1,60 @@
 ---
 title: cafet
-description: La Cafet te permet de te restaurant à tous moments de la Journée
+description: La Cafet te permet de te restaurant à tous moments de la Journée.
 color: cafetColor
-folderName: services/cafet
-# image must be 500 pixels height to match perfectly
-imagesNames:
-  - 'menu.jpg'
-  - 'boissons.jpg'
-  - 'dwich.jpg'
+team:
+  les membres permanents:
+    - responsability: Responsable Achat et Ravitaillements
+      name: Joris BLACHIER
+    - responsability: Responsable Achat et Ravitaillements
+      name: Alice CAILLETTE
+    - responsability: Responsable Gestion des stocks
+      name: Nino DELRIEU
+    - responsability: Responsable Sanitaire et Hygiène
+      name: Audrey PAUL
+  les membres alternatifs:
+    - responsability: Responsable Cafétéria
+      name: Réda BENJELLOUN
+    - responsability: Responsable Communication BDE
+      name: Antonin LE GUEN
+    - responsability: Trésorière interne
+      name: Maeva POCHETON
+    - responsability: Reponsable Qualité
+      name: Israa ZAHID
 ---
 
 # Cafet
 
-> Disponible uniquement à Blois
+> La Cafet du BDE ? Une cafet comme on les aime !
 
-## Le site Cafet
+## Présentation
 
-Le site cafe te permettra de commander à n’importe quelle heure de la mâtiné
-pour le midi.
+Bienvenue sur la page du pôle Cafétéria du BDE !
 
-[Passer une commande](cafet.insa-cvl.org)
+Sur Blois, notre équipe se charge de vous servir tous les jours de la semaine,
+aux pauses et à midi, dans la cafétéria de l’ENP !
 
-## Le menu
+Aux pauses, nous vous proposons des snacks ou des boissons, et à midi nous
+serons à votre disposition pour servir nos différents menus. La Cafétéria se
+charge aussi de vous préparer toutes sortes de plats aux différents événements
+proposés par le BDE : after-works, pique-Nique, barbecue…
 
-<center>
-  <carousel :names="imagesNames" :folder-name="folderName"></carousel>
-</center>
+Notre menu est simple, et se présente comme tel :
 
-## Les horaires d'ouvertures
+<campus-center>
+  <campus-responsive-image folder-name="services/cafet" name="menu.jpg" max-width="800"></campus-responsive-image>
+</campus-center>
 
-Du Lundi au Vendredi, sauf le Jeudi aprèm.
+Vous pouvez commander sur le [site internet](cafet.insa-cvl.org) et payer par
+espèces, par carte bancaire ou même par Pumpkin !
 
-- 9h20 – 9h35
-- 10h55 – 11h05
-- 15h10 – 15h20
-- 16h40 – 16h55
+## Nous contacter
 
-Et le midi de 12h25 à 13h50.
+N’hésitez pas à nous contacter à l’adresse cafeteria@bde.insa-cvl.fr pour toute
+suggestion, question ou demande !
+
+## L'équipe
+
+Notre équipe est composée de 8 membres (et oui !) :
+
+<campus-team :team="team" :color="color"></campus-team>

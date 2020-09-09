@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        // rounded: ['Arial Rounded', 'sans-serif'],
+        olympiades: ['Diogenes', 'Roboto', 'sans-serif'],
       },
     },
   },
@@ -24,5 +24,8 @@ module.exports = {
       'plugins/**/*.js',
       'nuxt.config.js',
     ],
+    options: {
+      whitelist: ['font-olympiades'],
+    },
   },
 }

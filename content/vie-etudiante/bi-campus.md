@@ -20,7 +20,6 @@ avons fait « simple et efficace » :
   les associations et interlocuteur majeur identifié pour les parties prenantes.
   Sa légitimité et son indépendance sont assurés par ses administrateurs : les
   pôles associatifs thématiques.
-
 - 5 pôles associatifs thématiques (sport, culture, gala, techniques,
   solidarités) rassemblés autour du BDE. Pourvoyeurs d’activités extrêmement
   variées pour les élèves, ces pôles permettent en outre à chacun de développer
@@ -37,15 +36,11 @@ confortablement et se concentrer sur sa réussite.
 - Des logements INSA Centre Val de Loire gérés par le CROUS sont proposés à tout
   primo arrivant sur un campus et le parc locatif privé est abondant (Logements
   en cours de construction)
-
 - Des restaurants universitaires du CROUS déjà présents dans les 2 villes
-
 - Des infrastructures sportives accessibles et des projets très concrets de
   nouvelles constructions sur les campus
-
 - Des aides sociales de l’INSA Centre Val de Loire pour les élèves en
   difficultés financières
-
 - Un pôle santé sur chaque campus en cours de finalisation
 
 ## Une representation forte et moderne des élèves
@@ -55,10 +50,8 @@ participation dans la gouvernance en est un exemple concret. 70 élèves élus,
 titulaires et suppléants, participent à la gouvernance de l’Institut.
 
 - 5 élus au Conseil d’Administration, dont 1 siège au bureau du conseil
-
 - 12 élus au Conseil des Études, dont 1 est élu Vice-président étudiant, c’est
   l’interlocuteur majeur de la représentation des élèves
-
 - 18 élus dans les conseils de départements (3 pour chacun des 6 départements).
 
 Ces élus participent à de nombreuses instances internes : Conseil de la Vie

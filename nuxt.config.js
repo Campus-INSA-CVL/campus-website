@@ -78,7 +78,15 @@ export default {
     '@nuxtjs/eslint-module',
     '@nuxtjs/vuetify',
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-analytics',
   ],
+  /*
+   ** Google Analytics module configuration
+   ** See https://github.com/nuxt-community/analytics-module
+   */
+  googleAnalytics: {
+    id: 'UA-149425297-1',
+  },
   /*
    ** Nuxt.js modules
    */
@@ -128,7 +136,7 @@ export default {
    */
   webfontloader: {
     google: {
-      families: ['Roboto:100,300,400,500,700,900'],
+      families: ['Roboto:100,300,400,500,700,900', 'Caesar+Dressing:400'],
     },
   },
   /*

@@ -32,7 +32,37 @@ export default {
   },
   head() {
     return {
-      title: 'sports'.toUpperCase(),
+      title: 'LES SPORTS',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            "Retrouver l'ensemble des sports proposés par l'association sportive de l'INSA Centre-Val de Loire",
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: `LES SPORTS - Campus INSA Centre-Val de Loire`,
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            "Retrouver l'ensemble des sports proposés par l'association sportive de l'INSA Centre-Val de Loire",
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: `LES SPORTS - Campus INSA Centre-Val de Loire`,
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            "Retrouver l'ensemble des sports proposés par l'association sportive de l'INSA Centre-Val de Loire",
+        },
+      ],
     }
   },
 }

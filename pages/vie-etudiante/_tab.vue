@@ -1,13 +1,11 @@
 <template lang="pug">
-  nuxt-content(:document="page", class="prose prose-sm sm:prose lg:prose-lg xl:prose-xl mx-auto")
+  v-row(tag="section", no-gutters)
+    v-col(cols="12", md="10", lg="8", offset-md="1", offset-lg="2")
+      nuxt-content(:document="page", class="prose prose-sm sm:prose lg:prose-lg xl:prose-xl mx-auto")
 </template>
 
 <script>
-import { VImg } from 'vuetify/lib/components/VImg'
 export default {
-  components: {
-    VImg,
-  },
   async asyncData({ $content, params }) {
     const { tab } = params
     const page = await $content(`vie-etudiante/${tab}`).fetch()
