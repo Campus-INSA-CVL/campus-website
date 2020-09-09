@@ -1,5 +1,5 @@
 federations:
-  - path: federation/bde
+  - path: /federation/bde
     title: BDE
     description: Le Bureau des Elèves (BDE) fédère les élèves et la vie associative de l’INSA Centre Val de Loire. Concrètement, il organise tout type d’évènement, propose des services et représente les élèves et la vie associative auprès des instances locales, régionales et nationales.
     color: primary
@@ -7,7 +7,7 @@ federations:
   #   title: aiep
   #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
   #   color: primary
-  - path: federation/insapp
+  - path: /federation/insapp
     title: insapp
     description: L’INSA PP est l’association qui fédère les apprentis ingénieurs du CFSA Hubert Curien.
     color: primary
@@ -15,7 +15,7 @@ federations:
   #   title: iris INSA
   #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
   # color: primary
-  - path: federation/culturel
+  - path: /federation/culturel
     title: pôle culturel
     description: Le pôle culturel vise à partager et promouvoir l'art et les diverses activités culturelles lors de spectacles, d'afterworks collaboratifs, et d'autres événements dynamiques.
     color: culturelColor
@@ -23,23 +23,23 @@ federations:
   #   title: pôle gala
   #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
   #   color: galaColor
-  - path: federation/solidarites
+  - path: /federation/solidarites
     title: pôle solidarités
     description: L’association des solidarités a pour but de promouvoir les œuvres humanitaires et solidaires des élèves de l’INSA CVL.
     color: solidaritesColor
-  - path: federation/techniques
+  - path: /federation/techniques
     title: pôle techniques
     description: Le pôle technique est l’association fédérant l’ensemble des associations à but technique ou scientifique.
     color: techniquesColor
-  - path: federation/sport
+  - path: /federation/sport
     title: pôle sport
     description: L'association sportive de l'INSA CVL a pour but de promouvoir les activités sportives des élèves de l'INSA.
     color: sportColor
-  - path: federation/elus
+  - path: /federation/elus
     title: les élus
     description: Les élus étudiants de l’INSA Centre Val de Loire sont les représentants des élèves dans les conseils statutaires et les réunions officielles, ou non, de l’école.
     color: elusColor
-  - path: federation/les-autres-assos
+  - path: /federation/les-autres-assos
     title: Les autres assos
     description: Il s'agit des associations qui ne sont pas fédérées par le BDE de l'INSA Centre-Val de Loire. Cependant, il s'agit tout de même d'associations qui sont gérées par des étudiants à destination des étudiants et du personnel de l'école !
     color: othersColor
