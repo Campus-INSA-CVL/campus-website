@@ -41,6 +41,7 @@ en lien avec son objet présentes sur les campus de l’école :
 - INSActifs
 - Jard’INSA
 - R3
+- Insagénieuse
 
 ---
 
