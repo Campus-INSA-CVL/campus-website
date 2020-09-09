@@ -57,7 +57,7 @@ export default {
   },
   head() {
     return {
-      title: 'acceuil'.toUpperCase(),
+      title: 'accueil'.toUpperCase(),
       meta: [
         {
           hid: 'description',
