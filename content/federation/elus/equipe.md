@@ -29,6 +29,7 @@ team:
       avatar: user-random-female.png
     - responsability: titulaire
       name: Zakarya BOUJAAFAR
+      avatar: federation/elus/equipe/zak.jpg
     - responsability: titulaire
       name: Ségolène GAILLON
       avatar: user-random-female.png
