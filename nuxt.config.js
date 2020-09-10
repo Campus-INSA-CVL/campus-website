@@ -104,7 +104,7 @@ export default {
    ** See https://content.nuxtjs.org/configuration
    */
   content: {
-    fullTextSearchFields: ['title', 'description', 'slug', 'text'],
+    fullTextSearchFields: ['title', 'description', 'slug'],
     liveEdit: false,
   },
   /*

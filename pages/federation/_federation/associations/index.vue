@@ -1,9 +1,15 @@
 <template lang="pug">
-  v-row(tag="section", no-gutters)
-    v-col(cols="12", md="10", lg="8", offset-md="1", offset-lg="2")
-      v-row(justify="center")
-        v-col(cols="12", sm="6", lg="6", v-for="association in content.associations", :key="association.path")
-          preview-card(:content="association")
+v-row(tag='section', no-gutters)
+  v-col(cols='12', md='10', lg='8', offset-md='1', offset-lg='2')
+    v-row(justify='center')
+      v-col(
+        cols='12',
+        sm='6',
+        lg='6',
+        v-for='association in associations',
+        :key='association.path'
+      )
+        preview-card(:content='association')
 </template>
 
 <script>
@@ -16,7 +22,7 @@ export default {
       'associations'
     ).fetch()
     return {
-      content,
+      associations: content[0].associations,
     }
   },
   layout() {

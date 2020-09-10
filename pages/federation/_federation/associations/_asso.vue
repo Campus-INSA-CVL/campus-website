@@ -23,7 +23,9 @@ export default {
   },
   async asyncData({ $content, params }) {
     const { federation, asso } = params
-    let content = $content(`federation/${federation}/${asso}/index`)
+    let content = $content(
+      `federation/${federation}/associations/${asso}/index`
+    )
     content = await content.fetch()
     return {
       content,
