@@ -6,7 +6,7 @@ v-row(tag='section', no-gutters)
         cols='12',
         sm='6',
         lg='6',
-        v-for='association in content',
+        v-for='association in associations',
         :key='association.path'
       )
         preview-card(:content='association')
@@ -39,7 +39,7 @@ export default {
     })
 
     return {
-      content,
+      associations: content[0].associations,
     }
   },
   layout() {

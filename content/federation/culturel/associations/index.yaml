@@ -1,0 +1,41 @@
+associations:
+  - title: insa'rpège
+    path: /federation/culturel/associations/insa-rpege
+    description: Insa’rpège, c'est l'association qui représente la vie musicale de l'école sous toute ses formes ! 🎤 🎹 🎺 🎸 🎵 A travers des représentations, afterworks, fanfares, nous prenons pars à la vie de l'école en amenant une ambiance musicale qualitative à la majorité des événements de l'école ! Notre local permet aussi aux étudiants de continuer la pratique de leurs instruments dans l'enceinte du campus !
+    color: culturelColor
+  - title: danc'insa
+    path: /federation/culturel/associations/danc-insa
+    description: Danc'INSA est l'association de danse de l'INSA ! 🕺 🎵 💃 Elle propose tous types de cours, pour des représentations en fin d'année. L'association organise aussi des afterworks en collaborant avec d'autres associations. Nul besoin de savoir danser pour l'intégrer, les cours de danse ou de figure qui s'y trouvent sont pour tous les niveaux ! Nous avons aussi un partenariat avec le conservatoire de Bourges, pour danser dans les meilleures conditions !
+    color: culturelColor
+  - title: insa'brasse
+    path: /federation/culturel/associations/insa-brasse
+    description: L’INSA’Brasse est l’association de brasseur de l’INSA Centre Val de Loire, créée en 2016. Nous brassons de façon artisanale une gamme de bières de caractère, aux arômes développés et à l’esprit insaïen retranscrit. 🍺
+    color: culturelColor
+  - title: comed'insa Bourges
+    path: /federation/culturel/associations/comed-insa-bourges
+    description: Comed'INSA est une association qui rassemble tous les passionnés de théâtre, débutants comme plus expérimentés, pour réaliser saynètes, pièces et improvisations ! Elle a son homonyme à Blois !
+    color: culturelColor
+  - title: comed'insa Blois
+    path: /federation/culturel/associations/comed-insa-blois
+    description: Comed'INSA est une association qui rassemble tous les passionnés de théâtre, débutants comme plus expérimentés, pour réaliser saynètes, pièces et improvisations ! Elle a son homonyme à Bourges !
+    color: culturelColor
+  - title: printemps des grandes écoles
+    path: /federation/culturel/associations/pge
+    description: Depuis 2010, le PGE organise chaque année un tremplin musical étudiant dans la   ville de Bourges. Il se déroule au cœur du Printemps de Bourges, sur l'une des scènes les plus incontournables. Les groupes d'étudiants sélectionnés viennent   de toute la France et nous permette de rendre l'expérience du Printemps des Grandes Ecoles exceptionnelle.
+    color: culturelColor
+  - title: ins'agora
+    path: /federation/culturel/associations/insa-gora
+    description: INS'AGORA est l'association de l'INSA CVL dont le but est de vous amener à débattre !
+    color: culturelColor
+  - title: club oenologie
+    path: /federation/culturel/associations/club-oenologie
+    description: Le club oeno est une association qui consiste à faire découvrir et de partager l’œnologie. Nombres de nos soirée sont organisés avec la présence d’un œnologue qui nous explique comment déguster un vin.
+    color: culturelColor
+  - title: ins'action
+    path: /federation/culturel/associations/ins-action
+    description: Ins'action est l'association cinéma de l'INSA CVL, le but est de nous réunir autour de notre passion du 7ème art.
+    color: culturelColor
+  # - title: insa'press
+  #   path: /federation/culturel/associations/insa-press
+  #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
+  #   color: culturelColor
