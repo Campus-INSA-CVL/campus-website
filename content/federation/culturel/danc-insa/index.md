@@ -1,5 +1,5 @@
 ---
-title: danc'insa
+title: Danc'INSA
 color: culturelColor
 team:
   bureau:
