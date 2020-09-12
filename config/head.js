@@ -5,6 +5,10 @@ export default {
     { charset: 'utf-8' },
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
     {
+      name: 'google-site-verification',
+      content: 'ptyOlDji9-TUHXNtcYQrxO9Fq8bOsX0duCRrByMlrsc',
+    },
+    {
       hid: 'og:locale',
       property: 'og:locale',
       content: 'fr_FR',
