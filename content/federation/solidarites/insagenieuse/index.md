@@ -4,7 +4,7 @@ color: culturelColor
 team:
   bureau:
     - responsability: présidente
-      name: Ibriza JOUANI
+      name: Ibriza JOUINI
     - responsability: secrétaire
       name: Nolwenn EVEN
     - responsability: trésorière
