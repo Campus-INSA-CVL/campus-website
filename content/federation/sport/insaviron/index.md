@@ -44,7 +44,7 @@ le loir, se dépenser, apprécier les sensations en bateau, ou pour la
 compétition, la performance, arracher la moindre seconde aux différentes
 compétitions organisées dans l'année, l'association est ouverte à tous les
 profils. L'objectif de fin d'année est de participer aux championnats de France
-Universitaires, mais aussi notamment à la régate "SupAérowing" en octobre.
+Universitaires, mais aussi notamment à la régate "SupAérowing" en avril.
 
 ---
 
