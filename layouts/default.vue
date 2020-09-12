@@ -31,45 +31,46 @@ shell-app
         v-icon(:left='!isSmAndDown') {{ svg[btn.icon] }}
         span(v-if='!isSmAndDown') {{ btn.name }}
 
-      v-menu(offset-y, v-if='isSmAndDown && config[params].btns')
-        template(v-slot:activator='{ on, attrs }')
-          v-btn(
-            depressed,
-            :color='`${config[params].color}`',
-            dark,
-            v-bind='attrs',
-            v-on='on'
-          )
-            v-icon {{ JSON.parse(attrs["aria-expanded"]) ? svg.mdiMenuUp : svg.mdiMenuDown }}
-        v-list.text-uppercase(:color='`${config[params].color}--text`', flat)
-          v-list-item(
-            nuxt,
-            :to='`${fullPath}/${btn.path}`',
-            v-for='(btn, index) in config[params].btns',
-            :key='index'
-          )
-            v-list-item-title {{ btn.name }}
-    template(v-slot:extension, v-else-if='type === "page"')
-      v-btn.text--secondary(
-        icon,
-        nuxt,
-        :to='`/${config[params].path.main}`',
-        exact
-      )
-        v-icon {{ svg.mdiWeb }}
-      v-btn.header-btn(
-        :to='fullPath',
-        depressed,
-        nuxt,
-        :color='`${config[params].color}--text`',
-        exact
-      )
-        v-toolbar-title.font-weight-bold.text-capitalize {{ config[params].title }}
-  v-main
-    v-container(fluid)
-      nuxt
-  shell-footer(social-networks)
-  shell-cookies
+        v-menu(offset-y, v-if='isSmAndDown && config[params].btns')
+          template(v-slot:activator='{ on, attrs }')
+            v-btn(
+              depressed,
+              :color='`${config[params].color}`',
+              dark,
+              v-bind='attrs',
+              v-on='on'
+            )
+              v-icon {{ JSON.parse(attrs["aria-expanded"]) ? svg.mdiMenuUp : svg.mdiMenuDown }}
+          v-list.text-uppercase(:color='`${config[params].color}--text`', flat)
+            v-list-item(
+              nuxt,
+              :to='`${fullPath}/${btn.path}`',
+              v-for='(btn, index) in config[params].btns',
+              :key='index'
+            )
+              v-list-item-title {{ btn.name }}
+      template(v-slot:extension, v-else-if='type === "page"')
+        v-btn.text--secondary(
+          icon,
+          nuxt,
+          :to='`/${config[params].path.main}`',
+          exact
+        )
+          v-icon {{ svg.mdiWeb }}
+        v-btn.header-btn(
+          :to='fullPath',
+          depressed,
+          nuxt,
+          :color='`${config[params].color}--text`',
+          exact
+        )
+          v-toolbar-title.font-weight-bold.text-capitalize {{ config[params].title }}
+    v-main
+      v-container(fluid)
+        nuxt
+        searchDialog
+    shell-footer(social-networks)
+    shell-cookies
 </template>
 
 <script>
