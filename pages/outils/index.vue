@@ -7,16 +7,16 @@
 </template>
 
 <script>
-import fetchContent from '@/mixins/fetch-content'
-
 export default {
-  mixins: [
-    fetchContent({
-      folderName: 'outils',
-      sortBy: { key: 'title', direction: 'asc' },
-      only: ['title', 'description', 'path', 'color', 'link'],
-    }),
-  ],
+  async asyncData({ $content }) {
+    const content = await $content('outils')
+      .sortBy({ key: 'title', direction: 'asc' })
+      .only(['title', 'description', 'path', 'color'])
+      .fetch()
+    return {
+      content,
+    }
+  },
   head() {
     return {
       title: 'outils'.toUpperCase(),

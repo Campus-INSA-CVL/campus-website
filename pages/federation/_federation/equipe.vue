@@ -11,8 +11,6 @@ import Center from '@/components/campus/Center'
 import ResponsiveImage from '@/components/campus/ResponsiveImage'
 import Carousel from '@/components/campus/Carousel'
 
-import fetchContent from '@/mixins/fetch-content'
-
 export default {
   components: {
     CampusTeam: Team,
@@ -21,13 +19,13 @@ export default {
     CampusResponsiveImage: ResponsiveImage,
     CampusCarousel: Carousel,
   },
-  mixins: [
-    fetchContent({
-      folderName: 'federation',
-      paramsNames: ['federation'],
-      fileName: 'equipe',
-    }),
-  ],
+  async asyncData({ $content, params }) {
+    const { federation } = params
+    const content = await $content('federation', federation, 'equipe').fetch()
+    return {
+      content,
+    }
+  },
   layout() {
     return 'default'
   },
