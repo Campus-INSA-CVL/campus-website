@@ -18,6 +18,8 @@ team:
       name: CASTEX Pierre-Emmanuel
     - responsability: secrétaire
       name: PACAUD Etienne
+social:
+  facebook: 'https://www.facebook.com/insaviron'
 ---
 
 # L'Aviron Pour Tous
@@ -45,6 +47,16 @@ compétition, la performance, arracher la moindre seconde aux différentes
 compétitions organisées dans l'année, l'association est ouverte à tous les
 profils. L'objectif de fin d'année est de participer aux championnats de France
 Universitaires, mais aussi notamment à la régate "SupAérowing" en avril.
+
+## Nous contacter
+
+<campus-social :social="social" :color="color"></campus-social>
+
+et vous pouvez aussi nous contacter par
+[mail](mailto:francois.bonzom@insa-cvl.fr), ou nous retrouver directement sur
+place à cette adresse :
+[Chemin du Grand Mazières, 18000 Bourges](https://goo.gl/maps/NiU45TfXyva8yjfD6)
+!
 
 ---
 
