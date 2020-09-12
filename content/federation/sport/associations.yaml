@@ -7,10 +7,10 @@ associations:
     path: /federation/sport/associations/insa-s-holdem
     description: Que vous soyez un habitué des tables de poker, amateur de soirées poker entre potes ou simplement curieux de découvrir cette activité, INSA’s HOLDEM est fait pour vous.
     color: sportColor
-  # - title: insaviron
-  #   path: /federation/sport/associations/insaviron
-  #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
-  #   color: sportColor
+  - title: insaviron
+    path: /federation/sport/associations/insaviron
+    description: Association d'Aviron de l'INSA Centre Val de Loire
+    color: sportColor
   # - title: high-five
   #   path: /federation/sport/associations/high-five
   #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.

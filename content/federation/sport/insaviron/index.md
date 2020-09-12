@@ -1,29 +1,51 @@
 ---
-title: INSAVIRON
+title: INSAviron
+description: Association d'Aviron de l'INSA Centre Val de Loire
 color: sportColor
+imagesName:
+  - carousel-1.jpeg
+  - carousel-2.jpeg
+  - carousel-3.jpeg
+  - carousel-4.jpeg
+  - carousel-5.jpeg
 team:
   bureau:
     - responsability: président
-      name: Michel Harquin
-      description: responsable de l'association
+      name: Bonzom François
+    - responsability: vice-président
+      name: MAUREL Julien
     - responsability: trésorier
-      name: Courtland Vaillancour
-      description:
-        Phasellus et laoreet augue. Aliquam tristique nisi sed velit faucibus
-        auctor. Nulla turpis diam, volutpat nec nisl vitae.
-      avatar: federation/culturel/tresorier.png
-  communication:
-    - responsability: responsable communication
-      name: Charlotte Beaudoin
-      description:
-        gère son équipe de communication afin d'augmenter la visibilité de
-        l'association
+      name: CASTEX Pierre-Emmanuel
+    - responsability: secrétaire
+      name: PACAUD Etienne
 ---
 
-# Bienvenue dans INSAVIRON
+# L'Aviron Pour Tous
+
+> L'Association a pour but de permettre la pratique de l'aviron pour tous les
+> étudiants, de faire découvrir et aimer ce sport.
+
+## Des conditions idéales
+
+L'association travaille de concert avec l'Aviron Club de Bourges. Celui-ci nous
+laisse utiliser son matériel (bateaux, ergomètres, salle de musculation, locaux)
+et nous met à disposition un coach qui nous suit dans notre progression. Nous
+pratiquons sur le lac d'Auron, un bassin homologué pour la compétition (y ont eu
+lieu, en juin 2019, les Championnats de France d'Aviron).
+
+<campus-center>
+  <campus-carousel :names="imagesName" folder-name="federation/sport/insaviron"></campus-carousel>
+</campus-center>
+
+## Du loisir à la compétition
+
+S'inscrire à l'INSAviron, c'est se fixer ses propres objectifs. Que ce soit pour
+le loir, se dépenser, apprécier les sensations en bateau, ou pour la
+compétition, la performance, arracher la moindre seconde aux différentes
+compétitions organisées dans l'année, l'association est ouverte à tous les
+profils. L'objectif de fin d'année est de participer aux championnats de France
+Universitaires, mais aussi notamment à la régate "SupAérowing" en octobre.
 
 ---
 
-## L'équipe
-
-<team :team="team" :color="color"></team>
+<campus-team :team="team" :color="color"></campus-team>

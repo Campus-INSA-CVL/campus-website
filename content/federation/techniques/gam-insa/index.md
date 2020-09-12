@@ -22,7 +22,7 @@ team:
       avatar: federation/techniques/gam-insa/tresorier.png
     - responsability: secrétaire
       name: Benjamin Garo
-      avatar: federation/techniques/gam-insa/secretaire.png
+      avatar: federation/techniques/gam-insa/secretaire.jpg
 ---
 
 # Gam'INSA
