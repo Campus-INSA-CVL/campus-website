@@ -7,16 +7,18 @@
 </template>
 
 <script>
-import fetchContent from '@/mixins/fetch-content'
-
 export default {
-  mixins: [
-    fetchContent({
-      folderName: 'federation',
-      paramsNames: ['federation'],
-      fileName: 'associations',
-    }),
-  ],
+  async asyncData({ $content, params }) {
+    const { federation } = params
+    const content = await $content(
+      'federation',
+      federation,
+      'associations'
+    ).fetch()
+    return {
+      content,
+    }
+  },
   layout() {
     return 'default'
   },

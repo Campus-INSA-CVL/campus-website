@@ -11,8 +11,6 @@ import Center from '@/components/campus/Center'
 import ResponsiveImage from '@/components/campus/ResponsiveImage'
 import Carousel from '@/components/campus/Carousel'
 
-import fetchContent from '@/mixins/fetch-content'
-
 export default {
   components: {
     CampusTeam: Team,
@@ -21,12 +19,12 @@ export default {
     CampusResponsiveImage: ResponsiveImage,
     CampusCarousel: Carousel,
   },
-  mixins: [
-    fetchContent({
-      folderName: 'olympiades',
-      fileName: 'index',
-    }),
-  ],
+  async asyncData({ $content }) {
+    const content = await $content('olympiades', 'index').fetch()
+    return {
+      content,
+    }
+  },
   head() {
     return {
       title: 'olympiades'.toUpperCase(),

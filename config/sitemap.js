@@ -1,5 +1,5 @@
 export default {
-  hostname: 'https://campus.insa-cvl.fr',
+  hostname: 'https://campus.insa-cvl.org',
   gzip: true,
   defaults: {
     changefreq: 'weekly',

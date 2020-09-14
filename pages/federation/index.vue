@@ -7,15 +7,13 @@
 </template>
 
 <script>
-import fetchContent from '@/mixins/fetch-content'
-
 export default {
-  mixins: [
-    fetchContent({
-      folderName: 'federation',
-      fileName: 'index',
-    }),
-  ],
+  async asyncData({ $content }) {
+    const content = await $content('federation', 'index').fetch()
+    return {
+      content,
+    }
+  },
   head() {
     return {
       title: 'fédération'.toUpperCase(),

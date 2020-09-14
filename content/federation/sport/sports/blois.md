@@ -7,9 +7,9 @@ color: sportColor
 # La liste des sports
 
 - [Handball](#handball)
+- [Volley](#volley)
 - Football
 - Futsal
-- Volley
 - Badminton
 - Rugby
 - Boxe
@@ -71,6 +71,32 @@ Pour plus de questions, n’hésite pas à nous contacter :
   Messenger
 
 Désormais on n’attend plus que toi, à bientôt dans l’équipe handball de CVL !
+
+## Volley
+
+Bonjour insaïen, insaïenne!
+
+Tu souhaites pratiquer un sport dans la bonne humeur? Alors le volley-ball est
+fait pour toi!
+
+On s'entraîne tous les mercredi soir, de 20h à 22h au complexe sportif Tabarly.
+Il est situé à 30 minutes à pied de l'INSA, mais on a l'habitude d'organiser des
+groupes de covoiturage. Au programme : échauffements, exercices spécifiques,
+puis enfin des matchs. Les entraînements sont rythmés par les conseils et les
+stratégies des anciens joueurs. Les équipes sont mixtes, et on accepte tous les
+niveaux donc n'hésite pas à venir essayer une séance avec nous.
+
+Pour plus de questions, n'hésite pas à contacter le respo : Valentin Potiron,
+disponible sur [Facebook](https://www.facebook.com/valentin.potiron.3),
+Messenger, [Insta](https://www.instagram.com/val.ptrn/) et par
+[mail](mailto:valentin.potiron@insa-cvl.fr)
+
+<campus-center>
+  <campus-responsive-image
+    folder-name="federation/sport/volley"
+    name="crew.jpg"
+    max-width="800"></campus-responsive-image>
+</campus-center>
 
 <!--
 ## Le planning

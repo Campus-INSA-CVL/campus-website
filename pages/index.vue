@@ -25,19 +25,18 @@
 
 <script>
 import Parallax from 'vue-parallaxy'
-import fetchContent from '@/mixins/fetch-content'
 
 export default {
   name: 'Index',
   components: {
     Parallax,
   },
-  mixins: [
-    fetchContent({
-      folderName: 'index',
-      fileName: 'index',
-    }),
-  ],
+  async asyncData({ $content }) {
+    const content = await $content('index', 'index').fetch()
+    return {
+      content,
+    }
+  },
   data() {
     return {
       typewriterClass: 'font-weight-bold',
