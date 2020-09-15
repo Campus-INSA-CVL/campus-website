@@ -2,7 +2,7 @@
   v-menu(offset-y)
     template(v-slot:activator="{ on, attrs }")
       search(:on="on", v-bind="attrs", flat, solo, dense, clearable, label="Chercher", hide-details, rounded, @search="searchData")
-    v-list(dense, two-line, v-if="searchResults.length !== 0")
+    v-list(dense, two-line, width="400")
       v-list-item-group(color="primary")
         v-subheader Résultats
         v-list-item(v-for="(item, index) in searchResults", :key="index", nuxt, :to="item.path", @click="clearSearchData()")
