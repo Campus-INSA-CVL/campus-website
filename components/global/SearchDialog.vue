@@ -2,7 +2,7 @@
   v-dialog(v-model="searchDialog", fullscreen)
     v-card(height="100%")
       v-card-title
-        search(@search="searchData", :clearInput="stateDialog")
+        search(@search="searchData", :clearInput="stateDialog", filled, rounded, clearable, label="Chercher", hide-details, autofocus)
       v-card-text.mt-4
         v-list(dense, two-line, v-if="searchResults.length !== 0", :elevation="0")
           v-list-item-group(color="primary")
