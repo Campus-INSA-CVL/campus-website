@@ -7,28 +7,22 @@ import { mdiMagnify } from '@mdi/js'
 
 export default {
   name: 'Search',
-  props: {
-    clearInput: {
-      type: Boolean,
-      default: false,
-    },
-    clear: {
-      type: Function,
-      default: undefined,
-    },
-  },
   data() {
     return {
-      query: '',
       svg: { mdiMagnify },
     }
   },
-  watch: {
-    clearInput(value) {
-      if (value) {
-        this.query = ''
-      }
+  computed: {
+    query: {
+      get() {
+        return this.$store.state.search.query
+      },
+      set(value) {
+        this.$store.commit('search/updateQuery', value)
+      },
     },
+  },
+  watch: {
     async query(query) {
       if (!query) {
         return

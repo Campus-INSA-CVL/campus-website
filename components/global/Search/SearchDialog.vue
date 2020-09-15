@@ -2,15 +2,9 @@
   v-dialog(v-model="searchDialog", fullscreen)
     v-card(height="100%")
       v-card-title
-        search(@search="searchData", :clearInput="stateDialog", filled, rounded, clearable, label="Chercher", hide-details, autofocus)
+        search(@search="searchData", filled, rounded, clearable, label="Chercher", hide-details, autofocus)
       v-card-text.mt-4
-        v-list(dense, two-line, v-if="searchResults.length !== 0", :elevation="0")
-          v-list-item-group(color="primary")
-            v-subheader Résultats
-            v-list-item(v-for="(item, index) in searchResults", :key="index", nuxt, :to="item.path", @click="closeSearchDialog()")
-              v-list-item-content
-                v-list-item-title {{ item.title }}
-                v-list-item-subtitle {{ item.description }}
+        search-list(v-model="searchResults")
       v-row(align="end", style="bottom: 0; left: 0; right: 0; position: absolute;", no-gutters)
         v-col
           v-card-actions
@@ -39,10 +33,18 @@ export default {
       },
     },
   },
+  watch: {
+    '$route.path'() {
+      if (this.stateDialog) {
+        this.closeSearchDialog()
+      }
+    },
+  },
   methods: {
     closeSearchDialog() {
-      this.searchResults = []
       this.$store.commit('shell/toggleSearchDialog')
+      this.$store.commit('search/updateQuery', '')
+      this.searchResults = []
     },
     searchData(data) {
       this.searchResults = data
