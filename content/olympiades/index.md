@@ -15,7 +15,11 @@ winners: []
 
 # Les Olympiades
 
+</div>
+
 ## Présentation
+
+<div class="font-olympiades">
 
 Olympiennes, olympiens ! La guerre fait rage au sein de l’Olympe, cinq grandes
 familles se font face dans un combat acharné pour obtenir la bénédiction des
