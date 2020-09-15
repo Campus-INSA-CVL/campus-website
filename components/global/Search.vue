@@ -1,5 +1,5 @@
 <template lang="pug">
-  v-text-field(v-model="query", clearable, label="Chercher", hide-details, filled, rounded, :prepend-inner-icon="svg.mdiMagnify", autofocus, type="search")
+  v-text-field(v-model="query", :prepend-inner-icon="svg.mdiMagnify", type="search", v-bind="$attrs", v-on="$attrs.on")
 </template>
 
 <script>
@@ -11,6 +11,10 @@ export default {
     clearInput: {
       type: Boolean,
       default: false,
+    },
+    clear: {
+      type: Function,
+      default: undefined,
     },
   },
   data() {

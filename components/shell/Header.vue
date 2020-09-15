@@ -6,6 +6,9 @@
     v-spacer
     v-btn(icon, @click="openSearchDialog()", v-if="$vuetify.breakpoint.xs")
       v-icon {{ svg.mdiMagnify }}
+    v-row(v-else, justify="end")
+      v-col(cols="8", md="6", lg="4", xl="3")
+        search-menu(hide-details, single-line, dense)
     template(v-slot:extension, v-if="extension")
       slot(name="extension")
 </template>
