@@ -98,7 +98,7 @@ Messenger, [Insta](https://www.instagram.com/val.ptrn/) et par
     max-width="800"></campus-responsive-image>
 </campus-center>
 
-## Foot
+## Football
 
 Bienvenue, insaïenne, insaïen, dans l'équipe de football de l'INSA. Inutile de
 te présenter cette magnifique activité étant donné que notre pays est depuis peu
