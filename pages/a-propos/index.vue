@@ -11,11 +11,12 @@
           div.text-capitalize.font-weight-light.primary--text développeur: #[span.font-weight-bold SOUBIRAN Estéban]
           div.text-capitalize.font-weight-light.primary--text illustration/design de la home page: #[span.font-weight-bold YAOUANCQ Quentin]
           div.text-capitalize.font-weight-light.primary--text contributeurs: #[span.font-weight-bold BEZIAUD Jordan] / #[span.font-weight-bold RICHARD Jérémy]
+          div.text-capitalize.font-weight-light.primary--text gestion des associations: #[span.font-weight-bold GARO Benjamin]
           div.text-capitalize.font-weight-light.primary--text gestion serveur: #[span.font-weight-bold LESCHI Cyprien]
           div.text-capitalize.font-weight-light.primary--text hébergement: #[a(href="https://www.netlify.com/", target="blank", rel="nofollow noopener noreferrer").font-weight-bold Netlify]
       v-row(justify="center", no-gutters, align="center")
         v-col(cols="12")
-          div.text-secondary.font-weight-light.text-center.body-2 v1.0.4
+          div.text-secondary.font-weight-light.text-center.body-2 v1.0.5
       v-row(tag="section", justify="space-around")
         v-col(cols="12", md="4", align="center")
           v-btn(to="/nous-contacter", outlined, nuxt).primary--text
