@@ -148,6 +148,13 @@ pour apprendre le tennis ou alors venir pour préparer Roland Garros (bon ok
 peut-être pas). Bref ici on joue au tennis pour s’amuser, pour taper la balle et
 pour se défouler.
 
+<campus-center>
+  <campus-responsive-image
+    folder-name="federation/sport/tennis"
+    name="img-1.png"
+    max-width="800"></campus-responsive-image>
+</campus-center>
+
 Cette année le tennis se déroulera le jeudi de 13h30 à 15h30 au club AAJB (on a
 accès aux terrains couverts pour jouer toute l’année). L’adhésion au club est de
 130 euros pour l’année. Les entrainements sont libres, c’est-à-dire que tu peux
@@ -162,6 +169,13 @@ Pour plus d’informations, n’hésite pas à contacter Maxime Cros :
 - [06-52-47-62-04](tel:+33652476204)
 - [mail](mailto:maxime.cros@insa-cvl.fr)
 - [Facebook](https://www.facebook.com/maxime.cros.58)
+
+<campus-center>
+  <campus-responsive-image
+    folder-name="federation/sport/tennis"
+    name="img-2.jpeg"
+    max-width="800"></campus-responsive-image>
+</campus-center>
 
 <!--
 ## Le planning
