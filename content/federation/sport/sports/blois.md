@@ -15,7 +15,7 @@ color: sportColor
 - Boxe
 - Cheerleading
 - Padel
-- Tennis
+- [Tennis](#tennis)
 - Athlétisme
 - Basket
 
@@ -97,6 +97,31 @@ Messenger, [Insta](https://www.instagram.com/val.ptrn/) et par
     name="crew.jpg"
     max-width="800"></campus-responsive-image>
 </campus-center>
+
+## Tennis
+
+Hey salut toi !
+
+Tu es intéressé par le tennis mais tu ne sais pas si tu as le niveau ? Eh bien
+figure-toi qu’ici tout le monde peut jouer, tu peux très bien nous rejoindre
+pour apprendre le tennis ou alors venir pour préparer Roland Garros (bon ok
+peut-être pas). Bref ici on joue au tennis pour s’amuser, pour taper la balle et
+pour se défouler.
+
+Cette année le tennis se déroulera le jeudi de 13h30 à 15h30 au club AAJB (on a
+accès aux terrains couverts pour jouer toute l’année). L’adhésion au club est de
+130 euros pour l’année. Les entrainements sont libres, c’est-à-dire que tu peux
+jouer avec qui tu veux, comme tu veux. On fera des matchs en doubles, des
+mini-jeux, des matchs en simple, etc. Si tu doutes encore, on propose des
+séances d’essais pour savoir si ça te plait, donc plus d’excuse pour venir !
+
+Alors motive toi et tes potes parce le meilleur sport du monde vous attend !
+
+Pour plus d’informations, n’hésite pas à contacter Maxime Cros :
+
+- [06-52-47-62-04](tel:+33652476204)
+- [mail](mailto:maxime.cros@insa-cvl.fr)
+- [Facebook](https://www.facebook.com/maxime.cros.58)
 
 <!--
 ## Le planning
