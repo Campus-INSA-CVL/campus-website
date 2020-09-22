@@ -2,8 +2,7 @@
   v-row(tag="section", no-gutters)
     v-col(cols="12", md="10", lg="8", offset-md="1", offset-lg="2")
       v-row(justify="center")
-        pre {{ content }}
-        v-col(cols="12", sm="6", lg="6", v-for="federation in data", :key="federation.path")
+        v-col(cols="12", sm="6", lg="6", v-for="federation in content", :key="federation.path")
           preview-card(:content="federation")
 </template>
 
@@ -13,6 +12,7 @@ export default {
     const data = await $content('federation', { deep: true })
       .only(['title', 'path', 'description', 'color', 'order'])
       .where({ extension: '.md', slug: 'index' })
+      .sortBy('order')
       .fetch()
 
     data.map((obj) => {
@@ -28,7 +28,7 @@ export default {
       return obj
     })
 
-    // Remove deeper path (more than the federation)
+    // Remove deeper path (more than the federation )
     const content = data.filter(
       (obj) => [...obj.path.matchAll(/\//g)].length <= 2
     )

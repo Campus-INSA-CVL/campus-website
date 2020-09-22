@@ -1,5 +1,11 @@
 ---
 title: gala
+color: galaColor
+order: 4
+description:
+  L'association Gala, c'est l'association qui organise tous les ans le bal de
+  fin d'études et la remise des diplômes des élèves-ingénieurs de l'INSA CVL !
+  🎉
 imagesName:
   - carousel-1.png
   - carousel-2.png

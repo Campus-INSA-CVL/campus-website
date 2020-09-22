@@ -1,6 +1,12 @@
 ---
 title: bde
 color: primary
+order: 1
+description:
+  Le Bureau des Elèves (BDE) fédère les élèves et la vie associative de l’INSA
+  Centre Val de Loire. Concrètement, il organise tout type d’évènement, propose
+  des services et représente les élèves et la vie associative auprès des
+  instances locales, régionales et nationales.
 social:
   facebook: 'https://facebook.com/campusinsacvl'
   instagram: 'https://instagram.com/campusinsacvl'
