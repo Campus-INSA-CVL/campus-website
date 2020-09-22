@@ -34,7 +34,7 @@ export default {
       return obj
     })
 
-    // Remove deeper path (more than the federation)
+    // Remove deeper path (more than the federation )
     const content = data.filter(
       (obj) => [...obj.path.matchAll(/\//g)].length <= 2
     )
