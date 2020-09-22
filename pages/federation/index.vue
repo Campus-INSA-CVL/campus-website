@@ -1,9 +1,15 @@
 <template lang="pug">
-  v-row(tag="section", no-gutters)
-    v-col(cols="12", md="10", lg="8", offset-md="1", offset-lg="2")
-      v-row(justify="center")
-        v-col(cols="12", sm="6", lg="6", v-for="federation in content", :key="federation.path")
-          preview-card(:content="federation")
+v-row(tag='section', no-gutters)
+  v-col(cols='12', md='10', lg='8', offset-md='1', offset-lg='2')
+    v-row(justify='center')
+      v-col(
+        cols='12',
+        sm='6',
+        lg='6',
+        v-for='federation in content',
+        :key='federation.path'
+      )
+        preview-card(:content='federation')
 </template>
 
 <script>
@@ -28,7 +34,7 @@ export default {
       return obj
     })
 
-    // Remove deeper path (more than the federation )
+    // Remove deeper path (more than the federation)
     const content = data.filter(
       (obj) => [...obj.path.matchAll(/\//g)].length <= 2
     )
