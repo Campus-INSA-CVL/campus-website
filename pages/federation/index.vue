@@ -2,14 +2,38 @@
   v-row(tag="section", no-gutters)
     v-col(cols="12", md="10", lg="8", offset-md="1", offset-lg="2")
       v-row(justify="center")
-        v-col(cols="12", sm="6", lg="6", v-for="federation in content.federations", :key="federation.path")
+        pre {{ content }}
+        v-col(cols="12", sm="6", lg="6", v-for="federation in data", :key="federation.path")
           preview-card(:content="federation")
 </template>
 
 <script>
 export default {
   async asyncData({ $content }) {
-    const content = await $content('federation', 'index').fetch()
+    const data = await $content('federation', { deep: true })
+      .only(['title', 'path', 'description', 'color', 'order'])
+      .where({ extension: '.md', slug: 'index' })
+      .fetch()
+
+    data.map((obj) => {
+      // search for the 'index term'
+      const place = obj.path.lastIndexOf('/index')
+
+      if (place === -1) {
+        return obj
+      }
+
+      // Remove term for the path
+      obj.path = obj.path.slice(0, place)
+      return obj
+    })
+
+    // Remove deeper path (more than the federation)
+    const content = data.filter(
+      (obj) => [...obj.path.matchAll(/\//g)].length <= 2
+    )
+
+    // const content = await $content('federation', 'index').fetch()
     return {
       content,
     }
