@@ -3,7 +3,6 @@
     v-col(cols="12", md="10", lg="8", offset-md="1", offset-lg="2")
       v-row(justify="center")
         v-col(cols="12", sm="6", lg="6", v-for="representation in content", :key="representation.path")
-          pre {{ representation }}
           preview-card(:content="representation")
 </template>
 
@@ -18,41 +17,41 @@ export default {
       content,
     }
   },
-  // head() {
-  //   return {
-  //     title: 'fédération'.toUpperCase(),
-  //     meta: [
-  //       {
-  //         hid: 'description',
-  //         name: 'description',
-  //         content:
-  //           "Retrouver l'ensemble des pôles du Campus de l'INSA Centre-Val de Loire",
-  //       },
-  //       {
-  //         hid: 'og:title',
-  //         property: 'og:title',
-  //         content: `FÉDÉRATION - Campus INSA Centre-Val de Loire`,
-  //       },
-  //       {
-  //         hid: 'og:description',
-  //         property: 'og:description',
-  //         content:
-  //           "Retrouver l'ensemble des pôles du Campus de l'INSA Centre-Val de Loire",
-  //       },
-  //       {
-  //         hid: 'twitter:title',
-  //         name: 'twitter:title',
-  //         content: `FÉDÉRATION - Campus INSA Centre-Val de Loire`,
-  //       },
-  //       {
-  //         hid: 'twitter:description',
-  //         name: 'twitter:description',
-  //         content:
-  //           "Retrouver l'ensemble des pôles du Campus de l'INSA Centre-Val de Loire",
-  //       },
-  //     ],
-  //   }
-  // },
+  head() {
+    return {
+      title: 'représentation'.toUpperCase(),
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            "Retrouver l'ensemble des associations qui représentent les élèves ingéneurs de l'INSA Centre-Val de Loire",
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: `REPRÉSENTATION - Campus INSA Centre-Val de Loire`,
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            "Retrouver l'ensemble des associations qui représentent les élèves ingéneurs de l'INSA Centre-Val de Loire",
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: `REPRÉSENTATION - Campus INSA Centre-Val de Loire`,
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            "Retrouver l'ensemble des associations qui représentent les élèves ingéneurs de l'INSA Centre-Val de Loire",
+        },
+      ],
+    }
+  },
 }
 </script>
 
