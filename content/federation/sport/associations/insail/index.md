@@ -1,6 +1,12 @@
 ---
 title: INSAil
 color: sportColor
+order: 1
+description:
+  L’INSAil a pour mission principale de démocratiser la pratique de la voile
+  dans le milieu universitaire. Elle a également comme rôle de représenter
+  l’INSA Centre Val de Loire à travers différentes régates (compétitions de
+  voile).
 social:
   facebook: https://www.facebook.com/INSAilCVL
   instagram: https://www.instagram.com/insail_cvl/

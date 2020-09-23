@@ -1,6 +1,7 @@
 ---
 title: blois
 order: 0
+description: Découvrir les sports de l'AS à Blois
 color: sportColor
 ---
 

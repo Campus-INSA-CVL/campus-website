@@ -2,6 +2,7 @@
 title: INSAviron
 description: Association d'Aviron de l'INSA Centre Val de Loire
 color: sportColor
+order: 3
 imagesName:
   - carousel-1.jpeg
   - carousel-2.jpeg

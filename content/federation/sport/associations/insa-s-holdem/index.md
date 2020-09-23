@@ -1,6 +1,11 @@
 ---
 title: INSA's HOLDEM
 color: sportColor
+order: 2
+description:
+  Que vous soyez un habitué des tables de poker, amateur de soirées poker entre
+  potes ou simplement curieux de découvrir cette activité, INSA’s HOLDEM est
+  fait pour vous.
 ---
 
 # Bienvenue chez INSA's HOLDEM
