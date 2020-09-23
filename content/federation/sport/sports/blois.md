@@ -155,7 +155,7 @@ pour se défouler.
     max-width="800"></campus-responsive-image>
 </campus-center>
 
-Cette année le tennis se déroulera le jeudi de 13h30 à 15h30 au club AAJB (on a
+Cette année le tennis se déroulera le jeudi de 13h00 à 15h00 au club AAJB (on a
 accès aux terrains couverts pour jouer toute l’année). L’adhésion au club est de
 130 euros pour l’année. Les entrainements sont libres, c’est-à-dire que tu peux
 jouer avec qui tu veux, comme tu veux. On fera des matchs en doubles, des
