@@ -39,7 +39,7 @@ export default {
     })
 
     return {
-      associations: content[0].associations,
+      content,
     }
   },
   layout() {
