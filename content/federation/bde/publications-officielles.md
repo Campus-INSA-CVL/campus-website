@@ -1,6 +1,7 @@
 ---
 title: publications officielles
 color: primary
+description: Ensemble des documents officiels du BDE
 statuts:
   - link: /federation/bde/statuts.pdf
     name: Statuts - Modifiés AG 07/11/2014

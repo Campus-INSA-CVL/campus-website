@@ -1,6 +1,11 @@
 ---
 title: INSAtelier
 color: othersColor
+order: 3
+description:
+  L'INSAtelier est une association de l'INSA CVL ayant pour but de promouvoir le
+  bricolage et le respect de l'environnement, a travers des ateliers manuels
+  axés sur la récupération, le zéro-dechet et la réparation.
 team:
   bureau:
     - responsability: président

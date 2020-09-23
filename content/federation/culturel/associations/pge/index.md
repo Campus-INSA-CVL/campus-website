@@ -1,5 +1,12 @@
 ---
 title: Printemps des Grandes Ecoles
+order: 6
+description:
+  Depuis 2010, le PGE organise chaque année un tremplin musical étudiant dans
+  la   ville de Bourges. Il se déroule au cœur du Printemps de Bourges, sur
+  l'une des scènes les plus incontournables. Les groupes d'étudiants
+  sélectionnés viennent   de toute la France et nous permette de rendre
+  l'expérience du Printemps des Grandes Ecoles exceptionnelle.
 color: culturelColor
 imagesName:
   - carousel-1.jpeg

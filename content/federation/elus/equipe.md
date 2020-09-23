@@ -1,6 +1,9 @@
 ---
 title: équipe des élus
 color: elusColor
+description:
+  Vous trouverez ici l'équipe des élus étudiants du CA et du CE pour le mandat
+  2019-2021.
 team:
   élus au conseil des études:
     - responsability: vice-président étudiant

@@ -1,6 +1,10 @@
 ---
 title: 5 Continents 5 Sommets
 color: solidaritesColor
+order: 1
+description:
+  L'association 5 Sommets 5 Continents est une association solidaire et sportive
+  du type loi 1901 créée en 1998 par les élèves-ingénieurs de l'INSA CVL.
 team:
   bureau:
     - responsability: président

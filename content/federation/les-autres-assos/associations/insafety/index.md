@@ -1,6 +1,10 @@
 ---
 title: INSAfety
 color: othersColor
+order: 2
+description:
+  INSAFETY est une association qui vous permettra de vous initier tout au long
+  de l'année aux gestes de secourisme et aux risques domestiques du quotidien.
 team:
   bureau:
     - responsability: Président

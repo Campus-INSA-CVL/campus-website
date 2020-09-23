@@ -1,6 +1,14 @@
 ---
 title: INSArpège
 color: culturelColor
+order: 1
+description:
+  Insa’rpège, c'est l'association qui représente la vie musicale de l'école sous
+  toute ses formes ! 🎤 🎹 🎺 🎸 🎵 A travers des représentations, afterworks,
+  fanfares, nous prenons pars à la vie de l'école en amenant une ambiance
+  musicale qualitative à la majorité des événements de l'école ! Notre local
+  permet aussi aux étudiants de continuer la pratique de leurs instruments dans
+  l'enceinte du campus !
 imagesName:
   - carousel-1.jpeg
   - carousel-2.jpeg

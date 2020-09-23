@@ -1,6 +1,9 @@
 ---
 title: bi-campus
 order: 1
+description:
+  Vous trouverez ici l'ensemble des informations relatives aux campus de l'INSA
+  Centre-Val de Loire
 ---
 
 # Découvrez les campus de l'INSA Centre-Val de Loire

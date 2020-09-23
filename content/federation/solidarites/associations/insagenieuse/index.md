@@ -1,6 +1,12 @@
 ---
 title: Insagénieuse
-color: culturelColor
+color: solidaritesColor
+order: 5
+description:
+  Insagénieuse est une association fraîchement créée, dont les membres sont des
+  étudiant.e.s des deux campus de l’INSA Centre Val de Loire. Elle rassemble une
+  vingtaine d’étudiant.e.s, et a pour vocation de mettre en place des projets
+  visant à améliorer l’intégration des Femmes dans le milieu de l’ingénierie.
 team:
   bureau:
     - responsability: présidente

@@ -1,5 +1,6 @@
 ---
 title: R³
+order: 3
 description:
   « Rencontrer, Réaliser, Réussir », R3 cherche à favoriser l’accès à
   l’enseignement supérieur et permettre aux jeunes collégiens et lycéens de

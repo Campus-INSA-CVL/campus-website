@@ -1,6 +1,11 @@
 ---
 title: Veloc'
 color: othersColor
+order: 4
+description:
+  L’association Véloc propose aux étudiants de l'INSA CVL la location de vélo
+  pour leurs déplacements quotidiens. Cela peut vous servir pour vous rendre sur
+  votre campus ou pour découvrir notre région à vélo.
 team:
   bureau:
     - responsability: président

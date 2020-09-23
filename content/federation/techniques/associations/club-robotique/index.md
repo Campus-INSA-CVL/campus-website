@@ -1,6 +1,11 @@
 ---
 title: Club robotique
 color: techniquesColor
+description:
+  Le club cherche à poursuivre un objectif double, la découverte de la robotique
+  pour les débutants et la réalisation de projets stimulant et intéressant pour
+  tous quel que soit le niveau.
+order: 1
 imagesName:
   - carousel-1.png
   - carousel-2.png

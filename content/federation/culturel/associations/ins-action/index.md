@@ -1,6 +1,10 @@
 ---
 title: INS'Action
 color: culturelColor
+order: 9
+description:
+  Ins'action est l'association cinéma de l'INSA CVL, le but est de nous réunir
+  autour de notre passion du 7ème art.
 ---
 
 # Moteur, ça tourne et Ins'action

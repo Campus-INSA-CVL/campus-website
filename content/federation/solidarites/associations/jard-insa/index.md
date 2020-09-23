@@ -1,6 +1,10 @@
 ---
 title: Jard'INSA
-color: culturelColor
+color: solidaritesColor
+order: 2
+description:
+  Jard'INSA est une asso de jardinage collaboratif ouverte à toute personne
+  présente sur le campus.
 ---
 
 # Bienvenue à Jard'INSA

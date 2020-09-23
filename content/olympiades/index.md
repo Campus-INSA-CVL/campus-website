@@ -1,6 +1,10 @@
 ---
 title: olympiades
 folderName: olympiades
+description: Olympiennes, olympiens ! La guerre fait rage au sein de l’Olympe, cinq grandes
+familles se font face dans un combat acharné pour obtenir la bénédiction des
+dieux. Et c’est vous qui avez été sélectionnés en tant que guerriers pour mener
+à bien ce combat
 color: primary
 imagesName:
   - 'cerbere.jpg'

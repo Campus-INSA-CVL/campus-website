@@ -1,6 +1,11 @@
 ---
 title: INSA'brasse
 color: culturelColor
+order: 3
+description:
+  L’INSA’Brasse est l’association de brasseur de l’INSA Centre Val de Loire,
+  créée en 2016. Nous brassons de façon artisanale une gamme de bières de
+  caractère, aux arômes développés et à l’esprit insaïen retranscrit. 🍺
 team:
   bureau:
     - responsability: président

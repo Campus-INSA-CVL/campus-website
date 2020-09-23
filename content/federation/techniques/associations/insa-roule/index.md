@@ -1,7 +1,8 @@
 ---
 title: INSA'roule
-description: On bricole
 color: techniquesColor
+order: 4
+description: Le club mécanique de l'INSA CVL
 team:
   bureau:
     - responsability: président

@@ -1,6 +1,11 @@
 ---
 title: 4L Trophy
 color: techniquesColor
+order: 5
+description:
+  Le Club 4L Trophy de l’INSA CVL permet aux équipages souhaitant s’inscrire au
+  RAID de préparer leur participation via l’organisation d’évènements, la
+  collecte de fonds et l’échange avec d’anciens et futurs participants.
 plaquetteSponsoring:
   - link: /federation/techniques/4l-trophy/dossier-partenariat-INSAhara.pdf
     name: Dossier de Sponsoring (Antoine Creuzet - Antonin Falluel)

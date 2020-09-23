@@ -1,5 +1,6 @@
 ---
 title: Gam'INSA
+order: 3
 description:
   Associations de jeux vidéos mais aussi de jeux tout courts. On organise
   principalement des LANs, des tournois et des sessions jeux de rôles !

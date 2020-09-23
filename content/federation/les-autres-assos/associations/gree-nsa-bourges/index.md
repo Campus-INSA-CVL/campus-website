@@ -1,6 +1,13 @@
 ---
 title: Gree'NSA Bourges
 color: othersColor
+order: 1
+description:
+  Gree'NSA Bourges est une association présente sur le campus de Bourges. Avec
+  son homologue à Blois, elle a plusieurs objectifs ! Elle souhaite s'ancrer
+  dans une dynamique local de développement durable au travers différentes
+  moyens d'actions ! Elle a aussi pour volonté de prendre part à la vie de
+  l'école, au travers de la vie étudiante et des formations ! 🌱
 team:
   bureau:
     - responsability: président

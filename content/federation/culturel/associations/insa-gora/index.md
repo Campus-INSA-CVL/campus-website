@@ -1,5 +1,9 @@
 ---
 title: INS'Agora
+order: 7
+description:
+  INS'AGORA est l'association de l'INSA CVL dont le but est de vous amener à
+  débattre !
 color: culturelColor
 social:
   facebook: 'https://www.facebook.com/Insagora'

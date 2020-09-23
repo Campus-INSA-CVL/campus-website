@@ -1,9 +1,10 @@
 ---
 title: Comed'INSA Blois
+order: 5
 description:
   Comed'INSA est une association qui rassemble tous les passionnés de théâtre,
   débutants comme plus expérimentés, pour réaliser saynètes, pièces et
-  improvisations !
+  improvisations ! Elle a son homonyme à Bourges !
 color: culturelColor
 imagesName:
   - carousel-1.jpg

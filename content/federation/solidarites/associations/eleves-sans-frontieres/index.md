@@ -1,6 +1,13 @@
 ---
 title: Élèves Sans Frontières
 color: solidaritesColor
+order: 4
+description:
+  Élèves Sans Frontières (ESF) est une association gérée par les étudiants et
+  l’administration de l’INSA CVL qui a pour but d’accueillir les étudiants
+  étrangers en organisant des activités qui facilitent leur installation et leur
+  intégration et de favoriser la dimension internationale en encourageant les
+  échanges entre les étudiants français et ceux des différentes nationalités.
 ---
 
 # Bienvenue dans Élèves Sans Frontières

@@ -1,6 +1,7 @@
 ---
 title: équipe du pôle techniques
 color: techniquesColor
+description: L'équipe du pôle des techniques.
 team:
   bureau:
     - responsability: président

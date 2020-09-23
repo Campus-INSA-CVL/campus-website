@@ -1,6 +1,11 @@
 ---
 title: club oenologie
 color: culturelColor
+order: 8
+description:
+  Le club oeno est une association qui consiste à faire découvrir et de partager
+  l’œnologie. Nombres de nos soirée sont organisés avec la présence d’un
+  œnologue qui nous explique comment déguster un vin.
 team:
   bureau:
     - responsability: président
