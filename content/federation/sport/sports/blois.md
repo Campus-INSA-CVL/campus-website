@@ -13,7 +13,7 @@ color: sportColor
 - Badminton
 - Rugby
 - Boxe
-- Cheerleading
+- [Cheerleading](#cheerleading)
 - Padel
 - [Tennis](#tennis)
 - Athlétisme
@@ -49,12 +49,11 @@ Si on est suffisamment nombreux.ses et motivé.es, on pourra disputer des matchs
 contre d’autres équipes, s’entraîner avec d’autres écoles, et même s’inscrire en
 compétition officielle. Rien n’est obligatoire évidemment, à part de venir
 essayer au moins une fois, car le hand c’est génial et ça peut sûrement te
-plaire ! À Bourges, nous nous entraînons le lundi au gymnase Pierre-Émile
-Martin, de 20h30 à 22h (j’ai demandé à la mairie d’avancer ce créneau, et je
-suis en attente d’une réponse), et le jeudi de 20h30 à 22h au gymnase de Turly.
-À Blois, il y a un entraînement, le jeudi de 12h30 à 14h au gymnase
-Saint-Georges. Il y a la possibilité de faire du covoiturage, avec rendez-vous à
-l’INSA.
+plaire !
+
+À **Blois**, il y a un entraînement, le **jeudi de 12h30 à 14h** au **gymnase
+Saint-Georges**. Il y a la possibilité de faire du covoiturage, avec rendez-vous
+à l’INSA.
 
 <campus-center>
   <campus-responsive-image
@@ -65,10 +64,8 @@ l’INSA.
 
 Pour plus de questions, n’hésite pas à nous contacter :
 
-- Émile Pons, responsable Blois, est joignable sur WhatsApp, Messenger et
+- _Émile Pons_, responsable Blois, est joignable sur WhatsApp, Messenger et
   Instagram
-- Xavier Duplan, responsable Bourges, je suis joignable sur WhatsApp et
-  Messenger
 
 Désormais on n’attend plus que toi, à bientôt dans l’équipe handball de CVL !
 
@@ -79,14 +76,14 @@ Bonjour insaïen, insaïenne!
 Tu souhaites pratiquer un sport dans la bonne humeur? Alors le volley-ball est
 fait pour toi!
 
-On s'entraîne tous les mercredi soir, de 20h à 22h au complexe sportif Tabarly.
-Il est situé à 30 minutes à pied de l'INSA, mais on a l'habitude d'organiser des
-groupes de covoiturage. Au programme : échauffements, exercices spécifiques,
-puis enfin des matchs. Les entraînements sont rythmés par les conseils et les
-stratégies des anciens joueurs. Les équipes sont mixtes, et on accepte tous les
-niveaux donc n'hésite pas à venir essayer une séance avec nous.
+On s'entraîne tous les mercredi soir, **de 20h à 22h** au complexe sportif
+**Tabarly**. Il est situé à 30 minutes à pied de l'INSA, mais on a l'habitude
+d'organiser des groupes de covoiturage. Au programme : échauffements, exercices
+spécifiques, puis enfin des matchs. Les entraînements sont rythmés par les
+conseils et les stratégies des anciens joueurs. Les équipes sont mixtes, et on
+accepte tous les niveaux donc n'hésite pas à venir essayer une séance avec nous.
 
-Pour plus de questions, n'hésite pas à contacter le respo : Valentin Potiron,
+Pour plus de questions, n'hésite pas à contacter le respo : _Valentin Potiron_,
 disponible sur [Facebook](https://www.facebook.com/valentin.potiron.3),
 Messenger, [Insta](https://www.instagram.com/val.ptrn/) et par
 [mail](mailto:valentin.potiron@insa-cvl.fr)
@@ -123,17 +120,13 @@ saurons t'accueillir et trouver ta place dans l'équipe.
 Nous pourrons disputer des matches contre d'autres équipes, d'autres écoles et
 même intégrer des compétitions officielles. Rien n'est obligatoire, si ce n'est
 donner une chance à ce sport magnifique en venant à au moins un entraînement,
-car cela va sûrement te plaire. À Blois, il y a un entraînement, le lundi de 19h
-à 21h sur le terrain synthétique du gymnase Saint-Georges. Il y a la possibilité
-de faire du covoiturage, avec rendez-vous à l'INSA. À Bourges, il y a un
-entraînement le jeudi de 13h30 à 15h au gymnase de Turly. Pour plus de
-questions, n'hésite pas à nous contacter :
+car cela va sûrement te plaire.
 
-- Louis BOUTONNET, responsable Blois, joignable sur Messenger, Instagram et
-  WhatsApp.
-- Skander SAFFAR, responsables Bourges, joignables sur Messenger, Instagram et
-  WhatsApp.
-- Tristan Regnier, responsables Bourges, joignables sur Messenger, Instagram et
+À **Blois**, il y a un entraînement, le **lundi de 19h à 21h** sur le terrain
+synthétique du **gymnase Saint-Georges**. Il y a la possibilité de faire du
+covoiturage, avec rendez-vous à l'INSA.
+
+- _Louis BOUTONNET_, responsable Blois, joignable sur Messenger, Instagram et
   WhatsApp.
 
 Désormais, on attend plus que toi, à bientôt dans l'équipe de football de CVL!
@@ -155,16 +148,16 @@ pour se défouler.
     max-width="800"></campus-responsive-image>
 </campus-center>
 
-Cette année le tennis se déroulera le jeudi de 13h30 à 15h30 au club AAJB (on a
-accès aux terrains couverts pour jouer toute l’année). L’adhésion au club est de
-130 euros pour l’année. Les entrainements sont libres, c’est-à-dire que tu peux
-jouer avec qui tu veux, comme tu veux. On fera des matchs en doubles, des
-mini-jeux, des matchs en simple, etc. Si tu doutes encore, on propose des
+Cette année le tennis se déroulera le **jeudi de 13h00 à 15h00 au club AAJB**
+(on a accès aux terrains couverts pour jouer toute l’année). L’adhésion au club
+est de 130 euros pour l’année. Les entraînements sont libres, c’est-à-dire que
+tu peux jouer avec qui tu veux, comme tu veux. On fera des matchs en doubles,
+des mini-jeux, des matchs en simple, etc. Si tu doutes encore, on propose des
 séances d’essais pour savoir si ça te plait, donc plus d’excuse pour venir !
 
 Alors motive toi et tes potes parce le meilleur sport du monde vous attend !
 
-Pour plus d’informations, n’hésite pas à contacter Maxime Cros :
+Pour plus d’informations, n’hésite pas à contacter _Maxime Cros_ :
 
 - [06-52-47-62-04](tel:+33652476204)
 - [mail](mailto:maxime.cros@insa-cvl.fr)
@@ -177,12 +170,43 @@ Pour plus d’informations, n’hésite pas à contacter Maxime Cros :
     max-width="800"></campus-responsive-image>
 </campus-center>
 
-<!--
-## Le planning
+## Cheerleading
 
 <campus-center>
   <campus-responsive-image
-    folder-name="federation/sport"
-    name="planning-blois.jpg"
+    folder-name="federation/sport/cheer"
+    name="logo.png"
+    max-width="400"></campus-responsive-image>
+</campus-center>
+
+Bonjour à tous !
+
+Si tu cherches une activité qui te fera bouger dans la joie et la bonne humeur,
+que tu saches danser ou non, les Purple Spirit seront ravis de t’accueillir !
+
+Notre équipe MIXTE se comporte de porteurs, danseurs et voltigeurs. Nous
+préparons un enchaînement de chorégraphies pour mettre le feu sur scène à un
+maximum d’évènements que ce soit le Gala, l’INSA’s Got Talent, le HighFive et
+bien d’autres encore.
+
+<campus-center>
+  <campus-responsive-image
+    folder-name="federation/sport/cheer"
+    name="crew.jpg"
     max-width="800"></campus-responsive-image>
-</campus-center> -->
+</campus-center>
+
+Étirements, échauffements, stunts et chorégraphies seront là pour rythmer nos
+séances !
+
+À Blois, il y a entraînement le **mercredi de 20h30 à 22h00** au gymnase des
+Provinces.
+
+À vos pompoms !
+
+Pour plus de questions, n’hésite pas à contacter _Marie Veyrière_, responsable
+Blois :
+
+- [Facebook](https://www.facebook.com/marie.veyriere.25)
+- [Instagram](https://www.instagram.com/_veyvey_/)
+- [mail](mailto:marie.veyriere@insa-cvl.fr)
