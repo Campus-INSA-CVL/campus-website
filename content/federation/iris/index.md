@@ -21,12 +21,12 @@ team:
 
 # A la découverte du monde entrepreneurial
 
-<!-- <campus-center>
+<campus-center>
   <campus-responsive-image
-    folder-name="federation/les-autres-assos"
-    name="logo.jpeg"
+    folder-name="federation/iris"
+    name="logo.jpg"
     max-width="400"></campus-responsive-image>
-</campus-center> -->
+</campus-center>
 
 > Un petit pas pour l'étudiant, un grand pas pour son avenir professionnel.
 > C'est ce qui en ressort après le passage en Junior-Entreprise. Alors saisis ta
