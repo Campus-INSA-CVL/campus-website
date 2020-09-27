@@ -11,10 +11,13 @@ federations:
     title: insapp
     description: L’INSA PP est l’association qui fédère les apprentis ingénieurs du CFSA Hubert Curien.
     color: primary
-  # - path: federation/iris
-  #   title: iris INSA
-  #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tincidunt lectus, ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet dignissim turpis, ac finibus libero sollicitudin sit amet. Duis vel tristique neque. Pellentesque id hendrerit enim. Nulla facilisi. Integer vitae nibh quis sem semper euismod in nec massa.
-  # color: primary
+  - path: federation/iris
+    title: iris INSA
+    description:
+      Tu souhaites découvrir l'organisation d'une petite entreprise tout en étant
+      étudiant ? Te challenger au quotidien et apprendre à mieux gérer ton temps ?
+      Si oui, n'hésite pas à prendre contact avec nous !
+    color: primary
   - path: /federation/culturel
     title: pôle culturel
     description: Le pôle culturel vise à partager et promouvoir l'art et les diverses activités culturelles lors de spectacles, d'afterworks collaboratifs, et d'autres événements dynamiques.
