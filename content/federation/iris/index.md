@@ -19,7 +19,7 @@ team:
       name: Lorraine BILLIG
 ---
 
-# A la découverte du monde entrepreneurial
+# À la découverte du monde entrepreneurial
 
 <campus-center>
   <campus-responsive-image
@@ -33,7 +33,7 @@ team:
 > chance de comprendre l'organisation des services en entreprise, avant même d'y
 > être !
 
-## A la découverte d'Iris INSA
+## À la découverte d'Iris INSA
 
 Organisée en 9 pôles, nous représentons au total une vingtaine d'étudiants au
 sein d'Iris INSA. Tu retrouves ce qu’on appelle le bureau restreint (BR) composé
