@@ -37,3 +37,7 @@ Les instances régionales dans lesquelles nous sommes représentés sont :
 - Les CROUS (Centres Régionaux des Œuvres Universitaires et Scolaires)
 - Les URIS (Unions Régionales des Ingénieurs et Scientifiques)
 - Les CCI (Chambres de Commerce et d’Industrie)
+
+## En savoir plus
+
+<campus-social :social="social" :color="color"></campus-social>
