@@ -1,18 +1,26 @@
 <template lang="pug">
-  v-row(tag="section", no-gutters)
-    v-col(cols="12", md="10", lg="8", offset-md="1", offset-lg="2")
-      v-row(justify="center")
-        v-col(cols="12", sm="6", lg="6", v-for="representation in content", :key="representation.path")
-          preview-card(:content="representation")
+v-row(tag='section', no-gutters)
+  v-col(cols='12', md='10', lg='8', offset-md='1', offset-lg='2')
+    v-row(justify='center')
+      v-col(
+        cols='12',
+        sm='6',
+        lg='6',
+        v-for='representation in content',
+        :key='representation.path'
+      )
+        preview-card(:content='representation')
 </template>
 
 <script>
 export default {
   async asyncData({ $content }) {
     const content = await $content('representation')
-      .sortBy({ key: 'order', direction: 'asc' })
-      .only(['title', 'description', 'path', 'color'])
+      .only(['title', 'description', 'path', 'color', 'order'])
+      .sortBy('order')
       .fetch()
+
+    console.log(content)
     return {
       content,
     }

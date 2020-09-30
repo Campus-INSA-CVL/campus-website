@@ -1,7 +1,11 @@
 <template lang="pug">
-  v-row(tag="section", no-gutters)
-    v-col(cols="12", md="10", lg="8", offset-md="1", offset-lg="2")
-      nuxt-content(:document="page", class="prose prose-sm sm:prose lg:prose-lg xl:prose-xl mx-auto", :id="color")
+v-row(tag='section', no-gutters)
+  v-col(cols='12', md='10', lg='8', offset-md='1', offset-lg='2')
+    nuxt-content.prose.prose-sm.mx-auto(
+      :document='page',
+      class='sm:prose lg:prose-lg xl:prose-xl',
+      :id='color'
+    )
 </template>
 
 <script>
