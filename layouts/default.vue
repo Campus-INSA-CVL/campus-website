@@ -49,28 +49,28 @@ shell-app
               :key='index'
             )
               v-list-item-title {{ btn.name }}
-      template(v-slot:extension, v-else-if='type === "page"')
-        v-btn.text--secondary(
-          icon,
-          nuxt,
-          :to='`/${config[params].path.main}`',
-          exact
-        )
-          v-icon {{ svg.mdiWeb }}
-        v-btn.header-btn(
-          :to='fullPath',
-          depressed,
-          nuxt,
-          :color='`${config[params].color}--text`',
-          exact
-        )
-          v-toolbar-title.font-weight-bold.text-capitalize {{ config[params].title }}
-    v-main
-      v-container(fluid)
-        nuxt
-        searchDialog
-    shell-footer(social-networks)
-    shell-cookies
+    template(v-slot:extension, v-else-if='type === "page"')
+      v-btn.text--secondary(
+        icon,
+        nuxt,
+        :to='`/${config[params].path.main}`',
+        exact
+      )
+        v-icon {{ svg.mdiWeb }}
+      v-btn.header-btn(
+        :to='fullPath',
+        depressed,
+        nuxt,
+        :color='`${config[params].color}--text`',
+        exact
+      )
+        v-toolbar-title.font-weight-bold.text-capitalize {{ config[params].title }}
+  v-main
+    v-container(fluid)
+      nuxt
+      searchDialog
+  shell-footer(social-networks)
+  shell-cookies
 </template>
 
 <script>
