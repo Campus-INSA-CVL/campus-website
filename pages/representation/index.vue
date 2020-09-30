@@ -20,7 +20,6 @@ export default {
       .sortBy('order')
       .fetch()
 
-    console.log(content)
     return {
       content,
     }
