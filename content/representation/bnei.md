@@ -2,6 +2,11 @@
 title: BNEI
 order: 3
 color: primary
+description:
+  Le BNEI représente l’ensemble des 185 000 élèves-ingénieurs en fédérant les
+  Bureaux des Elèves des écoles et les élus, quelque soit leur statut (public,
+  privé) et leur ministère de tutelle (enseignement supérieur et recherche,
+  Industrie, défense, agriculture, culture et communication).
 social:
   facebook: 'https://www.facebook.com/BNEIassos'
   twitter: 'https://twitter.com/BNEIassos'
