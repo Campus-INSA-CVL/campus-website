@@ -1,35 +1,47 @@
 <template lang="pug">
-  v-row(tag="section", no-gutters)
-    v-col(cols="12", md="10", lg="8", offset-md="1", offset-lg="2")
-      v-row(tag="section", justify="center")
-        v-col(cols="12", align="center")
-          v-img(:src="campusPath", max-width="100")
-        v-col(cols="12", sm="8", align="center")
-          p.font-weight-medium.mb-0 Ce site a été conçu par des élèves-ingénieurs de l'INSA Centre-Val de Loire. Pour tous problèmes ou retours, n'hésitez pas à nous contacter !<br />
-            | Vous pouvez aussi retrouver l'ensemble de son code source sur Github !
-        v-col(cols="12", sm="8", align="center")
-          div.text-capitalize.font-weight-light.primary--text développeur: #[span.font-weight-bold SOUBIRAN Estéban]
-          div.text-capitalize.font-weight-light.primary--text illustration/design de la home page: #[span.font-weight-bold YAOUANCQ Quentin]
-          div.text-capitalize.font-weight-light.primary--text contributeurs: #[span.font-weight-bold BEZIAUD Jordan] / #[span.font-weight-bold RICHARD Jérémy]
-          div.text-capitalize.font-weight-light.primary--text gestion des associations: #[span.font-weight-bold GARO Benjamin]
-          div.text-capitalize.font-weight-light.primary--text gestion serveur: #[span.font-weight-bold LESCHI Cyprien]
-          div.text-capitalize.font-weight-light.primary--text hébergement: #[a(href="https://www.netlify.com/", target="blank", rel="nofollow noopener noreferrer").font-weight-bold Netlify]
-      v-row(justify="center", no-gutters, align="center")
-        v-col(cols="12")
-          div.text-secondary.font-weight-light.text-center.body-2 v1.0.6
-      v-row(tag="section", justify="space-around")
-        v-col(cols="12", md="4", align="center")
-          v-btn(to="/nous-contacter", outlined, nuxt).primary--text
-            v-icon(left) {{ svg.mdiCardAccountMail }}
-            span nous contacter
-        v-col(cols="12", md="4", align="center")
-          v-btn(href="https://github.com/Campus-INSA-CVL/campus-website/", outlined, target="_blank").primary--text
-            v-icon(left) {{ svg.mdiGithub }}
-            span github
-        v-col(cols="12", md="4", align="center")
-          v-btn(href="https://www.insa-centrevaldeloire.fr/", outlined, target="_blank").primary--text
-            v-icon(left) {{ svg.mdiSchool }}
-            span insa centre-val de loire
+v-row(tag='section', no-gutters)
+  v-col(cols='12', md='10', lg='8', offset-md='1', offset-lg='2')
+    v-row(tag='section', justify='center')
+      v-col(cols='12', align='center')
+        v-img(:src='campusPath', max-width='100')
+      v-col(cols='12', sm='8', align='center')
+        p.font-weight-medium.mb-0 Ce site a été conçu par des élèves-ingénieurs de l'INSA Centre-Val de Loire. Pour tous problèmes ou retours, n'hésitez pas à nous contacter !<br />
+          | Vous pouvez aussi retrouver l'ensemble de son code source sur Github !
+      v-col(cols='12', sm='8', align='center')
+        .text-capitalize.font-weight-light.primary--text développeur: #[span.font-weight-bold SOUBIRAN Estéban]
+        .text-capitalize.font-weight-light.primary--text illustration/design de la home page: #[span.font-weight-bold YAOUANCQ Quentin]
+        .text-capitalize.font-weight-light.primary--text contributeurs: #[span.font-weight-bold BEZIAUD Jordan] / #[span.font-weight-bold RICHARD Jérémy]
+        .text-capitalize.font-weight-light.primary--text gestion des associations: #[span.font-weight-bold GARO Benjamin]
+        .text-capitalize.font-weight-light.primary--text gestion serveur: #[span.font-weight-bold LESCHI Cyprien]
+        .text-capitalize.font-weight-light.primary--text hébergement: #[a.font-weight-bold(
+          href='https://www.netlify.com/',
+          target='blank',
+          rel='nofollow noopener noreferrer'
+        ) Netlify]
+    v-row(justify='center', no-gutters, align='center')
+      v-col(cols='12')
+        .text-secondary.font-weight-light.text-center.body-2 v1.0.7
+    v-row(tag='section', justify='space-around')
+      v-col(cols='12', md='4', align='center')
+        v-btn.primary--text(to='/nous-contacter', outlined, nuxt)
+          v-icon(left) {{ svg.mdiCardAccountMail }}
+          span nous contacter
+      v-col(cols='12', md='4', align='center')
+        v-btn.primary--text(
+          href='https://github.com/Campus-INSA-CVL/campus-website/',
+          outlined,
+          target='_blank'
+        )
+          v-icon(left) {{ svg.mdiGithub }}
+          span github
+      v-col(cols='12', md='4', align='center')
+        v-btn.primary--text(
+          href='https://www.insa-centrevaldeloire.fr/',
+          outlined,
+          target='_blank'
+        )
+          v-icon(left) {{ svg.mdiSchool }}
+          span insa centre-val de loire
 </template>
 
 <script>
