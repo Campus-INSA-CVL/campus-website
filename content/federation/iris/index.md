@@ -1,5 +1,6 @@
 ---
 title: Iris INSA
+order: 3
 description:
   Tu souhaites découvrir l'organisation d'une petite entreprise tout en étant
   étudiant ? Te challenger au quotidien et apprendre à mieux gérer ton temps ?

@@ -1,7 +1,7 @@
 ---
 title: pôle culturel
 color: culturelColor
-order: 3
+order: 4
 description:
   Le pôle culturel vise à partager et promouvoir l'art et les diverses activités
   culturelles lors de spectacles, d'afterworks collaboratifs, et d'autres
