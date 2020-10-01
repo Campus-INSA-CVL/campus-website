@@ -1,7 +1,11 @@
 <template lang="pug">
-  v-row(tag="section", no-gutters)
-    v-col(cols="12", md="10", lg="8", offset-md="1", offset-lg="2")
-      nuxt-content(:document="page", :id="color", class="prose prose-sm sm:prose lg:prose-lg xl:prose-xl mx-auto")
+v-row(tag='section', no-gutters)
+  v-col(cols='12', md='10', lg='8', offset-md='1', offset-lg='2')
+    nuxt-content.prose.prose-sm.mx-auto(
+      :document='page',
+      :id='color',
+      class='sm:prose lg:prose-lg xl:prose-xl'
+    )
 </template>
 
 <script>
@@ -42,6 +46,7 @@ export default {
           hid: 'description',
           name: 'description',
           content:
+            this.page.description ??
             "Présentation du pôle du Campus de l'INSA Centre-Val de Loire",
         },
         {
@@ -53,6 +58,7 @@ export default {
           hid: 'og:description',
           property: 'og:description',
           content:
+            this.page.description ??
             "Présentation du pôle du Campus de l'INSA Centre-Val de Loire",
         },
         {
@@ -64,6 +70,7 @@ export default {
           hid: 'twitter:description',
           name: 'twitter:description',
           content:
+            this.page.description ??
             "Présentation du pôle du Campus de l'INSA Centre-Val de Loire",
         },
       ],

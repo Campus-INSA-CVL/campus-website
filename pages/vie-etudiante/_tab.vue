@@ -1,5 +1,8 @@
 <template lang="pug">
-  nuxt-content(:document="page", class="prose prose-sm sm:prose lg:prose-lg xl:prose-xl mx-auto")
+nuxt-content.prose.prose-sm.mx-auto(
+  :document='page',
+  class='sm:prose lg:prose-lg xl:prose-xl'
+)
 </template>
 
 <script>
@@ -19,6 +22,7 @@ export default {
           hid: 'description',
           name: 'description',
           content:
+            this.page.description ??
             "La vie étudiante sur le Campus de l'INSA Centre-Val de Loire",
         },
         {
@@ -30,6 +34,7 @@ export default {
           hid: 'og:description',
           property: 'og:description',
           content:
+            this.page.description ??
             "La vie étudiante sur le Campus de l'INSA Centre-Val de Loire",
         },
         {
@@ -41,6 +46,7 @@ export default {
           hid: 'twitter:description',
           name: 'twitter:description',
           content:
+            this.page.description ??
             "La vie étudiante sur le Campus de l'INSA Centre-Val de Loire",
         },
       ],
