@@ -170,19 +170,51 @@ order: 1 <!-- place dans les onglets -->
 Vivamus sed enim ut magna lacinia lobortis.
 ```
 
+### Représentation
+
+`Path: /representation/:representation?`
+
+`representation` est un paramètre qui permet de récupérer le fichier Markdown
+qui correspond afin de l'afficher.
+
+`Content: /representation/**.md`
+
+L'ensemble des fichiers Markdown sont récupérés et leur front matter permet de
+créer les cards. Ainsi, l'ajout d'un fichier Markdown dans ce dossier avec le
+titre et la description présente dans le front matter permet d'automatiquement
+générer une nouvelle route, le nom du fichier servant d'url (paramètre service)
+! Le body est ensuite utilisé sur la page de l'outil.
+
+Exemple
+
+```md
+---
+title: bnei
+order: 1
+description:
+  Quisque vel finibus sapien, eu egestas tortor. Proin ultrices arcu eu massa
+  rutrum, quis feugiat neque convallis.
+color: cafetColor
+---
+
+# Lorem ipsum dolor
+
+Vivamus sed enim ut magna lacinia lobortis.
+```
+
 ### Fédération
 
 > Il s'agit de la partie la plus complexe du site.
 
-|                     Path                      |      Content (`/federation`)       |        Params        | Function                                                      |
-| :-------------------------------------------: | :--------------------------------: | :------------------: | :------------------------------------------------------------ |
-|                 `/federation`                 |           **index.yaml**           |         none         | Présentation de l'ensemble des pôles de la fédération         |
-|           `/federation/:federation`           |     **/:federation/index.md**      |     _federation_     | Présentation d'une fédération                                 |
-|       `/federation/:federation/equipe/`       |     **/:federation/equipe.md**     |     _federation_     | Présentation de l'équipe d'un pôle                            |
-|    `/federation/:federation/associations/`    | **/:federation/associations.yaml** |     _federation_     | Présentation de l'ensemble des associations du pole           |
-|     `/federation/:federation/sports/:tab`     |         **/sport/sports/**         | _federation_ , _tab_ | Présentation des différents sports, utilisé par le pôle sport |
-| `/federation/:federation/representation/:tab` |     **/elus/representation/**      | _federation_, _tab_  | Présentation des différents conseils, utilisé par les élus    |
-|  `/federation/:federation/association/:asso`  |  **/:federation/:asso/index.md**   | _federation_, _asso_ | Présentation d'une association                                |
+|                     Path                      |     Content (`/federation`)     |        Params        | Function                                                      |
+| :-------------------------------------------: | :-----------------------------: | :------------------: | :------------------------------------------------------------ |
+|                 `/federation`                 |            **/\*\***            |         none         | Présentation de l'ensemble des pôles de la fédération         |
+|           `/federation/:federation`           |    **/:federation/index.md**    |     _federation_     | Présentation d'une fédération                                 |
+|       `/federation/:federation/equipe/`       |   **/:federation/equipe.md**    |     _federation_     | Présentation de l'équipe d'un pôle                            |
+|    `/federation/:federation/associations/`    |      **/:federation/\*\***      |     _federation_     | Présentation de l'ensemble des associations du pole           |
+|     `/federation/:federation/sports/:tab`     |       **/sport/sports/**        | _federation_ , _tab_ | Présentation des différents sports, utilisé par le pôle sport |
+| `/federation/:federation/representation/:tab` |    **/elus/representation/**    | _federation_, _tab_  | Présentation des différents conseils, utilisé par les élus    |
+|  `/federation/:federation/association/:asso`  | **/:federation/:asso/index.md** | _federation_, _asso_ | Présentation d'une association                                |
 
 :::tip
 
@@ -388,7 +420,6 @@ des dossiers pour les associations
 
 - Créer un dossier `associations` qui va contenir la liste de l'ensemble des
   associations du pôle
-
 - Dans le fichier `/layouts/default.vue`, ajouter le pôle dans la config afin de
   mettre en place la toolbar.
 
