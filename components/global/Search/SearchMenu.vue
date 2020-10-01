@@ -1,8 +1,19 @@
 <template lang="pug">
-  v-menu(offset-y)
-    template(v-slot:activator="{ on, attrs }")
-      search(:on="on", v-bind="attrs", flat, solo, dense, clearable, label="Chercher", hide-details, rounded, @search="searchData")
-    search-list(v-model="searchResults")
+v-menu(offset-y)
+  template(v-slot:activator='{ on, attrs }')
+    search(
+      :on='on',
+      v-bind='attrs',
+      flat,
+      solo,
+      dense,
+      clearable,
+      label='Chercher',
+      hide-details,
+      rounded,
+      @search='searchData'
+    )
+  search-list(v-model='searchResults', width='400')
 </template>
 
 <script>

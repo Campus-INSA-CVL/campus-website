@@ -1,5 +1,11 @@
 <template lang="pug">
-  v-text-field(v-model="query", :prepend-inner-icon="svg.mdiMagnify", type="search", v-bind="$attrs", v-on="$attrs.on")
+v-text-field(
+  v-model='query',
+  :prepend-inner-icon='svg.mdiMagnify',
+  type='search',
+  v-bind='$attrs',
+  v-on='$attrs.on'
+)
 </template>
 
 <script>
@@ -7,6 +13,12 @@ import { mdiMagnify } from '@mdi/js'
 
 export default {
   name: 'Search',
+  props: {
+    limit: {
+      type: Number,
+      default: 4,
+    },
+  },
   data() {
     return {
       svg: { mdiMagnify },
@@ -31,7 +43,7 @@ export default {
       const searchContent = await this.$content({ deep: true })
         .only(['title', 'description'])
         .where({ extension: '.md' })
-        .limit(4)
+        .limit(this.limit)
         .search(query)
         .fetch()
 

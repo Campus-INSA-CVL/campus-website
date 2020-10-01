@@ -1,15 +1,28 @@
 <template lang="pug">
-  v-dialog(v-model="searchDialog", fullscreen)
-    v-card(height="100%")
-      v-card-title
-        search(@search="searchData", filled, rounded, clearable, label="Chercher", hide-details, autofocus)
-      v-card-text.mt-4
-        search-list(v-model="searchResults")
-      v-row(align="end", style="bottom: 0; left: 0; right: 0; position: absolute;", no-gutters)
-        v-col
-          v-card-actions
-            v-spacer
-            v-btn(@click="closeSearchDialog()", depressed) Fermer
+v-dialog(v-model='searchDialog', fullscreen)
+  v-card(height='100%')
+    v-card-title
+      search(
+        @search='searchData',
+        filled,
+        rounded,
+        clearable,
+        label='Chercher',
+        hide-details,
+        autofocus,
+        :limit='6'
+      )
+    v-card-text.mt-4
+      search-list(v-model='searchResults')
+    v-row(
+      align='end',
+      style='bottom: 0; left: 0; right: 0; position: absolute;',
+      no-gutters
+    )
+      v-col
+        v-card-actions
+          v-spacer
+          v-btn(@click='closeSearchDialog()', depressed) Fermer
 </template>
 
 <script>

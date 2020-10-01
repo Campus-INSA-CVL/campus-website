@@ -1,5 +1,5 @@
 <template lang="pug">
-v-list(dense, two-line, max-width='400')
+v-list(dense, two-line, :width='$attrs.width')
   v-list-item-group(color='primary')
     v-subheader {{ message }}
     v-list-item(
