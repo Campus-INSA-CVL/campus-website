@@ -375,18 +375,9 @@ treeeshaking ne pourra pas les voir
 
 ### Création d'un nouveau pôle
 
-- Ajouter dans le fichier `/content/federation/index.yaml` le nouveau pôle
-
-```yaml
-federation:
-  - path: federation/${nouveauPole}
-    title: Nom Du Nouveau Pole
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    color: poleColor (ajouter aussi la couleur dans `nuxt.config.js`)
-```
-
-- Créer un nouveau dossier `/content/federation/${nouveauPole}` et les fichiers
-  `index.md` et `equipe.md` dans ce dernier.
+- Ajouter, dans le dossier `content/federation`, un nouveau dossier avec le nom
+  du pôle, qui sera utilisé dans l'URL
+- Ajouter un fichier `index.md` dans le dossier que vous avez créé
 
 :::tip À Savoir
 
@@ -395,33 +386,17 @@ des dossiers pour les associations
 
 :::
 
-- Créer un fichier `associations.yaml` qui va contenir la liste de l'ensemble
-  des associations du pôle
+- Créer un dossier `associations` qui va contenir la liste de l'ensemble des
+  associations du pôle
 
-- Dans le fichier `/layouts/default.vue`, ajouter l'association dans la config
-  afin de mettre en place la toolbar.
+- Dans le fichier `/layouts/default.vue`, ajouter le pôle dans la config afin de
+  mettre en place la toolbar.
 
 ### Création d'une association
 
-- Ajouter l'association dans le fichier `associations.yaml` du pôle souhaité.
-
-```diff
-associations:
-    - title: club robotique
-      path: /federation/techniques/associations/club-robotique
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      color: techniquesColor
-+   - title: La nouvelle asso !
-+     path: /federation/techniques/associations/nouvelle-asso
-+     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-+     color: assoColor
-```
-
-- Créer un dossier, au même endroit que le fichier d'associations, portant le
-  nom qui a été mis dans le champs path du fichier `associations.yaml`, donc
-  `mkdir nouvelle-asso` dans ce cas.
-
+- Créer un dossier avec le nom de l'association dans le dossier `association`
 - Ajouter un fichier `index.md` dans le dossier de l'association
+- Compléter le fichier en utilisant le tuto des associatins
 
 ### Création d'un service ou d'un outil
 
