@@ -41,7 +41,7 @@ export default {
       }
 
       const searchContent = await this.$content({ deep: true })
-        .only(['title', 'description'])
+        .only(['title', 'description', 'path'])
         .where({ extension: '.md' })
         .limit(this.limit)
         .search(query)
@@ -49,6 +49,7 @@ export default {
 
       searchContent.map((obj) => {
         // search for the 'index term'
+        console.log(obj)
         const place = obj.path.lastIndexOf('/index')
 
         if (place === -1) {
