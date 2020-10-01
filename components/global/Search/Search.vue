@@ -49,7 +49,6 @@ export default {
 
       searchContent.map((obj) => {
         // search for the 'index term'
-        console.log(obj)
         const place = obj.path.lastIndexOf('/index')
 
         if (place === -1) {
