@@ -6,7 +6,7 @@ v-row(tag='section', no-gutters)
         cols='12',
         sm='6',
         lg='6',
-        v-for='association in associations',
+        v-for='association in content',
         :key='association.path'
       )
         preview-card(:content='association')
