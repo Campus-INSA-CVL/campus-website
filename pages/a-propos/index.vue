@@ -21,7 +21,7 @@ v-row(tag='section', no-gutters)
           ) Netlify
     v-row(justify='center', no-gutters, align='center')
       v-col(cols='12')
-        .text-secondary.font-weight-light.text-center.body-2 v1.1.0-beta2
+        .text-secondary.font-weight-light.text-center.body-2 v1.1.0
     v-row(tag='section', justify='space-around')
       v-col(cols='12', md='4', align='center')
         v-btn.primary--text(to='/nous-contacter', outlined, nuxt)
