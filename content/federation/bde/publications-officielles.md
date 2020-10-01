@@ -4,6 +4,9 @@ color: primary
 description: Ensemble des documents officiels du BDE
 statuts:
   - link: /federation/bde/statuts.pdf
+    name: Statuts - Modifiés AGE 21/09/2020
+previous_statuts:
+  - link: /federation/bde/statuts_2014_2020.pdf
     name: Statuts - Modifiés AG 07/11/2014
 ca2019:
   - link: /federation/bde/ca/2019/CR-CA-2019-1.pdf
@@ -55,7 +58,11 @@ agOrdianaires:
   - link: /federation/bde/assemblees-generales/ordinaires/PV_AGO_2017.pdf
     name: PV 2016-2017
 agExtraordianaires:
-  - link: /federation/bde/bilans/assemblees-generales/extraordinaires/PV_AGE_2014.pdf
+  - link: /federation/bde/assemblees-generales/extraordinaires/PV_AGE_2020.pdf
+    name: PV 2020
+  - link: /federation/bde/assemblees-generales/extraordinaires/CR_AGE_2020.pdf
+    name: CR 2020
+  - link: /federation/bde/assemblees-generales/extraordinaires/PV_AGE_2014.pdf
     name: PV 2014-2015
 bilansMoraux:
   - link: /federation/bde/bilans/moraux/bilan_moral_2019.pdf
@@ -93,6 +100,10 @@ chartreGraphique:
 ## Statuts en vigueur
 
 <campus-download-links :files="statuts"></campus-download-links>
+
+## Précédents Status
+
+<campus-download-links :files="previous_statuts"></campus-download-links>
 
 ## CR & PV du Conseil d’Administration
 
