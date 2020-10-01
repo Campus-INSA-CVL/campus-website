@@ -1,6 +1,9 @@
 ---
 title: Association des solidarités
-description: L'association humanitaire et solidaire de l'INSA CVL
+order: 5
+description:
+  L’association des solidarités a pour but de promouvoir les œuvres humanitaires
+  et solidaires des élèves de l’INSA CVL.
 color: solidaritesColor
 social:
   facebook: https://www.facebook.com/assodessolidaritesinsacvl

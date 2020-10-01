@@ -1,20 +1,43 @@
 <template lang="pug">
-  v-row(tag="section", no-gutters)
-    v-col(cols="12", md="10", lg="8", offset-md="1", offset-lg="2")
-      v-row(justify="center")
-        v-col(cols="12", sm="6", lg="6", v-for="association in content.associations", :key="association.path")
-          preview-card(:content="association")
+v-row(tag='section', no-gutters)
+  v-col(cols='12', md='10', lg='8', offset-md='1', offset-lg='2')
+    v-row(justify='center')
+      v-col(
+        cols='12',
+        sm='6',
+        lg='6',
+        v-for='association in associations',
+        :key='association.path'
+      )
+        preview-card(:content='association')
 </template>
 
 <script>
 export default {
   async asyncData({ $content, params }) {
     const { federation } = params
-    const content = await $content(
-      'federation',
-      federation,
-      'associations'
-    ).fetch()
+
+    const content = await $content('federation', federation, 'associations', {
+      deep: true,
+    })
+      .only(['title', 'path', 'description', 'color', 'order'])
+      .where({ extension: '.md', slug: 'index' })
+      .sortBy('order')
+      .fetch()
+
+    content.map((obj) => {
+      // search for the 'index term'
+      const place = obj.path.lastIndexOf('/index')
+
+      if (place === -1) {
+        return obj
+      }
+
+      // Remove term for the path
+      obj.path = obj.path.slice(0, place)
+      return obj
+    })
+
     return {
       content,
     }

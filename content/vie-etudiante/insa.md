@@ -1,6 +1,9 @@
 ---
 title: insa
 order: 0
+description:
+  Vous trouverez ici l'ensemble des informations concernant le groupe INSA, son
+  modèle et ce qu'il représente !
 ---
 
 # INSA

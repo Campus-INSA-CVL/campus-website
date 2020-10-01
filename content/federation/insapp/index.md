@@ -1,6 +1,10 @@
 ---
 title: INSA PP
 color: primary
+order: 2
+description:
+  L’INSA PP est l’association qui fédère les apprentis ingénieurs du CFSA Hubert
+  Curien.
 social:
   facebook: 'https://www.facebook.com/insapp.assoetudiante'
   instagram: 'https://www.instagram.com/insapp_asso_etudiante'

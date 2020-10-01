@@ -1,5 +1,12 @@
 ---
 title: les autres assos
+order: 10
+description:
+  Il s'agit des associations qui ne sont pas fédérées par le BDE de l'INSA
+  Centre-Val de Loire. Cependant, il s'agit tout de même d'associations qui sont
+  gérées par des étudiants à destination des étudiants et du personnel de
+  l'école !
+color: othersColor
 ---
 
 # Bienvenue dans les autres associations

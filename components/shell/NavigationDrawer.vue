@@ -38,6 +38,7 @@ import {
   mdiToolbox,
   mdiCardAccountMail,
   mdiInformation,
+  mdiChartBubble,
 } from '@mdi/js'
 
 export default {
@@ -53,6 +54,7 @@ export default {
         mdiToolbox,
         mdiCardAccountMail,
         mdiInformation,
+        mdiChartBubble,
       },
       nav: [
         {
@@ -64,6 +66,11 @@ export default {
           name: 'Vie étudiante',
           path: '/vie-etudiante',
           icon: 'mdiSchool',
+        },
+        {
+          name: 'Représentation',
+          path: '/representation',
+          icon: 'mdiChartBubble',
         },
         {
           name: 'Fédération',

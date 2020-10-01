@@ -1,6 +1,9 @@
 ---
 title: blois
 order: 2
+description:
+  Vous trouverez ici l'ensemble des informations concernant la vie sur le campus
+  de Blois de l'INSA Centre-Val de Loire
 ---
 
 # Campus de Blois

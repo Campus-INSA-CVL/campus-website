@@ -1,5 +1,6 @@
 ---
 title: bourges
+description: Découvrir les sports de l'AS à Bourges
 order: 1
 ---
 

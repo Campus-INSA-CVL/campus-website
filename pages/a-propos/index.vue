@@ -13,14 +13,15 @@ v-row(tag='section', no-gutters)
         .text-capitalize.font-weight-light.primary--text contributeurs: #[span.font-weight-bold BEZIAUD Jordan] / #[span.font-weight-bold RICHARD Jérémy]
         .text-capitalize.font-weight-light.primary--text gestion des associations: #[span.font-weight-bold GARO Benjamin]
         .text-capitalize.font-weight-light.primary--text gestion serveur: #[span.font-weight-bold LESCHI Cyprien]
-        .text-capitalize.font-weight-light.primary--text hébergement: #[a.font-weight-bold(
-          href='https://www.netlify.com/',
-          target='blank',
-          rel='nofollow noopener noreferrer'
-        ) Netlify]
+        .text-capitalize.font-weight-light.primary--text hébergement:&nbsp;
+          a.font-weight-bold(
+            href='https://www.netlify.com/',
+            target='blank',
+            rel='nofollow noopener noreferrer'
+          ) Netlify
     v-row(justify='center', no-gutters, align='center')
       v-col(cols='12')
-        .text-secondary.font-weight-light.text-center.body-2 v1.0.7
+        .text-secondary.font-weight-light.text-center.body-2 v1.1.0-beta2
     v-row(tag='section', justify='space-around')
       v-col(cols='12', md='4', align='center')
         v-btn.primary--text(to='/nous-contacter', outlined, nuxt)

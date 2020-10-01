@@ -1,6 +1,9 @@
 ---
 title: bourges
 order: 3
+description:
+  Vous trouverez ici l'ensemble des informations concernant la vie sur le campus
+  de Bourges de l'INSA Centre-Val de Loire
 ---
 
 # Campus de Bourges

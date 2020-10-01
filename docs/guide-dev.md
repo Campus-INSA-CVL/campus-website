@@ -170,19 +170,51 @@ order: 1 <!-- place dans les onglets -->
 Vivamus sed enim ut magna lacinia lobortis.
 ```
 
+### Représentation
+
+`Path: /representation/:representation?`
+
+`representation` est un paramètre qui permet de récupérer le fichier Markdown
+qui correspond afin de l'afficher.
+
+`Content: /representation/**.md`
+
+L'ensemble des fichiers Markdown sont récupérés et leur front matter permet de
+créer les cards. Ainsi, l'ajout d'un fichier Markdown dans ce dossier avec le
+titre et la description présente dans le front matter permet d'automatiquement
+générer une nouvelle route, le nom du fichier servant d'url (paramètre service)
+! Le body est ensuite utilisé sur la page de l'outil.
+
+Exemple
+
+```md
+---
+title: bnei
+order: 1
+description:
+  Quisque vel finibus sapien, eu egestas tortor. Proin ultrices arcu eu massa
+  rutrum, quis feugiat neque convallis.
+color: cafetColor
+---
+
+# Lorem ipsum dolor
+
+Vivamus sed enim ut magna lacinia lobortis.
+```
+
 ### Fédération
 
 > Il s'agit de la partie la plus complexe du site.
 
-|                     Path                      |      Content (`/federation`)       |        Params        | Function                                                      |
-| :-------------------------------------------: | :--------------------------------: | :------------------: | :------------------------------------------------------------ |
-|                 `/federation`                 |           **index.yaml**           |         none         | Présentation de l'ensemble des pôles de la fédération         |
-|           `/federation/:federation`           |     **/:federation/index.md**      |     _federation_     | Présentation d'une fédération                                 |
-|       `/federation/:federation/equipe/`       |     **/:federation/equipe.md**     |     _federation_     | Présentation de l'équipe d'un pôle                            |
-|    `/federation/:federation/associations/`    | **/:federation/associations.yaml** |     _federation_     | Présentation de l'ensemble des associations du pole           |
-|     `/federation/:federation/sports/:tab`     |         **/sport/sports/**         | _federation_ , _tab_ | Présentation des différents sports, utilisé par le pôle sport |
-| `/federation/:federation/representation/:tab` |     **/elus/representation/**      | _federation_, _tab_  | Présentation des différents conseils, utilisé par les élus    |
-|  `/federation/:federation/association/:asso`  |  **/:federation/:asso/index.md**   | _federation_, _asso_ | Présentation d'une association                                |
+|                     Path                      |     Content (`/federation`)     |        Params        | Function                                                      |
+| :-------------------------------------------: | :-----------------------------: | :------------------: | :------------------------------------------------------------ |
+|                 `/federation`                 |            **/\*\***            |         none         | Présentation de l'ensemble des pôles de la fédération         |
+|           `/federation/:federation`           |    **/:federation/index.md**    |     _federation_     | Présentation d'une fédération                                 |
+|       `/federation/:federation/equipe/`       |   **/:federation/equipe.md**    |     _federation_     | Présentation de l'équipe d'un pôle                            |
+|    `/federation/:federation/associations/`    |      **/:federation/\*\***      |     _federation_     | Présentation de l'ensemble des associations du pole           |
+|     `/federation/:federation/sports/:tab`     |       **/sport/sports/**        | _federation_ , _tab_ | Présentation des différents sports, utilisé par le pôle sport |
+| `/federation/:federation/representation/:tab` |    **/elus/representation/**    | _federation_, _tab_  | Présentation des différents conseils, utilisé par les élus    |
+|  `/federation/:federation/association/:asso`  | **/:federation/:asso/index.md** | _federation_, _asso_ | Présentation d'une association                                |
 
 :::tip
 
@@ -375,18 +407,9 @@ treeeshaking ne pourra pas les voir
 
 ### Création d'un nouveau pôle
 
-- Ajouter dans le fichier `/content/federation/index.yaml` le nouveau pôle
-
-```yaml
-federation:
-  - path: federation/${nouveauPole}
-    title: Nom Du Nouveau Pole
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    color: poleColor (ajouter aussi la couleur dans `nuxt.config.js`)
-```
-
-- Créer un nouveau dossier `/content/federation/${nouveauPole}` et les fichiers
-  `index.md` et `equipe.md` dans ce dernier.
+- Ajouter, dans le dossier `content/federation`, un nouveau dossier avec le nom
+  du pôle, qui sera utilisé dans l'URL
+- Ajouter un fichier `index.md` dans le dossier que vous avez créé
 
 :::tip À Savoir
 
@@ -395,33 +418,16 @@ des dossiers pour les associations
 
 :::
 
-- Créer un fichier `associations.yaml` qui va contenir la liste de l'ensemble
-  des associations du pôle
-
-- Dans le fichier `/layouts/default.vue`, ajouter l'association dans la config
-  afin de mettre en place la toolbar.
+- Créer un dossier `associations` qui va contenir la liste de l'ensemble des
+  associations du pôle
+- Dans le fichier `/layouts/default.vue`, ajouter le pôle dans la config afin de
+  mettre en place la toolbar.
 
 ### Création d'une association
 
-- Ajouter l'association dans le fichier `associations.yaml` du pôle souhaité.
-
-```diff
-associations:
-    - title: club robotique
-      path: /federation/techniques/associations/club-robotique
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      color: techniquesColor
-+   - title: La nouvelle asso !
-+     path: /federation/techniques/associations/nouvelle-asso
-+     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-+     color: assoColor
-```
-
-- Créer un dossier, au même endroit que le fichier d'associations, portant le
-  nom qui a été mis dans le champs path du fichier `associations.yaml`, donc
-  `mkdir nouvelle-asso` dans ce cas.
-
+- Créer un dossier avec le nom de l'association dans le dossier `association`
 - Ajouter un fichier `index.md` dans le dossier de l'association
+- Compléter le fichier en utilisant le tuto des associatins
 
 ### Création d'un service ou d'un outil
 

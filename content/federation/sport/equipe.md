@@ -1,5 +1,6 @@
 ---
 title: équipe du pôle sport
+description: Découvrir l'équipe du pôle sport
 color: sportColor
 team:
   bureau:

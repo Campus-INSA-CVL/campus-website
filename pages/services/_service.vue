@@ -26,9 +26,6 @@ export default {
       page,
     }
   },
-  layout() {
-    return 'services'
-  },
   computed: {
     color() {
       return this.$route.params.service ?? ''

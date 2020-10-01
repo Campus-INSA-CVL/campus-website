@@ -1,5 +1,10 @@
 ---
 title: pôle sport
+order: 7
+description:
+  L'association sportive de l'INSA CVL a pour but de promouvoir les activités
+  sportives des élèves de l'INSA.
+color: sportColor
 ---
 
 # L'association sportive
