@@ -1,7 +1,7 @@
 ---
 title: pôle techniques
 color: techniquesColor
-order: 6
+order: 7
 description:
   Le pôle technique est l’association fédérant l’ensemble des associations à but
   technique ou scientifique.

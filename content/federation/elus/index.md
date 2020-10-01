@@ -1,7 +1,7 @@
 ---
 title: élus
 color: elusColor
-order: 8
+order: 9
 description:
   Les élus étudiants de l’INSA Centre Val de Loire sont les représentants des
   élèves dans les conseils statutaires et les réunions officielles, ou non, de
