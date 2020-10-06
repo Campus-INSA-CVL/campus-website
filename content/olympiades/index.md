@@ -16,21 +16,32 @@ imagesName:
 responsables:
   Cerbères:
     - name: Marine JOSSET
+      avatar: olympiades/responsables/marine.jpg
     - name: Hugo ALBERTINI
+      avatar: olympiades/responsables/hugo.jpg
     - name: Valentine AGUILLE
+      avatar: olympiades/responsables/valentine.jpg
   Sphinx:
     - name: Audrey GARCIA
     - name: Grégoire FORGES
+      avatar: olympiades/responsables/gregoire.jpg
   Minotaures:
     - name: Louis BOUTONNET
+      avatar: olympiades/responsables/louis.jpg
     - name: Lucie LABASTIE
+      avatar: olympiades/responsables/lucie.jpg
     - name: Aude JACQUARD
+      avatar: olympiades/responsables/aude.jpg
   Phoenix:
     - name: Nicolas LAVAL
+      avatar: olympiades/responsables/nicolas-laval.jpg
     - name: Hugo LACREU
+      avatar: olympiades/responsables/hugo-lacreu.jpg
   Kraken:
     - name: Antonin LE GUEN
+      avatar: olympiades/responsables/antonin-le-guen.jpg
     - name: Maxence GRESSENT
+      avatar: olympiades/responsables/maxence.jpg
 winners: []
 ---
 
