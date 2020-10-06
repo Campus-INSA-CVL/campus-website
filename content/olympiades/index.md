@@ -13,6 +13,24 @@ imagesName:
   - 'minotaure.jpg'
   - 'phoenix.jpg'
   - 'sphinx.jpg'
+responsables:
+  Cerbères:
+    - name: Marine JOSSET
+    - name: Hugo ALBERTINI
+    - name: Valentine AGUILLE
+  Sphinx:
+    - name: Audrey GARCIA
+    - name: Grégoire FORGES
+  Minotaures:
+    - name: Louis BOUTONNET
+    - name: Lucie LABASTIE
+    - name: Aude JACQUARD
+  Phoenix:
+    - name: Nicolas LAVAL
+    - name: Hugo LACREU
+  Kraken:
+    - name: Antonin LE GUEN
+    - name: Maxence GRESSENT
 winners: []
 ---
 
@@ -56,6 +74,47 @@ N’oubliez pas que les défis sont avant tout l’occasion de passer un bon mom
 de faire des rencontres, de s’essayer à de nouvelles disciplines et de
 décompresser des cours.
 
+## Défis Sportifs
+
+- Tenir le plus longtemps possible en poirier contre un mur (150/100/50 points)
+- Faire 1000 pompes en une journée (100 points)
+- Aller en marchant à reculons de l’INSA au dojo saint Georges (Blois) ou au
+  palais d’Auron (Bourges) (150 points)
+
+## Défis Culinaires
+
+- Manger 3 cuillères à soupe de café soluble (75 points) Manger rouge pendant 3
+  jours (100 points)
+- Manger le plus gros tacos de Chef tacos (Blois) en une seule fois (100 points)
+- Remplir une tasse de thé tenue par une personne depuis le 2ème étage (75
+  points +15 par étage)
+
+## Défis Intello
+
+- Faire un td dans un autre que le sien (100 points)
+- Avoir 17 au premier DS de maths 1A (125 points)
+- Participer à la dictée au
+  [jeu de paume le 10 octobre](https://m.agglopolys.fr/fiche.../5563/2569-actualites.htm)
+  (100 points)
+- Faire mes
+  [devoirs d’anglais](http://www.ophrys.fr/.../catalog.../5821/lire-vejji-pdf.html)
+  (50 points)
+
+## Défis musicaux
+
+- Refaire le clip de bande organisé en bas de gamme (150 points)
+- Écouter 16 h d’affilée Corona song de Renaud (175 points)
+
+## Défis Halloween
+
+- Faire la plus belle citrouille (150/100/50 points)
+- Demander « un bonbon ou un sort à un prof » et lui jeter un sort s’il n’a pas
+  de bonbon (100 points)
+
+## Défi libre
+
+- Gel hydroalcoolique (150/100/50)
+
 </div>
 
 ## Les respos
@@ -67,6 +126,8 @@ engagement au sein de la famille mais surtout ils sont la pour répondre à tout
 vos questions sur les défis ou sur leur validation.
 
 </div>
+
+<campus-team :team="responsables" :color="color"></campus-team>
 
 ## Olympiens du mois et mentions honorables
 
@@ -91,12 +152,12 @@ réalisés pendant le mois.
 
 </div>
 
-<!-- ## Résultats
+## Résultats
 
-| familles  | rang | point |
-| :-------: | :--: | :---: |
-| cerbères  |  1   |   0   |
-|  sphinx   |  1   |   0   |
-|  kraken   |  1   |   0   |
-| minotaure |  1   |   0   |
-|  phoenix  |  1   |   0   | -->
+| Familles  | Rang | Points |
+| :-------: | :--: | :----: |
+| Cerbères  |  1   |  2825  |
+|  Sphinx   |  2   |  2575  |
+|  Phoenix  |  3   |  2375  |
+|  Kraken   |  4   |  2275  |
+| Minotaure |  5   |  2250  |
