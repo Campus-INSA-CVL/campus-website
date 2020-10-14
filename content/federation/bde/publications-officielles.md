@@ -1,11 +1,41 @@
 ---
 title: publications officielles
 color: primary
-description: Ensemble des documents officiels du BDE
+description: Ensemble des documents officiels du BDE (Bureau des élèves)
 statuts:
   - link: /federation/bde/statuts.pdf
     name: Statuts - Modifiés AGE 21/09/2020
-previous_statuts:
+ri:
+  - link: /federation/bde/RI-BDE-Fédération-signé-CA-26-08-2020.pdf
+    name: Règlement intérieur BDE 26/08/2020
+annexesRi:
+  - name: Autorisation parentale
+    link: /federation/bde/annexes/Autorisation parentale.pdf
+  - name: Formulaire - Bulletin d'adhésion
+    link: /federation/bde/annexes/Formulaire - Bulletin d'adhesion.pdf
+  - name: Formulaire - Candidature d'élection de liste
+    link:
+      /federation/bde/annexes/Formulaire - Candidature d'election de liste.pdf
+  - name: Formulaire - Changement de catégorie de membre
+    link:
+      /federation/bde/annexes/Formulaire - Changement de categorie de membre.pdf
+  - name: Formulaire - Défraiement kilométrique
+    link: /federation/bde/annexes/Formulaire - Defraiement kilometrique.pdf
+  - name: Formulaire - Demande de nomination en tant que membre actif par le CA
+    link:
+      /federation/bde/annexes/Formulaire - Demande de nomination en tant que
+      membre actif par le CA.pdf
+  - name: Formulaire - Liste d'émargement
+    link: /federation/bde/annexes/Formulaire - Liste d'emargement.pdf
+  - name: Liste et description des équipes
+    link: /federation/bde/annexes/Liste et description des equipes.pdf
+  - name: Modèle - Lettre de procuration
+    link: /federation/bde/annexes/Modele - Lettre de procuration.pdf
+  - name: Modèle - Lettre de démission du CA
+    link: /federation/bde/annexes/Modele - Lettre demission CA.pdf
+  - name: Modèle - Lettre démission membres
+    link: /federation/bde/annexes/Modele - Lettre demission membres.pdf
+previousStatuts:
   - link: /federation/bde/statuts_2014_2020.pdf
     name: Statuts - Modifiés AG 07/11/2014
 ca2019:
@@ -101,9 +131,17 @@ chartreGraphique:
 
 <campus-download-links :files="statuts"></campus-download-links>
 
-## Précédents Status
+## Règlement intérieur
 
-<campus-download-links :files="previous_statuts"></campus-download-links>
+<campus-download-links :files="ri"></campus-download-links>
+
+## Les annexes au RI
+
+<campus-download-links :files="annexesRi"></campus-download-links>
+
+## Précédents Statuts
+
+<campus-download-links :files="previousStatuts"></campus-download-links>
 
 ## CR & PV du Conseil d’Administration
 
