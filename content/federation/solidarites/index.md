@@ -10,15 +10,18 @@ social:
   instagram: https://www.instagram.com/assodessolidaritesinsacvl/
 team:
   bureau:
-    - responsability: président
+    - responsability: présidente
       name: Anastasija Dimova
-      avatar: user-random-female.png
-    - responsability: vice-président
+      avatar: federation/solidarites/president.jpg
+    - responsability: vice-présidente
       name: Audrey Paul
-      avatar: user-random-female.png
-    - responsability: trésorier
+      avatar: federation/solidarites/vice-president.jpg
+    - responsability: secrétaire
+      name: Hugues Bové
+      avatar: federation/solidarites/secretaire.jpg
+    - responsability: trésorière
       name: Kenza Faker
-      avatar: user-random-female.png
+      avatar: federation/solidarites/tresorier.jpg
 ---
 
 # Association des solidarités

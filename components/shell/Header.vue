@@ -1,10 +1,5 @@
 <template lang="pug">
-v-app-bar(
-  app,
-  hide-on-scroll,
-  :scroll-off-screen='$vuetify.breakpoint.smAndDown',
-  :elevation='0'
-)
+v-app-bar(app, hide-on-scroll, scroll-off-screen, flat)
   v-app-bar-nav-icon(@click.stop='toggleDrawer()')
   v-btn.header-btn(to='/', nuxt, exact, depressed)
     v-toolbar-title #[span.text-lowercase.font-weight-regular.primary--text #campus] #[span.text-uppercase.font-weight-regular.primary--text insa]#[span.text-uppercase.font-weight-black.primary--text cvl]
