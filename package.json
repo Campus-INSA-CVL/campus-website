@@ -22,10 +22,6 @@
     "url": "https://github.com/Campus-INSA-CVL/campus-website/issues",
     "email": "esteban.soubiran@insa-cvl.fr"
   },
-  "engines": {
-    "node": "^14.15.5",
-    "npm": ">= 7.0.0"
-  },
   "version": "1.2.1",
   "private": true,
   "scripts": {
