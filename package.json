@@ -22,7 +22,7 @@
     "url": "https://github.com/Campus-INSA-CVL/campus-website/issues",
     "email": "esteban.soubiran@insa-cvl.fr"
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "private": true,
   "scripts": {
     "dev": "nuxt dev",

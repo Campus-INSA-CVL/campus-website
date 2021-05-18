@@ -14,7 +14,7 @@ section
       breakpoint='(min-width: 200px)'
     )
       v-img(:src='heroBanner', min-height='470')
-  v-row(no-guetter, justify='center')
+  v-row.mt-4(no-guetter, justify='center')
     v-col.pa-0.text-uppercase.text-subtitle-1.font-weight-bold(
       :cols='$vuetify.breakpoint.smAndDown ? "6" : undefined',
       v-for='card in content.cards',
