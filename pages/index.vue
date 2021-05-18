@@ -1,26 +1,47 @@
 <template lang="pug">
-  section
-    div.parallax-container
-      h1(:style="$vuetify.breakpoint.mdAndUp ? '-webkit-text-stroke: 5px white;font-size: 7rem;' : '-webkit-text-stroke: 2.5px white;font-size: 3.5rem;'").parallax-title
-        | #campus
-        span &nbsp;
-          br(v-if="$vuetify.breakpoint.mdAndDown")
-        | INSA CVL
-      parallax(:sectionHeight="42", :speed-factor="0.15", breakpoint="(min-width: 200px)").rounded
-          v-img(:src="heroBanner", min-height="470")
-    v-row(no-guetter, justify="center")
-      v-col(:cols="$vuetify.breakpoint.smAndDown ? '6' : undefined", v-for="card in content.cards", :key="card.title", :style="`color: ${card.color};font-family: 'Arial Rounded'!important;`", align="center").pa-0.text-uppercase.text-subtitle-1.font-weight-bold #
-        | {{card.title}}
-    v-row
-      v-col
-        typewriter(:toRotate="toRotate", :typewriterClass="typewriterClass").primary--text.text-left.text-h4.font-weight-light.text-center
-          h2 Le campus de l'INSA CVL est un lieu
-    v-row(justify="center")
-      v-col(cols="12", sm="6" , xl="4", v-for="card in content.cards", :key="card.title")
-        intersect-card(dark, :color="card.color")
-          v-card-title.font-weight-bold.text-h5.text-uppercase #
-            | {{card.title}}
-          v-card-text.text-justify {{card.text}}
+section
+  .parallax-container
+    h1.parallax-title(
+      :style='$vuetify.breakpoint.mdAndUp ? "-webkit-text-stroke: 5px white;font-size: 7rem;" : "-webkit-text-stroke: 2.5px white;font-size: 3.5rem;"'
+    )
+      | #campus
+      span &nbsp;
+        br(v-if='$vuetify.breakpoint.mdAndDown')
+      | INSA CVL
+    parallax.rounded(
+      :sectionHeight='42',
+      :speed-factor='0.15',
+      breakpoint='(min-width: 200px)'
+    )
+      v-img(:src='heroBanner', min-height='470')
+  v-row(no-guetter, justify='center')
+    v-col.pa-0.text-uppercase.text-subtitle-1.font-weight-bold(
+      :cols='$vuetify.breakpoint.smAndDown ? "6" : undefined',
+      v-for='card in content.cards',
+      :key='card.title',
+      :style='`color: ${card.color};font-family: "Arial Rounded"!important;`',
+      align='center'
+    ) #
+      | {{ card.title }}
+  v-row
+    v-col
+      typewriter.primary--text.text-left.text-h4.font-weight-light.text-center(
+        :toRotate='toRotate',
+        :typewriterClass='typewriterClass'
+      )
+        h2 Le campus de l'INSA CVL est un lieu
+  v-row(justify='center')
+    v-col(
+      cols='12',
+      sm='6',
+      xl='4',
+      v-for='card in content.cards',
+      :key='card.title'
+    )
+      intersect-card(dark, :color='card.color')
+        v-card-title.font-weight-bold.text-h5.text-uppercase #
+          | {{ card.title }}
+        v-card-text.text-justify {{ card.text }}
 </template>
 
 <script>

@@ -22,11 +22,7 @@
     "url": "https://github.com/Campus-INSA-CVL/campus-website/issues",
     "email": "esteban.soubiran@insa-cvl.fr"
   },
-  "engines": {
-    "node": "^12.0.0",
-    "npm": ">= 3.0.0"
-  },
-  "version": "1.1.5",
+  "version": "1.2.1",
   "private": true,
   "scripts": {
     "dev": "nuxt dev",
@@ -87,7 +83,7 @@
     "remark-lint-no-heading-punctuation": "^2.0.1",
     "remark-preset-lint-markdown-style-guide": "^3.0.1",
     "remark-preset-lint-recommended": "^4.0.1",
-    "sass-loader": "^8.0.2",
+    "sass-loader": "7.1.0",
     "vuepress": "^1.5.4",
     "vuepress-theme-default-prefers-color-scheme": "^1.1.0"
   }
