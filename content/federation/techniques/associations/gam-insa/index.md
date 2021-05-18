@@ -19,10 +19,10 @@ team:
       name: Maëlie Lebaron
       avatar: federation/techniques/gam-insa/vice-president.png
     - responsability: trésorier
-      name: William Maillet
-      avatar: federation/techniques/gam-insa/tresorier.png
+      name: Corentin Gourret
+      avatar: federation/techniques/gam-insa/tresorier.jpg
     - responsability: secrétaire
-      name: Benjamin Garo
+      name: Valentin Porchet
       avatar: federation/techniques/gam-insa/secretaire.jpg
 ---
 
