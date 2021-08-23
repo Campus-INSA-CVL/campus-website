@@ -1,7 +1,7 @@
 <template lang="pug">
   section
     template(v-for="pole in poles")
-      div.font-weight-bold.text-center.text-h5.text-capitalize {{ pole }}
+      div.font-weight-bold.text-center.text-h5.text-capitalize.my-4 {{ pole }}
       v-row(:key="pole", justify="center")
         v-col(cols="12", sm="6", xl="6", v-for="user in team[pole]", :key="user.name")
           v-card(outlined, :class="`${color}--text`")
