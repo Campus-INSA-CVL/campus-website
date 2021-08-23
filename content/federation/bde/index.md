@@ -14,30 +14,30 @@ social:
   snapchat: 'https://snapchat.com/campus-insacvl'
 team:
   bureau:
-    - responsability: président (blois)
-      name: Paul Hennequin
-      avatar: federation/bde/paul.jpg
-    - responsability: 1er vice-président (Bourges)
-      name: Benoît Ribeiro
-      avatar: federation/bde/benoit.jpg
-    - responsability: vice-président adjoint (Blois)
-      name: Bastien Martin-Cocher
-      avatar: federation/bde/bastien-martin-cocher.jpg
+    - responsability: présidente (Bourges)
+      name: Irma Brault
+      avatar: federation/bde/irmaB.png
+    - responsability: 1er vice-président (Blois)
+      name: Emile Mauret
+      avatar: federation/bde/emile.png
     - responsability: vice-président adjoint (Bourges)
-      name: Antonin Guichard
-      avatar: federation/bde/antho.jpg
-    - responsability: trésorière (Bourges)
-      name: Amandine Thiel
-      avatar: federation/bde/amandine.png
-    - responsability: trésorière adjointe (Blois)
-      name: Marine Chauvet
-      avatar: federation/bde/marine-chauvet.jpg
-    - responsability: secrétaire (Blois)
-      name: Antonin Le Guen
-      avatar: federation/bde/anthonin-le-guen.jpg
-    - responsability: secrétaire adjointe (Bourges)
-      name: Théa Hoffmann
-      avatar: federation/bde/thea.jpg
+      name: Yassine Adarif
+      avatar: federation/bde/yassine.png
+    - responsability: vice-président adjoint (Blois)
+      name: Léo Galand
+      avatar: federation/bde/leo.png
+    - responsability: trésorier (Blois)
+      name: Charles Marion
+      avatar: federation/bde/charles.png
+    - responsability: tresorier adjoint (Bourges)
+      name: Léo Renard
+      avatar: federation/bde/LeoR.png
+    - responsability: secrétaire (Bourges)
+      name: Manon Pineda
+      avatar: federation/bde/manonP.png
+    - responsability: secrétaire adjointe (Blois)
+      name: Lucile Moutal
+      avatar: federation/bde/lucileM.png
   communication - Blois:
     - responsability: responsable communication
       name: Marine Josset
