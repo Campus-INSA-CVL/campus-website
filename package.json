@@ -48,22 +48,22 @@
     }
   },
   "dependencies": {
-    "@nuxt/content": "^1.9.0",
+    "@nuxt/content": "^1.14.0",
     "@nuxtjs/feed": "github:rclement/feed-module#fix-generate-failure",
     "@nuxtjs/pwa": "^3.0.2",
     "@nuxtjs/robots": "^2.4.2",
     "@nuxtjs/sitemap": "^2.4.0",
-    "nuxt": "^2.14.6",
+    "nuxt": "^2.15.8",
     "nuxt-webfontloader": "^1.1.0",
     "vue-parallaxy": "^1.1.1"
   },
   "devDependencies": {
-    "@mdi/js": "^5.6.55",
+    "@mdi/js": "^5.9.55",
     "@nuxtjs/eslint-config": "^3.1.0",
     "@nuxtjs/eslint-module": "^2.0.0",
     "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/tailwindcss": "^2.1.1",
-    "@nuxtjs/vuetify": "^1.11.2",
+    "@nuxtjs/vuetify": "^1.12.1",
     "@tailwindcss/typography": "^0.2.0",
     "@vuepress/plugin-back-to-top": "^1.5.4",
     "@vuepress/plugin-medium-zoom": "^1.5.4",
