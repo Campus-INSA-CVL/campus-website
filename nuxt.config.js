@@ -95,7 +95,7 @@ export default {
     'nuxt-webfontloader',
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
-    '@nuxtjs/feed',
+    // '@nuxtjs/feed',
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',
   ],
