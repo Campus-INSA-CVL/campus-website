@@ -24,6 +24,8 @@ Feel free to help us ! Use
 [issues](https://github.com/Campus-INSA-CVL/campus-website/issues) and
 [pull requests](https://github.com/Campus-INSA-CVL/campus-website/pulls) !
 
+When adding some images, please resize and compress them !
+
 ## 👩‍💻 Build Setup
 
 **Requirement**

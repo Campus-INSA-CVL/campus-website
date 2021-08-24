@@ -1,5 +1,5 @@
 import head from './config/head'
-import feed from './config/feed'
+// import feed from './config/feed'
 import sitemap from './config/sitemap'
 import vuetify from './config/vuetify'
 
@@ -111,7 +111,7 @@ export default {
    ** Feed module configuration
    ** See https://github.com/nuxt-community/feed-module
    */
-  feed,
+  // feed,
   /*
    ** Sitemap module configuration
    ** See https://github.com/nuxt-community/sitemap-module
