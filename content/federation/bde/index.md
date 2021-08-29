@@ -12,6 +12,13 @@ social:
   instagram: 'https://instagram.com/campusinsacvl'
   twitter: 'https://twitter.com/campusinsacvl'
   snapchat: 'https://snapchat.com/campus-insacvl'
+imagesName:
+  - 'IMG_7983.JPG'
+  - 'IMG_8027.JPG'
+  - 'IMG_5168.JPG'
+  - 'IMG_5751.JPG'
+  - 'IMG_5181.JPG'
+  - 'IMG_8229.JPG'
 team:
   bureau:
     - responsability: présidente (Bourges)
@@ -242,23 +249,28 @@ team:
 
 ## Présentation
 
-Le Bureau des Élèves (BDE) fédère les élèves et la vie associative de l’INSA
-Centre Val de Loire.
+Le Bureau Des Élèves (BDE) fédère les étudiants de l’INSA Centre Val de Loire et
+forge la vie associative de ses campus.
 
-Concrètement, il organise tout type d’évènement, propose des services et
-représente les élèves et la vie associative auprès des instances locales,
-régionales et nationales.
+Cette perspective conduit l’équipe à créer divers événements toute l’année et à
+représenter son public étudiant au sein d’instances locales, régionales ou
+nationales.
 
-Les équipes de chaque campus organisent des événements propres à leur ville
-(soirées cafet, soirées 22 d'Auron, after-works, barbecues...) et se coordonnent
-régulièrement pour la tenue d'événements communs de plus grande ampleur (WEI,
-INSANE). Il accompagne également les commissions chargées d'organiser le High
-Five et le congrès AEI.
+Dynamique et dévouée, celle-ci organise des rencontres propres à chaque ville
+(soirées cafet, Afterworks, Barbecues…) mais également des projets de plus
+grande ampleur, communs aux campus, tels que le Week-End d’Intégration (WEI) ou
+l’INSANE. Par ailleurs, le BDE accompagne des commissions chargées de planifier
+le rassemblement de tous les INSA à l’occasion du High Five ou du congrès AEI.
 
-L'ensemble de l'équipe se tient à votre disposition en toutes circonstances pour
-vous aiguiller et vous accompagner dans votre vie étudiante.
+Si la cohésion est le mot d’ordre de cette association, chacun de ses membres se
+tient à votre disposition pour vous aiguiller et vous accompagner dans votre vie
+étudiante.
 
 ---
+
+<campus-center>
+  <campus-carousel :names="imagesName" folder-name="federation/bde/slider"></campus-carousel>
+</campus-center>
 
 ## Nous retrouver sur les réseaux sociaux
 
