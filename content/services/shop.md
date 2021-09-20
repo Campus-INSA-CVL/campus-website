@@ -7,41 +7,47 @@ color: shopColor
 team:
   Team INSA Shop:
     - responsability: Responsable Insa Shop
-      name: Jordan Béziaud
+      name: Rim Cherkaoui
       description:
-        Manageur de l'équipe, s'occupe de la partie financière, administrative,
+        Manageuse de l'équipe, s'occupe de la partie financière, administrative,
         et assure la coordination des différents pôles de la boutique
-      avatar: services/shop/prez.jpeg
+      avatar: services/shop/rim.webp
     - responsability: Pôle Site Internet
-      name: Dorian Beaufils
+      name: Thomas Andonoff
       description:
         Technicien du site internet, s'occupe également du suivi des commandes
         et de l'actualisation du contenu disponible sur le site campus
+      avatar: services/shop/thomas.webp
     - responsability: Pôle Boutique / Produit
-      name: Nour Yazji
+      name: Ines Jabri
       description:
         S'occupe du suivi des stocks, du design des produits et de l'aménagement
         de la boutique
+      avatar: services/shop/ines.webp
     - responsability: Pôle Boutique / Produit
-      name: Julien Poitevin
+      name: QF Meaudre Desgouttes
       description:
         S'occupe du suivi des stocks, du design des produits et de l'aménagement
         de la boutique
-    - responsability: Pôle Boutique / Produit
-      name: Jérémie Dhune
-      description:
-        S'occupe du suivi des stocks, du design des produits et de l'aménagement
-        de la boutique
+      avatar: services/shop/QF.webp
     - responsability: Pôle Communication
-      name: Ronadelli Appolon
+      name: Diana Amarandei
       description:
         S'occupe de la gestion des réseaux sociaux et de l'image de la boutique
         sur différents supports
+      avatar: services/shop/diana.webp
+    - responsability: Pôle Communication
+      name: Chloé Sallé
+      description:
+        S'occupe de la gestion des réseaux sociaux et de l'image de la boutique
+        sur différents supports
+      avatar: services/shop/chloé.webp
     - responsability: Pôle Association
-      name: Benjamin Garo
+      name: Camille Quelquejeu
       description:
         Gère la relation entre la boutique et les associations en veillant au
         bon déroulement des collaborations
+      avatar: services/shop/camille.webp
 social:
   instagram: 'https://www.instagram.com/insashop.cvl/'
   facebook: 'https://www.facebook.com/insashop.cvl/'
