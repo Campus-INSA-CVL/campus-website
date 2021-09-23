@@ -9,20 +9,13 @@ description:
 team:
   bureau:
     - responsability: président
-      name: Bastien
+      name: François Autier
     - responsability: vice président
-      name: Edgar
+      name: Diana Amarandei
     - responsability: trésorier
-      name: Jérémy
+      name: Thomas Andonoff
     - responsability: secrétaire
-      name: Dorian
-  gestion:
-    - responsability: service communication
-      name: Corentin
-    - responsability: service communication
-      name: Marcelin
-    - responsability: responsable ere
-      name: Baptiste
+      name: Benoît Freyermuth
 ---
 
 # Bienvenue dans le club oenologie
