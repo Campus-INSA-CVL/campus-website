@@ -11,7 +11,7 @@ color: othersColor
 
 # Bienvenue dans les autres associations
 
-> Les assos qui ne sont pas fédérées mais qui existent tout de même !
+> Les assos qui ne sont pas fédérées, mais qui existent tout de même !
 
 ## Présentation
 
