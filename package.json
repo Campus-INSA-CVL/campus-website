@@ -48,7 +48,7 @@
     }
   },
   "dependencies": {
-    "@nuxt/content": "^2.2.2",
+    "@nuxt/content": "^2.3.0",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/robots": "^3.0.0",
     "@nuxtjs/sitemap": "^2.4.0",
@@ -67,7 +67,7 @@
     "@vuepress/plugin-back-to-top": "^1.9.7",
     "@vuepress/plugin-medium-zoom": "^1.9.7",
     "babel-eslint": "^10.1.0",
-    "eslint": "^8.29.0",
+    "eslint": "^8.30.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-md": "^1.0.19",
     "eslint-plugin-nuxt": "^4.0.0",
