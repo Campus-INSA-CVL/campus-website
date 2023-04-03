@@ -52,7 +52,7 @@
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/robots": "^3.0.0",
     "@nuxtjs/sitemap": "^2.4.0",
-    "nuxt": "^3.3.2",
+    "nuxt": "^3.3.3",
     "nuxt-webfontloader": "^1.1.0",
     "vue-parallaxy": "^1.1.1"
   },
@@ -61,13 +61,13 @@
     "@nuxtjs/eslint-config": "^12.0.0",
     "@nuxtjs/eslint-module": "^4.0.2",
     "@nuxtjs/google-analytics": "^2.4.0",
-    "@nuxtjs/tailwindcss": "^6.6.4",
+    "@nuxtjs/tailwindcss": "^6.6.5",
     "@nuxtjs/vuetify": "^1.12.3",
     "@tailwindcss/typography": "^0.5.9",
     "@vuepress/plugin-back-to-top": "^1.9.9",
     "@vuepress/plugin-medium-zoom": "^1.9.9",
     "babel-eslint": "^10.1.0",
-    "eslint": "^8.36.0",
+    "eslint": "^8.37.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-md": "^1.0.19",
     "eslint-plugin-nuxt": "^4.0.0",
@@ -82,7 +82,7 @@
     "remark-lint-no-heading-punctuation": "^3.1.1",
     "remark-preset-lint-markdown-style-guide": "^5.1.2",
     "remark-preset-lint-recommended": "^6.1.2",
-    "sass-loader": "13.2.1",
+    "sass-loader": "13.2.2",
     "vuepress": "^1.9.9",
     "vuepress-theme-default-prefers-color-scheme": "^2.0.0"
   }
