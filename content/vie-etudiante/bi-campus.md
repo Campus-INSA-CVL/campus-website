@@ -93,3 +93,11 @@ internationale dédiée aux étudiants étrangers. Cette soirée est sous forme
 d’apéritif dînatoire où l’on peut emmener un plat de son pays.
 
 [Plus d’informations](http://www.insa-centrevaldeloire.fr/fr/international)
+
+
+
+## Des questions ?
+
+Vous nous rejoignez et vous avez des question sur l'INSA Centre Val de Loire ? Un facebook est dédié aux nouveaux étudiants arrivant dans notre école, avec une active communauté d'étudiants/anciens étudiants.
+
+[Page Facebook](https://www.facebook.com/groups/265145218090890/)

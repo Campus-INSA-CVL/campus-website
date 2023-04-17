@@ -1,6 +1,6 @@
 ---
 title: cafet
-description: La Cafet te permet de te restaurant à tous moments de la Journée.
+description: La Cafet te permet de te restaurer à tous moments de la journée.
 color: cafetColor
 team:
   les membres permanents:
@@ -45,7 +45,7 @@ Notre menu est simple, et se présente comme tel :
   <campus-responsive-image folder-name="services/cafet" name="menu.jpg" max-width="800"></campus-responsive-image>
 </campus-center>
 
-Vous pouvez commander sur le [site internet](cafet.insa-cvl.org) et payer par
+Vous pouvez commander sur le site internet et payer par
 espèces, par carte bancaire ou même par Pumpkin !
 
 ## Nous contacter

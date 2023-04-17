@@ -18,6 +18,11 @@
             v-icon(left) {{ svg.mdiLaptop }}
             span webmaster@bde.insa-cvl.fr
         v-col(cols="12", align="center")
+          v-btn(href="https://www.facebook.com/groups/265145218090890/", outlined).primary--text
+            v-icon(left) {{ svg.mdiFacebook }}
+            span Facebook Admis/Admissibles
+            
+        v-col(cols="12", align="center")
           div.font-weight-bold.text-uppercase.mb-4 nos adresses
           a(href="https://www.google.fr/maps/place/88+Boulevard+Lahitolle,+18000+Bourges/@47.0826313,2.4136873,17z/data=!3m1!4b1!4m5!3m4!1s0x47fa9642c3d6c0d9:0xb2b20afec152d674!8m2!3d47.0826277!4d2.4158813", target="_blank").address.mb-4 88 boulevard Lahitolle 18000 Bourges
           br
@@ -25,7 +30,7 @@
 </template>
 
 <script>
-import { mdiEmail, mdiPhone, mdiLaptop } from '@mdi/js'
+import { mdiEmail, mdiPhone, mdiLaptop, mdiFacebook } from '@mdi/js'
 
 export default {
   data() {
@@ -34,6 +39,7 @@ export default {
         mdiEmail,
         mdiPhone,
         mdiLaptop,
+        mdiFacebook,
       },
     }
   },
