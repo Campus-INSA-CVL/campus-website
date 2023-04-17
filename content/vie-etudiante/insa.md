@@ -38,6 +38,7 @@ qualité quel que soit leur milieu d’origine.
 - [INSA Euro-Méditerranée](https://www.groupe-insa.fr/decouvrir/nos-ecoles/insa-euro-mediterranee)
 
 
+
 ## Des questions ?
 
 Vous nous rejoignez et vous avez des question sur l'INSA Centre Val de Loire ? Un facebook est dédié aux nouveaux étudiants arrivants dans notre école, avec une active communauté d'étudiants/anciens étudiants.

@@ -85,4 +85,5 @@ entre le campus rue Louis Mallet et celui de Lahitolle depuis la rentrée 2014.
 
 Vous nous rejoignez et vous avez des question sur l'INSA Centre Val de Loire ? Un facebook est dédié aux nouveaux étudiants arrivant dans notre école, avec une active communauté d'étudiants/anciens étudiants.
 
+
 [Page Facebook](https://www.facebook.com/groups/265145218090890/)
