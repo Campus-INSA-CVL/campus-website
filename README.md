@@ -38,6 +38,10 @@ When adding some images, please resize and compress them !
 # install dependencies
 $ npm install
 
+# set environment variables (because nuxt doesn't support .env files)
+$ set NODE_OPTIONS=--openssl-legacy-provider # for Windows
+$ export NODE_OPTIONS=--openssl-legacy-provider # for Linux
+
 # serve with hot reload at localhost:3000
 $ npm run dev
 
