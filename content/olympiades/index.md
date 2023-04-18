@@ -94,7 +94,8 @@ décompresser des cours.
 
 - Faire un bain de minuit dans une fontaine (100 points)
 - Remplir une salle d'origamis (200 points)
-- Faire le plus grand couscous de famille pour iftar (5 points par personne présente)
+- Faire le plus grand couscous de famille pour iftar (5 points par personne
+  présente)
 - Manger une cuillère de la Vegemite de Zélie (150 points)
 
 ## Défis Cohésion
@@ -115,7 +116,6 @@ décompresser des cours.
 
 - Battre Paul Laurent (30 points)
 - Manger assis sur la table et le plateau sur la chaise (50 points)
-
 
 </div>
 

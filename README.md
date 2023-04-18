@@ -35,8 +35,12 @@ When adding some images, please resize and compress them !
 **Steps**
 
 ```bash
-# install dependencies
+# install dependencies (execute this command with admin rights)
 $ npm install
+
+# set environment variables (because nuxt doesn't support .env files)
+$ set NODE_OPTIONS=--openssl-legacy-provider # for Windows
+$ export NODE_OPTIONS=--openssl-legacy-provider # for Linux
 
 # serve with hot reload at localhost:3000
 $ npm run dev
@@ -45,4 +49,14 @@ $ npm run dev
 $ npm run generate
 # serve static project
 $ npm run start
+```
+
+Don't forget to lint your code before pushing !
+
+```bash
+# lint
+$ npm run lint
+
+# fix lint errors
+$ npm run lint:fix
 ```

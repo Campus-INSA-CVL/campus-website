@@ -144,7 +144,7 @@ team:
   Cafétéria - Bourges:
     - responsability:
       name: Kilian LASSARRADE
-      avatar: federation/bde/Kilian-lassarrade.jpg
+      avatar: federation/bde/kilian-lassarrade.jpg
   Boisson - Blois:
     - responsability:
       name: Florent DESCOUTURES
@@ -205,8 +205,8 @@ team:
       avatar: federation/bde/thomas-demars.jpg
   Olympiades - Blois:
     - responsability:
-      name: Pierre-Marie SALE
-      avatar: federation/bde/pierre-marie-sale.jpg
+      name: Pierre-Marie SALLE
+      avatar: federation/bde/pierre-marie-salle.jpg
     - responsability:
       name: Gauthier GUINGAL
       avatar: federation/bde/gauthier-guingal.jpg
