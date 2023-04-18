@@ -35,7 +35,7 @@ When adding some images, please resize and compress them !
 **Steps**
 
 ```bash
-# install dependencies
+# install dependencies (execute this command with admin rights)
 $ npm install
 
 # set environment variables (because nuxt doesn't support .env files)
