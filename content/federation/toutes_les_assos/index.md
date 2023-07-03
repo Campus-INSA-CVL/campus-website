@@ -8,9 +8,11 @@ description:
 
 # Les associations à L'INSA Centre Val de Loire
 
-Vous trouverez ci-dessous une liste non exhaustive des associations présentes à l'INSA Centre Val de Loire.
+Vous trouverez ci-dessous une liste non exhaustive des associations présentes à
+l'INSA Centre Val de Loire.
 
-Intéressés par une association ? N'hésitez pas à vous renseigner auprès des étudiants responsables de l'association ou du BDE !
+Intéressés par une association ? N'hésitez pas à vous renseigner auprès des
+étudiants responsables de l'association ou du BDE !
 
 ## Culturel
 
