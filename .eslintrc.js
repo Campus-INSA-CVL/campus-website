@@ -23,7 +23,7 @@ module.exports = {
         // This object corresponds to object you would export in .remarkrc file
         plugins: [
           'preset-lint-markdown-style-guide',
-          ['lint-no-heading-punctuation', '.,;:!?'],
+          ['lint-no-heading-punctuation', '.,;:'],
           'frontmatter',
           // Disable rules handled by Prettier
           ['lint-maximum-line-length', false],

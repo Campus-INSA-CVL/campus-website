@@ -54,3 +54,11 @@ Il existe trois grandes façons de se loger :
   disponibilité. Vous pouvez visiter beaucoup de logements, vous avez un service
   de qualité en ce qui concerne les communs, la gestion du paiement des loyers
   est plus facile.
+
+## Des questions ?
+
+Vous nous rejoignez et vous avez des question sur l'INSA Centre Val de Loire ?
+Un facebook est dédié aux nouveaux étudiants arrivant dans notre école, avec une
+active communauté d'étudiants/anciens étudiants.
+
+[Page Facebook](https://www.facebook.com/groups/265145218090890/)

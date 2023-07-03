@@ -36,3 +36,11 @@ qualité quel que soit leur milieu d’origine.
 - [INSA Strasbourg](https://www.groupe-insa.fr/decouvrir/nos-ecoles/insa-strasbourg)
 - [INSA Toulouse](https://www.groupe-insa.fr/decouvrir/nos-ecoles/insa-toulouse)
 - [INSA Euro-Méditerranée](https://www.groupe-insa.fr/decouvrir/nos-ecoles/insa-euro-mediterranee)
+
+## Des questions ?
+
+Vous nous rejoignez et vous avez des question sur l'INSA Centre Val de Loire ?
+Un facebook est dédié aux nouveaux étudiants arrivants dans notre école, avec
+une active communauté d'étudiants/anciens étudiants.
+
+[Page Facebook](https://www.facebook.com/groups/265145218090890/)

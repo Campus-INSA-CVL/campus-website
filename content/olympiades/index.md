@@ -69,7 +69,7 @@ au rendez-vous !
   <campus-carousel :names="imagesName" :folder-name="folderName"></campus-carousel>
 </campus-center>
 
-## Les défis du mois
+## Les défis du mois d'avril
 
 <div class="list-lightning font-olympiades">
 
@@ -85,46 +85,37 @@ N’oubliez pas que les défis sont avant tout l’occasion de passer un bon mom
 de faire des rencontres, de s’essayer à de nouvelles disciplines et de
 décompresser des cours.
 
-## Défis Sportifs
+## Défis Pâques
 
-- Tenir le plus longtemps possible en poirier contre un mur (150/100/50 points)
-- Faire 1000 pompes en une journée (100 points)
-- Aller en marchant à reculons de l’INSA au dojo saint Georges (Blois) ou au
-  palais d’Auron (Bourges) (150 points)
+- Venir en cours déguisé en lapin (150 points)
+- Trouver l'oeuf de Pâques caché dans l'INSA (200 points)
 
-## Défis Culinaires
+## Défis Divers
 
-- Manger 3 cuillères à soupe de café soluble (75 points) Manger rouge pendant 3
-  jours (100 points)
-- Manger le plus gros tacos de Chef tacos (Blois) en une seule fois (100 points)
-- Remplir une tasse de thé tenue par une personne depuis le 2ème étage (75
-  points +15 par étage)
+- Faire un bain de minuit dans une fontaine (100 points)
+- Remplir une salle d'origamis (200 points)
+- Faire le plus grand couscous de famille pour iftar (5 points par personne
+  présente)
+- Manger une cuillère de la Vegemite de Zélie (150 points)
 
-## Défis Intello
+## Défis Cohésion
 
-- Faire un td dans un autre que le sien (100 points)
-- Avoir 17 au premier DS de maths 1A (125 points)
-- Participer à la dictée au
-  [jeu de paume le 10 octobre](https://m.agglopolys.fr/fiche.../5563/2569-actualites.htm)
-  (100 points)
-- Faire mes
-  [devoirs d’anglais](http://www.ophrys.fr/.../catalog.../5821/lire-vejji-pdf.html)
-  (50 points)
+- Organiser une soirée bi-campus pile entre les deux campus (400 points)
+- Venir au cours de tango de Paderi (5 points par personne de sa famille)
 
-## Défis musicaux
+## Défis Poisson d'Avril
 
-- Refaire le clip de bande organisé en bas de gamme (150 points)
-- Écouter 16 h d’affilée Corona song de Renaud (175 points)
+- Coller un poisson d'avril dans le dos de Mabilat/Maki (150 points)
+- Pêcher un thon dans la Loire (200 points)
 
-## Défis Halloween
+## Défis Sportif
 
-- Faire la plus belle citrouille (150/100/50 points)
-- Demander « un bonbon ou un sort à un prof » et lui jeter un sort s’il n’a pas
-  de bonbon (100 points)
+- Faire des pompes en CM (2 points par pompe)
 
-## Défi libre
+## Défi RU
 
-- Gel hydroalcoolique (150/100/50)
+- Battre Paul Laurent (30 points)
+- Manger assis sur la table et le plateau sur la chaise (50 points)
 
 </div>
 
