@@ -8,6 +8,9 @@ jobs:
   release:
     name: Update npm packages
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
       - name: Git checkout
         uses: actions/checkout@v2
