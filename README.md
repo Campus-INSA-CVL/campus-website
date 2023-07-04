@@ -46,3 +46,13 @@ $ npm run generate
 # serve static project
 $ npm run start
 ```
+
+Don't forget to lint your code before pushing !
+
+```bash
+# lint
+$ npm run lint
+
+# fix lint errors
+$ npm run lint:fix
+```
