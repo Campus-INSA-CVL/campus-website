@@ -48,7 +48,7 @@
     }
   },
   "dependencies": {
-    "@nuxt/content": "^2.7.1",
+    "@nuxt/content": "^2.7.2",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/robots": "^3.0.0",
     "@nuxtjs/sitemap": "^2.4.0",
@@ -67,8 +67,8 @@
     "@vuepress/plugin-back-to-top": "^1.9.9",
     "@vuepress/plugin-medium-zoom": "^1.9.9",
     "babel-eslint": "^10.1.0",
-    "eslint": "^8.45.0",
-    "eslint-config-prettier": "^8.8.0",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.9.0",
     "eslint-plugin-md": "^1.0.19",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-prettier": "^5.0.0",
