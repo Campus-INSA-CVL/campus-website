@@ -111,7 +111,7 @@ team:
       avatar: federation/bde/Partenariats/Nolan Parreau.jpg
     - responsability:
       name: Oumayma B'chir
-      # avatar: federation/bde/Partenariats/Oumayma B'chir.jpg
+      avatar: federation/bde/Partenariats/Oumayma B'chir.jpg
   Logistique - Blois:
     - responsability:
       name: Galien Halbert Suteau
@@ -142,6 +142,9 @@ team:
     - responsability:
       name: Aline Nourry
       avatar: federation/bde/Cafétéria/Aline Nourry.jpg
+    - responsability:
+      name: Benjamin Horel
+      # avatar: federation/bde/Cafétéria/Benjamin Horel.jpg
 
   Cafétéria - Bourges:
     - responsability:
@@ -234,6 +237,13 @@ team:
     - responsability:
       name: Ludovick Lainé
       avatar: federation/bde/Organisation/Ludovick Lainé.jpg
+  Prévention - Blois:
+    - responsability:
+      name: Raja Hope
+      # avatar: federation/bde/Prévention/Raja Hope.jpg
+    - responsability:
+      name: Roman Fonteny
+      # avatar: federation/bde/Prévention/Roman Fonteny.jpg
   Prévention - Bourges:
     - responsability:
       name: Jean Louis Dolphin
