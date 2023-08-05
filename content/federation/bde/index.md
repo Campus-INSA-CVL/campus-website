@@ -124,8 +124,8 @@ team:
       name: Antoine Suire
       avatar: federation/bde/Logistique/Antoine Suire.jpg
     - responsability:
-      name: Eva Cassagne
-      avatar: federation/bde/Logistique/Eva Cassagne.jpg
+      name: Eva Cassagnes
+      avatar: federation/bde/Logistique/Eva Cassagnes.jpg
   Cafétéria - Blois:
     - responsability:
       name: Arnaud Cartault la Rocca
@@ -134,11 +134,15 @@ team:
       name: Camille Imbert
       avatar: federation/bde/Cafétéria/Camille Imbert.jpg
     - responsability:
-      name: Jossua Brosseau
-      avatar: federation/bde/Cafétéria/Jossua Brosseau.jpg
-    - responsability:
       name: Théo Tremblay
       avatar: federation/bde/Cafétéria/Théo Tremblay.jpg
+    - responsability:
+      name: Paul Martinez
+      avatar: federation/bde/Cafétéria/Paul Martinez.jpg
+    - responsability:
+      name: Aline Nourry
+      avatar: federation/bde/Cafétéria/Aline Nourry.jpg
+
   Cafétéria - Bourges:
     - responsability:
       name: Agathe Déléris
