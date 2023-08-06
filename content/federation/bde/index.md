@@ -239,8 +239,8 @@ team:
       avatar: federation/bde/Organisation/Ludovick Lainé.jpg
   Prévention - Blois:
     - responsability:
-      name: Raja Hope
-      # avatar: federation/bde/Prévention/Raja Hope.jpg
+      name: Raja Khessib
+      # avatar: federation/bde/Prévention/Raja Khessib.jpg
     - responsability:
       name: Roman Fonteny
       # avatar: federation/bde/Prévention/Roman Fonteny.jpg
