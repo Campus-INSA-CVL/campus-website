@@ -41,9 +41,14 @@ appliquent ce qu'ils ont appris.
 
 ## Programme
 
-Cours 1 : Prise en main de Linux, OverTheWire commande système
+### Prérequis
+- Une machine virtuelle avec Kali linux
+- S'incrire sur la plateforme TryHackMe, les cours sont completé par des CTFs sur la plateforme TryHackMe.
 
-Cours 2 : Crackage de mot de passe, John the ripper et initiation à netcat
+### Cours
+Cours 1 : Découverte des CTFs avec un premier CTF simple. Prise en main de Linux avec OverTheWire pour les débutants sur Linux.  
+
+Cours 2 : 
 
 Cours 3 : Extrémités, Nat, routage, services, nmap, utilisation de kali contre
 metasploitable
