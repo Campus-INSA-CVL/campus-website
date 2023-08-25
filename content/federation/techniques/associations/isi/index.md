@@ -29,9 +29,9 @@ dans le domaine de la sécurité informatique.
 
 ## Présentation
 
-Le club ISI s'adresse à tout étudiant, quelque soit son département. Les cours
+Le club ISI s'adresse à tout étudiant, quel que soit son département. Les cours
 ont pour but de donner les bases de la sécurité informatique pour que les
-participants parviennent à réaliser des CTF. Ce sont des concours de sécurité
+participants parviennent à réaliser des CTF. Ce sont des challenges de sécurité
 informatique, le club en organise régulièrement pour que les étudiants
 appliquent ce qu'ils ont appris.
 
@@ -48,7 +48,7 @@ appliquent ce qu'ils ont appris.
 ### Cours
 #### Cours 1 : Découverte (19/9)
 Réalisez votre premier CTF simple.
-Et pour les débutants sur Linux, Prenez Linux en main avec OverTheWire .
+Et pour les débutants sur Linux, Prenez Linux en main avec OverTheWire.
 
 #### Cours 2 : Privilege Escalation (26/9)
 Passez en mode administrateur sans connaitre le mot de passe.
@@ -69,7 +69,7 @@ Pour "bruteforce" des sites web car "Quand on sait pas quoi mettre, on essaye to
 Collection de 20 petits CTFs pour vous entrainer, Avec quelques nouvelles choses comme la stéganographie.
 
 #### Cours 8 : Local File Inclusion (LFI) (14/11)
-Accédez à des fichiers privé d'une machine distante.
+Accédez à des fichiers privés d'une machine distante.
 
 #### Cours 9 : SQL Injection (21/11)
 Accédez à des sites ou obtenir des bases de donnée entière avec une requête.
@@ -90,7 +90,7 @@ Amusez-vous sur des CTF créés par les anciens du Club.
 Analysez des logiciels pour trouver des informations et des failles.
 
 #### Cours 15 : BurpsSuite et Zap (16/01)
-Interceptez, analysez, modifiez et répétez des requêtes http.
+Interceptez, analysez, modifiez et répétez des requêtes HTTP.
 
 #### Cours 16 : Wireshark (23/01)
 Interceptez et analysez n'importe quelle requête réseau.
@@ -102,7 +102,7 @@ Exploitez les failles d'un serveur afin de lui faire exécuter du code.
 Passez en mode administrateur (et plus!) sur Windows.
 
 #### Cours 19 : Pivoting (13/02)
-Servez-vous d'une machine pour accéder aux millions d'autres derrière.
+Servez-vous d'une machine pour accéder aux autres dans son sous-réseau
 
 #### Cours 20 : MSFConsole et MSFVenom (20/02)
 
