@@ -11,6 +11,10 @@ imagesName:
   - carousel-1.png
   - carousel-2.jpg
   - carousel-3.png
+
+social:
+  website: 'https://isi.insa-cvl.fr'
+  discord: 'https://discord.com/invite/Q7HYQP8DZ7'
 ---
 
 # Club Initiation à la sécurité informatique
@@ -63,7 +67,7 @@ Afin de pratiquer ce qu'on a appris jusque-là.
 Retrouvez des informations sur n'importe qui juste en se baladant sur internet.
 
 #### Cours 6 : Brut-it (24/10)
-Pour "bruteforce" des sites web car "Quand on sait pas quoi mettre, on essaye tout" (Socrate).
+Pour "bruteforce" des sites web car _Quand on sait pas quoi mettre, on essaye tout_ (Socrate).
 
 #### Cours 7 : CTF collection vol.1. (07/11)
 Collection de 20 petits CTFs pour vous entrainer, Avec quelques nouvelles choses comme la stéganographie.
@@ -110,3 +114,8 @@ Servez-vous d'une machine pour accéder aux autres dans son sous-réseau
 
 #### Cours 22 : CTF collection Vol.2 (paques)
 Une petite collection de CTF pour pâques.
+
+---
+
+<div style="text-align:center">Pour plus d'information, visitez notre site!</br>Et rejoignez-nous sur notre serveur discord</div>
+<campus-social :social="social" :color="color"></campus-social>
