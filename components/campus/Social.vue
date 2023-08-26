@@ -20,6 +20,7 @@ import {
   mdiDiscord,
   mdiLinkedin,
   mdiYoutube,
+  mdiLink,
 } from '@mdi/js'
 
 export default {
@@ -42,6 +43,7 @@ export default {
         discord: mdiDiscord,
         linkedin: mdiLinkedin,
         youtube: mdiYoutube,
+        website: mdiLink,
       },
     }
   },
