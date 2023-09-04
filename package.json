@@ -48,7 +48,7 @@
     }
   },
   "dependencies": {
-    "@nuxt/content": "^2.7.2",
+    "@nuxt/content": "^2.8.2",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/robots": "^3.0.0",
     "@nuxtjs/sitemap": "^2.4.0",
@@ -75,7 +75,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
     "node-sass": "^9.0.0",
-    "prettier": "^3.0.2",
+    "prettier": "^3.0.3",
     "pug": "^3.0.2",
     "pug-plain-loader": "^1.1.0",
     "remark-frontmatter": "^4.0.1",
