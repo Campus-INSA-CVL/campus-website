@@ -44,8 +44,8 @@ en lien avec son objet présentes sur les campus de l’école :
 
 - 5S5C
 - ESF
-- INSActifs
-- Jard’INSA
+- INS'CA VA ?
+- Gree'NSA
 - R3
 - Insagénieuse
 

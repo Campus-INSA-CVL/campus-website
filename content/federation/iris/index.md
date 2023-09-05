@@ -7,17 +7,17 @@ description:
   Si oui, n'hésite pas à prendre contact avec nous !
 color: primary
 social:
-  facebook: facebook.com/iris.insa.cvl
-  twitter: twitter.com/IrisINSA
-  linkedin: linkedin.com/company/iris-insa
+  facebook: https://facebook.com/iris.insa.cvl
+  twitter: https://twitter.com/IrisINSA
+  linkedin: https://linkedin.com/company/iris-insa
 team:
   bureau:
     - responsability: président
-      name: Antoine POUPENEY
+      name: Clara Saleilles
     - responsability: vice-président
-      name: Dorian RURANGE
+      name: ?
     - responsability: trésorier
-      name: Lorraine BILLIG
+      name: ?
 ---
 
 # À la découverte du monde entrepreneurial

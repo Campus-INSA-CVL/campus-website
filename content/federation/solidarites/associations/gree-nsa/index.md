@@ -1,32 +1,32 @@
 ---
-title: Gree'NSA Bourges
+title: Gree'NSA
 color: othersColor
 order: 1
 description:
-  Gree'NSA Bourges est une association présente sur le campus de Bourges. Avec
-  son homologue à Blois, elle a plusieurs objectifs ! Elle souhaite s'ancrer
-  dans une dynamique local de développement durable au travers différentes
+  Gree'NSA est une association présente sur les deux campus de Blois et Bourges.
+  Elle a plusieurs objectifs comme s'ancrer
+  dans une dynamique local de développement durable au travers de différents
   moyens d'actions ! Elle a aussi pour volonté de prendre part à la vie de
   l'école, au travers de la vie étudiante et des formations ! 🌱
 team:
-  bureau:
+  bureau blois:
     - responsability: président
-      name: SOUBIRAN Estéban
-      description:
-        responsable de l'association, il est en charge de son bon fonctionnement
-        administratif
-      avatar: federation/les-autres-assos/gree-nsa-bourges/president.png
+      name: Mattéo Le Gall
     - responsability: vice-président
-      name: CORDIER Tom
-      description: responsable des projets et de la communication extérieur
-    - responsability: secrétaire
-      name: FOURCAD Eva
-      description:
-        responsable d'une partie de l'administration de l'association, elle est
-        aussi la mémoire
+      name: Elisa Faure
     - responsability: trésorier
-      name: ZHOU Jade
-      description: responsable du budget de l'association
+      name: Elouan Paletier
+    - responsability: secrétaire
+      name: Nathanaël Latour
+  bureau Bourges:
+    - responsability: président
+      name: Delphine Souquet
+    - responsability: vice-président
+      name: Clovis Fournier
+    - responsability: secrétaire
+      name: Asse Sarre
+    - responsability: trésorier
+      name: Florine Clavier
 social:
   facebook: 'https://www.facebook.com/greensa.bourges1/'
   discord: 'https://discord.gg/45AfzHq'
@@ -36,8 +36,8 @@ social:
 
 <campus-center>
   <campus-responsive-image
-    folder-name="federation/les-autres-assos/gree-nsa-bourges"
-    name="logo.png"
+    folder-name="federation/solidarites/gree-nsa"
+    name="logo.jpg"
     max-width="400"></campus-responsive-image>
 </campus-center>
 

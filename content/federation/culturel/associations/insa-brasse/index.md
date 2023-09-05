@@ -9,14 +9,13 @@ description:
 team:
   bureau:
     - responsability: président
-      name: Pierre Zaccanti
+      name: Leila Khamassi
     - responsability: vice-président
-      name: Bastien Le Mestre
-    - responsability: trésorière
-      name: Charlotte Bretonnet
-      avatar: user-random-female.png
+      name: Jules
+    - responsability: trésorier
+      name: Jeremy Sneed
     - responsability: secrétaire
-      name: Killian Bradechard
+      name: Eva Bornot
 ---
 
 # Bienvenue à l'INSA'brasse
