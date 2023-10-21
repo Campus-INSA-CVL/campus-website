@@ -10,15 +10,11 @@ color: sportColor
 - [Handball](#handball)
 - [Volley](#volley)
 - [Football](#football)
-- Futsal
-- Badminton
-- Rugby
-- Boxe
-- [Cheerleading](#cheerleading)
-- Padel
 - [Tennis](#tennis)
-- Athlétisme
-- Basket
+- [Cheerleading](#cheerleading)
+- [Badminton] (#badminton)
+- [Rugby] (#rugby)
+- [Basket] (#basket)
 
 ## Handball
 
@@ -37,8 +33,7 @@ Bienvenue dans l’équipe handball de l’INSA. J’imagine qu’il est inutile
 présenter ce qu’on fait, puisque notre pays est le meilleur au monde dans ce
 sport ! On n’est pas Les Experts, mais on est une équipe qui aime le hand, le
 sport en général, et surtout la bonne humeur. On se réunit deux fois par semaine
-pour s’entraîner, avec au programme échauffement (pour ça, on a un mini-jeu qui
-remplace les tours de terrain), entraînement technique et petit match à la fin
+pour s’entraîner, avec au programme échauffement, entraînement technique et petit match à la fin
 (car c’est ce qu’on aime). Que tu n’aies que peu, voire pas, joué au hand de ta
 vie ou que tu sois expérimenté.e, tu es le/la bienvenu.e ! On a tous des niveaux
 différents, celles/ceux qui ont plus d’expérience font progresser celles/ceux
@@ -46,20 +41,15 @@ qui en ont moins et tout le monde y trouve son compte. Je sais que certains se
 le demandent, mais bien sûr nous sommes une équipe mixte, alors personne n’a
 d’excuse pour ne pas venir !
 
-Si on est suffisamment nombreux.ses et motivé.es, on pourra disputer des matchs
-contre d’autres équipes, s’entraîner avec d’autres écoles, et même s’inscrire en
-compétition officielle. Rien n’est obligatoire évidemment, à part de venir
-essayer au moins une fois, car le hand c’est génial et ça peut sûrement te
-plaire !
+Des compétitions inter-universitaires sont organisées alors si tu es amateur de challenge, débutant ou avancé, cette AS est faite pour toi !
 
-À **Blois**, il y a un entraînement, le **jeudi de 12h30 à 14h** au **gymnase
-Saint-Georges**. Il y a la possibilité de faire du covoiturage, avec rendez-vous
+À **Blois**, il y a un entraînement, le **jeudi midi** au **gymnase Saint-Georges**. Il y a la possibilité de faire du covoiturage, avec rendez-vous
 à l’INSA.
 
 <campus-center>
   <campus-responsive-image
     folder-name="federation/sport/handball"
-    name="crew.jpg"
+    name="lequipe.jpg"
     max-width="800"></campus-responsive-image>
 </campus-center>
 
@@ -72,22 +62,7 @@ Désormais on n’attend plus que toi, à bientôt dans l’équipe handball de 
 
 ## Volley
 
-Bonjour insaïen, insaïenne!
-
-Tu souhaites pratiquer un sport dans la bonne humeur? Alors le volley-ball est
-fait pour toi!
-
-On s'entraîne tous les mercredi soir, **de 20h à 22h** au complexe sportif
-**Tabarly**. Il est situé à 30 minutes à pied de l'INSA, mais on a l'habitude
-d'organiser des groupes de covoiturage. Au programme : échauffements, exercices
-spécifiques, puis enfin des matchs. Les entraînements sont rythmés par les
-conseils et les stratégies des anciens joueurs. Les équipes sont mixtes, et on
-accepte tous les niveaux donc n'hésite pas à venir essayer une séance avec nous.
-
-Pour plus de questions, n'hésite pas à contacter le respo : _Valentin Potiron_,
-disponible sur [Facebook](https://www.facebook.com/valentin.potiron.3),
-Messenger, [Insta](https://www.instagram.com/val.ptrn/) et par
-[mail](mailto:valentin.potiron@insa-cvl.fr)
+Actuellement en Standby mais reprend très vite !
 
 <campus-center>
   <campus-responsive-image
@@ -123,12 +98,9 @@ même intégrer des compétitions officielles. Rien n'est obligatoire, si ce n'e
 donner une chance à ce sport magnifique en venant à au moins un entraînement,
 car cela va sûrement te plaire.
 
-À **Blois**, il y a un entraînement, le **lundi de 19h à 21h** sur le terrain
-synthétique du **gymnase Saint-Georges**. Il y a la possibilité de faire du
-covoiturage, avec rendez-vous à l'INSA.
+À **Blois**, il y a un entraînement, le **lundi de 19h30 à 21h15** sur le terrain
+synthétique du **complexe sportif Marie-Amélie-Le-Fur**. Il y a la possibilité de faire du covoiturage, avec rendez-vous à l'INSA.
 
-- _Louis BOUTONNET_, responsable Blois, joignable sur Messenger, Instagram et
-  WhatsApp.
 
 Désormais, on attend plus que toi, à bientôt dans l'équipe de football de CVL!
 
@@ -200,7 +172,7 @@ bien d’autres encore.
 Étirements, échauffements, stunts et chorégraphies seront là pour rythmer nos
 séances !
 
-À Blois, il y a entraînement le **mercredi de 20h30 à 22h00** au gymnase des
+À Blois, il y a entraînement le **mercredi de 19h à 22h00** au gymnase des
 Provinces.
 
 À vos pompoms !
@@ -211,3 +183,46 @@ Blois :
 - [Facebook](https://www.facebook.com/marie.veyriere.25)
 - [Instagram](https://www.instagram.com/_veyvey_/)
 - [mail](mailto:marie.veyriere@insa-cvl.fr)
+
+## Badminton
+
+<campus-center>
+  <campus-responsive-image
+    folder-name="federation/sport/badminton"
+    name="logo.jpg"
+    max-width="400"></campus-responsive-image>
+</campus-center>
+
+Si tu cherches un sport qui te fera bouger avec passion et détermination, que tu sois un as de la raquette ou que tu n'aies jamais tenu de volant, notre équipe de badminton sera ravie de t'accueillir !
+
+Notre équipe, composée de joueurs et joueuses de tous niveaux, se réunit régulièrement sur les courts pour des entraînements acharnés et des matchs amicaux. Que tu souhaites améliorer ton smash, perfectionner ton service, ou simplement t'amuser en jouant, tu trouveras ta place parmi nous.
+
+Nous préparons des sessions d'entraînement pour affûter nos compétences, que ce soit pour les tournois locaux, les compétitions inter-universitaires, ou tout simplement pour partager des moments de convivialité autour du badminton.
+
+Rejoins-nous, et ensemble, mettons le volant en mouvement et vivons la passion du badminton sur les courts, tout en tissant des liens forts avec d'autres amateurs de ce sport passionnant ! Que tu sois un débutant enthousiaste ou un joueur expérimenté, tu es le bienvenu dans notre équipe. Alors, n'hésite plus et viens frapper quelques volants avec nous !
+
+Les **entrainements** se tiendront le **jeudi de 12h30 à 13h45 au complexe Saint Georges**
+
+## Basketball
+
+<campus-center>
+  <campus-responsive-image
+    folder-name="federation/sport/basketball"
+    name="photo.jpg"
+    max-width="400"></campus-responsive-image>
+</campus-center>
+
+Si tu aimes le basket, alors cette AS est faite pour toi ! 
+Une grande équipe, soudée et performante t'attend tous les **lundi de 20h30 à 22h** au complexe **Marie-Amélie-le-Fur**. Que tu sois débutant ou très avancé, cette AS possède de tout les niveaux. Si tu veux participer aux tournoi universitaire, ou simplement découvrir ce sport, rejoins-nous !
+
+## Rugby
+
+<campus-center>
+  <campus-responsive-image
+    folder-name="federation/sport/rugby"
+    name="rugby.jpg"
+    max-width="400"></campus-responsive-image>
+</campus-center>
+
+L'AS Rugby t'ouvre ses portes , alors si tu veux rigoler entre copains et t'améliorer, ou bien juste découvrir le rugby , rejoins nous ! 
+L'entrainement se passe au **complexe saint Georges**, le **lundi de 19h à 20h30**

@@ -11,14 +11,10 @@ imagesName:
   - carousel-5.jpeg
 team:
   bureau:
-    - responsability: président
-      name: Bonzom François
-    - responsability: vice-président
-      name: MAUREL Julien
-    - responsability: trésorier
-      name: CASTEX Pierre-Emmanuel
-    - responsability: secrétaire
-      name: PACAUD Etienne
+    - responsability: responsable
+      name: Brice Athey
+    - responsability: responsable
+      name: Paul Laurent
 social:
   facebook: 'https://www.facebook.com/insaviron'
 ---

@@ -8,20 +8,14 @@ description:
   votre campus ou pour découvrir notre région à vélo.
 team:
   bureau:
-    - responsability: président
-      name: BOUJAFAAR Zakarya
-      description: Responsable sur Blois
-      avatar: federation/les-autres-assos/veloc/president.jpg
-    - responsability: vice-président
-      name: BOVÉ Hugues
-      description: Responsable sur Bourges
-      avatar: federation/les-autres-assos/veloc/vice-president.png
-    - responsability: trésorier
-      name: LEQUIEN Arthur
-      avatar: federation/les-autres-assos/veloc/tresorier.png
-    - responsability: secrétaire
-      name: LUCAS Gwenaëlle
-      avatar: federation/les-autres-assos/veloc/secretaire.jpg
+    - responsability: président Blois
+      name: Victor Elmirzoiev-Pradel
+    - responsability: vice-président Blois
+      name: Alexandre Vedel
+    - responsability: trésorier Bourges
+      name: Jean Dominique Bewoin-fils
+    - responsability: secrétaire Blois
+      name: Arthur Philibert 
 ---
 
 # Véloc'
