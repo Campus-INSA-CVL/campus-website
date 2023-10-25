@@ -1,6 +1,6 @@
 ---
 title: Gree'NSA
-color: othersColor
+color: solidaritesColor
 order: 1
 description:
   Gree'NSA est une association présente sur les deux campus de Blois et Bourges.

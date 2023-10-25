@@ -11,7 +11,7 @@ team:
     - responsability: président
       name: Leila Khamassi
     - responsability: vice-président
-      name: Jules
+      name: Jules Schell
     - responsability: trésorier
       name: Jeremy Sneed
     - responsability: secrétaire

@@ -11,37 +11,15 @@ social:
   facebook: https://www.facebook.com/INSAilCVL
   instagram: https://www.instagram.com/insail_cvl/
 team:
-  bureau:
+  bureau (blois et bourges):
     - responsability: président
-      name: Stella Verne
-      description: responsable de l'association
-      avatar: federation/sport/insail/president.jpg
-    - responsability: trésorier
-      name: Audrey Paul
-      description: gère le budget de l'association et la comptabilité
-      avatar: federation/sport/insail/tresorier.jpg
-    - responsability: secrétaire
-      name: Morgan Reboul
-      description: gère l'administratif de l'association
-      avatar: federation/sport/insail/secretaire.jpg
-  partenariats:
-    - responsability: gestion des partenariats
-      name: Ryan Abdellaoui
-      description:
-        contacte différentes entreprises afin de réaliser des partenariats pour
-        l'association
-      avatar: federation/sport/insail/respo_parts_1.jpg
-    - responsability: gestion des partenariats
-      name: Erle Guillemot
-      description:
-        contacte différentes entreprises afin de réaliser des partenariats pour
-        l'association
-      avatar: federation/sport/insail/respo_parts_2.jpg
-  communication:
-    - responsability: gestion de la communication sur Facebook
-      name: Estéban SOUBIRAN
-      description: crée et gère la réalisation de contenu pour Facebook
-      avatar: federation/sport/insail/com_fb.png
+      name: Alexandre Desfontaines
+      avatar: federation/bde/Communication/Alexandre Desfontaines.jpg
+    - responsability: vice président / secrétaire
+      name: Maxime Bailliez
+    - responsability: Trésorière
+      name: Mahilde Walraet
+      
 ---
 
 # Bienvenue à l'INSAil

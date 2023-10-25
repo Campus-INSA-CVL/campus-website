@@ -1,16 +1,21 @@
 ---
 title: ISI
-color: techniquesColor
 order: 2
 description:
   Aujourd'hui un ingénieur se doit de connaître les bases de la sécurité
   informatique, sous peine d'exposer son entreprise à des attaquants potentiels.
   Le club ISI propose des cours, des activités, des challenges et des
   conférences dans le domaine de la sécurité informatique.
+color: techniquesColor
 imagesName:
   - carousel-1.png
   - carousel-2.jpg
   - carousel-3.png
+team:
+  bureau:
+    - responsability: président
+      name: Nouman Hamdi
+
 ---
 
 # Club Initiation à la sécurité informatique
@@ -69,3 +74,7 @@ Cours 11 : Faille Unix, suid, Grub …
 CTF 2 : Web + élévation de privilège
 
 Cours 12 : Social tools engineering, duck key, phishing
+
+## L'équipe
+
+<campus-team :team="team" :color="color"></campus-team>

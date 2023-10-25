@@ -14,10 +14,14 @@ team:
   bureau:
     - responsability: président
       name: Clara Saleilles
+      avatar: additional_pic/clara_saleilles.jpg
     - responsability: vice-président
-      name: ?
+      name: Benoit Pagès
     - responsability: trésorier
-      name: ?
+      name: Junior Sosthène
+      avatar: additional_pic/junior_sosthene.jpg
+    - responsability : sécrétaire
+      name: Oriane Police
 ---
 
 # À la découverte du monde entrepreneurial
