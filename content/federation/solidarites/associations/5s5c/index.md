@@ -1,5 +1,5 @@
 ---
-title: 5 Continents 5 Sommets
+title: 5 Sommets 5 Continents
 color: solidaritesColor
 order: 1
 description:
@@ -7,15 +7,12 @@ description:
   du type loi 1901 créée en 1998 par les élèves-ingénieurs de l'INSA CVL.
 team:
   bureau:
-    - responsability: président
-      name: Oussama FADLI
-      avatar: federation/solidarites/5s5c/president.jpg
-    - responsability: trésorière
-      name: Salma BENADDI
-      avatar: federation/solidarites/5s5c/tresoriere.jpg
-    - responsability: secrétaire
-      name: Marek LECLERC
-      avatar: federation/solidarites/5s5c/secretaire.jpg
+    - responsability: Responsable Bourges
+      name: Juliette Jaupitre
+      avatar: federation/bde/Boisson/Juliette Jaupitre.jpg
+    - responsability: Responsable Bourges
+      name: Nina Girard
+      avatar: federation/bde/Cafétéria/Nina Girard.jpg
 social:
   facebook: 'https://www.facebook.com/5S5Cinsacvl'
   youtube: 'https://www.youtube.com/channel/UC2oryROvbWpTCqBkUD4bexA'

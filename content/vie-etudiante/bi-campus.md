@@ -94,10 +94,35 @@ d’apéritif dînatoire où l’on peut emmener un plat de son pays.
 
 [Plus d’informations](http://www.insa-centrevaldeloire.fr/fr/international)
 
-## Des questions ?
+## Bibliothèque universitaire Bourges
 
-Vous nous rejoignez et vous avez des question sur l'INSA Centre Val de Loire ?
-Un facebook est dédié aux nouveaux étudiants arrivant dans notre école, avec une
-active communauté d'étudiants/anciens étudiants.
+<campus-center>
+  <campus-responsive-image
+    folder-name="additional_pic"
+    name="learning_center.jpg"
+    max-width="400"></campus-responsive-image>
+</campus-center>
 
-[Page Facebook](https://www.facebook.com/groups/265145218090890/)
+## Bibliothèque universitaire Bourges
+
+<campus-center>
+  <campus-responsive-image
+    folder-name="additional_pic"
+    name="bu_blois.jpeg"
+    max-width="400"></campus-responsive-image>
+</campus-center>
+
+
+Biliothèque universitaire du campus de Bourges , dit "Learning Center". Ouverte pendant les horaires d'ouverture de l'INSA , soit de 8h du matin à 20h.
+
+Il est préférable de réserver au préalable les salles que l’on souhaite utiliser sur l’application Affluences, sous peine de ne pas conserver la salle dans laquelle vous serez installés.
+Comment réserver une salle de l'open space ou de la bibliothèque ?
+
+soit en téléchargeant l’application Affluences sur votre smartphone
+
+soit en utilisant les liens suivants :
+
+https://affluences.com/learning-center-campus-bourges/reservation
+https://affluences.com/learning-center-campus-blois
+
+

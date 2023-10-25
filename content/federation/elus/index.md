@@ -8,6 +8,7 @@ description:
   l’école.
 social:
   facebook: 'https://www.facebook.com/elusinsacvl'
+  instagram: 'https://www.instagram.com/elusinsacvl/'
 ---
 
 # Présentation des Élus

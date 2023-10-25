@@ -9,13 +9,12 @@ description:
 team:
   bureau:
     - responsability: président
-      name: François Autier
-    - responsability: vice président
-      name: Diana Amarandei
-    - responsability: trésorier
-      name: Thomas Andonoff
-    - responsability: secrétaire
-      name: Benoît Freyermuth
+      name: Mathis Denis-Destouches
+    - responsability : trésorier
+      name: Quentin Henneuse
+    - responsability : secrétaire
+      name: Emmanuel Fantou
+    
 ---
 
 # Bienvenue dans le club oenologie
@@ -28,7 +27,7 @@ team:
 </campus-center>
 
 Le club oeno est une association qui consiste à faire découvrir et de partager
-l’œnologie. Nombres de nos soirée sont organisés avec la présence d’un œnologue
+l’œnologie. Nombres de nos soirée sont organisées avec la présence d’un œnologue
 qui nous explique comment déguster un vin.
 
 Afin de faire découvrir le patrimoine culturel français, nos dégustations
@@ -37,7 +36,7 @@ bourguignonne en passant par des vins de Loire tel que le sancerre (Proche de
 Bourges 😉 ) ou même de Savoie .
 
 Les places partent vite donc soit attentif à nos mails afin de pouvoir t’y
-inscrire. Généralement pour chaque dégustation 6 types de vin différent sont
+inscrire. Généralement pour chaque dégustation 6 types de vins différents sont
 dégustés et le prix d’une séance tourne autour de 10 euros. En plus on prépare
 un petit buffet pour chaque dégustation avec fromage, toast donc chauffe toi!!
 

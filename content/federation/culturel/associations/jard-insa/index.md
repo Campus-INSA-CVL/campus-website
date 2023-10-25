@@ -7,29 +7,19 @@ description:
   présente sur le campus.
 team:
   bureau:
-    - responsability: Présidente
+    - responsability: Responsable Bourges
       name: Margaux Biglietti
-      description: Responsable de l'association au niveau administratif
-      avatar: federation/bde/Margaux-Biglietti.jpg
-    - responsability: Vice-Présidente
-      name: Noor Toumani
-      description: Responsable des projets et de la communication intérieur
-      avatar: federation/bde/Noor-Toumani.jpg
-    - responsability: Trésorière
-      name: Morgan Reboul
-      description:
-        Responsable de la trésorerie de l'association, organise le budget en
-        prévision des événements
-      avatar: federation/bde/Morgan-Reboul.jpg
-    - responsability: Secrétaire
-      name: Camille Quelquejeu
-      description:
-        Transcrit toute les décisions importantes à l'écrit, organise les
-        ressources informatiques et crée les compte-rendus de chaque réunions
-      avatar: federation/bde/Camille-Quelquejeu.jpg
 ---
 
 # Bienvenue à Jard'INSA
+
+<campus-center>
+  <campus-responsive-image
+    folder-name="federation/culturel/jardinsa"
+    name="logo.png"
+    max-width="400">
+  </campus-responsive-image>
+</campus-center>
 
 Jard'INSA est une asso de jardinage collaboratif ouverte à toute personne
 présente sur le campus. Les objectifs principaux sont :
