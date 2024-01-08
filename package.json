@@ -51,8 +51,8 @@
     "@nuxt/content": "^2.10.0",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/robots": "^3.0.0",
-    "@nuxtjs/sitemap": "^2.4.0",
-    "nuxt": "^3.9.0",
+    "@nuxtjs/sitemap": "^5.0.1",
+    "nuxt": "^3.9.1",
     "nuxt-webfontloader": "^1.1.0",
     "vue-parallaxy": "^1.1.1"
   },
