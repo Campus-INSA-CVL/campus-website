@@ -1,12 +1,12 @@
 ---
 title: ISI
-color: techniquesColor
 order: 2
 description:
   Aujourd'hui un ingénieur se doit de connaître les bases de la sécurité
   informatique, sous peine d'exposer son entreprise à des attaquants potentiels.
   Le club ISI propose des cours, des activités, des challenges et des
   conférences dans le domaine de la sécurité informatique.
+color: techniquesColor
 imagesName:
   - carousel-1.jpg
   - carousel-2.jpg

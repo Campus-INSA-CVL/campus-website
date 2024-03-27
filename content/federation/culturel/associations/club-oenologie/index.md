@@ -8,8 +8,13 @@ description:
   œnologue qui nous explique comment déguster un vin.
 team:
   bureau:
-    - responsability: Responsable Bourges
-      name: Diania Amarandei
+    - responsability: président
+      name: Mathis Denis-Destouches
+    - responsability : trésorier
+      name: Quentin Henneuse
+    - responsability : secrétaire
+      name: Emmanuel Fantou
+    
 ---
 
 # Bienvenue dans le club oenologie

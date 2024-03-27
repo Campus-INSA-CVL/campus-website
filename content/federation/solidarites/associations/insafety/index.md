@@ -1,6 +1,6 @@
 ---
 title: INSAfety
-color: othersColor
+color: solidaritesColor
 order: 2
 description:
   INSAFETY est une association qui vous permettra de vous initier tout au long

@@ -9,8 +9,10 @@ team:
   bureau:
     - responsability: Responsable Bourges
       name: Juliette Jaupitre
+      avatar: federation/bde/Boisson/Juliette Jaupitre.jpg
     - responsability: Responsable Bourges
       name: Nina Girard
+      avatar: federation/bde/Cafétéria/Nina Girard.jpg
 social:
   facebook: 'https://www.facebook.com/5S5Cinsacvl'
   youtube: 'https://www.youtube.com/channel/UC2oryROvbWpTCqBkUD4bexA'

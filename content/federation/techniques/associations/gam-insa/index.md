@@ -13,17 +13,15 @@ social:
 team:
   bureau:
     - responsability: président
-      name: Lucas Levesque
-      avatar: federation/techniques/gam-insa/president.png
-    - responsability: vice-président
-      name: Maëlie Lebaron
-      avatar: federation/techniques/gam-insa/vice-president.png
+      name: Correntin Gourret 
+      avatar: additional_pic/correntin_gourret.jpg
+    - responsability: adjoint
+      name: Elouan Rabouin
+      avatar: additional_pic/elouan_rabouin.jpg
     - responsability: trésorier
-      name: Corentin Gourret
-      avatar: federation/techniques/gam-insa/tresorier.jpg
+      name: Bruno Melis
     - responsability: secrétaire
-      name: Valentin Porchet
-      avatar: federation/techniques/gam-insa/secretaire.jpg
+      name: Thomas Heurteur
 ---
 
 # Gam'INSA

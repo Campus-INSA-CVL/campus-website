@@ -21,11 +21,18 @@ sportives des élèves de l'INSA. Elle a également vocation à organiser toutes
 activités sportives (entraînements, compétitions) et rassemble les associations
 à caractère sportif présentes sur les campus.
 
-## Votre AS
+## Votre AS BOURGES
 
 <campus-center>
   <campus-responsive-image
     folder-name="federation/sport"
-    name="crew.jpg"
+    name="crew_bourges.jpg"
     max-width="800"></campus-responsive-image>
+
+## Votre AS BLOIS
+<campus-responsive-image
+    folder-name="federation/sport"
+    name="crew_blois.jpg"
+    max-width="800"></campus-responsive-image>
+    
 </campus-center>
