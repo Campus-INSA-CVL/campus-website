@@ -15,33 +15,20 @@ imagesName:
   - 'sphinx.jpg'
 responsables:
   Cerbères:
-    - name: Marine JOSSET
-      avatar: olympiades/responsables/marine.jpg
-    - name: Hugo ALBERTINI
-      avatar: olympiades/responsables/hugo.jpg
-    - name: Valentine AGUILLE
-      avatar: olympiades/responsables/valentine.jpg
+    - name: Chloé Fuchs
+      avatar:
   Sphinx:
-    - name: Audrey GARCIA
-    - name: Grégoire FORGES
-      avatar: olympiades/responsables/gregoire.jpg
+    - name: Lucas Levayer
+      avatar: additional_pic/lucas_levayer.jpg
   Minotaures:
-    - name: Louis BOUTONNET
-      avatar: olympiades/responsables/louis.jpg
-    - name: Lucie LABASTIE
-      avatar: olympiades/responsables/lucie.jpg
-    - name: Aude JACQUARD
-      avatar: olympiades/responsables/aude.jpg
+    - name: Fanny Osman
+      avatar: federation/BDE/Animation/Fanny Osman.jpg
   Phoenix:
-    - name: Nicolas LAVAL
-      avatar: olympiades/responsables/nicolas-laval.jpg
-    - name: Hugo LACREU
-      avatar: olympiades/responsables/hugo-lacreu.jpg
+    - name: Raja Khessib
+      avatar:
   Kraken:
-    - name: Antonin LE GUEN
-      avatar: olympiades/responsables/antonin-le-guen.jpg
-    - name: Maxence GRESSENT
-      avatar: olympiades/responsables/maxence.jpg
+    - name: Gaïa Pelat
+      avatar: additional_pic/gaia_pelat.jpg
 winners: []
 ---
 
@@ -69,63 +56,6 @@ au rendez-vous !
   <campus-carousel :names="imagesName" :folder-name="folderName"></campus-carousel>
 </campus-center>
 
-## Les défis du mois
-
-<div class="list-lightning font-olympiades">
-
-Pour vous confronter entre familles, la fine fleur de l’Olympe met au point des
-défis que vous devez réaliser tous les mois. Chaque mois, une liste de 15 à 20
-défis est publiée sur la page Facebook de votre famille. Chaque défi vaut un
-certain nombre de points selon sa difficulté, la famille qui obtiendra le plus
-de points à la fin de l’année remportera alors les Olympiades. Les défis sont de
-tout type : culinaires, sportifs, artistiques … et sont ainsi adressés à tout le
-monde. Pour valider votre défi, vous devez le poster sur le groupe Facebook de
-votre famille sous une forme adapté selon le défi (vidéo, photo, texte …).
-N’oubliez pas que les défis sont avant tout l’occasion de passer un bon moment,
-de faire des rencontres, de s’essayer à de nouvelles disciplines et de
-décompresser des cours.
-
-## Défis Sportifs
-
-- Tenir le plus longtemps possible en poirier contre un mur (150/100/50 points)
-- Faire 1000 pompes en une journée (100 points)
-- Aller en marchant à reculons de l’INSA au dojo saint Georges (Blois) ou au
-  palais d’Auron (Bourges) (150 points)
-
-## Défis Culinaires
-
-- Manger 3 cuillères à soupe de café soluble (75 points) Manger rouge pendant 3
-  jours (100 points)
-- Manger le plus gros tacos de Chef tacos (Blois) en une seule fois (100 points)
-- Remplir une tasse de thé tenue par une personne depuis le 2ème étage (75
-  points +15 par étage)
-
-## Défis Intello
-
-- Faire un td dans un autre que le sien (100 points)
-- Avoir 17 au premier DS de maths 1A (125 points)
-- Participer à la dictée au
-  [jeu de paume le 10 octobre](https://m.agglopolys.fr/fiche.../5563/2569-actualites.htm)
-  (100 points)
-- Faire mes
-  [devoirs d’anglais](http://www.ophrys.fr/.../catalog.../5821/lire-vejji-pdf.html)
-  (50 points)
-
-## Défis musicaux
-
-- Refaire le clip de bande organisé en bas de gamme (150 points)
-- Écouter 16 h d’affilée Corona song de Renaud (175 points)
-
-## Défis Halloween
-
-- Faire la plus belle citrouille (150/100/50 points)
-- Demander « un bonbon ou un sort à un prof » et lui jeter un sort s’il n’a pas
-  de bonbon (100 points)
-
-## Défi libre
-
-- Gel hydroalcoolique (150/100/50)
-
 </div>
 
 ## Les respos
@@ -140,16 +70,6 @@ vos questions sur les défis ou sur leur validation.
 
 <campus-team :team="responsables" :color="color"></campus-team>
 
-## Olympiens du mois et mentions honorables
-
-<div class="font-olympiades">
-
-Tout les mois, l’Olympe élit parmi vous l’olympiens le plus valeureux, que ce
-soit par le nombre de défis réalisés, la difficulté de ces derniers ou la
-qualité de la réalisation. Il se peut aussi que d’autres olympiens nous
-impressionnent sur un défi en particulier, nous leur adressons alors une mention
-honorable
-
 </div>
 
 <campus-team :team="winners" :color="color"></campus-team>
@@ -162,13 +82,3 @@ Chaque fin de mois un best of est réalisé mettant en valeurs les meilleurs dé
 réalisés pendant le mois.
 
 </div>
-
-## Résultats
-
-| Familles  | Rang | Points |
-| :-------: | :--: | :----: |
-| Cerbères  |  1   |  2825  |
-|  Sphinx   |  2   |  2575  |
-|  Phoenix  |  3   |  2375  |
-|  Kraken   |  4   |  2275  |
-| Minotaure |  5   |  2250  |

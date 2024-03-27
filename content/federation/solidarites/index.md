@@ -9,19 +9,10 @@ social:
   facebook: https://www.facebook.com/assodessolidaritesinsacvl
   instagram: https://www.instagram.com/assodessolidaritesinsacvl/
 team:
-  bureau:
+  bureau (blois):
     - responsability: présidente
-      name: Anastasija Dimova
-      avatar: federation/solidarites/president.jpg
-    - responsability: vice-présidente
-      name: Audrey Paul
-      avatar: federation/solidarites/vice-president.jpg
-    - responsability: secrétaire
-      name: Hugues Bové
-      avatar: federation/solidarites/secretaire.jpg
-    - responsability: trésorière
-      name: Kenza Faker
-      avatar: federation/solidarites/tresorier.jpg
+      name: Mattéo Legall
+      avatar:
 ---
 
 # Association des solidarités
@@ -44,8 +35,8 @@ en lien avec son objet présentes sur les campus de l’école :
 
 - 5S5C
 - ESF
-- INSActifs
-- Jard’INSA
+- INS'CA VA ?
+- Gree'NSA
 - R3
 - Insagénieuse
 

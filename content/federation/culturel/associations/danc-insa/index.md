@@ -11,28 +11,11 @@ description:
   le conservatoire de Bourges, pour danser dans les meilleures conditions !
 team:
   bureau:
-    - responsability: Président
-      name: Jérémy Richard
-      description: Responsable de l'association au niveau administratif
-    - responsability: Vice-Présidente
-      name: Irma Brault
-      description: Responsable des projets et de la communication intérieur
-      avatar: user-random-female.png
-    - responsability: Trésoriere
-      name: Emma-Louise Forissier
-      description:
-        Responsable de la trésorerie de l'association, organise le budget en
-        prévision des événements
-      avatar: user-random-female.png
-    - responsability: Secrétaire
-      name: Théa Hoffmann
-      description:
-        Transcrit toute les décisions importantes à l'écrit, organise les
-        ressources informatiques et crée les compte-rendus de chaque réunions
-      avatar: user-random-female.png
+    - responsability: Responsable Bourge
+      name: Agathe Déléris
 social:
   facebook: 'https://www.facebook.com/DancINSA-363600620718020'
-  instagram: 'https://instagram.com/rcd.jeremy'
+  instagram: 'https://instagram.com/dancin_sa'
   discord: 'https://discord.com/invite/YGGshwe'
 ---
 
@@ -40,7 +23,7 @@ social:
 
 <campus-center>
   <campus-responsive-image
-    folder-name="federation/culturel/dancinsa"
+    folder-name="federation/culturel/danc-insa"
     name="logo.png"
     max-width="400">
   </campus-responsive-image>

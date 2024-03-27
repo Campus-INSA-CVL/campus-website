@@ -45,7 +45,7 @@ l'arrivée de l'INSA Haut de France
 
 - L’Association des Elèves des INSA a pour objectif de rassembler les étudiants
   des différents INSA. Renforcer la cohésion au sein du Groupe INSA, notamment
-  via les trois événements organisés à tour de rôle dans les 6 villes de
+  via les trois événements organisés à tour de rôle dans les 7 villes de
   métropole, est une des missions phares de l’AEI. L’association subventionne
   aussi d’autres événements regroupant plusieurs INSA.
 - L’AEI a pour objectif de faciliter la communication entre les écoles du
@@ -62,7 +62,7 @@ est composé de deux collèges différents :
 
 - Le collège des Administrateurs composé des présidents des BDE / Amicales de
   chaque INSA de France.
-- Le Bureau de gestion : composé de 6 insa\*iens, chacun venant d’un INSA de
+- Le Bureau de gestion : composé de 7 insa\*iens, chacun venant d’un INSA de
   France différent, il est chargé du fonctionnement quotidien de l’association
   et met en œuvre les décisions prises en CA.
 

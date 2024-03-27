@@ -20,6 +20,9 @@ team:
       name: Gaëtan El RAWAS
     - responsability: secrétaire
       name: Mathis LESNIEWSKI
+social:
+  twitter: https://twitter.com/TACTINSA
+  linkedin: https://www.linkedin.com/company/club-robotique-de-l-insa-centre-val-de-loire/
 ---
 
 # Bienvenue dans le club robotique
@@ -108,6 +111,13 @@ des interventions dans des médiathèques.
 </campus-center>
 
 Il s'agit de **Erirat**
+
+## Nous contacter
+
+<campus-social :social="social" :color="color"></campus-social>
+
+Vous pouvez aussi nous contacter par mail à l'adresse
+[club-robotique@insa-cvl.fr](mailto:club-robotique@insa-cvl.fr)
 
 ## L'équipe
 

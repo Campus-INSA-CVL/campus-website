@@ -1,6 +1,5 @@
 ---
 title: Élèves Sans Frontières
-color: solidaritesColor
 order: 4
 description:
   Élèves Sans Frontières (ESF) est une association gérée par les étudiants et
@@ -8,6 +7,11 @@ description:
   étrangers en organisant des activités qui facilitent leur installation et leur
   intégration et de favoriser la dimension internationale en encourageant les
   échanges entre les étudiants français et ceux des différentes nationalités.
+color: solidaritesColor
+team:
+  bureau:
+    - responsability: président
+      name: Noor Toumani
 ---
 
 # Bienvenue dans Élèves Sans Frontières
@@ -44,9 +48,8 @@ d’année scolaire. Il inclut d’une part la présentation d’université ét
 où ont étudié des élèves de l’école, et d’autre part un buffet représentatif des
 différentes nationalités étrangères présentes à l’INSA.
 
-Il y a aussi le fameux repas de noël qui se tient pendant les vacances de l’an
-pour que les étudiants qui ne rentrent pas chez eux puissent partager un moment
-chaleureux et convivial. Cette année on organise un escape game en septembre
-afin d’intégrer les étudiants dès leur rentrée et une dégustation de mets
-typiquement française est prévue en février/mars afin de faire découvrir à tous
-les étudiants français comme étrangers la richesse de la gastronomie française.
+---
+
+## L'équipe
+
+<campus-team :team="team" :color="color"></campus-team>

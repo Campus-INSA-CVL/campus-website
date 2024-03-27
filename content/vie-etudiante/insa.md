@@ -35,4 +35,3 @@ qualité quel que soit leur milieu d’origine.
 - [INSA Rouen Normandie](https://www.groupe-insa.fr/decouvrir/nos-ecoles/insa-rouen-normandie)
 - [INSA Strasbourg](https://www.groupe-insa.fr/decouvrir/nos-ecoles/insa-strasbourg)
 - [INSA Toulouse](https://www.groupe-insa.fr/decouvrir/nos-ecoles/insa-toulouse)
-- [INSA Euro-Méditerranée](https://www.groupe-insa.fr/decouvrir/nos-ecoles/insa-euro-mediterranee)

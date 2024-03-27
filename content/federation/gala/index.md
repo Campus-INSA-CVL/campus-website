@@ -6,6 +6,18 @@ description:
   L'association Gala, c'est l'association qui organise tous les ans le bal de
   fin d'études et la remise des diplômes des élèves-ingénieurs de l'INSA CVL !
   🎉
+team:
+  bureau (Bicampus):
+    - responsability: président Blois
+      name: Maxime Cros
+    - responsability: vice président Bourges
+      name: Noor Toumani
+      avatar: additional_pic/noor_toumani.jpg
+    - responsability: vice président / secrétaire
+      name: Maxime Bailliez
+    - responsability: Trésorière
+      name: Mahilde Walraet
+
 imagesName:
   - carousel-1.png
   - carousel-2.png
@@ -102,16 +114,6 @@ Adresses:
 
 <iframe
   src="https://player.vimeo.com/video/184872959"
-  width="100%"
-  height="360"
-  frameborder="0"
-  allowfullscreen="">
-</iframe>
-
----
-
-<iframe
-  src="https://player.vimeo.com/video/141761625"
   width="100%"
   height="360"
   frameborder="0"

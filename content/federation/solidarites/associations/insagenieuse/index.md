@@ -10,11 +10,13 @@ description:
 team:
   bureau:
     - responsability: présidente
-      name: Ibriza JOUINI
+      name: Asse Sarre
+      avatar: federation/bde/BR/Asse Sarre.jpg
     - responsability: secrétaire
-      name: Nolwenn EVEN
-    - responsability: trésorière
-      name: Emma BAINIER
+      name: Manon Ducelier
+      avatar: federation/bde/Animation/Manon Ducelier.jpg
+    - responsability: trésorier
+      name: Niels Lopez
 ---
 
 # Bienvenue chez Insagénieuse
@@ -33,6 +35,9 @@ et le mouvement autour de différentes thématiques au sein de l’école.Parmi
 celles-ci, le genre, les discriminations sexistes, le harcèlement sexuel, etc..
 
 L’association se veut à vocation solidaire et est membre du Pôle Solidarités.
+
+L'association organise des conventions, campagnes de sensibilisations notamment
+aux Violences Sexuelles et Sexistes.
 
 Alors, si toi aussi tu t’intéresses à ces problématiques, n’hésite pas et
 rejoins-nous !

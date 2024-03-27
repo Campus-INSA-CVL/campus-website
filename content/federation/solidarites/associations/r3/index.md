@@ -18,20 +18,17 @@ imagesName:
 team:
   bureau:
     - responsability: président
-      name: Pauline Orillus
-      description:
+      name: Clémence Faccia
       avatar: user-random-female.png
     - responsability: vice-président
-      name: Azalaïs Le Bigot
-      description:
-      avatar: user-random-female.png
+      name: Yann Gaudichaud
+      avatar: user-random-male.png
     - responsability: trésorier
-      name: Clément Mellier
-      description:
+      name: Hugo Sansané
+      avatar: user-random-male.png
     - responsability: secrétaire
-      name: Léonie Houel
-      description:
-      avatar: user-random-female.png
+      name: Louis Busson
+      avatar: user-random-male.png
 social:
   facebook: https://www.facebook.com/RencontrerRealiserReussir/
 ---
@@ -55,17 +52,19 @@ milieux universitaire et professionnel, développer leur esprit critique et
 ## Nos activités
 
 R³ s’investit auprès des collégiens et lycéens notamment grâce aux actions
-suivantes : Visite de l’INSA Centre Val de Loire en présentant notre cursus,
-l’école, les laboratoires, les amphithéâtres, la vie associative, etc Tutorat
-auprès des élèves en difficulté (aide dans les matières scientifiques, pour les
-TPE ou pour autres projets) Visites culturelles avec le collège Le Grand
-Meaulnes avec la sortie au Palais de la Découverte ou bien encore la visite de
-la ville de Paris Réalisation de projets avec les collégiens avec la
-participation à des débats et des projets sur différents thèmes (par exemple :
-le harcèlement, la prévention des AVC ou bien encore les abeilles et leurs
-bienfaits pour la planète) Ateliers de découverte lors de la Fête de la Science
-et du Printemps de Bourges proposant des expériences scientifiques et ludiques
-accessibles à tous
+suivantes :
+
+- Visite de l’INSA Centre Val de Loire en présentant notre cursus, l’école, les
+  laboratoires, les amphithéâtres, la vie associative, etc
+- Tutorat auprès des élèves en difficulté
+- Visites culturelles avec le collège Le Grand Meaulnes avec la sortie au Palais
+  de la Découverte
+- Visite de la ville de Paris
+- Réalisation de projets avec les collégiens avec la participation à des débats
+  et des projets sur différents thèmes (le harcèlement, la prévention des AVC ou
+  bien encore les abeilles et leurs bienfaits pour la planète)
+- Ateliers de découverte lors de la Fête de la Science et du Printemps de
+  Bourges proposant des expériences scientifiques et ludiques accessibles à tous
 
 L’association organise et présente des conférences scientifiques mais aussi
 philosophiques, artistiques, techniques et humaines. Nous avons accueilli comme

@@ -1,21 +1,17 @@
 ---
 title: INSA'roule
-color: techniquesColor
 order: 4
 description: Le club mécanique de l'INSA CVL
+color: techniquesColor
 team:
   bureau:
     - responsability: président
-      name: Jeanne Le Corre
-      avatar: federation/techniques/insa-roule/Jeanne.jpg
-    - responsability: vice-président
-      name: Thomas Benet
+      name: Elouan Falissard
     - responsability: trésorier
-      name: Charles Marion
-      avatar: federation/techniques/insa-roule/Charles.jpg
+      name: Titouan Godard
+      avatar: federation/bde/Relations extérieures/Titouan Godard.jpg
     - responsability: secrétaire
-      name: Nicolas Maillet
-      avatar: federation/techniques/insa-roule/Nicolas.jpg
+      name: Paul Andrelucci
 ---
 
 <campus-center>

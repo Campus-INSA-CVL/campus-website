@@ -11,7 +11,7 @@ assos:
       avatar: federation/techniques/club-robotique.png
     - name: INSA'Roule
       avatar: federation/techniques/insa-roule/LOGO.png
-    - name: 4L Trophy
+    - name: INSA'Hara
     - name: Gam'INSA
       avatar: federation/techniques/gam-insa/logo.png
     - name: ISI

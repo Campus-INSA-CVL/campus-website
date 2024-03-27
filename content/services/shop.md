@@ -7,47 +7,35 @@ color: shopColor
 team:
   Team INSA Shop:
     - responsability: Responsable Insa Shop
-      name: Rim Cherkaoui
+      name: Lydie Tchoungang Chimi
       description:
         Manageuse de l'équipe, s'occupe de la partie financière, administrative,
         et assure la coordination des différents pôles de la boutique
-      avatar: services/shop/rim.webp
+      avatar: services/shop/lydie.jpg
     - responsability: Pôle Site Internet
-      name: Thomas Andonoff
+      name: Florine Clavier
       description:
         Technicien du site internet, s'occupe également du suivi des commandes
         et de l'actualisation du contenu disponible sur le site campus
-      avatar: services/shop/thomas.webp
+      avatar: services/shop/florine.webp
     - responsability: Pôle Boutique / Produit
-      name: Ines Jabri
+      name: Asse Sarre, Amine Bouftila
       description:
         S'occupe du suivi des stocks, du design des produits et de l'aménagement
         de la boutique
-      avatar: services/shop/ines.webp
-    - responsability: Pôle Boutique / Produit
-      name: QF Meaudre Desgouttes
-      description:
-        S'occupe du suivi des stocks, du design des produits et de l'aménagement
-        de la boutique
-      avatar: services/shop/QF.webp
+      avatar: services/shop/amine_asse.jpg
     - responsability: Pôle Communication
-      name: Diana Amarandei
+      name: Dorra Jerbi, Rana Hachicha
       description:
         S'occupe de la gestion des réseaux sociaux et de l'image de la boutique
         sur différents supports
-      avatar: services/shop/diana.webp
-    - responsability: Pôle Communication
-      name: Chloé Sallé
-      description:
-        S'occupe de la gestion des réseaux sociaux et de l'image de la boutique
-        sur différents supports
-      avatar: services/shop/chloé.webp
+      avatar: services/shop/dora_rana.jpg
     - responsability: Pôle Association
-      name: Camille Quelquejeu
+      name: Oumayma B'chir
       description:
         Gère la relation entre la boutique et les associations en veillant au
         bon déroulement des collaborations
-      avatar: services/shop/camille.webp
+      avatar: services/shop/oumayma.jpg
 social:
   instagram: 'https://www.instagram.com/insashop.cvl/'
   facebook: 'https://www.facebook.com/insashop.cvl/'

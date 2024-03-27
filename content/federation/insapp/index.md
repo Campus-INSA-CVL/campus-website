@@ -14,7 +14,7 @@ social:
 # L’INSA PP
 
 L’INSA PP est l’association qui fédère les apprentis ingénieurs du CFSA Hubert
-Curien. Son rôle est d'assurer la cohésion entre apprentis ainsi qu'entre les
+Curien. Notre rôle est d'assurer la cohésion entre apprentis ainsi qu'entre les
 apprentis et le BDE de l’INSA CVL. Pour cela, nous organisons l’intégration des
 ERE dans l’école, et organisons différents événements au cours de l’année pour
 contribuer à la vie étudiante.
