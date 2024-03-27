@@ -10,14 +10,13 @@ team:
   bureau (blois):
     - responsability: présidente
       name: Yann Hauville
-      avatar: 
+      avatar:
     - responsability: secrétaire
       name: Louis Courgenoul
       avatar: additional_pic/louis_corgenoul.jpg
     - responsability: trésorier
       name: Maxime Roggermans
-      avatar: 
-
+      avatar:
 ---
 
 # Bienvenue a INSA-hara
@@ -47,7 +46,6 @@ de fonds et l’échange avec d’anciens et futurs participants.
     max-width="800">
   </campus-responsive-image>
 </campus-center>
-
 
 ## L'équipe
 

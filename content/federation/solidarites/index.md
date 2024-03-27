@@ -12,7 +12,7 @@ team:
   bureau (blois):
     - responsability: présidente
       name: Mattéo Legall
-      avatar: 
+      avatar:
 ---
 
 # Association des solidarités

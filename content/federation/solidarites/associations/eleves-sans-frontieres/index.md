@@ -9,7 +9,7 @@ description:
   échanges entre les étudiants français et ceux des différentes nationalités.
 color: solidaritesColor
 team:
-  bureau :
+  bureau:
     - responsability: président
       name: Noor Toumani
 ---
@@ -47,8 +47,6 @@ L’événement phare d’**ESF** est le Forum International qui se tient en dé
 d’année scolaire. Il inclut d’une part la présentation d’université étrangères
 où ont étudié des élèves de l’école, et d’autre part un buffet représentatif des
 différentes nationalités étrangères présentes à l’INSA.
-
-
 
 ---
 

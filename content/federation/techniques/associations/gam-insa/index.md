@@ -13,7 +13,7 @@ social:
 team:
   bureau:
     - responsability: président
-      name: Correntin Gourret 
+      name: Correntin Gourret
       avatar: additional_pic/correntin_gourret.jpg
     - responsability: adjoint
       name: Elouan Rabouin

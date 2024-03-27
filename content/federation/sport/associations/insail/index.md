@@ -19,7 +19,6 @@ team:
       name: Maxime Bailliez
     - responsability: Trésorière
       name: Mahilde Walraet
-      
 ---
 
 # Bienvenue à l'INSAil

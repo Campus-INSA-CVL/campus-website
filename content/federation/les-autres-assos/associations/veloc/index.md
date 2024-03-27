@@ -15,7 +15,7 @@ team:
     - responsability: trésorier Bourges
       name: Jean Dominique Bewoin-fils
     - responsability: secrétaire Blois
-      name: Arthur Philibert 
+      name: Arthur Philibert
 ---
 
 # Véloc'

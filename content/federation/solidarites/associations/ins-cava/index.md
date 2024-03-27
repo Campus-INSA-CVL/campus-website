@@ -3,7 +3,7 @@ title: Ins'ca va ?
 color: solidaritesColor
 order: 1
 description:
-  Le club Ins'ca va propsoe des formations aux 1er secours aux étudiants. 
+  Le club Ins'ca va propsoe des formations aux 1er secours aux étudiants.
 team:
   bureau:
     - responsability: Responsable Bourges
@@ -14,7 +14,6 @@ team:
       avatar: additional_pic/anselme_vasseur.jpg
 social:
   instagram: 'https://www.instagram.com/insa_va_cvl/'
-
 ---
 
 # Bienvenue dans Ins'ca va ? Bourges
@@ -33,6 +32,7 @@ Le club Ins'ca va propsoe des formations aux 1er secours aux étudiants.
 <campus-social :social="social" :color="color"></campus-social>
 
 ---
+
 Le club Ins'ca va propsoe des formations aux 1er secours aux étudiants.
 
 ## L'équipe

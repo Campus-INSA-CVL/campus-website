@@ -1,5 +1,4 @@
 ---
-title: Partenaires
-description:
-  Les partenaires du BDE de l'INSA Centre Val de Loire 
-color: black
+
+title: Partenaires description: Les partenaires du BDE de l'INSA Centre Val de
+Loire color: black

@@ -99,30 +99,21 @@ d’apéritif dînatoire où l’on peut emmener un plat de son pays.
 <campus-center>
   <campus-responsive-image
     folder-name="additional_pic"
-    name="learning_center.jpg"
-    max-width="400"></campus-responsive-image>
-</campus-center>
-
-## Bibliothèque universitaire Bourges
-
-<campus-center>
-  <campus-responsive-image
-    folder-name="additional_pic"
     name="bu_blois.jpeg"
     max-width="400"></campus-responsive-image>
 </campus-center>
 
+Biliothèque universitaire du campus de Bourges , dit "Learning Center". Ouverte
+pendant les horaires d'ouverture de l'INSA , soit de 8h du matin à 20h.
 
-Biliothèque universitaire du campus de Bourges , dit "Learning Center". Ouverte pendant les horaires d'ouverture de l'INSA , soit de 8h du matin à 20h.
-
-Il est préférable de réserver au préalable les salles que l’on souhaite utiliser sur l’application Affluences, sous peine de ne pas conserver la salle dans laquelle vous serez installés.
-Comment réserver une salle de l'open space ou de la bibliothèque ?
+Il est préférable de réserver au préalable les salles que l’on souhaite utiliser
+sur l’application Affluences, sous peine de ne pas conserver la salle dans
+laquelle vous serez installés. Comment réserver une salle de l'open space ou de
+la bibliothèque ?
 
 soit en téléchargeant l’application Affluences sur votre smartphone
 
 soit en utilisant les liens suivants :
 
-https://affluences.com/learning-center-campus-bourges/reservation
-https://affluences.com/learning-center-campus-blois
-
-
+<https://affluences.com/learning-center-campus-bourges/reservation>
+<https://affluences.com/learning-center-campus-blois>

@@ -36,7 +36,8 @@ celles-ci, le genre, les discriminations sexistes, le harcèlement sexuel, etc..
 
 L’association se veut à vocation solidaire et est membre du Pôle Solidarités.
 
-L'association organise des conventions, campagnes de sensibilisations notamment aux Violences Sexuelles et Sexistes.
+L'association organise des conventions, campagnes de sensibilisations notamment
+aux Violences Sexuelles et Sexistes.
 
 Alors, si toi aussi tu t’intéresses à ces problématiques, n’hésite pas et
 rejoins-nous !

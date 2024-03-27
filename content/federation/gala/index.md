@@ -119,5 +119,3 @@ Adresses:
   frameborder="0"
   allowfullscreen="">
 </iframe>
-
-

@@ -20,7 +20,7 @@ team:
     - responsability: trésorier
       name: Junior Sosthène
       avatar: additional_pic/junior_sosthene.jpg
-    - responsability : sécrétaire
+    - responsability: sécrétaire
       name: Oriane Police
 ---
 

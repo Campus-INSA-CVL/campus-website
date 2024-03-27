@@ -10,11 +10,10 @@ team:
   bureau:
     - responsability: président
       name: Mathis Denis-Destouches
-    - responsability : trésorier
+    - responsability: trésorier
       name: Quentin Henneuse
-    - responsability : secrétaire
+    - responsability: secrétaire
       name: Emmanuel Fantou
-    
 ---
 
 # Bienvenue dans le club oenologie

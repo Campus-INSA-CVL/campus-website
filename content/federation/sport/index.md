@@ -30,9 +30,10 @@ activités sportives (entraînements, compétitions) et rassemble les associatio
     max-width="800"></campus-responsive-image>
 
 ## Votre AS BLOIS
+
 <campus-responsive-image
     folder-name="federation/sport"
     name="crew_blois.jpg"
     max-width="800"></campus-responsive-image>
-    
+
 </campus-center>

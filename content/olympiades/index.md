@@ -56,7 +56,6 @@ au rendez-vous !
   <campus-carousel :names="imagesName" :folder-name="folderName"></campus-carousel>
 </campus-center>
 
-
 </div>
 
 ## Les respos
@@ -71,7 +70,6 @@ vos questions sur les défis ou sur leur validation.
 
 <campus-team :team="responsables" :color="color"></campus-team>
 
-
 </div>
 
 <campus-team :team="winners" :color="color"></campus-team>
@@ -84,4 +82,3 @@ Chaque fin de mois un best of est réalisé mettant en valeurs les meilleurs dé
 réalisés pendant le mois.
 
 </div>
-

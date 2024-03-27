@@ -41,8 +41,8 @@ team:
     - responsability: organisation
       name: Romain Laye
       avatar: federation/sport/organisation_bourges.jpg
-    
---- 
+---
+
 # L'équipe
 
 <campus-team :team="team" :color="color"></campus-team>
