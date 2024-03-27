@@ -274,9 +274,10 @@ nationales.
 
 Dynamique et dévouée, celle-ci organise des rencontres propres à chaque ville
 (soirées cafet, Afterworks, Barbecues…) mais également des projets de plus
-grande ampleur, communs aux campus, tels que le Week-End d’Intégration (WEI), des soirées intercampus, ...
-Par ailleurs, le BDE accompagne des commissions chargées de planifier
-le rassemblement de tous les INSA à l’occasion du High Five ou du congrès AEI par exemple.
+grande ampleur, communs aux campus, tels que le Week-End d’Intégration (WEI),
+des soirées intercampus, ... Par ailleurs, le BDE accompagne des commissions
+chargées de planifier le rassemblement de tous les INSA à l’occasion du High
+Five ou du congrès AEI par exemple.
 
 La cohésion étant le mot d’ordre de l'association, chacun de ses membres se
 tient à votre disposition pour vous aiguiller et vous accompagner dans votre vie

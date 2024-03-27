@@ -67,9 +67,9 @@ Insa'rpège se manifeste sur 3 niveaux :
 - la vie étudiante nationale
 
 L’objectif d'INSA'rpège au sein du campus est tout d’abord de permettre à tous
-les musiciens amateurs de continuer la pratique de leur instrument en
-parallèle de leurs études, notamment de par la mise à disposition de notre
-salle et de notre matériel.
+les musiciens amateurs de continuer la pratique de leur instrument en parallèle
+de leurs études, notamment de par la mise à disposition de notre salle et de
+notre matériel.
 
 L’association permet également à ceux-ci d’intégrer des groupes dans des styles
 divers pour ensuite se produire, ou non, en public au sein de l’école par
@@ -77,14 +77,15 @@ exemple pendant les afterworks principalement ou à l’extérieur lors d'évene
 diverses. Ces représentations peuvent intervenir dans un large éventail
 d'événements pour apporter une ambiance musicale de folie.
 
-On représente enfin la musique de l'INSA CVL. C'est à dire que lors
-d'événements inter-INSA ou inter-écoles où l'on doit faire intervenir de la zik,
-c'est à nous de représenter au mieux notre école. Cela prend par exemple la
-forme d'une fanfare pour le I5 !
+On représente enfin la musique de l'INSA CVL. C'est à dire que lors d'événements
+inter-INSA ou inter-écoles où l'on doit faire intervenir de la zik, c'est à nous
+de représenter au mieux notre école. Cela prend par exemple la forme d'une
+fanfare pour le I5 !
 
 ## Les événements
 
-On ne fait pas que du bruit ! Voici une petite liste non exhaustive des évenements auxquels nous participons :
+On ne fait pas que du bruit ! Voici une petite liste non exhaustive des
+évenements auxquels nous participons :
 
 - Afterworks de différents types (karaoké, blind-test ou concerts classiques / à
   thèmes)

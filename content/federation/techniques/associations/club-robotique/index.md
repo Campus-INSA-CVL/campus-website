@@ -112,11 +112,12 @@ des interventions dans des médiathèques.
 
 Il s'agit de **Erirat**
 
-# Nous contacter
+## Nous contacter
 
 <campus-social :social="social" :color="color"></campus-social>
 
-Vous pouvez aussi nous contacter par mail à l'adresse [club-robotique@insa-cvl.fr](mailto:club-robotique@insa-cvl.fr)
+Vous pouvez aussi nous contacter par mail à l'adresse
+[club-robotique@insa-cvl.fr](mailto:club-robotique@insa-cvl.fr)
 
 ## L'équipe
 

@@ -48,14 +48,15 @@ appliquent ce qu'ils ont appris.
 ### Prérequis
 
 - Une machine virtuelle, VMware ou VirtualBox, avec Kali Linux
-- S'incrire sur la plateforme TryHackMe, les cours sont complétés par des CTFs sur la plateforme TryHackMe.
+- S'incrire sur la plateforme TryHackMe, les cours sont complétés par des CTFs
+  sur la plateforme TryHackMe.
 
 ### Cours
 
 #### Cours 1 : Découverte
 
-Réalisez votre premier CTF simple.
-Et pour les débutants sur Linux, Prenez Linux en main avec OverTheWire.
+Réalisez votre premier CTF simple. Et pour les débutants sur Linux, Prenez Linux
+en main avec OverTheWire.
 
 #### Cours 2 : Privilege Escalation
 
@@ -75,11 +76,13 @@ Retrouvez des informations sur n'importe qui juste en se baladant sur internet.
 
 #### Cours 6 : Brut-it
 
-Pour "bruteforce" des sites web car _Quand on sait pas quoi mettre, on essaye tout_ (Socrate).
+Pour "bruteforce" des sites web car _Quand on sait pas quoi mettre, on essaye
+tout_ (Socrate).
 
 #### Cours 7 : CTF collection vol.1
 
-Collection de 20 petits CTFs pour vous entrainer, Avec quelques découvertes comme la stéganographie.
+Collection de 20 petits CTFs pour vous entrainer, Avec quelques découvertes
+comme la stéganographie.
 
 #### Cours 8 : Local File Inclusion (LFI)
 
@@ -87,7 +90,8 @@ Accédez à des fichiers privés d'une machine distante.
 
 #### Cours 9 : SQL Injection
 
-Accédez à des sites protégés ou obtenir des bases de donnée entière avec une requête.
+Accédez à des sites protégés ou obtenir des bases de donnée entière avec une
+requête.
 
 #### Cours 10 : Biohazard
 
@@ -115,7 +119,8 @@ Interceptez, analysez, modifiez et répétez des requêtes HTTP.
 
 #### Cours 16 : Remote Code Execution
 
-Exploitez les failles d'un serveur afin de lui faire exécuter le code que vous souhaitez.
+Exploitez les failles d'un serveur afin de lui faire exécuter le code que vous
+souhaitez.
 
 #### Cours 17 : Windows Privilege Escalation
 
@@ -141,9 +146,11 @@ Cherchez des failles pour, un jour, être récompensé financièrement.
 
 Une petite collection de CTF pour pâques.
 
-**La liste est non exhaustive et de nouveau CTF, évènement ou cours peuvent arriver durant l'année ;)**
+**La liste est non exhaustive et de nouveau CTF, évènement ou cours peuvent
+arriver durant l'année ;)**
 
 ---
-<campus-center>Pour plus d'information, visitez notre site!</br>
-Et rejoignez-nous sur notre serveur discord</campus-center>
+
+<campus-center>Pour plus d'information, visitez notre site!</br> Et
+rejoignez-nous sur notre serveur discord</campus-center>
 <campus-social :social="social" :color="color"></campus-social>

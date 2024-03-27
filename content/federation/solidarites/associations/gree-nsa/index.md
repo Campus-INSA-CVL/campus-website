@@ -4,10 +4,10 @@ color: othersColor
 order: 1
 description:
   Gree'NSA est une association présente sur les deux campus de Blois et Bourges.
-  Elle a plusieurs objectifs comme s'ancrer
-  dans une dynamique local de développement durable au travers de différents
-  moyens d'actions ! Elle a aussi pour volonté de prendre part à la vie de
-  l'école, au travers de la vie étudiante et des formations ! 🌱
+  Elle a plusieurs objectifs comme s'ancrer dans une dynamique local de
+  développement durable au travers de différents moyens d'actions ! Elle a aussi
+  pour volonté de prendre part à la vie de l'école, au travers de la vie
+  étudiante et des formations ! 🌱
 team:
   bureau blois:
     - responsability: président
