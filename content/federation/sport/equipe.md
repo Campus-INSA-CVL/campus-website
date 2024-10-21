@@ -5,41 +5,41 @@ color: sportColor
 team:
   Equipe blois:
     - responsability: président
-      name: Emmanuel Brissot
+      name: Marie Larramendy
       avatar: federation/sport/president.jpg
     - responsability: vice-président
-      name: Yann Fumeau
+      name: Glen Marchet
       avatar: federation/sport/vice_president.jpg
     - responsability: trésorier
-      name: Lucas Levayer
+      name: Claire Brousse
       avatar: federation/sport/tresorier.jpg
     - responsability: Secrétaire
-      name: Manon Lhomme
+      name: Nelson Loriot
       avatar: federation/sport/secretaire.jpg
   Equipe bourges:
     - responsability: président
-      name: Eva Bornot
+      name: Salomé Le Dez
       avatar: federation/sport/presidente_bourges.jpg
     - responsability: vice-président
-      name: Solene Cayrol
+      name: Quentin Descloux
       avatar: federation/sport/vice_presidente_bourges.jpg
     - responsability: trésorière
-      name: Juliette Alzon
+      name: Inès Rezzoug
       avatar: federation/sport/tresoriere_bourges.jpg
     - responsability: secrétaire
-      name: Nolan Parreau
+      name: Adèle Petit Vassort
       avatar: federation/sport/secretaire_bourges.jpg
     - responsability: coach
       name: Manon Ducelier
       avatar: federation/sport/coach_bourges.jpg
     - responsability: communication
-      name: Paul Laurent, Pierre Schwartz
+      name: Mathieu D'Ovidio & Ludivine Even
       avatar: federation/sport/communication_bourges.jpg
     - responsability: logistique
-      name: Céleste Le guen
+      name: Maiwen Castel
       avatar: federation/sport/logistique_bourges.jpg
     - responsability: organisation
-      name: Romain Laye
+      name: Thibaud Gibory
       avatar: federation/sport/organisation_bourges.jpg
 ---
 
