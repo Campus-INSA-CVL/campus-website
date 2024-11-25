@@ -21,259 +21,241 @@ imagesName:
 team:
   bureau:
     - responsability: Présidente (Bourges)
-      name: Amelie Sauvan Magnet
-      avatar: federation/bde/BR/amélie.jpg
+      name: Romane Fouilhé
+      avatar: federation/bde/BR/Romane Fouilhé.jpg
     - responsability: 1ère vice-présidente (Blois)
-      name: Charlotte Pellegrino
-      avatar: federation/bde/BR/charlotte.jpg
+      name: Lola Bassereau
+      avatar: federation/bde/BR/Lola Bassereau.jpg
     - responsability: vice-président adjoint (Bourges)
-      name: Elsa Maysounav
-      avatar: federation/bde/BR/elsa.jpg
+      name: Louis Jacquin
+      avatar: federation/bde/BR/Louis Jacquin.jpg
     - responsability: vice-président adjoint (Blois)
-      name: Paul-Henry Cazier
-      avatar: federation/bde/BR/ph.jpg
+      name: Martin Fontaine
+      avatar: federation/bde/BR/Martin Fontaine.jpg
     - responsability: trésorier adjoint (Bourges)
-      name: Charles Bel
-      avatar: federation/bde/BR/charles b.jpg
+      name: Martin Fidon
+      avatar: federation/bde/BR/Martin Fidon.jpg
     - responsability: trésorier (Blois)
-      name: Pauline Daiguemorte
-      avatar: federation/bde/BR/pauline.jpg
+      name: Raphaël Mathé
+      avatar: federation/bde/BR/Raphaël Mathé.jpg
     - responsability: secrétaire (Bourges)
-      name: Clémence Bourgeois
-      avatar: federation/bde/BR/clémence.jpg
+      name: Asse Sarre
+      avatar: federation/bde/BR/Asse Sarre.jpg
     - responsability: secrétaire adjoint (Blois)
-      name: Hugo Thibert
-      avatar: federation/bde/BR/thibert.jpg
+      name: Paul Deffay
+      avatar: federation/bde/BR/Paul Deffay.jpg
   communication - Blois:
     - responsability:
-      name: Fatma Toumi
-      avatar: federation/bde/Communication/fatma.jpg
+      name: Clara Esteves
+      avatar: federation/bde/Communication/Clara Esteves.jpg
     - responsability:
-      name: Clara Picouays
-      avatar: federation/bde/Communication/clara.jpg
-      name: Vincent Tournebize
-      avatar: federation/bde/Communication/vincent.jpg
+      name: Mathilde Desreumaux
+      avatar: federation/bde/Communication/Mathilde Desreumaux.jpg
+    - responsability:
+      name: Meriem Fergague
   communication - Bourges:
     - responsability:
-      name: Goran Validzic
-      avatar: federation/bde/Communication/goran.jpg
+      name: Alexandre Desfontaines
+      avatar: federation/bde/Communication/Alexandre Desfontaines.jpg
     - responsability:
-      name: Capucine Desille-Cocherie
-      avatar: federation/bde/Communication/capucine.jpg
+      name: Juliette Alzon
+      avatar: federation/bde/Communication/Juliette Alzon.jpg
     - responsability:
-      name: Ludivine Even
-      avatar: federation/bde/Communication/ludivine.jpg
+      name: Pierre Schwartz
+      avatar: federation/bde/Communication/Pierre Schwartz.jpg
     - responsability:
-      name: Salomé Le Dez
-      avatar: federation/bde/Communication/salome.jpg
-      name: Youna Le Viavant
-      avatar: federation/bde/Communication/youna.jpg
+      name: Valentine Prosper
+      avatar: federation/bde/Communication/Valentine Prosper.jpg
   animation - Blois:
     - responsability:
-      name: Claire Brousse
-      avatar: federation/bde/Animation/claire.jpg
+      name: Fanny Osman
+      avatar: federation/bde/Animation/Fanny Osman.jpg
     - responsability:
-      name: Simon Dessalles
-      avatar: federation/bde/Animation/simon.jpg
+      name: Lucas Levayer
+      avatar: federation/bde/Animation/Lucas Levayer.jpg
     - responsability:
-      name: Louis Courgenoul
-      avatar: federation/bde/Animation/louis.jpg
+      name: Mathieu Nobileau
+      avatar: federation/bde/Animation/Mathieu Nobileau.jpg
     - responsability:
-      name: Yann Bertelle
-      avatar: federation/bde/Animation/yann.b.jpg
-    - responsability:
-      name: Pierre Boudy
-      avatar: federation/bde/Animation/pierre.jpg
+      name: Neslon Loriot
+      avatar: federation/bde/Animation/Nelson Loriot.jpg
   animation - Bourges:
     - responsability:
-      name: Elea Panhaleux
-      avatar: federation/bde/Animation/éléa.jpg
+      name: Emile Peltier
+      avatar: federation/bde/Animation/Emile Peltier.jpg
     - responsability:
-      name: Thibaud Gibory
-      avatar: federation/bde/Animation/thibaud.jpg
+      name: Manon Ducelier
+      avatar: federation/bde/Animation/Manon Ducelier.jpg
     - responsability:
-      name: Camille Granger
-      avatar: federation/bde/Animation/camille.jpg
+      name: Selyan Da Silva
+      avatar: federation/bde/Animation/Selyan Da Silva.jpg
     - responsability:
-      name: Mehdi Bouchema
-      avatar: federation/bde/Animation/mehdi.jpg
+      name: Simon Leclere
+      avatar: federation/bde/Animation/Simon Leclere.jpg
   partenariats - Blois:
     - responsability:
-      name: Titouan Baraton
-      avatar: federation/bde/Partenariats/titouan b.jpg
+      name: Arthur Descos
+      # avatar: federation/bde/Partenariats/Arthur Descos.jpg
     - responsability:
-      name: Théo Renck
+      name: Benjamin Horel
       # avatar: federation/bde/Partenariats/Benjamin Horel.jpg
+    - responsability:
+      name: Killian Gallin
+      avatar: federation/bde/Partenariats/Killian Gallin.jpg
   partenariats - Bourges:
     - responsability:
-      name: Aymeric Balmond
-      avatar: federation/bde/Partenariats/aymeric.jpg
+      name: Anissa Fassihi
+      avatar: federation/bde/Partenariats/Anissa Fassihi.jpg
     - responsability:
-      name: Gabriel Tur
-      avatar: federation/bde/Partenariats/gabriel t.jpg
+      name: Nolan Parreau
+      avatar: federation/bde/Partenariats/Nolan Parreau.jpg
     - responsability:
-      name: Mathieu D'Ovidio
-      avatar: federation/bde/Partenariats/mathieu.jpg
+      name: Oumayma B'chir
+      avatar: federation/bde/Partenariats/Oumayma B'chir.jpg
   Logistique - Blois:
     - responsability:
-      name: Thomas Duffaud
-      avatar: federation/bde/Logistique/thomas.jpg
+      name: Galien Halbert Suteau
+      avatar: federation/bde/Logistique/Galien Halbert Suteau.jpg
     - responsability:
-      name: Bastien Adonel
-      avatar: federation/bde/Logistique/bastien.jpg
+      name: Kelyan Chareyre
+      avatar: federation/bde/Logistique/Kelyan Chareyre.jpg
   Logistique - Bourges:
     - responsability:
-      name: Nora Massot
-      avatar: federation/bde/Logistique/nora.jpg
+      name: Antoine Suire
+      avatar: federation/bde/Logistique/Antoine Suire.jpg
     - responsability:
-      name: Simane Bendadda
-      avatar: federation/bde/Logistique/simane.jpg
+      name: Eva Cassagnes
+      avatar: federation/bde/Logistique/Eva Cassagnes.jpg
   Cafétéria - Blois:
     - responsability:
-      name: Maxime Roggemans
-      avatar: federation/bde/Cafétéria/maxime.jpg
+      name: Arnaud Cartault la Rocca
+      avatar: federation/bde/Cafétéria/Arnaud Cartault la Rocca.jpg
     - responsability:
-      name: Martin Piedagnel
-      avatar: federation/bde/Cafétéria/martin.jpg
+      name: Camille Imbert
+      avatar: federation/bde/Cafétéria/Camille Imbert.jpg
     - responsability:
-      name: Victor Châtelet
-      avatar: federation/bde/Cafétéria/victor.jpg
+      name: Théo Tremblay
+      avatar: federation/bde/Cafétéria/Théo Tremblay.jpg
     - responsability:
-      name: Marguerite Morin
-      avatar: federation/bde/Cafétéria/marguerite.jpg
+      name: Paul Martinez
+      avatar: federation/bde/Cafétéria/Paul Martinez.jpg
     - responsability:
-      name: Raphael Pompidou
-      avatar: federation/bde/Cafétéria/raphaël.jpg
+      name: Aline Nourry
+      avatar: federation/bde/Cafétéria/Aline Nourry.jpg
+    - responsability:
+      name: Benjamin Horel
+      # avatar: federation/bde/Cafétéria/Benjamin Horel.jpg
 
   Cafétéria - Bourges:
     - responsability:
-      name: Mathis Da Silva
-      avatar: federation/bde/Cafétéria/mathis carré.jpg
+      name: Agathe Déléris
+      avatar: federation/bde/Cafétéria/Agathe Déléris.jpg
     - responsability:
-      name: Julia Chiodi
-      # avatar: federation/bde/Cafétéria/Nina Girard.jpg
+      name: Nina Girard
+      avatar: federation/bde/Cafétéria/Nina Girard.jpg
   Boisson - Blois:
     - responsability:
-      name: Yann Hauville
-      avatar: federation/bde/Boisson/yann h.jpg
+      name: Chloé Fush
+      avatar: federation/bde/Boisson/Chloe Fush.jpg
     - responsability:
-      name: Mario Durand
-      avatar: federation/bde/Boisson/mario.jpg
+      name: Gaïa Pelat
+      avatar: federation/bde/Boisson/Gaïa Pelat.jpg
   Boisson - Bourges:
     - responsability:
-      name: Manu Valledor
-      avatar: federation/bde/Boisson/manu.jpg
+      name: Emile Rabache
+      avatar: federation/bde/Boisson/Emile Rabache.jpg
     - responsability:
-      name: Adèle Petit-Vassort
-      avatar: federation/bde/Boisson/adèle.jpg
-    - responsability:
-      name: Clément Ledouble
-      avatar: federation/bde/Boisson/clément.jpg
+      name: Juliette Jaupitre
+      avatar: federation/bde/Boisson/Juliette Jaupitre.jpg
   Décoration - Blois:
     - responsability:
-      name: Tom Cavaro
-      avatar: federation/bde/Décoration/tom.jpg
+      name: Antton Souviraa
+      avatar: federation/bde/Décoration/Antton Souviraa.jpg
     - responsability:
-      name: Noé Jeunet
-      avatar: federation/bde/Décoration/noé.jpg
+      name: Yann Fumeau
+      avatar: federation/bde/Décoration/Yann Fumeau.jpg
   Décoration - Bourges:
     - responsability:
-      name: Amélie Eleouet
-      avatar: federation/bde/Décoration/amélie e.jpg
+      name: Céleste Le Guen
+      avatar: federation/bde/Décoration/Céleste Le Guen.jpg
     - responsability:
-      name: Camille Pluche
-      avatar: federation/bde/Décoration/camille p.jpg
-    - responsability:
-      name: Mailys Vu
-      avatar: federation/bde/Décoration/mailys.jpg     
+      name: Margot Tatreaux
+      avatar: federation/bde/Décoration/Margot Tatreaux.jpg
   Achats - Blois:
     - responsability:
-      name: Lubin Falaize
-      avatar: federation/bde/Achat/lubin.jpg
+      name: Alix Chaumette
+      # avatar: federation/bde/Achat/Alix Chaumette.jpg
     - responsability:
-      name: Marius Bombar
-      avatar: federation/bde/Achat/marius.jpg
+      name: Thomas Imbert
+      avatar: federation/bde/Achat/Thomas Imbert.jpg
   Achats - Bourges:
     - responsability:
-      name: Charles Chaynes
-      avatar: federation/bde/Achat/charles c.jpg
+      name: Clara Hickel
+      avatar: federation/bde/Achat/Clara Hickel.jpg
     - responsability:
-      name: Jonas Fontaine Demay
-      avatar: federation/bde/Achat/jonas.jpg
-  Associatif - Blois:
+      name: Lydie Tchoungang Chimi
+      avatar: federation/bde/Achat/Lydie Tchoungang Chimi.jpg
+  Associatif - Blois et Bourges:
     - responsability:
-      name: Corentin Fournier
-      avatar: federation/bde/Associatif/corentin.jpg
-  Associatif - Bourges:
-    - responsability:
-      name: Kylian Tonini
-      avatar: federation/bde/Associatif/kylian.jpg
+      name: Théo Tremblay
+      avatar: federation/bde/Associatif/Théo Tremblay.jpg
   Relations Extérieures - Blois:
     - responsability:
-      name: Marie Larramendy
-      avatar: federation/bde/Relations extérieures/marie.jpg
-    - responsability:
-      name: Tao Bernard
-      avatar: federation/bde/Relations extérieures/tao.jpg
+      name: Arthur Clot
+      # avatar: federation/bde/Relations extérieures/Arthur Clot.jpg
   Relations Extérieures - Bourges:
     - responsability:
-      name: Alexis Danet
-      avatar: federation/bde/Relations extérieures/alexis.jpg
-    - responsability:
-      name: Gabriel Scavone
-      avatar: federation/bde/Relations extérieures/gabriel s.jpg
+      name: Titouan Godard
+      avatar: federation/bde/Relations extérieures/Titouan Godard.jpg
   Informatique - Blois:
     - responsability:
-      name: Marius Bombar
-      avatar: federation/bde/Informatique/marius.jpg
+      name: Nino Perdrix
+      avatar: federation/bde/Informatique/Nino Perdrix.jpg
   Informatique - Bourges:
     - responsability:
-      name: Titouan Chauvin
-      avatar: federation/bde/Informatique/titouan c.jpg
+      name: Thomas Mortagne
+      avatar: federation/bde/Informatique/Thomas Mortagne.jpg
   Olympiades - Blois:
     - responsability:
-      name: Zélie Bockstael
-      avatar: federation/bde/Olympiades/zélie.jpg
+      name: Aline Nourry
+      avatar: federation/bde/Olympiades/Aline Nourry.jpg
     - responsability:
-      name: Agnès Bueno
-      avatar: federation/bde/Olympiades/agnès.jpg
+      name: Louis Berton
+      # avatar: federation/bde/Olympiades/Louis Berton.jpg
   Olympiades - Bourges:
     - responsability:
-      name: Anthony Bouyssou
-      avatar: federation/bde/Olympiades/anthony.jpg
+      name: Camille Lambert
+      avatar: federation/bde/Olympiades/Camille Lambert.jpg
     - responsability:
-      name: Oihan Davy
-      avatar: federation/bde/Olympiades/ohian.jpg
+      name: Mathilde Seity
+      avatar: federation/bde/Olympiades/Mathilde Seity.jpg
   Organisation - Blois:
     - responsability:
-      name: Inès Linossier
-      avatar: federation/bde/Organisation/inès.jpg
+      name: Lola Carré Boiteau
+      avatar: federation/bde/Organisation/Lola Carré Boiteau.jpg
   Organisation - Bourges:
     - responsability:
-      name: Maïwen Castel
-      avatar: federation/bde/Organisation/maïwen.jpg
+      name: Ludovick Lainé
+      avatar: federation/bde/Organisation/Ludovick Lainé.jpg
   Prévention - Blois:
     - responsability:
-      name: Willem Tonel
-      avatar: federation/bde/Prévention/willem.jpg
+      name: Raja Khessib
+      # avatar: federation/bde/Prévention/Raja Khessib.jpg
     - responsability:
-      name: Tiphaine Rideau
-      avatar: federation/bde/Prévention/tiphaine.jpg
+      name: Roman Fonteny
+      # avatar: federation/bde/Prévention/Roman Fonteny.jpg
   Prévention - Bourges:
     - responsability:
-      name: Hugo Renaud
-      avatar: federation/bde/Prévention/hugo.jpg
-    - responsability:
-      name: Candice Costes
-      avatar: federation/bde/Son/candice.jpg
+      name: Jean Louis Dolphin
+      # avatar: federation/bde/Prévention/Jean Louis Dolphin.jpg
   Son - Blois:
     - responsability:
-      name: Oscar Bouaouil
-      avatar: federation/bde/Son/oscar.jpg
+      name: Paul Martinez
+      avatar: federation/bde/Son/Paul Martinez.jpg
   Son - Bourges:
     - responsability:
-      name: côme Guéno Bozec
-      avatar: federation/bde/Son/côme.jpg
+      name: Delphine Souquet
+      avatar: federation/bde/Son/Delphine Souquet.jpg
 ---
 
 # Le Bureau des Élèves (BDE)
