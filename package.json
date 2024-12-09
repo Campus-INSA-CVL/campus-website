@@ -50,7 +50,7 @@
   "dependencies": {
     "@nuxt/content": "^2.13.4",
     "@nuxtjs/pwa": "^3.3.5",
-    "@nuxtjs/robots": "^5.0.0",
+    "@nuxtjs/robots": "^5.0.1",
     "@nuxtjs/sitemap": "^7.0.0",
     "nuxt": "^3.14.1592",
     "nuxt-webfontloader": "^1.1.0",
@@ -75,14 +75,14 @@
     "husky": "^9.1.7",
     "lint-staged": "^15.2.10",
     "node-sass": "^9.0.0",
-    "prettier": "^3.4.1",
+    "prettier": "^3.4.2",
     "pug": "^3.0.3",
     "pug-plain-loader": "^1.1.0",
     "remark-frontmatter": "^5.0.0",
     "remark-lint-no-heading-punctuation": "^4.0.0",
     "remark-preset-lint-markdown-style-guide": "^6.0.0",
     "remark-preset-lint-recommended": "^7.0.0",
-    "sass-loader": "16.0.3",
+    "sass-loader": "16.0.4",
     "vuepress": "^1.9.10",
     "vuepress-theme-default-prefers-color-scheme": "^2.0.0"
   }
