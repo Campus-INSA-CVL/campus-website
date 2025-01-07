@@ -5,42 +5,42 @@ color: sportColor
 team:
   Equipe blois:
     - responsability: président
-      name: Emmanuel Brissot
-      avatar: federation/sport/president.jpg
+      name: Marie Larramendy
+      avatar: assets/federation/sport/Photos as/marie.jpg
     - responsability: vice-président
-      name: Yann Fumeau
-      avatar: federation/sport/vice_president.jpg
+      name: Glen Marchet
+      avatar: assets/federation/sport/Photos as/glenn.jpg
     - responsability: trésorier
-      name: Lucas Levayer
-      avatar: federation/sport/tresorier.jpg
+      name: Claire Brousse
+      avatar: assets/federation/sport/Photos as/claire.jpg
     - responsability: Secrétaire
-      name: Manon Lhomme
-      avatar: federation/sport/secretaire.jpg
+      name: Nelson Loriot
+      avatar: assets/federation/sport/Photos as/nelson.jpg
   Equipe bourges:
     - responsability: président
-      name: Eva Bornot
-      avatar: federation/sport/presidente_bourges.jpg
+      name: Salomé Le Dez
+      avatar: assets/federation/sport/Photos as/salome.jpg
     - responsability: vice-président
-      name: Solene Cayrol
-      avatar: federation/sport/vice_presidente_bourges.jpg
+      name: Quentin Descloux
+      avatar: assets/federation/sport/Photos as/quentin.jpg
     - responsability: trésorière
-      name: Juliette Alzon
-      avatar: federation/sport/tresoriere_bourges.jpg
+      name: Inès Rezzoug
+      avatar: assets/federation/sport/Photos as/ines.jpg
     - responsability: secrétaire
-      name: Nolan Parreau
-      avatar: federation/sport/secretaire_bourges.jpg
+      name: Adèle Petit Vassort
+      avatar: assets/federation/sport/Photos as/adele.jpg
     - responsability: coach
       name: Manon Ducelier
-      avatar: federation/sport/coach_bourges.jpg
+      avatar: assets/federation/sport/Photos as/manon.jpg
     - responsability: communication
-      name: Paul Laurent, Pierre Schwartz
-      avatar: federation/sport/communication_bourges.jpg
+      name: Mathieu D'Ovidio & Ludivine Even
+      avatar: assets/federation/sport/Photos as/ludivine&mathieu.jpg
     - responsability: logistique
-      name: Céleste Le guen
-      avatar: federation/sport/logistique_bourges.jpg
+      name: Maiwen Castel
+      avatar: federation/sport/logistique_bourge0s/maiwen.jpg
     - responsability: organisation
-      name: Romain Laye
-      avatar: federation/sport/organisation_bourges.jpg
+      name: Thibaud Gibory
+      avatar: assets/federation/sport/Photos as/thibaud.jpg
 ---
 
 # L'équipe
