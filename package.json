@@ -48,7 +48,7 @@
     }
   },
   "dependencies": {
-    "@nuxt/content": "^3.1.0",
+    "@nuxt/content": "^3.1.1",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/robots": "^5.2.2",
     "@nuxtjs/sitemap": "^7.2.4",
@@ -67,21 +67,21 @@
     "@vuepress/plugin-back-to-top": "^1.9.10",
     "@vuepress/plugin-medium-zoom": "^1.9.10",
     "babel-eslint": "^10.1.0",
-    "eslint": "^9.20.0",
+    "eslint": "^9.20.1",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-md": "^1.0.19",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-prettier": "^5.2.3",
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3",
-    "prettier": "^3.5.0",
+    "prettier": "^3.5.1",
     "pug": "^3.0.3",
     "pug-plain-loader": "^1.1.0",
     "remark-frontmatter": "^5.0.0",
     "remark-lint-no-heading-punctuation": "^4.0.1",
     "remark-preset-lint-markdown-style-guide": "^6.0.1",
     "remark-preset-lint-recommended": "^7.0.1",
-    "sass-loader": "16.0.4",
+    "sass-loader": "16.0.5",
     "vuepress": "^1.9.10",
     "vuepress-theme-default-prefers-color-scheme": "^2.0.0"
   }
