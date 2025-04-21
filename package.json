@@ -50,7 +50,7 @@
   "dependencies": {
     "@nuxt/content": "^3.4.0",
     "@nuxtjs/pwa": "^3.3.5",
-    "@nuxtjs/robots": "^5.2.9",
+    "@nuxtjs/robots": "^5.2.10",
     "@nuxtjs/sitemap": "^7.2.10",
     "nuxt": "^3.16.2",
     "nuxt-webfontloader": "^1.1.0",
@@ -67,7 +67,7 @@
     "@vuepress/plugin-back-to-top": "^1.9.10",
     "@vuepress/plugin-medium-zoom": "^1.9.10",
     "babel-eslint": "^10.1.0",
-    "eslint": "^9.24.0",
+    "eslint": "^9.25.0",
     "eslint-config-prettier": "^10.1.2",
     "eslint-plugin-md": "^1.0.19",
     "eslint-plugin-nuxt": "^4.0.0",
