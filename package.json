@@ -73,7 +73,7 @@
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-prettier": "^5.5.4",
     "husky": "^9.1.7",
-    "lint-staged": "^16.2.6",
+    "lint-staged": "^16.2.7",
     "prettier": "^3.6.2",
     "pug": "^3.0.3",
     "pug-plain-loader": "^1.1.0",
