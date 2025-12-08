@@ -48,10 +48,10 @@
     }
   },
   "dependencies": {
-    "@nuxt/content": "^3.8.2",
+    "@nuxt/content": "^3.9.0",
     "@nuxtjs/pwa": "^3.3.5",
-    "@nuxtjs/robots": "^5.5.6",
-    "@nuxtjs/sitemap": "^7.4.7",
+    "@nuxtjs/robots": "^5.6.1",
+    "@nuxtjs/sitemap": "^7.4.9",
     "nuxt": "^4.2.1",
     "nuxt-webfontloader": "^1.1.0",
     "vue-parallaxy": "^1.1.1"
@@ -75,7 +75,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
     "node-sass": "^9.0.0",
-    "prettier": "^3.7.3",
+    "prettier": "^3.7.4",
     "pug": "^3.0.3",
     "pug-plain-loader": "^1.1.0",
     "remark-frontmatter": "^5.0.0",
