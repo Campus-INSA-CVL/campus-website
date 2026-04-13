@@ -50,8 +50,8 @@
   "dependencies": {
     "@nuxt/content": "^3.12.0",
     "@nuxtjs/pwa": "^3.3.5",
-    "@nuxtjs/robots": "^6.0.6",
-    "@nuxtjs/sitemap": "^8.0.11",
+    "@nuxtjs/robots": "^6.0.7",
+    "@nuxtjs/sitemap": "^8.0.12",
     "nuxt": "^4.4.2",
     "nuxt-webfontloader": "^1.1.0",
     "vue-parallaxy": "^1.1.1"
@@ -74,7 +74,7 @@
     "eslint-plugin-prettier": "^5.5.5",
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
-    "prettier": "^3.8.1",
+    "prettier": "^3.8.2",
     "pug": "^3.0.4",
     "pug-plain-loader": "^1.1.0",
     "remark-frontmatter": "^5.0.0",
