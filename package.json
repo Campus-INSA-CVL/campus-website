@@ -50,8 +50,8 @@
   "dependencies": {
     "@nuxt/content": "^3.13.0",
     "@nuxtjs/pwa": "^3.3.5",
-    "@nuxtjs/robots": "^6.0.7",
-    "@nuxtjs/sitemap": "^8.0.13",
+    "@nuxtjs/robots": "^6.0.8",
+    "@nuxtjs/sitemap": "^8.0.14",
     "nuxt": "^4.4.2",
     "nuxt-webfontloader": "^1.1.0",
     "vue-parallaxy": "^1.1.1"
