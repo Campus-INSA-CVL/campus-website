@@ -48,7 +48,7 @@
     }
   },
   "dependencies": {
-    "@nuxt/content": "^3.14.0",
+    "@nuxt/content": "^3.15.0",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/robots": "^6.1.2",
     "@nuxtjs/sitemap": "^8.2.2",
@@ -74,7 +74,7 @@
     "eslint-plugin-prettier": "^5.5.6",
     "husky": "^9.1.7",
     "lint-staged": "^17.0.8",
-    "prettier": "^3.9.1",
+    "prettier": "^3.9.4",
     "pug": "^3.0.4",
     "pug-plain-loader": "^1.1.0",
     "remark-frontmatter": "^5.0.0",
