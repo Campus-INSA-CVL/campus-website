@@ -52,7 +52,7 @@
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/robots": "^6.2.4",
     "@nuxtjs/sitemap": "^8.6.1",
-    "nuxt": "^4.5.2",
+    "nuxt": "^4.6.1",
     "nuxt-webfontloader": "^1.1.0",
     "vue-parallaxy": "^1.1.1"
   },
@@ -74,7 +74,7 @@
     "eslint-plugin-prettier": "^5.5.6",
     "husky": "^9.1.7",
     "lint-staged": "^17.6.0",
-    "prettier": "^3.9.9",
+    "prettier": "^3.9.10",
     "pug": "^3.0.4",
     "pug-plain-loader": "^1.1.0",
     "remark-frontmatter": "^5.0.0",
